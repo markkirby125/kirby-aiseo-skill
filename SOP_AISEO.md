@@ -1,1 +1,0 @@
-/home/paulk/Desktop/SKILLS/SOPs/SOP_AISEO.md
