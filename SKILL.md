@@ -1,5 +1,5 @@
 ---
-name: kirby-aiseo-sop
+name: kirby-aiseo-skill
 description: "Use when executing AI SEO, GEO, AEO optimizations, preventing scale content penalties, or answering search-engine optimization queries."
 category: technique
 triggers: [seo, aiseo, geo, aeo, google-ask-maps, generative-search, optimization, rank, content-abuse]
