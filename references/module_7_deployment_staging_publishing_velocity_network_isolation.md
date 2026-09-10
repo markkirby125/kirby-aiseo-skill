@@ -1,4 +1,4 @@
-# Module 7: Deployment Staging, Publishing Velocity & Network Isolation
+## **Module 7: Deployment Staging, Publishing Velocity & Network Isolation**
 
 ### **7.1 The "Stage & Launch" Deployment Protocol**
 

@@ -1,4 +1,4 @@
-# Module 8: Quick Reference: Vulnerable Footprints vs. Resilient Asset Architecture
+## **Module 8: Quick Reference: Vulnerable Footprints vs. Resilient Asset Architecture**
 
 | Vulnerable Footprint (Targeted for Algorithmic Demotion / De-Indexing) | Resilient Asset Architecture (Survives & Ranks) |
 | :---- | :---- |

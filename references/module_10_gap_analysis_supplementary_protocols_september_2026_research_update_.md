@@ -1,4 +1,4 @@
-# Module 10: Gap-Analysis Supplementary Protocols (September 2026 Research Update)
+## **Module 10: Gap-Analysis Supplementary Protocols (September 2026 Research Update)**
 
 *The following sections address information gaps identified via video transcript analysis (Edward Sturm / Caleb Ulku, September 2026). Each section is keyed to an existing SOP module number for integration reference.*
 
@@ -3436,3 +3436,24 @@ Operationalize the AEO Multi-Placement Law (§10.5) by syndicating validated tex
 * **Click-Based Link Equity (The Google Patent):** Google's patents on "ranking documents based on user behavior" confirm that internal link value is not evenly diluted. Instead, weights are assigned based on the *probability of the link being clicked* (tracked via Chrome and Google Analytics).
 * **Relative Placement Authority:** Links placed higher *relative to other links* (e.g., link #1 vs link #10) pass significantly more ranking value, regardless of whether they appear in the top introduction or middle body.
 * **Semantic Independence Over Taxonomy:** Internal links must be injected based purely on semantic similarity and user-journey intent, outright ignoring restrictive category or tag-level boundaries.
+
+### **10.7 The "Contrasting FAQ" Authority Loop & Glossary Discovery Engine (David Quaid Updates)**
+> **TL;DR:** For new sites with zero clicks, build each FAQ answer on its own dedicated URL (slug = exact question) to bypass authority requirements. For sites with traction, corner-stone queries from GSC Page 2 as `<h2>` elements on existing pages. Implement comprehensive glossaries to capture emerging long-tail discovery traffic.
+
+*Source: David Quaid podcast interview. September 2026.*
+
+*   **The Contrasting FAQ Ideology (Zero Clicks vs. Traction):**
+    *   *Zero Clicks (Newbies):* When a domain has no traffic, do not consolidate FAQs onto a single page with Schema. Instead, **build every single answer on its own dedicated page** using the exact question as the URL slug. The slug dictates the specific index/relevancy, bypassing the need for high domain authority. Thin content is only penalized if it contains affiliate links—10 to 100-word standalone FAQ pages are perfectly acceptable for establishing initial topical authority.
+    *   *Traction (Corner-stoning):* If a page is already receiving some clicks but struggles to rank for competitive head terms, identify long-tail "what is" queries ranking on Page 2 in GSC and add them as exact-match `<h2>` headings on the *same* existing page.
+*   **The Glossary Discovery Engine:**
+    *   Developing extensive glossaries (e.g., explaining emerging tech roles or niche terminologies) serves as a massive topical authority multiplier.
+    *   Glossary pages act as a discovery path for audiences researching terms for internal presentations, driving up to 25% of total site traffic and acting as a primary lead generation vector.
+
+### **10.8 The "Traffic Triage" Indexing Protocol (David Quaid Updates)**
+> **TL;DR:** Sitemaps do not force indexation. Google triages the web based on click-traffic. Pages without clicks are ignored. To index a new page, it must be linked *from* a page that currently receives organic clicks.
+
+*Source: David Quaid podcast interview. September 2026.*
+
+*   **Sitemap Fallacy:** Submitting XML sitemaps does not compel Google to index URLs lacking inbound authority or traffic context.
+*   **The Click-Triage Engine:** Google's indexer prioritizes and repeatedly crawls pages based on organic clicks. Pages with zero clicks are routinely dropped or left as "Crawled - currently not indexed".
+*   **The Internal Link Indexing Strategy:** To force indexation of a newly published page, place a contextual internal link to it from an existing page that is actively receiving organic traffic. The crawler will follow the link, derive context from the anchor text, and index the new page.

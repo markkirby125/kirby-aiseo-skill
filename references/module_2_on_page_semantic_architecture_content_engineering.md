@@ -1,4 +1,4 @@
-# Module 2: On-Page Semantic Architecture & Content Engineering
+## **Module 2: On-Page Semantic Architecture & Content Engineering**
 
 ### 
 

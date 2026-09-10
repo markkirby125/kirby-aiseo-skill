@@ -1,4 +1,4 @@
-# Module 4: Off-Page Consensus & Video Transcription
+## **Module 4: Off-Page Consensus & Video Transcription**
 
 ### **4.1 Multi-Platform Entity Consensus**
 

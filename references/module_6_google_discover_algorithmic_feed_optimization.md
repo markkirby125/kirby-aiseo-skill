@@ -1,4 +1,4 @@
-# Module 6: Google Discover & Algorithmic Feed Optimization
+## **Module 6: Google Discover & Algorithmic Feed Optimization**
 
 Google Discover drives 5M+ daily click feeds via mobile OS integration, evaluated purely on audience engagement signals rather than backlink weight.
 

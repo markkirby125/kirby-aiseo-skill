@@ -1,4 +1,4 @@
-# Module 3: Local AI Search & Review Engineering (Google Ask Maps)
+## **Module 3: Local AI Search & Review Engineering (Google Ask Maps)**
 
 ### 
 

@@ -1,4 +1,4 @@
-# Module 1: Technical Infrastructure & Crawler Accessibility
+## **Module 1: Technical Infrastructure & Crawler Accessibility**
 
 ### 
 
