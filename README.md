@@ -1,5 +1,7 @@
 # Kirby AI SEO Skill
 
+*This skill is part of the [Kirby Skills Collection](https://github.com/markkirby125/kirby-skills-collection).*
+
 A modular, highly structured Standard Operating Procedure (SOP) designed for **AI coding agents** and **LLMs**. This skill enforces rigorous SEO, AEO, and GEO engineering protocols while actively preventing scaled content penalties.
 
 Because the full SOP is massive (~4,000 lines), this repository acts as a **dispatcher**. When an agent loads this skill, it reads the root `SKILL.md` and only dynamically fetches the specific modules it needs from the `references/` directory. This preserves context windows and dramatically increases agent precision.
