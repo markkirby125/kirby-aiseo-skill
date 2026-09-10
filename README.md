@@ -54,13 +54,13 @@ This skill was originally designed for the `~/.agents/skills/` global directory.
 
 ## 📚 Included Modules
 
-The dispatcher handles the following specialized modules:
+The dispatcher handles the following specialised modules:
 - **Module 1**: Technical Infrastructure & Crawler Accessibility
 - **Module 2**: On-Page Semantic Architecture & Content Engineering
 - **Module 3**: Local AI Search & Review Engineering (Google Ask Maps)
 - **Module 4**: Off-Page Consensus & Video Transcription
 - **Module 5**: Attribution Tracking & Conversational Ad Architectures
-- **Module 6**: Google Discover & Algorithmic Feed Optimization
+- **Module 6**: Google Discover & Algorithmic Feed Optimisation
 - **Module 7**: Deployment Staging, Publishing Velocity & Network Isolation
 - **Module 8**: Vulnerable Footprints vs. Resilient Asset Architecture
 - **Module 9**: Site-Specific Implementation Checklists
