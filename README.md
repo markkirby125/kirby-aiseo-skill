@@ -65,3 +65,9 @@ The dispatcher handles the following specialized modules:
 - **Module 8**: Vulnerable Footprints vs. Resilient Asset Architecture
 - **Module 9**: Site-Specific Implementation Checklists
 - **Module 10**: Gap-Analysis Supplementary Protocols (2026 Update)
+
+## External Resources & Authority Links
+- [Google Search Central: Spam Policies & Scaled Content Abuse](https://developers.google.com/search/docs/essentials/spam-policies)
+- [Google Search Central: AI-Generated Content Guidelines](https://developers.google.com/search/blog/2023/02/google-search-and-ai-content)
+- [Schema.org: Official Structured Data Vocabulary](https://schema.org/)
+- [OpenAI: Managing AI Web Crawlers](https://platform.openai.com/docs/bots)
