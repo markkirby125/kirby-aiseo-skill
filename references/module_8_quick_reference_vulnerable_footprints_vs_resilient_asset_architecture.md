@@ -1,4 +1,4 @@
-## **Module 8: Quick Reference: Vulnerable Footprints vs. Resilient Asset Architecture**
+# Module 8: Quick Reference: Vulnerable Footprints vs. Resilient Asset Architecture
 
 | Vulnerable Footprint (Targeted for Algorithmic Demotion / De-Indexing) | Resilient Asset Architecture (Survives & Ranks) |
 | :---- | :---- |
@@ -18,4 +18,4 @@
 | **"Rule of Three" AI feature card stacks** (identical 3-card layout, generic icons, 3-word slogans). | **Asymmetric, utility-driven layouts** (interactive tools, pricing matrices, real project galleries). |
 | **Syntactic AI marketing clichés** (*"Not just X, but Y"* false dichotomy, formulaic levity/joke machinery). | **Declarative, factual domain terminology** (concrete SVO statements, specific operational metrics). |
 
-## 
+##

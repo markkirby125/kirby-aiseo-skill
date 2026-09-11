@@ -1,4 +1,4 @@
-## **Module 9: Site-Specific Implementation Checklists**
+# Module 9: Site-Specific Implementation Checklists
 
 ================================================================================  
                     SITE-SPECIFIC AEO IMPLEMENTATION CHECKLISTS  
