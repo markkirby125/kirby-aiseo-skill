@@ -1048,3 +1048,28 @@ Conversely, local service and trade businesses generate proprietary, un-indexed 
 - [ ] Inject at least 2 proprietary local information gain anchors (housing vintage, municipal permit checks, local job pricing, or verified technician photos) into every localized service page.
 
 ---
+
+### **2.33 The Duplicate Content Penalty Myth & SERP Hijacking Defense**
+
+*Source: Edward Sturm ("Ranking #1 With Stolen Content? The Truth About SEO Hijacking & Duplicate Content").*
+
+A pervasive misconception in SEO is the existence of an algorithmic "duplicate content penalty" that actively punishes websites. In reality, Google does not penalize duplicate content; it utilizes a filtering mechanism to select a single "canonical" version to display in the SERP.
+
+#### A. The Mechanics of Authority Hijacking
+Because Google operates on filtering rather than penalties, malicious actors on high-authority domains (high DR) can scrape original content from smaller, newer websites and publish it. When Google's algorithms compare the two identical pages, they frequently assign the canonical status and top ranking to the higher-authority domain, effectively hijacking the SERP and outranking the original creator with their own stolen work. 
+* **The True Risks:** The real dangers of stolen content are not algorithmic penalties, but rather DMCA takedowns and the erosion of overall site quality signals if a large portion of a domain is comprised of unoriginal material.
+
+#### B. Authorship Signals Degradation
+Historically, Google relied heavily on `rel="author"` and distinct authorship profiles to credit original creators. Over time, the weighting of strict authorship markup has diminished. Merely relying on author boxes and schema is insufficient to protect against authority scrapers.
+
+#### C. The Defensive Moat: BOFU Shift and Technical Anchors
+To immunize a domain against SERP hijacking, deploy the following defensive architecture:
+1. **The BOFU (Bottom of Funnel) Shift:** Scrapers typically target Top-of-Funnel (TOFU) evergreen informational posts that generate broad traffic. They cannot successfully replicate Bottom-of-Funnel (BOFU) transactional hubs (e.g., SLA calculators, precise service location pricing matrices, branded comparison tables) because these assets are inextricably tied to your specific commercial entity. Transitioning content capital toward BOFU creates a protective moat.
+2. **Dense Internal Linking:** Weave original content into the broader structural fabric of the domain through hyper-specific internal links. A scraper who copies an article loaded with internal links either points traffic back to the original source or breaks the links (degrading their own page quality).
+3. **Canonical Anchoring:** Ensure strict self-referencing canonical tags are deployed across all original assets as a baseline technical safeguard (see Module 1).
+
+**Duplicate Content Defense Checklist**
+- [ ] Divest from generic TOFU informational content that is highly susceptible to scraping.
+- [ ] Reallocate content resources to BOFU transactional pages fortified with proprietary data and localized pricing.
+- [ ] Embed dense internal link networks within all articles pointing back to core money pages.
+- [ ] Validate self-referencing canonical tags across all published assets.

@@ -17,5 +17,6 @@
 | **Exclusive reliance on 3rd-party SERP scrapers** (vulnerable to Black Box SERP). | **First-party edge & server log telemetry** and private sensor network data. |
 | **"Rule of Three" AI feature card stacks** (identical 3-card layout, generic icons, 3-word slogans). | **Asymmetric, utility-driven layouts** (interactive tools, pricing matrices, real project galleries). |
 | **Syntactic AI marketing clichés** (*"Not just X, but Y"* false dichotomy, formulaic levity/joke machinery). | **Declarative, factual domain terminology** (concrete SVO statements, specific operational metrics). |
+| **Top-of-Funnel (TOFU) evergreen content** (susceptible to high-authority scrapers and SERP hijacking). | **Bottom-of-Funnel (BOFU) transactional hubs** (fortified with dense internal linking, explicit canonical tags, and real commercial entity signals). |
 
 ##
