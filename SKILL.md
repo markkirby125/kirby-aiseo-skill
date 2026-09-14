@@ -2,7 +2,7 @@
 name: kirby-aiseo-skill
 description: "Use when executing AI SEO, GEO, AEO optimizations, preventing scale content penalties, or answering search-engine optimization queries."
 category: technique
-triggers: [seo, aiseo, geo, aeo, google-ask-maps, generative-search, optimization, rank, content-abuse]
+triggers: [seo, aiseo, geo, aeo, google-ask-maps, generative-search, optimization, rank, content-abuse, indexation, crawl-depth]
 ---
 
 # AI SEO Standard Operating Procedure (SOP)
@@ -28,6 +28,7 @@ When asked to perform AI SEO tasks, **do not guess**. Instead, review the module
 ## When to Use
 - You need to optimize content for AI search engines (ChatGPT, Perplexity, Gemini, Google Ask Maps).
 - You are auditing a site for "Scaled Content Abuse", "Mount AI" demotions, or general SEO drops.
+- You are troubleshooting indexation failures, crawl depth issues, or category/hub structures.
 - You are planning SEO deployments, programmatic scaling, or local SEO reviews.
 - The user mentions AI SEO, AEO, GEO, or asks to apply the SOP.
 
