@@ -1073,3 +1073,20 @@ To immunize a domain against SERP hijacking, deploy the following defensive arch
 - [ ] Reallocate content resources to BOFU transactional pages fortified with proprietary data and localized pricing.
 - [ ] Embed dense internal link networks within all articles pointing back to core money pages.
 - [ ] Validate self-referencing canonical tags across all published assets.
+
+---
+
+### **2.18 The 30-Day Pruning Protocol (Entity Clarification)**
+
+*Source: The "Money-Hat" Playbook (mhVbtxiy9qM)*
+
+Before attempting to build entity consensus or launch external campaigns, you must consolidate authority by aggressively pruning weak content.
+
+*   **The Baseline:** In the first 30 days of an AEO sprint, rigorously prune weak, thin, or legacy pages. 
+*   **The Mechanism:** Removing decaying content immediately lifts the sitewide authority score (eliminating "dead weight"). 
+*   **The Outcome:** By consolidating authority into a smaller footprint, the remaining "money pages" become significantly easier to anchor to external entity nodes and rank in AI Overviews.
+
+**Pruning Checklist**
+- [ ] Audit the site to identify low-traffic, thin, or obsolete content pages.
+- [ ] Delete or redirect these pages to consolidate domain authority.
+- [ ] Ensure the resulting footprint consists exclusively of high-quality, dense entity pages.
