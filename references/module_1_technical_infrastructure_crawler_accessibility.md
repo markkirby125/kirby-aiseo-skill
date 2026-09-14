@@ -540,7 +540,7 @@ In mid-August, Anthropic announced the deployment of native output watermarking 
 
 ### **1.15 Crawl Depth & The Category Node Trap (Indexation Privilege)**
 
-*Source: YouTube Video 8Yawn1xd8lo*
+*Source: Mike Friedman (SEO Pub) / The Edward Show, Episode 1105*
 
 Historically, Google attempted to index every URL it discovered. That era is over. Indexation is now a privilege earned through strict site structure and internal authority distribution.
 

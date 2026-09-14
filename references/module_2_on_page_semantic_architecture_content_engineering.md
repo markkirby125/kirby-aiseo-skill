@@ -1078,7 +1078,7 @@ To immunize a domain against SERP hijacking, deploy the following defensive arch
 
 ### **2.18 The 30-Day Pruning Protocol (Entity Clarification)**
 
-*Source: The "Money-Hat" Playbook (mhVbtxiy9qM)*
+*Source: James Dooley ("Money-Hat SEO") / The Edward Show, Episode 1116*
 
 Before attempting to build entity consensus or launch external campaigns, you must consolidate authority by aggressively pruning weak content.
 
