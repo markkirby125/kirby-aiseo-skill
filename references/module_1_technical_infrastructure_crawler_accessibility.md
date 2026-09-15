@@ -607,8 +607,10 @@ If the URL was **never meant to be indexed** (tracking parameters, HTTP/HTTPS du
 **Indexation Router Checklist**
 - [ ] Split GSC “not indexed” into Crawled vs Discovered before choosing a fix.
 - [ ] Confirm whether the URL was previously indexed (indexed-then-pulled vs never-indexed).
-- [ ] If indexed-then-pulled with same-spec siblings: rewrite or delete on the same URL; skip §1.8.
-- [ ] If six-plus fails share a generator: stop that template and measure slope (telemetry Module 8).
+- [ ] Indexed-then-pulled + same-spec siblings: rewrite or delete on the same URL; skip §1.8.
+- [ ] Never-indexed zombie that meets all four §1.8 criteria: slug reset. Do not treat it as a location-page pull.
+- [ ] Six-plus fails from one generator: stop that template; measure slope (`kirby-seo-telemetry` Module 8).
+- [ ] Rising `Discovered` with a stable old `Crawled` pile: §10.8 / §1.15; do not rewrite copy first.
 - [ ] Do not `noindex` a page you still want indexed in order to clean the coverage report.
 
 ---
