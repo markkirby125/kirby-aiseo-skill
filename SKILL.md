@@ -31,6 +31,8 @@ When asked to perform AI SEO tasks, **do not guess**. Instead, review the module
 - You are troubleshooting crawl-depth failures or category/hub `noindex` traps (Module 1 §1.15). Social/video indexation plays belong in `kirby-off-page-seo` Module 15.
 - You are executing a 30-day content pruning sprint to consolidate entity authority (Module 2 §2.18). Off-page Wikidata/social corroboration is `kirby-off-page-seo` Module 16.
 - GBP, Ask Maps, and review velocity: use `kirby-local-seo`. Do not handle them in this skill.
+- Editorial essay / thought-leadership architecture: use `kirby-great-essay`.
+- GitHub / Docker Hub / Dev.to entity graphs: use `kirby-technical-aeo`.
 - The user mentions AI SEO, AEO, GEO, or asks to apply the SOP.
 
 ## How It Works
