@@ -153,7 +153,11 @@ Google treats every canonical URL string as an immutable entity token ("The Cano
 4. **The Legacy State Lock:** Even after the domain matures—publishing 50+ related articles, ranking for high-intent sibling terms, and earning authoritative backlinks over 6–24 months—**the old URL remains locked in its legacy low-authority state**. Re-requesting indexing in GSC repeatedly fails because the canonical URL string is already tagged with a historical low-authority verdict.
 
 #### B. Diagnostic Criteria: When to Trigger a Slug Reset
-Do NOT apply this protocol indiscriminately across the site. Execute a slug reset only when all four criteria are met:
+Do NOT apply this protocol indiscriminately across the site.
+
+**Hard gate:** If this URL was previously indexed and later flipped to `Crawled - currently not indexed` while sibling same-spec pages remain live, do **not** slug-reset. Route via §1.16 (rewrite or delete). Slug reset is for never-indexed zombies that meet all four criteria below.
+
+Execute a slug reset only when all four criteria are met:
 * **Criterion 1 (Low Competition Gap):** The target keyword is not aggressively targeted by competitors (competitors do not have the exact term in their URL slug or `<h1>`).
 * **Criterion 2 (Persistent Indexation Failure):** The page has remained in `Crawled - currently not indexed` or experienced zero impressions/clicks for $\ge$90 days despite high semantic alignment.
 * **Criterion 3 (Compounded Cluster Authority):** The broader domain has since accrued organic clicks, rankings, and topical authority within the same parent cluster since the page was originally published.
@@ -558,10 +562,52 @@ A common fatal technical error is applying `noindex` tags to category, taxonomy,
 Search algorithms evaluate the importance of a page based on internal links.
 * Receiving only 1–2 internal links signals to Google that a page is unimportant.
 * **The Fix:** Force indexation of critical money pages by linking to them directly from high-authority, high-traffic nodes (e.g., the homepage or viral research studies). Do not rely solely on chronological blog pagination for internal linking.
+* **Scope:** Extra internal links address discovery and crawl depth (`Discovered - currently not indexed`). They do not reverse a `Crawled - currently not indexed` keep-verdict on same-spec location or template siblings — route those via §1.16.
 
 **Indexation & Crawl Depth Checklist**
 - [ ] Verify no category, taxonomy, or pagination hubs are inadvertently `noindex`ed.
 - [ ] Run a crawler audit to ensure no critical money pages exceed a 3-click depth from the homepage.
 - [ ] Inject internal links from high-authority nodes directly to priority conversion pages.
+
+---
+
+### **1.16 Crawled vs Discovered Indexation Router**
+
+*Source: Caleb Ulku ("Google Is Killing Pages"); John Mueller / Gary Illyes framing. September 2026.*
+
+The two GSC “not indexed” statuses answer different questions. Mixing them produces the wrong first move.
+
+| GSC status | What Google did | What it measures | First move |
+|---|---|---|---|
+| **Crawled, currently not indexed** | Fetched and read the URL | Page-level keep / storage verdict. Harsher than a rank drop: the page is judged not worth holding. | Unique information gain on the **same URL**, or delete. Not a crawl-budget or resubmit problem. |
+| **Discovered, currently not indexed** | Knows the URL exists; has not fetched it | Crawl demand / whether Google still bothers to look | §10.8 click-triage; links from URLs that already receive clicks; crawl depth §1.15. |
+
+Working model (not Google’s published sequence): a template that keeps producing pages Google will not keep can later suppress crawl demand for that pattern, so new siblings stop being fetched at all. Low `Discovered` + `Crawled` confined to one template means the **site is still interesting**; those pages are the problem.
+
+**Cosmetic `noindex`:** A `Crawled - currently not indexed` URL is already not in the index. Adding `noindex` only moves it between report buckets. Google’s opinion of the page is unchanged. Do not `noindex` a URL you still want indexed in order to zero the coverage number.
+
+If the URL was **never meant to be indexed** (tracking parameters, HTTP/HTTPS duplicates, trailing-slash variants, leftover machine-translated locales), remove it from the sitemap and 410/`noindex` it as junk, then exclude it from the location-page denominator (`kirby-seo-telemetry` Module 8).
+
+**Mueller test:** “What is missing from the index if this page is not in it?” Same-spec page 30 has already been answered 29 times on this domain. Volume is allowed; sameness at volume is not (§2.8).
+
+#### Failure-mode router
+
+| Observable | Do this | Do not do this |
+|---|---|---|
+| URL **was indexed** for weeks/months, then flipped to `Crawled - currently not indexed`, and sibling same-spec pages remain | Same URL, rewrite words only. Location / geo pages: `kirby-local-seo` §3.6.2 execution order. | Slug reset §1.8. Cosmetic `noindex`. “Add 5 links and Request Indexing.” Schema-only or link-only changes. |
+| URL **never indexed**; domain later gained topical authority; generic title; all four §1.8 criteria met | Canon Law slug reset §1.8 | Treat it as a same-spec location-page pull. |
+| **Six or more** URLs from the same generator/prompt/brief sit in `Crawled - currently not indexed` | Generator problem. Stop publishing that template. Measure fail-rate **slope** (`kirby-seo-telemetry` Module 8). Improve the template or 410 the batch (`kirby-seo-deployment`). | Per-URL slug resets or recrawl spam. |
+| `Discovered - currently not indexed` is rising while `Crawled` is an old, stable pile | Crawl-demand / site-interest problem. §10.8 and §1.15. | Rewrite copy as if it were a keep-verdict. |
+
+**Indexation is a floor, not a safety net.** See Executive Threat Profile (Lily Ray 220). Passing coverage does not pass §2.32B. `Crawled - currently not indexed` only catches thin/redundant pages at the door.
+
+§10.6’s 5-link floor and §10.8 click-triage apply to **`Discovered - currently not indexed`**. They do not reverse a **`Crawled - currently not indexed`** keep-verdict.
+
+**Indexation Router Checklist**
+- [ ] Split GSC “not indexed” into Crawled vs Discovered before choosing a fix.
+- [ ] Confirm whether the URL was previously indexed (indexed-then-pulled vs never-indexed).
+- [ ] If indexed-then-pulled with same-spec siblings: rewrite or delete on the same URL; skip §1.8.
+- [ ] If six-plus fails share a generator: stop that template and measure slope (telemetry Module 8).
+- [ ] Do not `noindex` a page you still want indexed in order to clean the coverage report.
 
 ---

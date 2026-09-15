@@ -21,6 +21,8 @@
   - [1.12 The Cost of Retrieval Law, The Algorithmic Trinity & Dynamic Markdown Rendering for LLMs (Koray Tuğberk GÜBÜR & Jason Barnard)](module_1_technical_infrastructure_crawler_accessibility.md#112-the-cost-of-retrieval-law-the-algorithmic-trinity--dynamic-markdown-rendering-for-llms-koray-tuberk-gbr--jason-barnard)
   - [1.13 Autonomous Agent-to-Agent (A2A) Protocols, Agent-Ready Scheduling & The Business Knowledge Catalog](module_1_technical_infrastructure_crawler_accessibility.md#113-autonomous-agent-to-agent-a2a-protocols-agent-ready-scheduling--the-business-knowledge-catalog)
   - [1.14 Anthropic Output Watermarking & The Synthetic Footprint Quarantine Protocol](module_1_technical_infrastructure_crawler_accessibility.md#114-anthropic-output-watermarking--the-synthetic-footprint-quarantine-protocol)
+  - [1.15 Crawl Depth & The Category Node Trap (Indexation Privilege)](module_1_technical_infrastructure_crawler_accessibility.md#115-crawl-depth--the-category-node-trap-indexation-privilege)
+  - [1.16 Crawled vs Discovered Indexation Router](module_1_technical_infrastructure_crawler_accessibility.md#116-crawled-vs-discovered-indexation-router)
 - **[Module 2: On-Page Semantic Architecture & Content Engineering](module_2_on_page_semantic_architecture_content_engineering.md)**
   - [2.1 The 30% Front-Loading Law & BLUF](module_2_on_page_semantic_architecture_content_engineering.md#21-the-30-front-loading-law--bluf)
   - [2.2 Empirical GEO Retrieval Multipliers](module_2_on_page_semantic_architecture_content_engineering.md#22-empirical-geo-retrieval-multipliers)

@@ -54,6 +54,7 @@ ChatGPT exhibits divergent retrieval behavior based on active reasoning depth:
 
 * **Ban Dynamic City Swapping:** Never deploy identical template pages where only the city, postcode, or service name is programmatically swapped.
 * **Enforce Semantic Uniqueness:** Write each location, district, or service page from scratch with distinct structural angles, unique sentence structures, varied section arrangements, and distinct localized details.
+* **Intra-Domain Same-Spec Volume:** Google grades sibling pages on the **same domain** against each other. Observed pattern on location / service-area templates: **2–3** same-spec URLs typically stay indexed; **30+** same-spec URLs lose most of them. Count is the variable when generator and quality are held constant. Volume is allowed; sameness at volume is not. Each additional URL must be more specific than the last (new neighborhood evidence, not a city-name swap). GBP-tied location and Core 30 pages target **high-90s** indexation; do not apply §2.23’s 10–20% “non-toxic long-tail” benchmark to this class. Persistent `Crawled - currently not indexed` here is a template failure — route via §1.16.
 * **Elimination of Low-Value "Info Farm" Patterns:** Cease high-volume, low-utility blog post churn. Prioritise high-intent commercial landing pages, localized aggregators, and technical service hubs.
 * **Ban "Rule of Three" Feature Stack Clichés:** Eliminate the ubiquitous AI web-builder layout pattern of exactly three rounded feature cards with generic SVG icons, centered text, and vague 3-word value propositions ("Fast. Reliable. Secure."). Replace with asymmetric proof blocks, interactive data tables, or functional diagnostic utilities.
 
@@ -625,6 +626,7 @@ The Heidi Health case study (`heidihealth.com` — 2,248 medical consultation te
 #### C. The Indexation Reality & Permutation Pruning Benchmark
 * **The 10%–20% Indexation Reality:** In large programmatic hubs (2,000–50,000+ long-tail permutations), **only 10%–20% will typically achieve permanent indexation** (e.g., 192 indexed out of 2,248 templates on Heidi Health).
 * **The Non-Toxic Long-Tail:** Low-search-volume or zero-traffic permutations that fail to index do not harm the domain, provided the pages that *are* indexed generate exceptional engagement metrics.
+* **Location-page exclusion:** The 10–20% indexation reality and “non-toxic long-tail” apply **only** to high-utility tool / template hubs (Heidi-class). GBP-tied location, service-area, and Core 30 pages are out of scope. Use §2.8’s intra-domain volume rule and §1.16.
 * **Pruning Protocol:** If Google Search Console reports that $>80\%$ of a programmatic directory sits in `Crawled - currently not indexed` for $>120$ days, remove the lowest-tier permutations from the XML sitemap and consolidate thin templates into higher-level category hubs to protect domain crawl budget.
 
 #### D. The Ultra-YMYL Programmatic Execution Cliff (Glenn Gabe August 2026 Benchmark)
@@ -642,6 +644,7 @@ Deploying automated or synthetic programmatic content into Your Money Your Life 
 - [ ] Build and publish the Pilot 10 with 100% un-gated, interactive on-page utility.
 - [ ] Embed verified author/contributor credentials and jurisdiction attributes on every card.
 - [ ] Enforce the 60–90 day observation gate: require $\ge 80\%$ indexation before scaling to 50+ URLs.
+- [ ] Do not apply the 10–20% “non-toxic long-tail” indexation benchmark to GBP-tied location, service-area, or Core 30 pages (§2.8 / §1.16).
 - [ ] Monitor GSC coverage ratios; prune or consolidate zero-demand permutations every 120 days.
 
 ---

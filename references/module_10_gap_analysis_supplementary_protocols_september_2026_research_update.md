@@ -47,7 +47,7 @@
 > **TL;DR:** Google assigns internal link weight based on click probability and actual user behavior (via Chrome/NavBoost telemetry). To maximize indexing and RPMs, add 10-30 topically relevant internal links per page; higher placements relative to other links carry more weight.
 
 * **The $50,000 Empirical Blueprint:** A comprehensive 15-site empirical test established that scaling internal links to 10–30+ per page drove up to 150% ad RPM increases without any ranking penalties or "PageRank dilution" ceilings.
-* **The "Index Minimum" Rule:** A minimum of 5 links *towards* and *from* a post acts as a hard floor to prevent "Crawled - currently not indexed" purgatory.
+* **The "Index Minimum" Rule:** A minimum of 5 links *towards* and *from* a post acts as a hard floor against **`Discovered - currently not indexed`** (crawl demand). It does **not** reverse a **`Crawled - currently not indexed`** keep-verdict. For that status, route via §1.16.
 * **Click-Based Link Equity (The Google Patent):** Google's patents on "ranking documents based on user behavior" confirm that internal link value is not evenly diluted. Instead, weights are assigned based on the *probability of the link being clicked* (tracked via Chrome and Google Analytics).
 * **Relative Placement Authority:** Links placed higher *relative to other links* (e.g., link #1 vs link #10) pass significantly more ranking value, regardless of whether they appear in the top introduction or middle body.
 * **Semantic Independence Over Taxonomy:** Internal links must be injected based purely on semantic similarity and user-journey intent, outright ignoring restrictive category or tag-level boundaries.
@@ -72,8 +72,8 @@
 *Source: David Quaid podcast interview. September 2026.*
 
 *   **Sitemap Fallacy:** Submitting XML sitemaps does not compel Google to index URLs lacking inbound authority or traffic context.
-*   **The Click-Triage Engine:** Google's indexer prioritizes and repeatedly crawls pages based on organic clicks. Pages with zero clicks are routinely dropped or left as "Crawled - currently not indexed".
-*   **The Internal Link Indexing Strategy:** To force indexation of a newly published page, place a contextual internal link to it from an existing page that is actively receiving organic traffic. The crawler will follow the link, derive context from the anchor text, and index the new page.
+*   **The Click-Triage Engine:** Google's indexer prioritizes and repeatedly crawls pages based on organic clicks. Pages with zero clicks are routinely left as **`Discovered - currently not indexed`**. Click-triage does not reverse a **`Crawled - currently not indexed`** keep-verdict — route that status via §1.16.
+*   **The Internal Link Indexing Strategy:** To get a newly published page **fetched**, place a contextual internal link to it from an existing page that is actively receiving organic traffic. The crawler will follow the link and derive context from the anchor text. If Google already crawled the URL and declined to keep it, more links do not change “what is missing from the index.”
 
 ### **10.9 The Striking Distance Internal Link Rotation Protocol**
 
