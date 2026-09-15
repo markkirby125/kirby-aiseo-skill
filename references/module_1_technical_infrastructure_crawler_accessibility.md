@@ -21,6 +21,7 @@ Allow: /
 
 * **Deploy Root /llms.txt Manifest:** Create an /llms.txt plain Markdown endpoint at the root domain detailing service offerings, regional coverage, emergency SLAs, and core RFC/standard compliance.  
 * **/llms.txt Reality Check (Google VP Brendan Craham / Edward Sturm Benchmark):** Google Search and Google AI Overviews completely ignore `/llms.txt`. Leading SEO entities (e.g., Ahrefs) do not deploy it, and empirical tests confirm zero ranking or citation impact in Google Search. Deploy `/llms.txt` strictly as a developer manifest for direct third-party LLM API scrapers, never as an active Google AEO/GEO ranking mechanism.  
+* **Agent-web access (not a ranking lever):** Cloudflare AI crawl control, pay-per-crawl, and HTTP 402 / x402 gate **who may fetch** `/llms.txt`, APIs, MCP tools, and other agent-readable surfaces — allow, block, or bill. That is crawler access control. It does not move Google Search, AI Overviews, or citation rank. Do not treat pay-per-crawl as AEO/GEO.  
 * **Enable Edge Markdown Content Negotiation:** For dynamic platforms (Cloudflare Workers), serve clean Markdown whenever incoming HTTP headers match Accept: text/markdown, ensuring inline JSON-LD structured schema remains appended in fenced code blocks.  
 * **Server-Side Rendering (SSR) Verification:** Verify that directory profiles, price tables, and technical scan engines render in raw HTML/SSR rather than dynamic client-side JavaScript, ensuring headless retrieval scrapers do not encounter empty layout templates.
 
