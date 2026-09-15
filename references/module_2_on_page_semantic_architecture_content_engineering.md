@@ -167,6 +167,8 @@ This raw language is the seed vocabulary for JTBD content briefs. Do not substit
 
 #### C. The Anti-ClickUp Compliance Framework for Self-Referential "Best X" Content
 
+This section is **owned** first-party “Best X” pages only. Paying to appear on someone else’s roundup is `kirby-off-page-seo` Module 18.
+
 Publishing first-party comparison and category listicles ("Best [Category] Providers") is a legitimate, high-converting content type that has generated durable AI citations and stable rankings for 7+ years for Grow & Convert clients. However, it must be executed within a strict compliance framework to avoid the spam demotions that destroyed ClickUp's organic programme.
 
 **The ClickUp Failure Case:**
