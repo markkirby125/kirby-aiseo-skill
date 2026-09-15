@@ -2,7 +2,7 @@
 name: kirby-aiseo-skill
 description: "Use when executing AI SEO, GEO, AEO optimizations, preventing scale content penalties, or answering search-engine optimization queries."
 category: technique
-triggers: [seo, aiseo, geo, aeo, google-ask-maps, generative-search, optimization, rank, content-abuse, indexation, crawl-depth, content-pruning, entity-clarification]
+triggers: [seo, aiseo, geo, aeo, generative-search, optimization, rank, content-abuse, crawl-depth, content-pruning]
 ---
 
 # AI SEO Standard Operating Procedure (SOP)
@@ -26,11 +26,11 @@ When asked to perform AI SEO tasks, **do not guess**. Instead, review the module
 - **Module 10**: Gap-Analysis Supplementary Protocols (Remaining September 2026 Research Updates) -> Read `references/module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md`
 
 ## When to Use
-- You need to optimize content for AI search engines (ChatGPT, Perplexity, Gemini, Google Ask Maps).
+- You need to optimize content for AI search engines (ChatGPT, Perplexity, Gemini).
 - You are auditing a site for "Scaled Content Abuse", "Mount AI" demotions, or general SEO drops.
-- You are troubleshooting indexation failures, crawl depth issues, or category/hub structures.
-- You are planning SEO deployments, programmatic scaling, or local SEO reviews.
-- You are executing a 30-day content pruning sprint to consolidate entity authority.
+- You are troubleshooting crawl-depth failures or category/hub `noindex` traps (Module 1 §1.15). Social/video indexation plays belong in `kirby-off-page-seo` Module 15.
+- You are executing a 30-day content pruning sprint to consolidate entity authority (Module 2 §2.18). Off-page Wikidata/social corroboration is `kirby-off-page-seo` Module 16.
+- GBP, Ask Maps, and review velocity: use `kirby-local-seo`. Do not handle them in this skill.
 - The user mentions AI SEO, AEO, GEO, or asks to apply the SOP.
 
 ## How It Works

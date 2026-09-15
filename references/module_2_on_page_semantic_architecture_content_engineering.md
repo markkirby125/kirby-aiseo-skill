@@ -1087,6 +1087,9 @@ Before attempting to build entity consensus or launch external campaigns, you mu
 *   **The Outcome:** By consolidating authority into a smaller footprint, the remaining "money pages" become significantly easier to anchor to external entity nodes and rank in AI Overviews.
 
 **Pruning Checklist**
-- [ ] Audit the site to identify low-traffic, thin, or obsolete content pages.
-- [ ] Delete or redirect these pages to consolidate domain authority.
+- [ ] Audit the site to identify low-traffic, thin, or obsolete **leaf** content pages.
+- [ ] Do **not** prune, delete, or `noindex` category, taxonomy, or pagination hubs that still pass crawl paths to money pages. Follow Module 1 §1.15 first.
+- [ ] Prefer 301 redirect over delete when the URL still receives internal links or external citations.
+- [ ] Redirect or delete remaining dead-weight leaf URLs to consolidate domain authority.
 - [ ] Ensure the resulting footprint consists exclusively of high-quality, dense entity pages.
+- [ ] For off-page Wikidata/social corroboration of surviving claims, use `kirby-off-page-seo` Module 16.
