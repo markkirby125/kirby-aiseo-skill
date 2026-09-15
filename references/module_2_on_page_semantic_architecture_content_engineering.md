@@ -627,7 +627,7 @@ The Heidi Health case study (`heidihealth.com` — 2,248 medical consultation te
 * **The 10%–20% Indexation Reality:** In large programmatic hubs (2,000–50,000+ long-tail permutations), **only 10%–20% will typically achieve permanent indexation** (e.g., 192 indexed out of 2,248 templates on Heidi Health).
 * **The Non-Toxic Long-Tail:** Low-search-volume or zero-traffic permutations that fail to index do not harm the domain, provided the pages that *are* indexed generate exceptional engagement metrics.
 * **Location-page exclusion:** The 10–20% indexation reality and “non-toxic long-tail” apply **only** to high-utility tool / template hubs (Heidi-class). GBP-tied location, service-area, and Core 30 pages are out of scope. Use §2.8’s intra-domain volume rule and §1.16.
-* **Pruning Protocol:** If Google Search Console reports that $>80\%$ of a programmatic directory sits in `Crawled - currently not indexed` for $>120$ days, remove the lowest-tier permutations from the XML sitemap and consolidate thin templates into higher-level category hubs to protect domain crawl budget.
+* **Pruning Protocol (Heidi-class hubs only):** If Google Search Console reports that $>80\%$ of a **high-utility tool / template hub** sits in `Crawled - currently not indexed` for $>120$ days, remove the lowest-tier permutations from the XML sitemap and consolidate thin templates into higher-level category hubs to protect domain crawl budget. Do **not** sitemap-drop GBP-tied location, service-area, or Core 30 URLs; that is cosmetic hiding. Those classes route via §1.16 / §2.8 (rewrite, stop the generator, or 410).
 
 #### D. The Ultra-YMYL Programmatic Execution Cliff (Glenn Gabe August 2026 Benchmark)
 Deploying automated or synthetic programmatic content into Your Money Your Life (YMYL) niches (healthcare, medical devices, emergency financial advice, legal counsel, electrical/structural life safety) carries catastrophic algorithmic risk:
@@ -645,7 +645,7 @@ Deploying automated or synthetic programmatic content into Your Money Your Life 
 - [ ] Embed verified author/contributor credentials and jurisdiction attributes on every card.
 - [ ] Enforce the 60–90 day observation gate: require $\ge 80\%$ indexation before scaling to 50+ URLs.
 - [ ] Do not apply the 10–20% “non-toxic long-tail” indexation benchmark to GBP-tied location, service-area, or Core 30 pages (§2.8 / §1.16).
-- [ ] Monitor GSC coverage ratios; prune or consolidate zero-demand permutations every 120 days.
+- [ ] For Heidi-class tool hubs only: monitor GSC coverage ratios; prune or consolidate zero-demand permutations every 120 days. Location / Core 30: §1.16 / §2.8.
 
 ---
 

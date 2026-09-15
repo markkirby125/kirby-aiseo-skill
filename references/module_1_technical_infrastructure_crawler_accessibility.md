@@ -142,12 +142,12 @@ Never evaluate an aged asset through a single tool. Run the full composite audit
 
 *Source: David Quaid & Edward Sturm podcast Episode 1,125. September 2026.*
 
-A pervasive failure mode on developing domains is the "zombie page" trap: high-quality, intent-aligned pages targeting low-competition keywords that become permanently stranded in Google Search Console under **`Crawled - currently not indexed`** or **`Discovered - currently not indexed`**.
+A pervasive failure mode on developing domains is the "zombie page" trap: high-quality, intent-aligned pages targeting low-competition keywords that were **never indexed** and remain stranded in GSC. If the URL **was indexed** and later flipped to `Crawled - currently not indexed` while sibling same-spec pages remain live, this protocol does not apply — route via §1.16.
 
 #### A. The Algorithmic Mechanism: The "Canon Law" Authority Lock
 Google treats every canonical URL string as an immutable entity token ("The Canon"). 
 
-1. **Initial Timestamp Evaluation:** When a URL is first published, Google evaluates the page against the site's **topical authority at that exact timestamp**. If the domain is young, lacks inbound links, or has not yet established topical relevance in that cluster, Google consigns the URL to `Crawled - currently not indexed`.
+1. **Initial Timestamp Evaluation:** When a **never-indexed** URL is first published, Google evaluates the page against the site's **topical authority at that exact timestamp**. If the domain is young, lacks inbound links, or has not yet established topical relevance in that cluster, the first crawl may leave the URL in `Crawled - currently not indexed` as an authority-budget lock. Keep-verdicts on previously indexed same-spec pages are §1.16, not this protocol.
 2. **The Stale Verdict Trap:** Official Google documentation claims this status indicates that "content quality does not meet our threshold." In reality, Google's algorithm means: *the domain's topical authority at time of crawl did not justify the indexation budget for this query,* OR the page failed to add distinct value to the index.
 3. **The Generic Title Trap:** A highly common trigger for `Crawled - currently not indexed` is deploying a page title that is merely the exact-match target keyword (e.g., `<title>Home Renovation Ideas</title>`). When the title is too similar to existing content in the SERPs, Google assumes the page does not add distinct value. 
 4. **The Legacy State Lock:** Even after the domain matures—publishing 50+ related articles, ranking for high-intent sibling terms, and earning authoritative backlinks over 6–24 months—**the old URL remains locked in its legacy low-authority state**. Re-requesting indexing in GSC repeatedly fails because the canonical URL string is already tagged with a historical low-authority verdict.
@@ -159,7 +159,7 @@ Do NOT apply this protocol indiscriminately across the site.
 
 Execute a slug reset only when all four criteria are met:
 * **Criterion 1 (Low Competition Gap):** The target keyword is not aggressively targeted by competitors (competitors do not have the exact term in their URL slug or `<h1>`).
-* **Criterion 2 (Persistent Indexation Failure):** The page has remained in `Crawled - currently not indexed` or experienced zero impressions/clicks for $\ge$90 days despite high semantic alignment.
+* **Criterion 2 (Never-indexed persistence):** The URL has **never been indexed** (no prior indexed state in GSC) and has remained in `Crawled - currently not indexed` or recorded zero impressions/clicks for $\ge$90 days despite high semantic alignment. Previously indexed URLs with live same-spec siblings fail this criterion — §1.16.
 * **Criterion 3 (Compounded Cluster Authority):** The broader domain has since accrued organic clicks, rankings, and topical authority within the same parent cluster since the page was originally published.
 * **Criterion 4 (Clean On-Page Architecture):** The content satisfies the "No Hide-and-Seek" 4-point transactional standard (§2.17A) and contains zero technical crawl blockers.
 
@@ -200,7 +200,8 @@ Execute a slug reset only when all four criteria are met:
 * **Empirical Agency Benchmark (Edward Sturm):** A commercial guide page published in March 2023 remained deindexed/dead for 2 years despite no competitor competition. A slug reset with a 301 redirect executed in March 2025 achieved **Rank #1 within 30 days with zero content revisions**, maintaining top-tier visibility continuously thereafter.
 
 **Slug Reset Operational Checklist**
-- [ ] Filter GSC Coverage Report for URLs in `Crawled - currently not indexed` targeting uncompetitive long-tail terms.
+- [ ] Previously indexed with live same-spec siblings → **stop**. Do not slug-reset. Route via §1.16.
+- [ ] Confirm the URL was **never indexed** and has sat in `Crawled - currently not indexed` (or zero impressions) for $\ge$90 days on an uncompetitive long-tail term.
 - [ ] Confirm the domain has accumulated topical clicks and referring domains in that topic area since initial URL creation.
 - [ ] Append 1–2 descriptive modifier tokens to generate the new URL slug.
 - [ ] Implement permanent 301 redirect from old URL to new slug.
@@ -567,7 +568,7 @@ Search algorithms evaluate the importance of a page based on internal links.
 **Indexation & Crawl Depth Checklist**
 - [ ] Verify no category, taxonomy, or pagination hubs are inadvertently `noindex`ed.
 - [ ] Run a crawler audit to ensure no critical money pages exceed a 3-click depth from the homepage.
-- [ ] Inject internal links from high-authority nodes directly to priority conversion pages.
+- [ ] For `Discovered - currently not indexed` money pages, inject internal links from high-authority nodes. Do not use extra links to reverse a `Crawled` keep-verdict (§1.16).
 
 ---
 
