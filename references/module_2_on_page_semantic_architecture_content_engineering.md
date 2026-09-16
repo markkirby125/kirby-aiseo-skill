@@ -149,22 +149,23 @@ When a user submits a conversational prompt to an LLM (ChatGPT, Perplexity, Gemi
 
 This requires embedding genuine product nuance, scenario-specific use cases, workflow edge cases, and customer-qualifying content (who the product is *not* for) at the depth of a "demo call in text form." Thin blog posts and generic category pages generate zero fan-out retrieval surface.
 
-#### B. The 3-Bucket BOFU Keyword Taxonomy (Grow & Convert)
+#### B. The 4-Bucket BOFU Keyword Taxonomy (Grow & Convert + Edward Sturm Ep. 1169)
 
-All bottom-of-funnel keywords that drive AI visibility and high-intent conversion cluster into three operational buckets:
+All bottom-of-funnel keywords that drive AI visibility and high-intent conversion cluster into four operational buckets:
 
 | Bucket | Definition | Example Queries | Conversion Profile |
 | :---- | :---- | :---- | :---- |
 | **1. Category Keywords** | The product category the user is shopping for — typed directly. | `accounting software`, `managed IT support`, `plasterer near me` | High commercial intent; competitive; requires strong entity authority |
 | **2. Comparison / Alternatives** | Evaluation-stage queries comparing providers or seeking alternatives to a known brand. | `QuickBooks alternatives`, `ServiceNow vs Freshservice`, `IT support providers Swindon` | Very high conversion; user is actively switching; lower volume but decisive |
 | **3. Jobs-To-Be-Done (JTBD)** | How-to queries where the searcher is trying to accomplish a specific task and a product/service is the most efficient solution. | `how to automatically log expense receipts`, `how to recover a hacked Microsoft 365 account` | Mid-funnel; filters out window-shoppers; leads who arrive via JTBD queries have pre-validated the need and convert at significantly higher rates than category keyword leads |
+| **4. High-Intent, Brand-Agnostic** | The searcher knows *exactly* the outcome, service, or product they need, but does *not* know which brand provides it. | `commercial lime plaster contractor wiltshire`, `automated m365 offboarding script`, `emergency commercial chiller repair` | **Highest Conversion Multiplier (5x–10x);** searcher has immediate purchase intent and zero pre-existing brand loyalty to overcome. Prized tier for rapid on-page landing page deployment. |
 
-**Interview Protocol for JTBD Discovery:** The only reliable source of JTBD keyword ideas is systematic voice-of-customer (VoC) interviews. At engagement start, conduct structured interviews with every customer-facing team member (sales, support, account management). Extract:
+**Interview Protocol for JTBD & Brand-Agnostic Discovery:** The only reliable source of JTBD and brand-agnostic keyword ideas is systematic voice-of-customer (VoC) interviews and live GSC/customer call audits. At engagement start, conduct structured interviews with every customer-facing team member (sales, support, account management). Extract:
 - Exact language customers use to describe their problem before engaging
 - The specific outcome they were trying to achieve before discovering the brand
 - Obstacles and workarounds they had tried before converting
 
-This raw language is the seed vocabulary for JTBD content briefs. Do not substitute keyword tools for this step — tools cannot surface the vocabulary of unsolved problems.
+This raw language is the seed vocabulary for JTBD and brand-agnostic content briefs. Do not substitute keyword tools for this step — tools cannot surface the vocabulary of unsolved problems.
 
 #### C. The Anti-ClickUp Compliance Framework for Self-Referential "Best X" Content
 
@@ -312,67 +313,76 @@ In competitive commercial queries, incorporating explicit low-friction commercia
 
 ---
 
-### **2.19 The 1-Hour GSC Latent Query Expansion & Topical-Bridge Internal Linking Protocol**
+### **2.19 The 1-Hour SEO Update: GSC Latent Query Elevation & Topical-Bridge Linking (Edward Sturm Ep. 1104, 1114 & 1169)**
 
-*Source: Edward Sturm podcast Episode 1,104. September 2026.*
+*Source: Edward Sturm podcast Episodes 1,104, 1,114 & 1,169. September 2026.*
 
 Publishing net-new pages requires navigating the crawl queue, topical authority thresholds, and potential sandboxing. In contrast, existing top-performing pages already possess active crawler attention, verified entity trust, and live user telemetry. This 1-hour maintenance sprint extracts latent search demand from existing assets and channels accumulated PageRank to secondary target pages.
 
-#### A. The Latent Query Opportunity
-In Google Search Console, high-performing URLs routinely register thousands of impressions for secondary search queries that the page *partially matches*, but fails to convert into clicks because the specific question or use case lacks dedicated heading structure and direct resolution. Expanding an existing ranking page to explicitly cover these queries captures incremental traffic in 24–48 hours without publishing new URLs.
+#### A. The Latent Query Opportunity & Position 5–50 Harvesting
+In Google Search Console, high-performing URLs routinely register thousands of impressions for search queries in two high-leverage tiers:
+1. **Tier 1: Striking Distance (Positions 5.0 to 20.0):** The page is ranking on page 1–2, but sitting below the primary click threshold because it fails to target the specific query explicitly in high-weight tags.
+2. **Tier 2: Latent Entity Association (Positions 20.1 to 50.0 / Pages 3–5):** Google already recognizes the page as topically relevant to these concepts despite the webmaster never intentionally optimizing for them. It is exponentially easier to push an established URL from position 50 to position 15 than to rank a brand-new URL from scratch.
 
 #### B. The 4-Phase Operational Sprint
 
 ```
-[GSC Top-Clicked URL]
+[GSC Existing URL Performance]
          │
          ▼
-Phase 1: Export Query CSV (Filter: High Impressions / Low CTR)
+Phase 1: Filter GSC Queries (Pos 5–20 & 20–50 sorted by Impressions)
          │
          ▼
-Phase 2: LLM Cluster Mapping → Inject 2–3 Hardened H2 Sections
+Phase 2: Undertargeting Audit → Elevate to Top 4 Anchor Spots (<title>, <h1>, Sentence 1, Context)
          │
          ▼
-Phase 3: Construct "Topical Bridge" H2 → Pass Internal PageRank to Target URL
+Phase 3: Construct "Topical Bridge" H2 → Pass Internal PageRank to Target Money URL
          │
          ▼
 Phase 4: Update dateModified Schema → GSC URL Inspection Request
          │
          ▼
-[24–48 Hour Traffic Expansion Across Latent Query Clusters]
+[Rapid 24–48 Hour Ranking Lift Across High-Impression Query Clusters]
 ```
 
-#### Phase 1: GSC Latent Impression Extraction
+#### Phase 1: GSC Impression Extraction & Telemetry Filtering
 1. In Google Search Console, navigate to **Performance $\rightarrow$ Search Results $\rightarrow$ Pages**.
-2. Filter by highest clicks over the last 90 days and select the top-performing commercial or informational URL.
-3. Switch to the **Queries** tab and click **Export $\rightarrow$ Download CSV**.
-4. Sort queries by impressions descending: isolate clusters with significant impressions ($>100$) but below-average CTR ($<2\%$), representing unharvested latent search demand.
+2. Filter by highest clicks or impressions over the trailing 90 days and select the target URL.
+3. Switch to the **Queries** tab and export data (or query via Search Console API):
+   - **Filter A (Striking Distance):** Position 5.0–20.0, Impressions $\ge 100$, CTR $< 3\%$.
+   - **Filter B (Latent Association):** Position 20.1–50.0, Impressions $\ge 50$.
+4. Sort by impressions descending to identify unharvested commercial demand.
 
-#### Phase 2: Intent Satiation & Anti-AI Tone Hardening
-1. Feed the existing page text and the exported query CSV into an LLM with the prompt:
-   > *"Analyze these GSC queries against the existing article body. Identify keyword clusters with meaningful impressions that lack dedicated coverage. Formulate 2–3 new H2 sub-sections with specific insertion points to satisfy these partially matching queries. Keep answers as short as possible and direct."*
-2. **Execute Strict Tone Hardening:**
-   * **Purge AI Crutch Words:** Remove the word `"actually"` across 90% of occurrences.
-   * **Eliminate Cowardly Hedging:** Replace weak suggestions (*"this can help your business"*, *"you might want to consider"*) with decisive operational assertions (*"this will achieve X"*, *"implement this standard"*).
-   * **Compress Verbosity:** Cut filler paragraphs by 50% to maintain the "No Hide-and-Seek" rule (§2.17A).
+#### Phase 2: The On-Page Elevation Protocol (The Top-4 Injection)
+Check whether the page undertargets the primary high-impression queries identified in Phase 1:
+1. **Check the 4 Critical Locations:** Inspect if the query appears in the `<title>`, URL slug, `<h1>`, or opening sentence. In 80%+ of cases, the query appears nowhere in these 4 spots.
+2. **Elevate to Top 4 Anchor Spots:**
+   - **`<title>` Tag:** Incorporate the high-impression query into the 3-part title formula (§2.18).
+   - **Primary `<h1>`:** Refresh or append the `<h1>` to reflect the elevated query topic.
+   - **First Sentence Opening Hook:** Inject the exact query into the first 25 words of the opening paragraph (§2.31).
+   - **Supporting `<h2>` Sub-Sections:** Inject 1–2 concise, hardened `<h2>` sub-sections answering secondary variations or JTBD queries directly under the BLUF rule.
+3. **Execute Strict Tone Hardening:**
+   - Purge AI crutch tokens (remove `"actually"` across 90% of occurrences).
+   - Eliminate weak passive hedging (*"this can help"* $\rightarrow$ *"this enforces"*).
+   - Cut verbosity by 50% to maintain the "No Hide-and-Seek" rule (§2.17A).
 
 #### Phase 3: The "Topical Bridge" Internal Link Pass-Through
-Because this top-performing page receives live organic search clicks, it continuously generates and refreshes internal PageRank and topical authority (the "SEO colony" dynamic). Use this equity to boost secondary or struggling money pages:
+Because this updated page receives live organic search clicks, it continuously generates and refreshes internal PageRank and topical authority (the "SEO colony" dynamic). Use this equity to boost secondary or struggling money pages:
 1. Identify a secondary target page (e.g., a high-intent service page or newly launched location hub) requiring an authority injection.
 2. **The Context Bridge Rule:** Never force an internal link into an existing paragraph if the contextual transition is abrupt. If the primary page and the target page are not directly related:
-   * **Build a dedicated 2–3 sentence transition `<h2>` section** on the primary page that bridges the topical gap between the two subjects.
-   * *Example:* On an established high-ranking guide for *Small Business Network Security*, build an `<h2>` titled *"On-Site Hardware Implementation Requirements"*, establishing the context to naturally link out to `swindonplasterer.com` or `berkshireitservices.co.uk/managed-it-support/`.
-   * The explicit topical bridge ensures that Google's semantic link parsers recognize genuine relevance, maximizing PageRank transmission.
+   - **Build a dedicated 2–3 sentence transition `<h2>` section** on the primary page that bridges the topical gap between the two subjects.
+   - *Example:* On an established high-ranking guide for *Small Business Network Security*, build an `<h2>` titled *"On-Site Hardware Implementation Requirements"*, establishing the context to naturally link out to `swindonplasterer.com` or `berkshireitservices.co.uk/managed-it-support/`.
+   - The explicit topical bridge ensures that Google's semantic link parsers recognize genuine relevance, maximizing PageRank transmission.
 
 #### Phase 4: Schema Freshness & Immediate Ingestion
-1. **Introduction Revision:** Adjust the opening paragraph of the primary article to reflect the expanded scope.
-2. **Schema Timestamp Update:** Update the `dateModified` property in the page's `Article` or `WebPage` JSON-LD schema to the current timestamp.
-3. **Forced Crawl Ingestion:** Submit the updated URL directly into Google Search Console URL Inspection and click **Request Indexing**.
+1. **Schema Timestamp Update:** Update the `dateModified` property in the page's `Article` or `WebPage` JSON-LD schema to the current ISO timestamp.
+2. **Forced Crawl Ingestion:** Submit the updated URL directly into Google Search Console URL Inspection and click **Request Indexing**.
 
-**Latent Query Sprint Checklist**
-- [ ] Export GSC query CSV for the top 20% highest-traffic pages on the domain.
-- [ ] Filter for query clusters with $>100$ impressions and $<2\%$ CTR.
-- [ ] Inject 2–3 concise, hardened `<h2>` sections satisfying unharvested queries directly into the body.
+**1-Hour SEO Update Checklist**
+- [ ] Export GSC query data for existing pages with high impressions.
+- [ ] Segment into Tier 1 (Positions 5–20) and Tier 2 (Positions 20–50).
+- [ ] Audit on-page presence: verify if high-impression queries are missing from the 4 anchor spots.
+- [ ] Elevate primary query into `<title>`, `<h1>`, and first sentence hook; inject secondary queries into body `<h2>` blocks.
 - [ ] Enforce tone hardening: eliminate `"actually"`, remove passive hedging, cut verbosity.
 - [ ] Build a 2–3 sentence "Topical Bridge" `<h2>` to pass live PageRank to secondary target money pages.
 - [ ] Update `dateModified` in JSON-LD schema markup.
@@ -919,34 +929,69 @@ To ensure content is ingested and cited by LLM search agents exploring these fan
 
 ---
 
-### **2.29 The "Heading vs. Page" Architecture Law: Title Tag Relevancy × Domain Authority Ratio**
+### **2.29 The Keyword Difficulty Fallacy, Visual SERP Undertargeting Detection & The 4-Question Prioritization Framework**
 
-*Source: James Dooley & David Quaid (Edward Sturm Podcast Episode 1,142).*
+*Source: James Dooley & David Quaid (Ep. 1,142) & Edward Sturm (Ep. 1,169, "How SEOs Actually Find Keywords in 2026"). September 2026.*
 
-Commercial Keyword Difficulty (KD) scores generated by third-party SEO platforms (Ahrefs, Semrush, Moz) are fundamentally flawed because they rely almost exclusively on domain-level backlink counts (Referring Domains / Domain Rating). In empirical reality, pages on low-authority domains regularly unseat DR80+ enterprise competitors when structural information architecture aligns with **Title Tag & URL Relevancy**.
+Commercial Keyword Difficulty (KD) scores generated by third-party SEO platforms (Ahrefs, Semrush, Moz, Ubersuggest) are fundamentally flawed because they calculate difficulty almost exclusively from domain-level backlink counts (Referring Domains / Domain Rating). In empirical reality, pages on brand-new or low-authority domains regularly unseat DR80+ enterprise competitors when structural information architecture aligns with **Visual SERP Undertargeting**.
 
-#### A. The Empirical Keyword Difficulty Heuristic
-Dooley's operational formula calculates true query competitiveness as:
-$$\text{True Keyword Difficulty} = (\text{Competitor Title Tag \& URL Relevancy}) \times (\text{Page Authority})$$
+#### A. The Tool KD Fallacy & The Empirical Relevancy Heuristic
+Dooley and Sturm establish that algorithmic difficulty is not backlink weight; it is precision of on-page intent:
+$$\text{True Keyword Difficulty} = (\text{Competitor 4-Spot Relevancy}) \times (\text{Targeted Page Authority})$$
 
-* **The Authority Deficit Opportunity:** When high-authority competitors (Forbes, TripAdvisor, Cisco, enterprise portals) rank for a commercial query without including the exact search terms in their `<title>` tag or URL slug, their ranking is held up purely by inherited domain weight.
-* **The Exact-Match Vector:** A low-authority or newly launched domain can instantly displace high-DR competitors by creating a dedicated page where the target query forms the primary `<title>`, URL slug, and `<h1>`.
+* **The Authority Deficit Opportunity:** When high-authority competitors (Forbes, CNET, Yelp, enterprise directories) rank for a commercial query without explicitly targeting the exact search phrase across their on-page tags, their ranking is held up purely by default domain weight.
+* **The Exact-Match Velocity:** A newly launched or low-authority domain can displace high-DR competitors in **1 to 2 weeks** with bare-minimum on-page matching and zero link building, simply by satisfying user search intent and targeting the phrase across the 4 load-bearing spots.
 
-#### B. The Information Architecture Decision: Query Defines a Heading vs. Query Defines a Page
-Whether an informational query, sub-topic, or FAQ should be embedded as a section (`<h2>`) on an existing pillar page or broken out into an independent standalone page (`<h1>` + URL slug) is strictly governed by domain authority:
-* **High-Authority / Aged Domains:** Possess sufficient raw link equity to rank for secondary queries and sub-topics when they are embedded merely as `<h2>` or `<h3>` section blocks on a broad parent page.
-* **Low-Authority / New Domains (The "PAA Hack"):** Cannot compete on broad pillar pages. Low-authority domains **must elevate every distinct sub-query, PAA question, and long-tail variation into its own dedicated standalone URL**. Elevating the query to the `<title>`, URL slug, and `<h1>` creates maximum semantic relevancy that overrides the competitor's raw backlink advantage.
+#### B. The 4-Spot Visual SERP Undertargeting Inspection Protocol
+Never rely on a software dashboard to evaluate ranking difficulty. Conduct a direct visual or DOM scrape of the Top 5 to Top 10 organic search results for the target keyword:
 
-> [!WARNING]
-> **FAQ Farm Footprint Boundary (Lily Ray / Caleb Ulku Benchmark):** While elevating long-tail queries to dedicated URLs captures fast exact-match wins, creating dozens of standalone question pages from People Also Ask (PAA) data triggers Google's **Template #7 (FAQ Farm)** spam classifier (§2.32 / §3.9E). Low-authority sites must strictly cap standalone PAA question URLs to $\le 15$ zero-competition nodes; all other secondary FAQ queries must remain consolidated under `<h2>` wrappers on parent service pages to prevent 85/15 sitewide quality contagion.
+```
+┌────────────────────────────────────────────────────────┐
+│        THE 4-SPOT SERP UNDERTARGETING AUDIT SHEET      │
+├───────────────────┬────────────────────────────────────┤
+│ 1. <title> Tag    │ Exact target keyword left-weighted?│
+│ 2. URL Slug       │ Keyword present in clean slug?     │
+│ 3. <h1> Heading   │ Primary H1 matches target query?   │
+│ 4. First Sentence │ Keyword in first 25 words of hook? │
+└───────────────────┴────────────────────────────────────┘
+```
 
-#### C. Architectural Invariant
-Never attempt to consolidate dozens of granular service or troubleshooting queries into a single sprawling "Ultimate Guide" on a domain with low topical authority. Each discrete user problem requires an atomic, dedicated URL until the domain establishes foundational site-wide authority.
+* **Undertargeted SERP (Green Light):** If $\le 2$ of the top 5 ranking results target the keyword across all 4 spots, the SERP is **undertargeted**. This query is an immediate high-priority target; rank velocity is typically 7–14 days upon indexation.
+* **Contested SERP (Amber Light):** 3 to 4 competitors target the 4 spots, but content is bloated, contains high pogo-sticking bounce rates, or lacks direct pricing/SLA data. Rankable with a high-density BOFU landing page (§2.14 / §2.35).
+* **Defended SERP (Red Light):** All top 5 results are authoritative, load within 2 seconds, and accurately match all 4 spots with high customer review velocity. Defer until foundation is built, or deploy third-party listicle placement (`kirby-off-page-seo` Module 18).
 
-**Heading vs. Page Architecture Checklist**
-- [ ] Calculate True KD by inspecting whether current top 3 ranking URLs feature the exact query in their `<title>` tag and slug.
-- [ ] If top ranking pages lack exact title matches, immediately scaffold an atomic standalone page targeting the query verbatim.
-- [ ] For low-authority sites, break distinct zero-competition queries into dedicated standalone pages (capped at $\le 15$ sitewide per §3.9E), consolidating remaining secondary FAQ clusters under `<h2>` wrappers.
+#### C. The 4-Question Prioritization Framework
+When sorting through hundreds or thousands of keyword candidates (e.g., from Google Keyword Planner or competitor exports), follow Edward Sturm's strict 4-question decision sequence:
+1. **Q1: Who are my true competitors?** (Identify the domains actually winning commercial customers in your specific vertical).
+2. **Q2: What are they ranking for and NOT targeting properly?** (Extract queries where competitors rank on positions 3–15 through accidental topical weight rather than intentional on-page targeting).
+3. **Q3: Out of those keywords, which will bring me money?** (Apply the **Brand-Agnostic High-Intent** filter, §2.16 Bucket 4: searchers who know the outcome they want, but do not know the brand).
+4. **Q4: Out of what's left, which SERPs are undertargeted and easiest to rank for?** (Apply the 4-spot inspection rubric).
+
+#### D. The Search Volume Noise Filter vs. Enterprise Exceptions
+* **The Baseline $\ge 50$/Month Filter:** When processing raw keyword exports, discard queries with $<50$ monthly searches to eliminate keyword tool noise and focus initial commercial sprints on verified demand.
+* **The §2.30 Enterprise/Technical Exception:** Do **not** discard zero-volume queries in specialized B2B, enterprise SaaS comparison strings (`Tool A vs Tool B`), or bespoke trade diagnostic queries where Google Ads auction data is absent but un-auctioned commercial value is immense (§2.30).
+
+#### E. The SERP Content Type Nuance Diagnostic
+A critical error made by keyword tools and junior SEOs is misinterpreting search intent from Page 1 results:
+* **The Default Blog Fallacy:** If Page 1 is populated entirely by 3,000-word informational blog posts for a commercial query, **do not assume Google demands a blog post**.
+* **The Diagnostic Test:** Inspect whether any competitor has built a dedicated, conversion-optimized commercial service or product landing page for that keyword.
+  * *Case 1 (Undertargeted Intent):* If **no** competitor has built a commercial landing page, Google is merely ranking blog posts as the *closest available match*. Deploying a dedicated, high-intent landing page will frequently leapfrog the blogs to rank #1.
+  * *Case 2 (True Informational Intent):* If multiple competitors *did* deploy product/service landing pages and those pages are pushed down to Page 2 or Page 3 while blog posts dominate Page 1, Google’s NavBoost algorithms have determined searchers actively seek educational research. Target this query with a JTBD informational capsule (§2.28) rather than a commercial landing page.
+
+#### F. The "Heading vs. Page" Architecture Law
+Governs whether an undertargeted keyword becomes a dedicated URL or an internal heading:
+* **High-Authority / Aged Domains:** Can rank for secondary queries by embedding them as `<h2>` or `<h3>` section blocks on an existing authority pillar page.
+* **Low-Authority / New Domains:** Cannot compete on broad pillar pages. Low-authority domains **must elevate every distinct undertargeted commercial query into its own dedicated standalone URL** (`<title>`, URL slug, `<h1>`, opening hook).
+* **FAQ Farm Boundary:** Standalone question URLs must remain capped at $\le 15$ sitewide (§2.32 / §3.9E) to avoid Google's Template #7 spam classifier.
+
+**Undertargeting & Keyword Prioritization Checklist**
+- [ ] Run the 4-Question Discovery Sequence before writing any new content.
+- [ ] Reject tool KD metrics; audit the Top 5 SERP competitors across the 4 spots (`<title>`, slug, `<h1>`, first sentence hook).
+- [ ] Verify SERP Undertargeting: green light queries where $\le 2$ competitors target all 4 spots.
+- [ ] Prioritize Bucket 4 Brand-Agnostic High-Intent queries (knows need, agnostic on brand).
+- [ ] Apply the $\ge 50$/mo volume noise filter for consumer/SME trades, while preserving §2.30 for niche B2B.
+- [ ] Run the SERP Content Type Nuance Diagnostic before defaulting to blog post production.
+- [ ] Elevate undertargeted commercial queries to dedicated standalone landing pages on low-authority domains.
 
 ---
 
@@ -1098,3 +1143,35 @@ Before attempting to build entity consensus or launch external campaigns, you mu
 - [ ] Redirect or delete remaining dead-weight leaf URLs to consolidate domain authority.
 - [ ] Ensure the resulting footprint consists exclusively of high-quality, dense entity pages.
 - [ ] For off-page Wikidata/social corroboration of surviving claims, use `kirby-off-page-seo` Module 16.
+
+---
+
+### **2.35 Short SEO Landing Pages vs. Bloated Blog Posts (The High-Conversion BOFU Standard)**
+
+*Source: Edward Sturm (Ep. 1,169, "How SEOs Actually Find Keywords in 2026") & Kylie Murphy Case Study. September 2026.*
+
+A systemic failure mode in modern digital marketing is forcing commercial and transactional keywords into 3,000-word "ultimate guide" blog formats. This produces bloated informational fluff that attracts non-buying visitors, triggers pogo-sticking bounce signals, and fails to convert searchers into customers.
+
+#### A. The Commercial Inefficiency of Long-Form Blog Posts
+* **The Informational Mismatch:** High-intent searchers querying commercial terms (e.g., `commercial lime plaster contractor wiltshire`, `emergency ac repair austin`) do not want to read an essay on the history of plaster or the physics of refrigeration.
+* **The NavBoost Demotion:** Forcing commercial prospects to scroll through 10 screens of generic background prose induces immediate user frustration. Searchers bounce back to the SERP to find a phone number or quote form, signaling to NavBoost that the page failed to solve the intent.
+* **The Revenue Bleed:** High-traffic blog posts with low commercial intent burn agency budgets while producing near-zero phone calls, lead bookings, or software trials.
+
+#### B. The Short SEO Landing Page Architecture (200–600 Words)
+Bottom-of-funnel commercial keywords must be targeted with concise, conversion-optimized landing pages:
+1. **The 4-Spot Exact Alignment:** Target the primary keyword in the `<title>`, clean URL slug, `<h1>`, and first sentence hook (§2.31).
+2. **Immediate BLUF Intent Resolution (Top 25 Words):** State unambiguously what the business does, who it serves, and the geographic or technical operational radius (§2.1 / §2.27).
+3. **The 4 Transactional Pillars:** Embed Price Floor, Response SLA, Scope Specificity, and Entity Credentials above the fold (§2.17A).
+4. **Single CTA Discipline:** One primary, high-contrast action channel (Click-to-Call, Instant Booking, or Free Tool Access). Eliminate competing links and navigation leaks.
+5. **Hyper-Dense Proof:** Replace 2,000 words of filler with 3 verified customer quotes, licensing badges, real job photography, or live performance metrics.
+
+#### C. The Minimalist On-Page Proof (The Kylie Murphy Benchmark)
+* **The Empirical Case:** A 5-page local service website deployed with bare-minimum on-page SEO (strictly matching the 4 spots and user intent) and **zero link building** scaled to **~10,000 organic clicks and 200+ Google reviews** within 12 months.
+* **The Core Takeaway:** You do not need bloated content libraries or expensive backlink campaigns to dominate commercial search. Precision keyword targeting on short, high-utility landing pages consistently outranks bloated competitors.
+
+**Short Landing Page Execution Checklist**
+- [ ] Ban 3,000-word blog post formats for Bucket 4 commercial keywords.
+- [ ] Restrict BOFU landing pages to 200–600 high-density words.
+- [ ] Verify the 4 anchor points (`<title>`, slug, `<h1>`, opening sentence) match the target query verbatim.
+- [ ] Answer the 4 transactional pillars (Price, SLA, Scope, Credentials) above the fold.
+- [ ] Enforce single-CTA discipline to maximize lead capture without navigation distraction.
