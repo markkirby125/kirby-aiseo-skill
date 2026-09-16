@@ -20,7 +20,7 @@ When asked to perform AI SEO tasks, **do not guess**. Instead, review the module
 - **Module 2**: On-Page Semantic Architecture & Content Engineering (GEO retrieval multipliers, content structures, RAG chunking, SEO Rater Guidelines) -> Read `references/module_2_on_page_semantic_architecture_content_engineering.md`
 
 **Other Modules**
-- **Module 6**: Google Discover & Algorithmic Feed Optimization -> Read `references/module_6_google_discover_algorithmic_feed_optimization.md`
+- **Module 6**: Google Discover & Algorithmic Feed Optimization (including Discover Natural Language Feed Customization) -> Read `references/module_6_google_discover_algorithmic_feed_optimization.md`
 - **Module 8**: Vulnerable Footprints vs. Resilient Asset Architecture (Quick Reference) -> Read `references/module_8_quick_reference_vulnerable_footprints_vs_resilient_asset_architecture.md`
 - **Module 9**: Site-Specific Implementation Checklists -> Read `references/module_9_site_specific_implementation_checklists.md`
 - **Module 10**: Gap-Analysis Supplementary Protocols (Remaining September 2026 Research Updates) -> Read `references/module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md`
@@ -28,6 +28,7 @@ When asked to perform AI SEO tasks, **do not guess**. Instead, review the module
 ## When to Use
 - You need to optimize content for AI search engines (ChatGPT, Perplexity, Gemini).
 - You are auditing a site for "Scaled Content Abuse", "Mount AI" demotions, or general SEO drops.
+- For 1st-party Direct Trust Overrides in AI Overviews, Google AI Mode, and Preferred Sources SDK: route to `kirby-preferred-sources`.
 - You are troubleshooting crawl-depth failures or category/hub `noindex` traps (Module 1 §1.15). Social/video indexation plays belong in `kirby-off-page-seo` Module 15.
 - You are diagnosing `Crawled - currently not indexed` vs `Discovered - currently not indexed`, or an indexed-then-pulled location/template URL (Module 1 §1.16). GSC coverage measurement and template fail-rate slope: `kirby-seo-telemetry` Module 8. Location-page rewrite order: `kirby-local-seo` §3.6.2.
 - You are executing a 30-day content pruning sprint to consolidate entity authority (Module 2 §2.34). Off-page Wikidata/social corroboration is `kirby-off-page-seo` Module 16.
