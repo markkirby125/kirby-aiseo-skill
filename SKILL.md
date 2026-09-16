@@ -30,7 +30,7 @@ When asked to perform AI SEO tasks, **do not guess**. Instead, review the module
 - You are auditing a site for "Scaled Content Abuse", "Mount AI" demotions, or general SEO drops.
 - You are troubleshooting crawl-depth failures or category/hub `noindex` traps (Module 1 §1.15). Social/video indexation plays belong in `kirby-off-page-seo` Module 15.
 - You are diagnosing `Crawled - currently not indexed` vs `Discovered - currently not indexed`, or an indexed-then-pulled location/template URL (Module 1 §1.16). GSC coverage measurement and template fail-rate slope: `kirby-seo-telemetry` Module 8. Location-page rewrite order: `kirby-local-seo` §3.6.2.
-- You are executing a 30-day content pruning sprint to consolidate entity authority (Module 2 §2.18). Off-page Wikidata/social corroboration is `kirby-off-page-seo` Module 16.
+- You are executing a 30-day content pruning sprint to consolidate entity authority (Module 2 §2.34). Off-page Wikidata/social corroboration is `kirby-off-page-seo` Module 16.
 - First-party “Best X” / comparison pages: Module 2 §2.16. Third-party listicle *insertions* and competitive link-gap outreach: `kirby-off-page-seo` Module 18 (do not invent outreach here).
 - GBP, Ask Maps, and review velocity: use `kirby-local-seo`. Do not handle them in this skill.
 - Editorial essay / thought-leadership architecture: use `kirby-great-essay`.

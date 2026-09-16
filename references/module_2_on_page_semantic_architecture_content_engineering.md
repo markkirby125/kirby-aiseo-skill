@@ -1081,7 +1081,7 @@ To immunize a domain against SERP hijacking, deploy the following defensive arch
 
 ---
 
-### **2.18 The 30-Day Pruning Protocol (Entity Clarification)**
+### **2.34 The 30-Day Pruning Protocol (Entity Clarification)**
 
 *Source: James Dooley ("Money-Hat SEO") / The Edward Show, Episode 1116*
 

@@ -591,11 +591,13 @@ If the URL was **never meant to be indexed** (tracking parameters, HTTP/HTTPS du
 
 **Mueller test:** “What is missing from the index if this page is not in it?” Same-spec page 30 has already been answered 29 times on this domain. Volume is allowed; sameness at volume is not (§2.8).
 
+**Rewrite quality gate:** Before resubmitting a rewritten URL, re-run §2.32B's Pre-Publishing Acid Test: *“Could a competitor publish a near-identical version of this page tomorrow using the same prompt and methodology?”* A rewrite that still answers YES will be re-rejected.
+
 #### Failure-mode router
 
 | Observable | Do this | Do not do this |
 |---|---|---|
-| URL **was indexed** for weeks/months, then flipped to `Crawled - currently not indexed`, and sibling same-spec pages remain | Same URL, rewrite words only. Location / geo pages: `kirby-local-seo` §3.6.2 execution order. | Slug reset §1.8. Cosmetic `noindex`. “Add 5 links and Request Indexing.” Schema-only or link-only changes. |
+| URL **was indexed** for weeks/months, then flipped to `Crawled - currently not indexed`, and sibling same-spec pages remain | Same URL, rewrite words only. Location / geo pages: `kirby-local-seo` §3.6.2 execution order. The flip typically occurs with **zero on-page or technical changes** — this is an opinion verdict, not a regression. | Slug reset §1.8. Cosmetic `noindex`. “Add 5 links and Request Indexing.” Schema-only or link-only changes. Opening a technical audit for the change. |
 | URL **never indexed**; domain later gained topical authority; generic title; all four §1.8 criteria met | Canon Law slug reset §1.8 | Treat it as a same-spec location-page pull. |
 | **Six or more** URLs from the same generator/prompt/brief sit in `Crawled - currently not indexed` | Generator problem. Stop publishing that template. Measure fail-rate **slope** (`kirby-seo-telemetry` Module 8). Improve the template or 410 the batch (`kirby-seo-deployment`). | Per-URL slug resets or recrawl spam. |
 | `Discovered - currently not indexed` is rising while `Crawled` is an old, stable pile | Crawl-demand / site-interest problem. §10.8 and §1.15. | Rewrite copy as if it were a keep-verdict. |
