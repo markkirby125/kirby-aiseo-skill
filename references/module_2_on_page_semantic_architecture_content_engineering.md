@@ -133,7 +133,7 @@ Conversational AI agents (ChatGPT, Gemini, Claude) read entire pages to build at
 
 ---
 
-### **2.16 The First-Party BOFU Engine: Synthetic Fan-Out Harvesting, the 3-Bucket Keyword Taxonomy & the Anti-ClickUp Compliance Framework**
+### **2.16 The First-Party BOFU Engine: Synthetic Fan-Out Harvesting, the 4-Bucket Keyword Taxonomy & the Anti-ClickUp Compliance Framework**
 
 *Source: Devesh Khanal (Grow & Convert, 10-year agency; clients include Patreon, Yelp, LastPass, ServiceTitan), Edward Sturm podcast Episode 1,140. September 2026.*
 
@@ -189,7 +189,7 @@ ClickUp published hundreds of "Best [X]" listicles at scale, force-ranked themse
 5. **User Signal Hygiene:** Content must satisfy real user intent. If users consistently bounce without engaging, Google interprets this as spam regardless of content structure. Authentic content that genuinely helps the reader self-qualify is the only durable signal.
 
 **First-Party BOFU Content Implementation Checklist**
-- [ ] Identify all 3-bucket keyword targets per site: Category + Comparison/Alternatives + JTBD.
+- [ ] Identify all 4-bucket keyword targets per site: Category + Comparison/Alternatives + JTBD + Brand-Agnostic High-Intent.
 - [ ] Conduct VoC interviews with sales/support team to extract JTBD language before writing briefs.
 - [ ] For each "Best X" listicle: include brand identity disclosure in opening paragraph.
 - [ ] Embed genuine product depth (screenshots, scenarios, edge cases, pricing) in own-brand section.
@@ -1165,9 +1165,9 @@ Bottom-of-funnel commercial keywords must be targeted with concise, conversion-o
 4. **Single CTA Discipline:** One primary, high-contrast action channel (Click-to-Call, Instant Booking, or Free Tool Access). Eliminate competing links and navigation leaks.
 5. **Hyper-Dense Proof:** Replace 2,000 words of filler with 3 verified customer quotes, licensing badges, real job photography, or live performance metrics.
 
-#### C. The Minimalist On-Page Proof (The Kylie Murphy Benchmark)
-* **The Empirical Case:** A 5-page local service website deployed with bare-minimum on-page SEO (strictly matching the 4 spots and user intent) and **zero link building** scaled to **~10,000 organic clicks and 200+ Google reviews** within 12 months.
-* **The Core Takeaway:** You do not need bloated content libraries or expensive backlink campaigns to dominate commercial search. Precision keyword targeting on short, high-utility landing pages consistently outranks bloated competitors.
+#### C. The Minimalist On-Page Proof & Local 5-Page Site Seam
+* **The Empirical Proof:** Commercial search dominance does not require sprawling content farms or expensive link-building campaigns. Precision on-page keyword targeting (matching the 4 anchor spots and user intent) consistently outperforms bloated competitors.
+* **Local Service 5-Page Architecture:** For local trade and field service businesses, the operational deployment blueprint for this model is codified in [`kirby-local-seo`](../../kirby-local-seo/references/module_4_90_day_100k_local_seo_sprint_edward_sturm_ep_845.md) Section 4.2 (The Five-Page Lean Site Architecture / Kylie Murphy Blueprint: 5 pages, on-page only, zero link building, ~10,000 organic clicks and 200+ Google reviews within 12 months).
 
 **Short Landing Page Execution Checklist**
 - [ ] Ban 3,000-word blog post formats for Bucket 4 commercial keywords.

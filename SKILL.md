@@ -28,7 +28,7 @@ When asked to perform AI SEO tasks, **do not guess**. Instead, review the module
 ## When to Use
 - You need to optimize content for AI search engines (ChatGPT, Perplexity, Gemini).
 - You are auditing a site for "Scaled Content Abuse", "Mount AI" demotions, or general SEO drops.
-- You are conducting keyword research, auditing SERP undertargeting across the 4 anchor spots, prioritizing keywords with the 4-question framework, or diagnosing content type nuances (Module 2 §2.29). Telemetry extraction filter is `kirby-seo-telemetry` §5.7.
+- You are conducting keyword research, auditing SERP undertargeting across the 4 anchor spots, prioritizing keywords with the 4-question framework, or diagnosing content type nuances (Module 2 §2.29). Telemetry extraction filter is `kirby-seo-telemetry` §5.15.
 - You are executing the 1-Hour SEO Update to elevate GSC queries in positions 5–20 and 20–50 into `<title>`, `<h1>`, and opening hooks (Module 2 §2.19).
 - You are architecting high-converting short SEO landing pages (200–600 words) instead of bloated 3,000-word blog posts (Module 2 §2.35).
 - For 1st-party Direct Trust Overrides in AI Overviews, Google AI Mode, and Preferred Sources SDK: route to `kirby-preferred-sources`.
