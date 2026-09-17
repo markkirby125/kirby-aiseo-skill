@@ -87,7 +87,7 @@
 
 > **TL;DR:** Enterprise DR 90+ sites routinely suffer from "Brand Blindness," producing thin, un-linked content that ignores search volume because brand teams consider SEO "beneath them." Challenger sites exploit this gap by aggressively targeting the commercial and informational queries giants abandon.
 
-*Source: The Edward Show, Episode 1170 (Edward Sturm & David Quaid)*
+*Source: Edward Sturm podcast Episode 1,170 (with David Quaid). September 2026. (Integration Reference: Module 2 §2.29 & §2.35)*
 
 #### A. The 1,400-Click Enterprise Paradox
 * Global enterprise domains (e.g., Nike DA 90+) frequently generate negligible blog traffic (Nike Stories receiving ~1,400 organic clicks/month) despite immense authority.
