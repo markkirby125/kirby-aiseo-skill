@@ -59,6 +59,8 @@
   - [2.33 The Duplicate Content Penalty Myth & SERP Hijacking Defense](module_2_on_page_semantic_architecture_content_engineering.md#233-the-duplicate-content-penalty-myth--serp-hijacking-defense)
   - [2.34 The 30-Day Pruning Protocol (Entity Clarification)](module_2_on_page_semantic_architecture_content_engineering.md#234-the-30-day-pruning-protocol-entity-clarification)
   - [2.35 Short SEO Landing Pages vs. Bloated Blog Posts (The High-Conversion BOFU Standard)](module_2_on_page_semantic_architecture_content_engineering.md#235-short-seo-landing-pages-vs-bloated-blog-posts-the-high-conversion-bofu-standard)
+  - [2.36 Query Augmentation, Dictionary vs. Query Semantics, & The Authority Elasticity Doctrine](module_2_on_page_semantic_architecture_content_engineering.md#236-query-augmentation-dictionary-vs-query-semantics--the-authority-elasticity-doctrine)
+  - [2.37 The Page Split vs. H2 Decision Rule (Cannibalization Guard)](module_2_on_page_semantic_architecture_content_engineering.md#237-the-page-split-vs-h2-decision-rule-cannibalization-guard)
 - **[Module 6: Google Discover & Algorithmic Feed Optimization](module_6_google_discover_algorithmic_feed_optimization.md)**
 - **[Module 8: Quick Reference: Vulnerable Footprints vs. Resilient Asset Architecture](module_8_quick_reference_vulnerable_footprints_vs_resilient_asset_architecture.md)**
 - **[Module 9: Site-Specific Implementation Checklists](module_9_site_specific_implementation_checklists.md)**

@@ -1175,3 +1175,167 @@ Bottom-of-funnel commercial keywords must be targeted with concise, conversion-o
 - [ ] Verify the 4 anchor points (`<title>`, slug, `<h1>`, opening sentence) match the target query verbatim.
 - [ ] Answer the 4 transactional pillars (Price, SLA, Scope, Credentials) above the fold.
 - [ ] Enforce single-CTA discipline to maximize lead capture without navigation distraction.
+
+---
+
+### **2.36 Query Augmentation, Dictionary vs. Query Semantics, & The Authority Elasticity Doctrine**
+
+> **TL;DR:** One URL can rank for hundreds of queries that never appear in its copy. Google expands that radius through **query semantics** (broad neural matching, granted to high-trust branded entities) or restricts it to **lexical BM25** exact-match (local / low-volume niches). Term equivalence is vertical-specific — verify it from live SERPs, never from a dictionary.
+
+*Source: Edward Sturm × James Dooley (Ep. 1,171, "Query Augmentation: How One Page Ranks for Thousands of Keywords"). September 2026.*
+
+#### A. Core Definition: Query Augmentation
+
+* **The Mechanism:** Google does not evaluate a URL against a single keyword. It connects an incoming search to a graph of *related queries* — reformulations, co-occurring intents, and entity neighbours harvested from live sessions — and can return the same URL for all of them.
+* **The Observable Outcome:** A single page routinely accrues impressions and clicks for hundreds of queries whose exact terms appear nowhere in the `<title>`, `<h1>`, body copy, or structured data. Those queries are not "missing keywords"; they are Google's own radius expansion applied on top of your page.
+* **The Operational Implication:** Chasing every augmented query as a new keyword target produces unmanageable content sprawl. Query augmentation tells you which queries Google has *already* decided your page answers — so the correct response is consolidation and lexical reinforcement (§2.36F), not new URLs (§2.37).
+
+#### B. Architectural Seam (MANDATORY): §2.16 / §2.28 vs. §2.36
+
+| Dimension | §2.16 / §2.28 — LLM Synthetic Fan-Out | §2.36 — Google Query Augmentation |
+| :---- | :---- | :---- |
+| Engine | ChatGPT, Perplexity, Gemini, AI Mode | Google organic SERP |
+| Trigger | LLM generates machine retrieval queries per session | Google expands the query radius per indexed URL |
+| Unit of visibility | Answer Engine *citation* | Organic *impression / click* |
+| Correct response | Build content deep enough to satisfy any fan-out query (§2.16A) | Harvest the expanded radius and write the terms back lexically (§2.36F) |
+| Prohibited | Treating fan-out queries as Ahrefs-style keyword targets | Treating augmented queries as mandates for new URLs |
+
+* **The Seam:** §2.16 / §2.28 govern **LLM thematic fan-out for Answer Engine citations**, whereas §2.36 governs **Google organic ranking radius expansion**. A page can win one channel and lose the other. Never cite fan-out mechanics as evidence of organic radius, or organic radius as evidence of Answer Engine citation.
+
+#### C. Lexical Matching (BM25) vs. Query Semantics (Neural Matching)
+
+* **Lexical Matching (BM25):** A classical, computationally cheap relevance function scoring a document on the presence, frequency, and rarity of the *exact tokens* issued in the query. BM25 has no mechanism for bridging terminology — if the query is `speech to text` and the page only ever says `transcription`, lexical matching cannot connect them. A theoretically perfect page can be invisible for an isomorphic phrasing.
+* **Query Semantics (Neural Matching):** A vector/embedding layer that groups queries and documents by *intent* rather than surface form. It places `cheap flights`, `cheapest flights` and `best flights` in the same neighbourhood and can retrieve a page that satisfies the intent without repeating the phrase.
+* **The Operational Consequence:** There are two independent ways to become retrievable — (1) be **lexically present** (BM25 cannot be argued with), and (2) be **semantically adjacent** (query semantics fire without the term). §2.36F exists precisely so both systems fire on the same URL simultaneously.
+
+#### D. Dictionary Semantics vs. Query Semantics: The Flights vs. Hotels Matrix
+
+Dictionary semantics treat `cheap` and `best` as antonyms. Query semantics make that irrelevant: what matters is what the searchers of a *specific vertical* actually mean.
+
+| Query Pair | Vertical | Dictionary-Equivalent? | Query-Semantic Equivalent? | Required Architecture |
+| :---- | :---- | :---- | :---- | :---- |
+| `cheap flights` ≡ `best flights` | Travel / flights | No (antonyms) | **Yes ≡** — both encode "the flight I should book"; travelers conflate low price with the best available option | One URL legitimately serves both; do not split |
+| `cheap hotels` ≢ `best hotels` | Hospitality / hotels | No | **No ≢** — `cheap hotels` encodes "minimum viable bed"; `best hotels` encodes "quality experience" | Divergent intents; separate targeting required |
+
+* **The Golden Law:** **Equivalence is vertical-specific and must be empirically verified from live SERPs, never assumed from dictionary definitions.** The same modifier pair collapses in one vertical and diverges in another, and the mapping shifts as the query graph evolves.
+* **How to Verify:** Do not reason about it. Run the SERP-Overlap Test (§2.37A) against the two live SERPs. Overlap ≥ 50% confirms semantic collapse; overlap < 30% confirms divergence.
+
+#### E. The Trust Ladder & Authority Elasticity
+
+Google spends retrieval compute in proportion to expected return. On a thin, low-trust asset it runs the cheap lexical pass; on a high-trust entity it pays for broad semantic expansion. The progression:
+
+| Rung | Matching Mode | What the Page Must Contain | Who Is Granted It |
+| :---- | :---- | :---- | :---- |
+| **1. Exact Match** | Strict lexical BM25 | The exact query token in the anchor spots (§2.31B) | All sites; mandatory for local / low-volume niches |
+| **2. Phrase Match** | Token proximity and partial variants | The head term plus modifiers, in order | Established sites with demonstrated topical depth |
+| **3. Broad Match** ("Positive Ranking State") | Full query-semantic elasticity | Nothing beyond genuine intent satisfaction — the target term may be entirely absent | High-trust, branded, socially active entities only |
+
+* **The Algorithmic Cost Split:** Google concentrates cheap BM25 retrieval in local, low-volume, and low-trust niches — which is why an exact-match term in `<title>` and `<h1>` remains decisive for trades and service-area businesses. It grants broad semantic elasticity only where the cost of expansion is amortised against established engagement telemetry (NavBoost) and entity trust.
+* **Strategic Implication:** Elasticity is *earned and revocable*, never a design assumption. Build every page to pass rung 1; let rungs 2–3 arrive as authority accrues. A content plan that presumes broad match will fail on a new or thin domain.
+* **Cited Cases:**
+  * **`audiototext.com`** — approximately 120 words of body content generating on the order of 126,000 daily clicks, ranking on broad match without the terms `tool` or `free` anywhere in the copy. The page satisfies the intent; the query graph supplies the vocabulary.
+  * **`Get Your Tips Out`** — ranks across a wide radius of term variants it never explicitly targets, on entity trust rather than lexical coverage.
+  * **`linkgap.io`** — the same elasticity at a much smaller scale, confirming the doctrine is not exclusive to legacy high-DR domains.
+
+#### F. GSC Query Augmentation Harvesting & The Write-Back Doctrine
+
+**The Harvest Workflow (Target: under 1 hour).** This is a different workflow from §2.19 (which elevates queries you do *not* yet rank for): §2.36F harvests queries you **already rank for** but never mention.
+
+| Phase | Time | Action |
+| :---- | :---- | :---- |
+| **1. Extract** | ~5 min | Pull a rolling 90-day query × page dataset from GSC via the `Search Analytics for Sheets` add-on or the GSC API. Apply the telemetry extraction filter from `kirby-seo-telemetry` §5.15. |
+| **2. Isolate** | ~10 min | Filter to queries with impressions above the site's noise floor whose meaningful token appears in **none** of the page's rendered copy (`<title>`, H1, headings, body). |
+| **3. Cluster** | ~15 min | Feed the filtered list to an LLM and cluster into two intent buckets: **(a)** same intent, different vocabulary → lexical write-back candidate; **(b)** adjacent or divergent intent → route to §2.37 rather than forcing it onto this URL. |
+| **4. Draft** | ~20 min | For bucket (a), write short direct-answer `<h2>` sections (or a compact FAQ block) that answer the query **in the searcher's own words**. Do not expand the page into a new 2,000-word essay (§2.35 / §2.17A). |
+
+* **The Write-Back Rule (Mandatory):** Once Google has expanded the query radius for a URL, **re-inject those terms lexically.** Discovery by query augmentation is not permission to remove the lexical layer — the explicit term restores BM25 exact match while the page continues to satisfy the semantic intent, so both matching systems fire on the same URL and the position hardens rather than decays.
+* **Guardrail — Intent Alignment:** Only write back terms that are truthful and intent-aligned for the page. Injecting an adjacent query whose searcher intent the page does not actually satisfy produces algorithmic hedging and pogo-sticking (see the §2.29F content-type diagnostic and `kirby-local-seo` §3.6.1B).
+* **Sequencing:** Run the §2.19 1-Hour SEO Update first for striking-distance queries, then run the write-back on the residue.
+
+#### G. Google Images Entity Modifier Chips
+
+* **The Technique:** Run a root query (or a PAA question) in **Google Images**, then work the filter bubbles / modifier chips Google surfaces for that query. These chips are Google's own entity associations — co-occurring Knowledge Graph attributes and modifiers for the subject — and they expose entity relationships the text SERP does not surface.
+* **The Harvest:** Extract the chip labels as candidate co-occurring entities, then embed the relevant ones naturally in the answer section (definition line, comparison table, or FAQ) of the target page to supply semantic corroboration for entities Google already associates with the head term.
+* **Why It Works:** The chips derive from image metadata and entity co-occurrence — an independent signal source from text-SERP scraping — so they surface associational vocabulary that competitor analysis and keyword tools systematically miss.
+* **Constraint:** Do not stitch unused chips into a keyword dump. Every chip embedded must carry information the reader needs; unearned modifiers are stuffing and fail the §2.32B pre-publishing acid test.
+
+**Query Augmentation & Authority Elasticity Checklist**
+- [ ] Confirm the seam first: is this an organic SERP radius question (§2.36) or an Answer Engine citation question (§2.16 / §2.28)?
+- [ ] Export a 90-day GSC query × page dataset and isolate impression-bearing queries absent from the rendered copy.
+- [ ] Cluster the residue into same-intent (write-back) and divergent-intent (→ §2.37) buckets.
+- [ ] Apply the Write-Back Rule: re-inject same-intent terms lexically into concise `<h2>` sections.
+- [ ] Verify every term-equivalence claim against live SERPs (the Golden Law) — never against dictionary definitions.
+- [ ] Determine whether the page sits on the exact-match, phrase-match, or broad-match rung; do not assume elasticity.
+- [ ] Harvest Google Images modifier chips for the root query, and embed only truthful, reader-necessary co-entities.
+- [ ] Re-check GSC after 30–60 days: augmented impressions must carry clicks, not impressions alone.
+
+---
+
+### **2.37 The Page Split vs. H2 Decision Rule (Cannibalization Guard)**
+
+> **TL;DR:** Two queries belong on one URL when their top-10 SERPs collapse into each other. Measure SERP overlap *before* deploying a URL. ≥ 50% overlap → on-page `<h2>`; < 30% → dedicated URL; 30–50% → tiebreak with a lightweight test page and a 301 rollback plan.
+
+*Source: James Dooley & Edward Sturm (Ep. 1,171). September 2026.*
+
+#### A. The SERP-Overlap Test
+
+This test replaces both intuition and third-party volume data with direct observation of how Google has already resolved the two intents.
+
+**Protocol:**
+1. Search Query A in a clean, un-personalised session (incognito / `&pws=0`, fixed locale).
+2. Search Query B under identical conditions.
+3. Record the ordered top-10 organic URLs for each (exclude ads, AI Overviews, and Google-owned properties).
+4. Compute URL overlap = (shared URLs ÷ 10).
+
+| Overlap | Verdict | Intent Relationship | Deployment |
+| :---- | :---- | :---- | :---- |
+| **≥ 50%** | Intent is collapsed | Google treats A and B as the same need | **Integrate as an on-page `<h2>` (or `<h3>`)** on the existing URL |
+| **30–50%** | Ambiguous | Partial collapse; the query graph is unsettled | Run the §2.37B 50/50 Tiebreak Protocol |
+| **< 30%** | Intent is divergent | Google treats A and B as distinct needs | **Deploy a dedicated URL** with the full 4-spot anchor treatment (§2.31B) |
+
+* **Why overlap and not volume:** Volume tells you how many people ask; overlap tells you whether Google believes they are asking the *same thing*. Only the second determines whether a page split risks cannibalization.
+* **Measurement hygiene:** Re-run the test on a second date and a second locale before any permanent split. SERP composition is volatile, and a split executed on a single snapshot is the most common source of self-inflicted cannibalization.
+
+#### B. The 50/50 Tiebreak Protocol
+
+When overlap lands in the 30–50% band and the intent call is genuinely unclear, do not debate it — test it.
+
+1. **Deploy a lightweight test page** for Query B. Deliberately lean: exact-match `<title>`, slug, and `<h1>` (§2.31B), the direct answer, and a single CTA — follow the §2.35 short landing page standard (200–600 words), not a 3,000-word pillar.
+2. **Link clearly, not competitively:** one contextual internal link chain from the parent page to the test page with descriptive anchor text, plus a return link. Do not bury it in global navigation, and do not link it from every page.
+3. **Hold the parent page unchanged** through the evaluation window, so the test measures the split rather than a simultaneous rewrite.
+4. **Monitor for cannibalization:**
+   * Parent impressions or clicks degrade while the test page fails to win the position → the intents were collapsed.
+   * Both pages hold or grow distinct query sets → the intents were divergent; promote the test page into a full asset.
+5. **Collapse and roll back on cannibalization:** merge the content back into the parent and **`301`-redirect the test URL to the parent**. Never delete the URL or leave it orphaned — redirect it so accumulated signals consolidate. Verify the parent's canonical is self-referencing after the merge (Module 1).
+
+#### C. The Searcher-Naivety Exception
+
+* **The Rule:** When searchers use *distinct mental models* for what is technically the *same* solution, separate entry points are justified even where the SERP-overlap test alone would suggest collapse.
+* **The Pattern:** An identical technical outcome described by two audiences in two vocabularies (a consumer phrasing and a trade/professional phrasing). Each arrives with a different job story, objection set, and validation criteria — one page answering one model silently fails the other.
+* **Execution:** Deploy the separate URL, but make the divergence explicit — distinct `<h1>`, distinct opening hook, and mirror-links between the two pages so Google reads them as related siblings rather than competing clones (§2.10 comparison architecture).
+* **Guardrail:** Naivety is not a licence for keyword-permutation pages. The exception requires genuinely different mental models, evidenced by different query vocabularies *and* different SERP composition — never merely different modifiers.
+
+#### D. Reconciliation Clause (Seams with §2.29F and `kirby-local-seo` §3.9E)
+
+Three gates decide this same architectural question. Apply them in order; a query must pass all three before it becomes a URL.
+
+1. **§2.37A — SERP overlap (the semantic intent test):** Do these two queries represent one intent or two? This is the *only* test of intent collapse.
+2. **§2.29F — The "Heading vs. Page" Architecture Law (the capability test):** *Can* this domain rank a standalone URL for the query? High-authority / aged domains may absorb secondary queries as `<h2>` blocks; low-authority / new domains must elevate distinct commercial queries into dedicated URLs.
+3. **`kirby-local-seo` §3.9B / §3.9E — Volume and competition gating (the local efficiency filter):** For local footprints, the Zero-Competition Qualification and the strict $\le 15$ question-URL hard cap decide whether a URL is *worth deploying* without triggering the FAQ Farm footprint.
+
+* **The Division of Labour:** SERP-overlap is the semantic intent test — *"is this one intent or two?"* Volume/competition gating is the local efficiency filter — *"is a separate URL worth deploying here, or does it dilute the domain?"*
+* **Precedence on Conflict:** Semantic intent wins the architecture decision. The efficiency filter may only *downgrade* a split decision (do not build the URL yet) and may never *upgrade* one (never merge two divergent intents into one page merely because local volume is thin). Where overlap is < 30% but the local volume gate fails, the correct outcome is an on-page `<h2>` recorded as a deliberate compromise — not a manufactured URL that dilutes the footprint.
+* **Cap Invariance:** The $\le 15$ sitewide question-URL cap from §3.9E (§2.32 Template #7 guardrail) is unaffected by this section. §2.37 never authorises additional thin question URLs.
+
+**Page Split vs. H2 Decision Checklist**
+- [ ] Never deploy or merge a URL before running the SERP-Overlap Test on both queries.
+- [ ] Record the top-10 organic URLs for each query in a clean, un-personalised session at a fixed locale.
+- [ ] Compute overlap: ≥ 50% → integrate as an `<h2>`; < 30% → deploy a dedicated URL.
+- [ ] In the 30–50% band, run the 50/50 Tiebreak Protocol with a lightweight test page rather than arguing the call.
+- [ ] Deploy the test page lean (200–600 words, §2.35) with one contextual internal link chain plus a return link.
+- [ ] Hold the parent page unchanged throughout the evaluation window.
+- [ ] On cannibalization, collapse the content and `301`-redirect the test URL to the parent; verify a self-referencing canonical.
+- [ ] Invoke the Searcher-Naivety Exception only with evidence of distinct mental models — never for modifier permutations.
+- [ ] Apply the gates in order: §2.37 SERP overlap → §2.29F authority capability → §3.9B / §3.9E local volume and competition.
+- [ ] Confirm the $\le 15$ sitewide question-URL cap is still satisfied after any split.
+- [ ] Re-run the overlap test on a second date and locale before making the split permanent.
