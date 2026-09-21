@@ -1041,6 +1041,7 @@ To ensure search engines and LLM query-fanout agents correctly map page intent w
 2. **The Primary `<h1>` Heading:** Operating as the standalone semantic entity declaration (§2.7).
 3. **The URL Slug:** Clean, hyphenated primary keyword slug with zero stop words.
 4. **The Opening of Sentence One:** Placed directly in the first sentence of the introductory paragraph to anchor the Topic in the initial Topic-Comment syntactic clause (§2.12).
+* **Meta Description Status:** Meta description keyword targeting is optional; focus retrieval equity on the 4 mandatory spots above.
 * **Body Execution:** Once the 4 anchor points are established, write conversationally for humans using natural semantic synonyms and contextual entity variations across subsequent sections.
 
 #### C. The "Pareto SEO" 20/80 Core Execution Standard

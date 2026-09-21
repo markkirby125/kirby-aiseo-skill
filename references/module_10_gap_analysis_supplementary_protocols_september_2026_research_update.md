@@ -125,7 +125,7 @@
    * *Example*: `copperquillplumbing.com "emergency plumber austin"`
 2. **The Inventory Classification**:
    * **Result #1**: Candidate target URL (the asset Google currently views as the most topically relevant on your domain).
-   * **Remaining Results (#2+)**: Pre-qualified internal link donors (pages already indexed and carrying Google-recognized topical relevance).
+   * **Remaining Results (#2+)**: Pre-qualified internal link donors (pages already indexed and carrying Google-recognized topical relevance). Prioritize donor pages that actively earn search clicks, as links from click-earning pages pass significantly higher authority (§10.6 / Ep. 1163).
 3. **Difference from Negative Audit**: Distinct from §1.9's `-site:` brand-exclusion query. This operator identifies *internal authority concentrations* to harvest equity, rather than external competitor footprints.
 
 #### B. The Intent-Satisfaction Gate
@@ -145,15 +145,15 @@ When no existing page or section satisfies the keyword's intent:
    * *Who is searching this primary keyword?*
    * *What do they want?*
    * *What specific outcome are they looking to achieve?*
-2. **Build the Dedicated URL**: Apply the 4 mandatory keyword anchor spots verbatim (§2.31B: `<title>`, slug, `<h1>`, opening sentence hook) and satisfy intent immediately above the fold with minimal words.
+2. **Build the Dedicated URL**: Apply the 4 mandatory keyword anchor spots verbatim (§2.31B: `<title>`, slug, `<h1>`, opening sentence hook; meta description is optional) and satisfy intent immediately above the fold with minimal words.
 3. **Harvest Internal Equity**: Go back to the `site:` search results (#1, #2, #3...) and insert internal links within relevant contextual paragraphs pointing to the new URL. This injects instant, pre-indexed topical authority into the new page, driving it toward top-3 rankings and fueling LLM citation retrieval (§2.16.1).
 
 #### E. The Anchor-Text Natural Variation Rule
-* **The Anti-Pattern**: Jamming exact-match keyword anchor text into every internal link. 100% exact-match internal anchors look unnatural, reduce user click-through rates, and trigger over-optimization spam demotions.
+* **The Anti-Pattern**: Jamming exact-match keyword anchor text into every internal link. 100% exact-match internal anchors look unnatural, reduce user click-through rates, and trigger over-optimization spam signals.
 * **The Mandate**: Use natural contextual variations that fit seamlessly into reader prose:
    * *Target*: "emergency plumber austin" → *Natural Anchor*: "24/7 plumbing help in Austin" or "call our emergency Austin dispatchers".
    * *Target*: "project management software for agencies" → *Natural Anchor*: "keep agency client work organized".
-* **Click-Probability Link**: As proven in §10.6, internal links pass authority in proportion to their *click propensity*. Forcing awkward exact-match text depresses clicks, rendering the internal link self-defeating.
+* **Click-Probability Link**: As demonstrated in the $50,000 internal linking experiment (Edward Sturm Episode 1,163; codified in §10.6), internal links pass authority in proportion to their *click propensity*. Forcing awkward exact-match text depresses clicks, rendering the internal link self-defeating.
 
 #### F. The Funnel-Tier Link Budget (TOFU vs. BOFU Asymmetry)
 To prevent internal link dilution and protect conversion paths, reconcile §10.6 and §10.9 across three strict funnel tiers:
