@@ -51,6 +51,7 @@
 * **Click-Based Link Equity (The Google Patent):** Google's patents on "ranking documents based on user behavior" confirm that internal link value is not evenly diluted. Instead, weights are assigned based on the *probability of the link being clicked* (tracked via Chrome and Google Analytics).
 * **Relative Placement Authority:** Links placed higher *relative to other links* (e.g., link #1 vs link #10) pass significantly more ranking value, regardless of whether they appear in the top introduction or middle body.
 * **Semantic Independence Over Taxonomy:** Internal links must be injected based purely on semantic similarity and user-journey intent, outright ignoring restrictive category or tag-level boundaries.
+* **Funnel-Tier Application:** The 10–30 link volume applies specifically to **Top-of-Funnel (TOFU) informational assets** and content hubs. For mixed commercial pages (capped at ≤ 5 per §10.9) and Bottom-of-Funnel (BOFU) conversion landing pages (near-zero per §10.11F / §2.35), link density is strictly constrained to prevent CTA attention leakage and click dilution.
 
 ### **10.7 The "Contrasting FAQ" Authority Loop & Glossary Discovery Engine (David Quaid Updates)**
 
@@ -80,7 +81,7 @@
 **Authority Generation**: Source internal links only from pages currently ranking and earning successful clicks.
 **Targeting**: Point internal links exclusively to "striking distance" pages (e.g., position 7) requiring minor authority boosts. Exclude high-KD targets.
 **Rotation**: Update internal links monthly. Reallocate links from pages that achieve top-3 rankings to the next striking-distance targets.
-**Volume Limits**: Cap in-body internal links at 5 per page.
+**Volume Limits**: Cap in-body internal links at ≤ 5 per page on mixed/commercial pages (parameterized across funnel tiers per §10.11F: 10–30 for TOFU assets, near-zero for BOFU conversion landing pages).
 **Orphan Prevention**: Retain at least one inbound link when rotating links away from a successful page.
 
 ### **10.10 The Enterprise "Brand Blindness" Pathology & Challenger Exploitation (Edward Sturm Ep. 1170)**
@@ -108,3 +109,64 @@
 
 #### D. The Challenger Advantage
 * Enterprise authority is meaningless if it remains unapplied. Bootstrapped and challenger brands with $0 paid budgets can systematically capture entire industry niches by targeting the exact high-intent queries that legacy brand managers refuse to touch.
+
+---
+
+### **10.11 The Topical-Authority Internal Linking Harvest (`site:"keyword"` Operator Discovery) (Edward Sturm Ep. 1173)**
+
+> **TL;DR:** Do not guess internal link opportunities or start new pages from zero authority. Query Google with `site:yourdomain.com "target keyword"` to discover pre-indexed pages Google already associates with that topical entity. If the #1 result satisfies intent, link donor pages to it. If only a mid-page section satisfies intent, use an interim `#anchor` bridge while planning a dedicated URL (Google ranks pages, not sections). For new pages, run the 3-question manual intent pre-flight, optimize the 4 anchor spots, and seed links from pre-indexed pages. Enforce natural anchor text variation and funnel-tier link budgets (zero link clutter on BOFU conversion pages).
+
+*Source: Edward Sturm podcast Episode 1,173 ("The Internal Linking Trick That Uses Topical Authority You Already Have"). September 2026. (Integration: Module 2 §2.31, §2.35, §2.37 & kirby-seo-deployment §7.13)*
+
+#### A. The Operator Discovery Protocol
+1. **The Discovery Query**: Execute `site:yourdomain.com "target keyword"` (or `yourdomain.com "target keyword"`) in Google.
+   * *Example*: `gridpebble.com "project management software for agencies"`
+   * *Example*: `juniperkitegoods.com "waterproof hiking boots"`
+   * *Example*: `copperquillplumbing.com "emergency plumber austin"`
+2. **The Inventory Classification**:
+   * **Result #1**: Candidate target URL (the asset Google currently views as the most topically relevant on your domain).
+   * **Remaining Results (#2+)**: Pre-qualified internal link donors (pages already indexed and carrying Google-recognized topical relevance).
+3. **Difference from Negative Audit**: Distinct from §1.9's `-site:` brand-exclusion query. This operator identifies *internal authority concentrations* to harvest equity, rather than external competitor footprints.
+
+#### B. The Intent-Satisfaction Gate
+Evaluate Result #1 against search intent before adding links:
+* **The Stay-Rate Acid Test**: If a searcher lands on this page for the target keyword, will they stay and resolve their task, or immediately return to the SERP (pogo-sticking)?
+* **Action**: If Result #1 satisfies intent, identify contextual phrases across Results #2+ and add internal links pointing directly to Result #1.
+* **If Intent is Not Satisfied**: Proceed to Subsection C (Interim Anchor Fallback) or Subsection D (New Page Creation).
+
+#### C. The Interim Section-Anchor (`#anchor`) Fallback
+* When an existing page is broadly about a larger topic, but contains a mid-page sub-section that specifically satisfies the target keyword's intent, link to that specific section using an anchor link (`url.com/page#section-id`).
+* **The Page-Level Authority Law**: An anchor link is strictly a temporary bridge. **Google evaluates search relevance primarily at the page level, not the section level.** A page whose title, slug, and `<h1>` are optimized around the keyword right from the top will consistently outrank a mid-page section anchor over time.
+* **Promotion Path**: Once an anchor link receives search clicks and establishes user traction, promote the section to a dedicated URL under the §2.37 SERP-overlap rules (<30% overlap).
+
+#### D. The New-Page Branch & Pre-Indexed Link Seeding
+When no existing page or section satisfies the keyword's intent:
+1. **The 3 Human Intent Pre-Flight Questions**: Spend 5–10 minutes writing out answers manually (explicitly **without AI**):
+   * *Who is searching this primary keyword?*
+   * *What do they want?*
+   * *What specific outcome are they looking to achieve?*
+2. **Build the Dedicated URL**: Apply the 4 mandatory keyword anchor spots verbatim (§2.31B: `<title>`, slug, `<h1>`, opening sentence hook) and satisfy intent immediately above the fold with minimal words.
+3. **Harvest Internal Equity**: Go back to the `site:` search results (#1, #2, #3...) and insert internal links within relevant contextual paragraphs pointing to the new URL. This injects instant, pre-indexed topical authority into the new page, driving it toward top-3 rankings and fueling LLM citation retrieval (§2.16.1).
+
+#### E. The Anchor-Text Natural Variation Rule
+* **The Anti-Pattern**: Jamming exact-match keyword anchor text into every internal link. 100% exact-match internal anchors look unnatural, reduce user click-through rates, and trigger over-optimization spam demotions.
+* **The Mandate**: Use natural contextual variations that fit seamlessly into reader prose:
+   * *Target*: "emergency plumber austin" → *Natural Anchor*: "24/7 plumbing help in Austin" or "call our emergency Austin dispatchers".
+   * *Target*: "project management software for agencies" → *Natural Anchor*: "keep agency client work organized".
+* **Click-Probability Link**: As proven in §10.6, internal links pass authority in proportion to their *click propensity*. Forcing awkward exact-match text depresses clicks, rendering the internal link self-defeating.
+
+#### F. The Funnel-Tier Link Budget (TOFU vs. BOFU Asymmetry)
+To prevent internal link dilution and protect conversion paths, reconcile §10.6 and §10.9 across three strict funnel tiers:
+
+| Funnel Tier | Page Type | In-Content Internal Link Budget | Rationale & Guardrail |
+|---|---|---|---|
+| **TOFU** | Informational guides, long-form articles, glossaries | **10–30 links** | Distribute topical equity across entity clusters (§10.6). Maximize contextual routing. |
+| **MOFU** | Mixed commercial guides, category roundups, comparison pages | **≤ 5 links** | Striking-distance acceleration (§10.9). Focus equity into 1–2 target URLs. |
+| **BOFU** | High-intent conversion landing pages (short pages §2.35, booking, lead forms) | **Near-Zero (0–1 contextual)** | **Conversion Protection**: BOFU pages exist to convert (call, book, buy). Internal links are cognitive friction and attention leaks that distract users from the primary CTA. Never borrow BOFU pages to boost other pages' SEO. |
+
+#### G. The Hub-Page Pre-Ranking Staging Sequence
+For multi-page architectures or new BOFU offerings:
+1. **Pre-Staging on the Hub**: List the target keywords and service labels on the parent hub page (e.g., category or `/uses` hub) *before* the child landing pages are created.
+2. **Observe Pre-Ranking**: Because Google indexes the hub and associates the terms with your domain authority, the hub often begins ranking for those commercial queries ahead of time.
+3. **Launch & Link**: When the child page is published, convert the static text on the hub into a direct internal link pointing to the child page. This immediately transfers pre-accumulated topical relevance into the new asset.
+

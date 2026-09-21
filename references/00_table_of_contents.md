@@ -74,6 +74,7 @@
   - [10.8 The "Traffic Triage" Indexing Protocol (David Quaid Updates)](module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md#108-the-traffic-triage-indexing-protocol-david-quaid-updates)
   - [10.9 The Striking Distance Internal Link Rotation Protocol](module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md#109-the-striking-distance-internal-link-rotation-protocol)
   - [10.10 The Enterprise "Brand Blindness" Pathology & Challenger Exploitation (Edward Sturm Ep. 1170)](./module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md#1010-the-enterprise-brand-blindness-pathology--challenger-exploitation-edward-sturm-ep-1170)
+  - [10.11 The Topical-Authority Internal Linking Harvest (site:"keyword" Operator Discovery) (Edward Sturm Ep. 1173)](./module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md#1011-the-topical-authority-internal-linking-harvest-sitekeyword-operator-discovery-edward-sturm-ep-1173)
 
 ## Decoupled Specialist Skills
 

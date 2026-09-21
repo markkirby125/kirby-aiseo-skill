@@ -1051,6 +1051,13 @@ To ensure search engines and LLM query-fanout agents correctly map page intent w
 * Structured bottom-of-funnel (BOFU) comparison and conversion assets (§2.14 / §2.16).
 Discard low-yield, over-engineered tactics (such as speculative `/llms.txt` configurations or excessive syntactic formatting) in favor of uncompromising execution on the 20% core foundation.
 
+#### D. The 3 Human Intent Pre-Flight Questions (Non-AI Manual Reflection)
+Before generating or drafting any new page, spend 5–10 minutes writing out the answers to three foundational questions manually (explicitly **without AI**):
+1. **Who is searching this primary keyword?** (Isolate the specific persona, role, or distressed state).
+2. **What do they want?** (Identify the raw information, tool, price, or service capability required).
+3. **What specific outcome are they looking to achieve?** (Define the successful resolution that prevents them from bouncing back to search results).
+* **Rationale**: Generative models tend to default to generic, polite boilerplate. Human pre-flight reflection grounds the page in real user intent, directly informing the opening BLUF answer and the 4 mandatory keyword spots before content generation begins. (Seams to Module 10 §10.11D and `kirby-seo-deployment` §7.11 / §7.13).
+
 ---
 
 ### **2.32 Lily Ray's 8 Penalized AI Content Templates & The Pre-Publishing Acid Test**
@@ -1162,7 +1169,7 @@ Bottom-of-funnel commercial keywords must be targeted with concise, conversion-o
 1. **The 4-Spot Exact Alignment:** Target the primary keyword in the `<title>`, clean URL slug, `<h1>`, and first sentence hook (§2.31).
 2. **Immediate BLUF Intent Resolution (Top 25 Words):** State unambiguously what the business does, who it serves, and the geographic or technical operational radius (§2.1 / §2.27).
 3. **The 4 Transactional Pillars:** Embed Price Floor, Response SLA, Scope Specificity, and Entity Credentials above the fold (§2.17A).
-4. **Single CTA Discipline:** One primary, high-contrast action channel (Click-to-Call, Instant Booking, or Free Tool Access). Eliminate competing links and navigation leaks.
+4. **Single CTA Discipline & BOFU Link Minimalism:** One primary, high-contrast action channel (Click-to-Call, Instant Booking, or Free Tool Access). Eliminate competing links and navigation leaks. Enforce near-zero in-content internal links (§10.11F): BOFU pages exist strictly to convert; internal links are attention leaks that distract from the CTA. Never borrow conversion landing pages to boost secondary pages' SEO.
 5. **Hyper-Dense Proof:** Replace 2,000 words of filler with 3 verified customer quotes, licensing badges, real job photography, or live performance metrics.
 
 #### C. The Minimalist On-Page Proof & Local 5-Page Site Seam
@@ -1308,14 +1315,19 @@ When overlap lands in the 30–50% band and the intent call is genuinely unclear
    * Both pages hold or grow distinct query sets → the intents were divergent; promote the test page into a full asset.
 5. **Collapse and roll back on cannibalization:** merge the content back into the parent and **`301`-redirect the test URL to the parent**. Never delete the URL or leave it orphaned — redirect it so accumulated signals consolidate. Verify the parent's canonical is self-referencing after the merge (Module 1).
 
-#### C. The Searcher-Naivety Exception
+#### C. The Interim Section-Anchor (`#anchor`) Tier & Page-Level Promotion Law
+* **The Interim State**: When an existing page already satisfies the broader category, but a distinct secondary query is addressed in a specific mid-page section, deploy an anchor link (`page#section`) as a low-friction interim test before committing a full URL split.
+* **The Page-Level Relevance Law (Ep. 1173)**: Recognize that section anchor links are strictly an interim compromise. **Google evaluates topical relevance primarily at the page level, not the section level.** A page whose title, slug, and `<h1>` are dedicated to the query will consistently outrank a section-anchored parent page over time.
+* **The Promotion Rule**: If the anchor-linked section accumulates impressions or clicks in GSC, re-run the SERP-overlap test (§2.37A). If overlap is < 30%, immediately promote that section into a dedicated, lean landing page (§2.35) with the full 4-point keyword treatment (§2.31B), then redirect or point internal links to the new URL.
+
+#### D. The Searcher-Naivety Exception
 
 * **The Rule:** When searchers use *distinct mental models* for what is technically the *same* solution, separate entry points are justified even where the SERP-overlap test alone would suggest collapse.
 * **The Pattern:** An identical technical outcome described by two audiences in two vocabularies (a consumer phrasing and a trade/professional phrasing). Each arrives with a different job story, objection set, and validation criteria — one page answering one model silently fails the other.
 * **Execution:** Deploy the separate URL, but make the divergence explicit — distinct `<h1>`, distinct opening hook, and mirror-links between the two pages so Google reads them as related siblings rather than competing clones (§2.10 comparison architecture).
 * **Guardrail:** Naivety is not a licence for keyword-permutation pages. The exception requires genuinely different mental models, evidenced by different query vocabularies *and* different SERP composition — never merely different modifiers.
 
-#### D. Reconciliation Clause (Seams with §2.29F and `kirby-local-seo` §3.9E)
+#### E. Reconciliation Clause (Seams with §2.29F and `kirby-local-seo` §3.9E)
 
 Three gates decide this same architectural question. Apply them in order; a query must pass all three before it becomes a URL.
 
@@ -1332,6 +1344,7 @@ Three gates decide this same architectural question. Apply them in order; a quer
 - [ ] Record the top-10 organic URLs for each query in a clean, un-personalised session at a fixed locale.
 - [ ] Compute overlap: ≥ 50% → integrate as an `<h2>`; < 30% → deploy a dedicated URL.
 - [ ] In the 30–50% band, run the 50/50 Tiebreak Protocol with a lightweight test page rather than arguing the call.
+- [ ] Deploy the interim section-anchor (`#anchor`) tier when testing mid-page secondary intent, recognizing page-level relevance dominates over time.
 - [ ] Deploy the test page lean (200–600 words, §2.35) with one contextual internal link chain plus a return link.
 - [ ] Hold the parent page unchanged throughout the evaluation window.
 - [ ] On cannibalization, collapse the content and `301`-redirect the test URL to the parent; verify a self-referencing canonical.
