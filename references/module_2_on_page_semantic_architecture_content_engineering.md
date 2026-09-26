@@ -1069,6 +1069,7 @@ Before generating or drafting any new page, spend 5–10 minutes writing out the
 When executing the 4-point anchor strategy (§2.31), local service entities must adhere to the following strict title tag format:
 `[Primary Category] [Target City] | [Brand Name]`
 
+* **Exception to the 3-Part Rule:** This local trade structure is an explicit, documented exception to the §2.18B 3-part rule (Keyword | Benefit | Brand). Local trade title tags MUST prioritize front-loading the entity and location over the conversion hook to survive extreme BM25 proximity weighting.
 * **Algorithmic Weighting:** The first words in a title tag carry the highest algorithmic weight in Google's ranking models. Left-weighting the primary entity and location signals immediate relevance to the retrieval engine.
 * **The Brand Dilution Trap:** Placing the brand name first (e.g., *"Natran Green Pest Control | Houston"*) dilutes local search relevance and pushes the primary category and target city into lower-weight positions. Front-loading (e.g., *"Pest Control Houston | Natran Green"*) guarantees maximum algorithmic extraction for the commercial entity.
 
