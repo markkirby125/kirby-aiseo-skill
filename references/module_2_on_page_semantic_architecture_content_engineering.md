@@ -1061,6 +1061,28 @@ Before generating or drafting any new page, spend 5–10 minutes writing out the
 
 ---
 
+### **2.31.1 Front-Loaded Local Title Tag & H1 Conversational USP Decoupling**
+
+*Source: Caleb Ulku ("How To Stop Being Invisible On Google"). September 2026.*
+
+#### A. Front-Loaded Local Title Tag Standard
+When executing the 4-point anchor strategy (§2.31), local service entities must adhere to the following strict title tag format:
+`[Primary Category] [Target City] | [Brand Name]`
+
+* **Algorithmic Weighting:** The first words in a title tag carry the highest algorithmic weight in Google's ranking models. Left-weighting the primary entity and location signals immediate relevance to the retrieval engine.
+* **The Brand Dilution Trap:** Placing the brand name first (e.g., *"Natran Green Pest Control | Houston"*) dilutes local search relevance and pushes the primary category and target city into lower-weight positions. Front-loading (e.g., *"Pest Control Houston | Natran Green"*) guarantees maximum algorithmic extraction for the commercial entity.
+
+#### B. H1 Conversational USP Decoupling Standard
+The primary `<h1>` heading must **NOT** robotically duplicate the `<title>` tag. 
+While exact term presence remains mandatory to satisfy the BM25 Algorithmic Floor (refer to §3.9F in `kirby-local-seo` Module 3) and the 4-point anchoring law (§2.31), the framing of the H1 must become conversational. The H1 should articulate the business's Unique Selling Proposition (USP) and speak directly to both the human searcher and incoming LLMs.
+
+* **Example Application:** 
+  * **Title Tag:** `"Pest Control Houston | Natran Green"`
+  * **Decoupled H1:** `"Houston's Only EPA-Certified Green Pest Control — Safe for Kids, Pets & Your Lawn"`
+* **Strategic Outcome:** This decoupling satisfies algorithmic keyword extraction while instantly delivering the BLUF intent resolution and high-conversion standard required for short SEO landing pages (§2.35).
+
+---
+
 ### **2.32 Lily Ray's 8 Penalized AI Content Templates & The Pre-Publishing Acid Test**
 
 *Source: Lily Ray (220+ AI Site Study) & Caleb Ulku ("They Lied About AI Content"). September 2026.*
