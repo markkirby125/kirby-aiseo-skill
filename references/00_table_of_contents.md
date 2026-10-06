@@ -75,6 +75,10 @@
   - [10.9 The Striking Distance Internal Link Rotation Protocol](module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md#109-the-striking-distance-internal-link-rotation-protocol)
   - [10.10 The Enterprise "Brand Blindness" Pathology & Challenger Exploitation (Edward Sturm Ep. 1170)](module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md#1010-the-enterprise-brand-blindness-pathology--challenger-exploitation-edward-sturm-ep-1170)
   - [10.11 The Topical-Authority Internal Linking Harvest (site:"keyword" Operator Discovery) (Edward Sturm Ep. 1173)](module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md#1011-the-topical-authority-internal-linking-harvest-sitekeyword-operator-discovery-edward-sturm-ep-1173)
+- **[Module 14: Defensive GEO & AI Reputation Management (ORM)](module_14_defensive_geo_ai_orm_ann_smarty_ep_1186.md)**
+  - [14.1 The AI Overview Negative Sentiment Threat](module_14_defensive_geo_ai_orm_ann_smarty_ep_1186.md#141-the-ai-overview-negative-sentiment-threat)
+  - [14.2 Human-Led Customer Support to Starve AI Models](module_14_defensive_geo_ai_orm_ann_smarty_ep_1186.md#142-human-led-customer-support-to-starve-ai-models)
+  - [14.3 Crisis Management Pre-Planning](module_14_defensive_geo_ai_orm_ann_smarty_ep_1186.md#143-crisis-management-pre-planning)
 
 ## Decoupled Specialist Skills
 
