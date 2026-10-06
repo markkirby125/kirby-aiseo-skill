@@ -3,6 +3,7 @@
 | Vulnerable Footprint (Targeted for Algorithmic Demotion / De-Indexing) | Resilient Asset Architecture (Survives & Ranks) |
 | :---- | :---- |
 | **Mass-published location templates** swapping only city/service names. | **Semantically unique pages** with distinct copy, angles, and local details. |
+| **Doorway city pages & footer location link stuffing** (mass programmatic city lists in site footers penalized by 2026 Anti-Spam update). | **Localized Proof & Portfolio Pages** featuring authentic local job photos, specific municipal case studies, and real client reviews. |
 | **30+ same-spec location URLs** on one domain; cosmetic `noindex` to zero GSC coverage; slug-reset of indexed-then-pulled pages. | **Intra-domain volume with rising specificity** (§2.8); Crawled vs Discovered router (§1.16); rewrite or 410, then measure template fail-rate slope. |
 | **Overnight AI page dumps & rolling programmatic bulk** (500–1k pages/day over months). | **Staged and polished launch**, followed by a consistent human cadence and high page-to-traffic yield. |
 | **Unstructured AI text walls & rambling introductions.** | **Fractal Index–Discussion architecture** passing the Skim Test with Topic–Comment syntax linking. |
