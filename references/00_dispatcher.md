@@ -7,10 +7,10 @@ When asked to perform AI SEO tasks, **do not guess**. Instead, review the module
 
 **Executive & Core Strategy**
 - **Executive Threat Profile**: Scaled Content Abuse & Demotion Signals -> Read `./00_executive_summary.md`
-- **Module 1**: Technical Infrastructure & Crawler Accessibility (Cloudflare, robots.txt, edge delivery, URL slug resets, Crawled vs Discovered router) -> Read `./module_1_technical_infrastructure_crawler_accessibility.md`
+- **Module 1**: Technical Infrastructure & Crawler Accessibility (Cloudflare, robots.txt, edge delivery, URL slug resets, Crawled vs Discovered router, harmonic centrality, CCBot plain-text standards, WAF/CDN AI-crawler audit, fresh-domain AI Overview quarantine) -> Read `./module_1_technical_infrastructure_crawler_accessibility.md`
 
 **Content & On-Page Engineering**
-- **Module 2**: On-Page Semantic Architecture & Content Engineering (GEO retrieval multipliers, content structures, RAG chunking, SEO Rater Guidelines, SERP undertargeting, 4-question framework, 1-Hour SEO Update, short landing pages) -> Read `./module_2_on_page_semantic_architecture_content_engineering.md`
+- **Module 2**: On-Page Semantic Architecture & Content Engineering (GEO retrieval multipliers incl. 9,249-study benchmarks, content structures, RAG chunking, SEO Rater Guidelines, SERP undertargeting, 4-question framework, 1-Hour SEO Update, short landing pages, credibility documents, dual topical maps, comparison 99%/1% rule, BM25 optimization, entity definition trinity) -> Read `./module_2_on_page_semantic_architecture_content_engineering.md`
 
 **Other Modules**
 - **Module 6**: Google Discover & Algorithmic Feed Optimization (including Discover Natural Language Feed Customization) -> Read `./module_6_google_discover_algorithmic_feed_optimization.md`
@@ -31,6 +31,9 @@ When asked to perform AI SEO tasks, **do not guess**. Instead, review the module
 - You are harvesting `site:` operator results to discover pre-indexed topical authority and internal-link donors, deploying section `#anchor` bridges, enforcing natural anchor variation and funnel-tier link budgets, or staging hub-page keywords (Module 10 §10.11).
 - For 1st-party Direct Trust Overrides in AI Overviews, Google AI Mode, and Preferred Sources SDK: route to `kirby-preferred-sources`.
 - You are troubleshooting crawl-depth failures or category/hub `noindex` traps (Module 1 §1.15). Social/video indexation plays belong in `kirby-off-page-seo` Module 15.
+- You are evaluating link authority via harmonic centrality / seed-graph distance, auditing Common Crawl (CCBot) accessibility, unblocking AI crawlers at the WAF/CDN layer, or timing fresh-domain AI Overview measurement (Module 1 §1.17–§1.20).
+- You are defining or standardizing an entity (KG ID, Knowledge Panel, semantic triples) with the Who/What/Why trinity (Module 2 §2.42).
+- You are hardening About/Privacy/Returns trust documents (Module 2 §2.38), architecting dual topical maps (§2.39), replacing listicles with 99%/1% comparison pages (§2.40), or running BM25 lexical optimization (§2.41).
 - You are diagnosing `Crawled - currently not indexed` vs `Discovered - currently not indexed`, or an indexed-then-pulled location/template URL (Module 1 §1.16). GSC coverage measurement and template fail-rate slope: `kirby-seo-telemetry` Module 8. Location-page rewrite order: `kirby-local-seo` §3.6.2.
 - You are executing a 30-day content pruning sprint to consolidate entity authority (Module 2 §2.34). Off-page Wikidata/social corroboration is `kirby-off-page-seo` Module 16.
 - First-party “Best X” / comparison pages: Module 2 §2.16. Third-party listicle *insertions* and competitive link-gap outreach: `kirby-off-page-seo` Module 18 (do not invent outreach here).

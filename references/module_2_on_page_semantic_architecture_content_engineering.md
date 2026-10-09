@@ -20,6 +20,22 @@ Structure all informational and commercial copy according to empirical Generativ
 | **Technical Precision** | **\+18% Domain Scoring**  | Use industry-standard terminology rather than oversimplifying. |
 | **Keyword Stuffing Avoidance** | **\~10% Visibility Drop (Penalty)**  | Maintain natural token distributions; avoid repeated unnatural exact-match stuffing. |
 
+**2026 Meta-Study Additions (9,249 validated case studies; 30,000+ documents screened, 552 cited sources):**
+
+| Optimisation Lever | Retrieval Benchmark Lift | Implementation Protocol |
+| :---- | :---- | :---- |
+| **Discrete Factual Statements** | **\+400% (5x) AI Citations**  | Write standalone factual assertions rather than flowery prose. |
+| **Direct Answer in Opening Paragraph** | **\+280% AI Citations**  | Answer the query in the first paragraph before introducing supporting evidence (aligns with §2.1 front-loading law). |
+| **Staff Author Bylines** | **\+113% AI Citations**  | Add bylines for real, named staff with verifiable presence and consent (role-attribution caution in §2.38), even with low public-profile recognition (guards §2.26A synthetic-persona and §2.33B identity traps). |
+| **Full GEO Package Rewrites** | **\+83.2% AI Citations**  | Bundle the levers above into comprehensive rewrites (12 test samples, 6 publishers). |
+| **Targeted AI Enrichment (Product Pages)** | **\+73% AI Citations**  | Add AI-drafted, human-edited explanatory modules to specific product pages only (per §1.14 synthetic-footprint quarantine). |
+| **Human Editing of AI Drafts** | **\+67% AI Citations**  | Apply light human refinement to raw AI text before publishing. |
+| **Inline Parenthetical Citations** | **\+40% AI Citations**  | Place source citations in parentheses directly beside claims, not as bottom footnotes. |
+| **Untargeted Site-Wide AI Publishing** | **\-35% Organic Sessions (Penalty)**  | Contrast lever: unedited, untargeted mass publishing penalizes (§2.23 / §2.17C anti-template rules apply); enrichment must stay targeted. |
+
+*`llms.txt` footnote: zero controlled-test evidence across all 9,249 documents (chaotic variance \-9.7% to \+81%, median \+25% over 3 uncontrolled tests). It functions as a plain crawlable index page only — full doctrine in Module 1 §1.2.*
+*Provenance caveat for the additions table: sample size varies per test; do not cargo-cult individual lift figures without niche context.*
+
 ### **2.3 Formatting & Structural Hierarchy**
 
 * **Strict Heading Order:** Enforce an uninterrupted \<h1\> $\\rightarrow$ \<h2\> $\\rightarrow$ \<h3\> nesting structure without skipping levels or embedding layout wrappers (practised by 68.7% of cited pages).  
@@ -1376,3 +1392,55 @@ Three gates decide this same architectural question. Apply them in order; a quer
 - [ ] Apply the gates in order: §2.37 SERP overlap → §2.29F authority capability → §3.9B / §3.9E local volume and competition.
 - [ ] Confirm the $\le 15$ sitewide question-URL cap is still satisfied after any split.
 - [ ] Re-run the overlap test on a second date and locale before making the split permanent.
+
+---
+
+### **2.38 Credibility Document Hardening: About / Privacy / Returns (LLM Trust Documents)**
+
+* **What ChatGPT Actively Crawls:** LLMs verify entity claims against on-site trust documents before answering evaluative queries such as *"who is the oldest and most established"* provider in a category. Three documents carry the verification weight:
+  * **About Us** — founding dates, headquarters location, team credential counts (e.g., *"7 chartered accountants with 10+ years' experience"*).
+  * **Privacy Policy & Terms** — publish what your jurisdiction requires (registered company number); tax IDs only as a deliberate, documented disclosure decision — never as a default.
+  * **Returns / Shipping Policies** — commercial credibility validation for transactional queries.
+* **Protocol:** Make each claim specific, countable, and consistent with third-party records (Companies House, state filings). Vague credibility statements ("years of experience", "trusted by thousands") are discarded by evaluative queries.
+* **Caution (OSINT over-disclosure):** Publish only public-record-safe data. Do not expose staff PII beyond role-level attribution, and treat exact registration/tax identifiers as a deliberate disclosure decision, not a default.
+
+### **2.39 The Dual Topical Maps Protocol (On-Page vs. Off-Page Separation)**
+
+* **Map 1 — On-Page Topical Map:** Covers every internal entity attribute, service hub, and semantic relation the site itself can express (feeds §2.20 entity triad architecture).
+* **Map 2 — Off-Page Topical Map:** Maps external query fan-out variations, review-site coverage, and comparison matrices where third-party corroboration must exist.
+* **Enforcement Rules:**
+  * The two maps are separate workproducts. Conflating them recreates the divergent-change failure this split prevents.
+  * Never publish self-reviews or self-awards on your own website ("writing a Valentine's card to yourself") — off-page third-party corroboration carries the algorithmic weight.
+  * Off-page execution (guest posts, directory seeding, comparison insertions) routes to `kirby-off-page-seo`; this module only architects the maps.
+
+### **2.40 Comparison Pages over Listicles: The 99%/1% Consensus Rule (Charles Floate)**
+
+> **Canonical twin block.** This section is the canonical copy; `kirby-zero-to-100-seo` replicates it verbatim in its launch staging module (twin ships in the Phase 4 release train). Update both twins in the same change.
+
+* **Listicle Demotion:** Standard "top 10" listicles saw significant demotions in recent core updates due to programmatic AI-spam saturation. Deprecate thin listicle generation as a default format.
+* **Comparison Pages ("X vs. Y") are the premier format for shifting LLM consensus** — a single syndicated comparison article can shift a Google AI Overview for its head term. Integrates with §2.6 (mandatory competitor context) and §2.10 (high-intent comparison hubs).
+* **The 99%/1% Consensus Rule:** Mirror 99% of established SERP consensus in the comparison to satisfy algorithmic consensus filters, then position the brand as the superior solution within the remaining 1%. Weak 1% differentiation degrades into me-too content — the differentiator must be a checkable fact (price, SLA, accreditation), not adjectives.
+* **Caution (defamation exposure):** Comparison claims must be verifiable and current. Attribute disputed claims to their source; avoid asserted superiority on subjective dimensions.
+
+### **2.41 BM25 Lexical Optimization Workflow**
+
+* **The Lever:** LLM retrieval pipelines blend lexical and neural ranking; the lexical component still follows BM25-style term weighting. Score target passages against top competitor URLs to match the retrieval weights actually in use.
+* **Workflow:**
+  1. Extract the top-3 ranking competitor passages for the target query.
+  2. Compute BM25 term statistics (e.g., Python `rank-bm25`).
+  3. Align term coverage on high-weight query terms — close lexical gaps without stuffing (the §2.2 stuffing penalty applies).
+  4. Re-score after revision; the target is parity-to-superiority on weighted term coverage.
+* **Scope seam:** This pass only aligns lexical coverage of passages that already exist. Query-set expansion belongs to §2.36 query augmentation — do not conflate the two.
+* **Caution:** Do not overfit to lexical signals — engines blend BM25 with neural retrieval, and pure term-matching degrades §2.22 syntactic quality. Requires retrieval tooling; treat as an advanced optimization, not a default pass.
+
+### **2.42 The Entity Definition Trinity: Who / What / Why (LLM Mastery)**
+
+> **Canonical twin block.** This section is the canonical copy; `kirby-decision-engine-optimization` replicates it verbatim in its Knowledge Graph procurement gating module (twin target: skill creation pending, Phase 9 release train). Update both twins in the same change.
+
+* **Who You Are:** Unambiguous entity identity — Knowledge Graph ID (KG ID), Knowledge Panel presence, and consistent NAP-equivalent identifiers.
+* **What You Do:** Specific products/services explicitly coupled with the brand as semantic triples (`<Brand> — provides — <Service>`), never vague category labels.
+* **Why You're Brilliant:** Third-party corroboration — awards, client case studies, verifiable reviews. First-party claims in this slot are discounted.
+* **Day-1 Standardization:** Create an identical 1–2 sentence entity definition and propagate it across every property (website, X, LinkedIn, Yelp, Google Maps) before any campaign work begins.
+* **Caution:** KG ID / Knowledge Panel acquisition is slow and outside direct control (Wikipedia notability bar). Plan entity work on a quarterly horizon, not a sprint horizon.
+
+---

@@ -616,3 +616,43 @@ If the URL was **never meant to be indexed** (tracking parameters, HTTP/HTTPS du
 - [ ] Do not `noindex` a page you still want indexed in order to clean the coverage report.
 
 ---
+
+### **1.17 Harmonic Centrality over PageRank: The Seed-Graph Distance Doctrine (Stephen Burns / James Dooley, LLM Mastery)**
+
+> **Canonical twin block.** This section is the canonical copy; `kirby-off-page-seo` replicates it verbatim in its link-acquisition module (twin target ships in the same Phase 3 release train). Update both twins in the same change.
+
+* **The Metric Shift:** Common Crawl's published web graph carries both PageRank and harmonic centrality columns, but CCBot-era crawl prioritization and downstream LLM-corpus relevance skew toward **Harmonic Centrality** — proximity to the core of the web graph and to trusted seed sites, weighted by inverse distance — rather than raw link volume/weight.
+* **The Analogy:** PageRank counts how many roads lead to your house; Harmonic Centrality measures how close your house sits to the center of the city.
+* **Arbitrage Consequence:** A site with massive PageRank can remain effectively invisible if it is isolated from the seed cluster. Conversely, a single backlink from a high-harmonic-centrality seed site catapults a domain into the web's core. Link auditing must therefore supplement DR/DA screening with harmonic-centrality screening (acquisition arbitrage and outreach execution live in `kirby-off-page-seo`; do not duplicate them here).
+* **Correlation Notes:** Harmonic centrality correlates strongly with PageRank (trusted seed sites naturally accumulate links). Reported direct correlation with **Bing organic rankings** is directional (single-source, LLM Mastery) — treat as a screening hint, not a ranking law.
+* **Audit Tooling:** `audit.stephenburns.ai` (harmonic centrality auditor) · `webgraph.commoncrawl.org` (downloadable web graph for seed-site extraction and distance metrics) · Matei Ion's CC Rank Checker.
+* **Caution:** Emerging, less-validated metric dependent on third-party proprietary tooling that may become unavailable. Use as a supplementary screening signal, never the sole acquisition criterion.
+
+### **1.18 CCBot Plain-Text Accessibility Standards (Common Crawl Ingestion)**
+
+* **Raw Text Only:** CCBot crawls raw plain text. It does not render JavaScript, parse images, or execute video. Content that exists only through client-side JavaScript rendering is **invisible to Common Crawl** and therefore absent from Common Crawl-derived training corpora (e.g., C4-class datasets). This does not affect Googlebot, which renders JS — the exposure is specific to CC-sourced LLM corpora.
+* **Standards:**
+  * Deliver primary content in raw HTML/SSR (extends the §1.2 SSR verification to the CCBot user-agent explicitly).
+  * No media-only wrappers around text content (video/podcast transcripts must exist as crawlable text).
+  * CSS/JS-injected text does not count as delivered content; the raw response body must contain it.
+* **Progressive-Enhancement Framing:** Plain-text-first must not strip JS-rich user experiences. Serve the identical semantic DOM to CCBot, headless retrieval agents, and human visitors — the §1.3 content-parity rules apply to CCBot as well.
+
+### **1.19 The 35% WAF/CDN AI-Crawler Block Audit (Cloudflare / AWS WAF / Edge CDN Checklist)**
+
+* **The Statistic:** Over **35% of all websites globally** accidentally block AI crawlers at the Cloudflare/WAF/CDN level without knowing it — including major brands spending heavily on SEO. This section extends §1.1 with the full audit protocol.
+
+**Unblocking Checklist:**
+- [ ] **Cloudflare:** "Block AI bot traffic" OFF (§1.1); AI Crawl Control reviewed **per bot**; Browser Integrity Check and challenge rules verified not to fire for `CCBot`, `GPTBot`, `OAI-SearchBot`, `ClaudeBot`, `PerplexityBot`.
+- [ ] **AWS WAF:** Rate-based rules scoped to exclude verified AI crawlers on the basis of **reverse-DNS/IP-verified bot lists only** — a user-agent string alone never qualifies for exclusion (UA strings are trivially spoofable and UA-based exclusions are a bypass primitive).
+- [ ] **Edge CDN:** Cache rules not serving empty shells to cookie-less user-agents; SSR verified per §1.2.
+- [ ] **Verification:** Fetch key page URLs with each AI user-agent string (e.g., `curl -A "Mozilla/5.0 (compatible; CCBot/2.1; +https://commoncrawl.org/faq/)"`) from a clean IP — the response body must contain the full semantic DOM, not a challenge page. Run this only against properties you own or are explicitly authorized to test; never against third-party sites.
+- [ ] **Guardrail:** Per-bot allowlist granularity **only**. Never blanket-allow "all bots" (scraping/content-theft and origin-exposure risk) and never expose origin server IPs while opening edge rules.
+
+### **1.20 Fresh-Domain AI Overview Quarantine (24–72h Holding Period)**
+
+* Freshly registered exact-match domains experience a **24–72 hour anti-spam holding period** preventing immediate appearance in Google AI Overviews (designed to block hijacking of breaking-news events). The two clocks reconcile as follows: the quarantine suppresses AI Overview eligibility for days 0–3; standard indexation then proceeds, with normal ranking behavior after 1–2 weeks.
+* **Measurement blackout:** do not judge generative visibility for a fresh domain before the end of week 2 — earlier readings measure the quarantine, not the content.
+* **Directional, single-source doctrine (Charles Floate):** treat the window as a timing note for measurement planning, not a contractual SLA — it can shift silently.
+* Launch sequencing against this window is handled in `kirby-zero-to-100-seo`; do not delay indexation waiting for it here.
+
+---

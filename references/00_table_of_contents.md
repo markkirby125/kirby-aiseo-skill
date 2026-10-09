@@ -23,6 +23,10 @@
   - [1.14 Anthropic Output Watermarking & The Synthetic Footprint Quarantine Protocol](module_1_technical_infrastructure_crawler_accessibility.md#114-anthropic-output-watermarking--the-synthetic-footprint-quarantine-protocol)
   - [1.15 Crawl Depth & The Category Node Trap (Indexation Privilege)](module_1_technical_infrastructure_crawler_accessibility.md#115-crawl-depth--the-category-node-trap-indexation-privilege)
   - [1.16 Crawled vs Discovered Indexation Router](module_1_technical_infrastructure_crawler_accessibility.md#116-crawled-vs-discovered-indexation-router)
+  - [1.17 Harmonic Centrality over PageRank: The Seed-Graph Distance Doctrine](module_1_technical_infrastructure_crawler_accessibility.md#117-harmonic-centrality-over-pagerank-the-seed-graph-distance-doctrine-stephen-burns--james-dooley-llm-mastery)
+  - [1.18 CCBot Plain-Text Accessibility Standards (Common Crawl Ingestion)](module_1_technical_infrastructure_crawler_accessibility.md#118-ccbot-plain-text-accessibility-standards-common-crawl-ingestion)
+  - [1.19 The 35% WAF/CDN AI-Crawler Block Audit](module_1_technical_infrastructure_crawler_accessibility.md#119-the-35-wafcdn-ai-crawler-block-audit-cloudflare--aws-waf--edge-cdn-checklist)
+  - [1.20 Fresh-Domain AI Overview Quarantine (24–72h Holding Period)](module_1_technical_infrastructure_crawler_accessibility.md#120-fresh-domain-ai-overview-quarantine-2472h-holding-period)
 - **[Module 2: On-Page Semantic Architecture & Content Engineering](module_2_on_page_semantic_architecture_content_engineering.md)**
   - [2.1 The 30% Front-Loading Law & BLUF](module_2_on_page_semantic_architecture_content_engineering.md#21-the-30-front-loading-law--bluf)
   - [2.2 Empirical GEO Retrieval Multipliers](module_2_on_page_semantic_architecture_content_engineering.md#22-empirical-geo-retrieval-multipliers)
@@ -61,6 +65,11 @@
   - [2.35 Short SEO Landing Pages vs. Bloated Blog Posts (The High-Conversion BOFU Standard)](module_2_on_page_semantic_architecture_content_engineering.md#235-short-seo-landing-pages-vs-bloated-blog-posts-the-high-conversion-bofu-standard)
   - [2.36 Query Augmentation, Dictionary vs. Query Semantics, & The Authority Elasticity Doctrine](module_2_on_page_semantic_architecture_content_engineering.md#236-query-augmentation-dictionary-vs-query-semantics--the-authority-elasticity-doctrine)
   - [2.37 The Page Split vs. H2 Decision Rule (Cannibalization Guard)](module_2_on_page_semantic_architecture_content_engineering.md#237-the-page-split-vs-h2-decision-rule-cannibalization-guard)
+  - [2.38 Credibility Document Hardening: About / Privacy / Returns](module_2_on_page_semantic_architecture_content_engineering.md#238-credibility-document-hardening-about--privacy--returns-llm-trust-documents)
+  - [2.39 The Dual Topical Maps Protocol](module_2_on_page_semantic_architecture_content_engineering.md#239-the-dual-topical-maps-protocol-on-page-vs-off-page-separation)
+  - [2.40 Comparison Pages over Listicles: The 99%/1% Consensus Rule](module_2_on_page_semantic_architecture_content_engineering.md#240-comparison-pages-over-listicles-the-991-consensus-rule-charles-floate)
+  - [2.41 BM25 Lexical Optimization Workflow](module_2_on_page_semantic_architecture_content_engineering.md#241-bm25-lexical-optimization-workflow)
+  - [2.42 The Entity Definition Trinity: Who / What / Why](module_2_on_page_semantic_architecture_content_engineering.md#242-the-entity-definition-trinity-who--what--why-llm-mastery)
 - **[Module 6: Google Discover & Algorithmic Feed Optimization](module_6_google_discover_algorithmic_feed_optimization.md)**
 - **[Module 8: Quick Reference: Vulnerable Footprints vs. Resilient Asset Architecture](module_8_quick_reference_vulnerable_footprints_vs_resilient_asset_architecture.md)**
 - **[Module 9: Site-Specific Implementation Checklists](module_9_site_specific_implementation_checklists.md)**
