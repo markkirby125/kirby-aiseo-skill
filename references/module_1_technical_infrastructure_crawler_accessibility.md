@@ -627,6 +627,7 @@ If the URL was **never meant to be indexed** (tracking parameters, HTTP/HTTPS du
 * **Correlation Notes:** Harmonic centrality correlates strongly with PageRank (trusted seed sites naturally accumulate links). Reported direct correlation with **Bing organic rankings** is directional (single-source, LLM Mastery) — treat as a screening hint, not a ranking law.
 * **Audit Tooling:** `audit.stephenburns.ai` (harmonic centrality auditor) · `webgraph.commoncrawl.org` (downloadable web graph for seed-site extraction and distance metrics) · Matei Ion's CC Rank Checker.
 * **Caution:** Emerging, less-validated metric dependent on third-party proprietary tooling that may become unavailable. Use as a supplementary screening signal, never the sole acquisition criterion.
+* **Scope note:** This doctrine supersedes PageRank as a *link-authority auditing* frame only. Internal-link-equity PageRank usage elsewhere in this module (§1.8 Canon Law recirculation, §1.15 crawl-depth privilege) remains valid doctrine and is intentionally out of scope.
 
 ### **1.18 CCBot Plain-Text Accessibility Standards (Common Crawl Ingestion)**
 

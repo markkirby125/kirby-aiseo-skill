@@ -31,7 +31,7 @@ Structure all informational and commercial copy according to empirical Generativ
 | **Targeted AI Enrichment (Product Pages)** | **\+73% AI Citations**  | Add AI-drafted, human-edited explanatory modules to specific product pages only (per §1.14 synthetic-footprint quarantine). |
 | **Human Editing of AI Drafts** | **\+67% AI Citations**  | Apply light human refinement to raw AI text before publishing. |
 | **Inline Parenthetical Citations** | **\+40% AI Citations**  | Place source citations in parentheses directly beside claims, not as bottom footnotes. |
-| **Untargeted Site-Wide AI Publishing** | **\-35% Organic Sessions (Penalty)**  | Contrast lever: unedited, untargeted mass publishing penalizes (§2.23 / §2.17C anti-template rules apply); enrichment must stay targeted. |
+| **Untargeted Site-Wide AI Publishing** | **\-35% Organic Sessions (Penalty)**  | Contrast lever: unedited, untargeted mass publishing penalizes (§2.23 / §2.8 anti-template rules apply); enrichment must stay targeted. |
 
 *`llms.txt` footnote: zero controlled-test evidence across all 9,249 documents (chaotic variance \-9.7% to \+81%, median \+25% over 3 uncontrolled tests). It functions as a plain crawlable index page only — full doctrine in Module 1 §1.2.*
 *Provenance caveat for the additions table: sample size varies per test; do not cargo-cult individual lift figures without niche context.*
