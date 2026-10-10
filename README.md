@@ -65,6 +65,15 @@ The dispatcher handles the following specialised modules:
 - **Module 8**: Vulnerable Footprints vs. Resilient Asset Architecture
 - **Module 9**: Site-Specific Implementation Checklists
 - **Module 10**: Gap-Analysis Supplementary Protocols (2026 Update)
+- **Module 14**: Defensive GEO & AI Reputation Management (ORM)
+
+## 🆕 October 2026 — LLM Mastery & 9,249-Study Doctrine
+
+New sections from the LLM Mastery masterclasses and the 9,249-case-study meta-analysis (Ep. 1191):
+- **M1 §1.17** Harmonic Centrality over PageRank (seed-graph distance doctrine + audit tooling; canonical twin in `kirby-off-page-seo`)
+- **M1 §1.18–§1.20** CCBot plain-text accessibility standards, the 35% WAF/CDN AI-crawler unblocking audit, and the fresh-domain AI Overview quarantine
+- **M2 §2.2** Empirical benchmark bundle: direct-answer-first (+280%), discrete factual statements (5x), staff bylines (+113%), GEO package rewrites (+83.2%), the targeted-vs-mass AI publishing split, and the `llms.txt` debunk
+- **M2 §2.38–§2.42** Credibility document hardening, dual topical maps, comparison pages with the 99%/1% consensus rule, BM25 lexical optimization, and the entity definition trinity (Who/What/Why)
 
 ## External Resources & Authority Links
 - [Google Search Central: Spam Policies & Scaled Content Abuse](https://developers.google.com/search/docs/essentials/spam-policies)
