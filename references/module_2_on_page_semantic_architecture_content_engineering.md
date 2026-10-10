@@ -1415,7 +1415,7 @@ Three gates decide this same architectural question. Apply them in order; a quer
 
 ### **2.40 Comparison Pages over Listicles: The 99%/1% Consensus Rule (Charles Floate)**
 
-> **Canonical twin block.** This section is the canonical copy; `kirby-zero-to-100-seo` replicates it verbatim in its launch staging module (twin ships in the Phase 4 release train). Update both twins in the same change.
+> **Canonical twin block.** This section is the canonical copy; `kirby-zero-to-100-seo` replicates it verbatim in its launch staging module (twin shipped in the Phase 4 release train). Update both twins in the same change.
 
 * **Listicle Demotion:** Standard "top 10" listicles saw significant demotions in recent core updates due to programmatic AI-spam saturation. Deprecate thin listicle generation as a default format.
 * **Comparison Pages ("X vs. Y") are the premier format for shifting LLM consensus** — a single syndicated comparison article can shift a Google AI Overview for its head term. Integrates with §2.6 (mandatory competitor context) and §2.10 (high-intent comparison hubs).
