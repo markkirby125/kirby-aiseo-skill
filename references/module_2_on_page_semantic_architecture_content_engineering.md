@@ -1435,7 +1435,7 @@ Three gates decide this same architectural question. Apply them in order; a quer
 
 ### **2.42 The Entity Definition Trinity: Who / What / Why (LLM Mastery)**
 
-> **Canonical twin block.** This section is the canonical copy; `kirby-decision-engine-optimization` replicates it verbatim in its Knowledge Graph procurement gating module (twin target: skill creation pending, Phase 9 release train). Update both twins in the same change.
+> **Canonical twin block.** This section is the canonical copy; `kirby-decision-engine-optimization` replicates it verbatim in its Knowledge Graph procurement gating module (twin shipped in the Phase 9 release train). Update both twins in the same change.
 
 * **Who You Are:** Unambiguous entity identity — Knowledge Graph ID (KG ID), Knowledge Panel presence, and consistent NAP-equivalent identifiers.
 * **What You Do:** Specific products/services explicitly coupled with the brand as semantic triples (`<Brand> — provides — <Service>`), never vague category labels.
