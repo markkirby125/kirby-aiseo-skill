@@ -367,7 +367,7 @@ Frontier LLMs and Google AI Overviews do not assume business capabilities from h
 
 ---
 
-### **1.11 Google's Internal "Site Quality Score" (0.0–1.0), The 0.4 Feature Gate & Branded Query Inversion**
+### **1.11.1 Google's Internal "Site Quality Score" (0.0–1.0), The 0.4 Feature Gate & Branded Query Inversion**
 
 *Source: Mark Williams-Cook Google internal API security vulnerability disclosure (2TB leaked data / 90 million queries / 800,000 domains analyzed) & Tom Capper (Moz) HCU penalty study. September 2026.*
 
@@ -408,7 +408,7 @@ Google evaluates search eligibility through sequential filtration stages ("heat 
 
 #### D. Operationalizing Brand Signals for Local & SaaS Domains
 1. **Brand-First Query Conditioning:** In offline print, vehicle livery, email signatures, and client onboarding, instruct customers: *"Search '[Brand Name] + [Service]' on Google"* rather than providing direct URLs. This directly feeds Google's branded query logging.
-2. **The 60% Branded Anchor Mandate:** Maintain a minimum of **60% exact-brand anchor text** across all inbound link building and PR syndication (§4.3, §4.4) to maintain organic entity purity.
+2. **The 60% Branded Anchor Mandate:** Maintain a minimum of **60% exact-brand anchor text** across all inbound link building and PR syndication (§4.3, §4.18) to maintain organic entity purity.
 3. **Friction-Killer SERP Title Tags:** Implement friction-killing modifiers in Title Tag Part 2 (`£0 Call-Out`, `Same-Day SLA`, `Free Tier`, §2.18) to maximize click-selection inversion against entrenched competitors in positions 1–2.
 
 **Site Quality Score Checklist**
@@ -531,7 +531,7 @@ Search engines and generative agents are shifting toward verified knowledge feed
 
 In mid-August, Anthropic announced the deployment of native output watermarking for Claude-generated text, joining Google DeepMind (SynthID) in embedding statistical token-frequency biases into model responses:
 * **The Cryptographic Footprint Reality:** Statistical watermarking embeds mathematical token distributions directly into generated text that are imperceptible to human readers but trivially detectable by web crawlers and automated spam classifiers with >99% confidence.
-* **The "Zero Raw Generation" Mandate:** Publishing raw, unedited AI output directly to web pages represents an immediate platform liability. As search engines integrate automated watermark decoders into their spam classification pipelines, watermarked pages face rapid batch identification and sitewide quality score depreciation (§1.11 / §Executive Threat Profile).
+* **The "Zero Raw Generation" Mandate:** Publishing raw, unedited AI output directly to web pages represents an immediate platform liability. As search engines integrate automated watermark decoders into their spam classification pipelines, watermarked pages face rapid batch identification and sitewide quality score depreciation (§1.11.1 / §Executive Threat Profile).
 * **Quarantine & Editorial Processing Rules:**
   1. *AI as Scaffolding Only:* Restrict LLM usage strictly to outlining, keyword intent mapping, and syntactic formatting (§3.6.2).
   2. *Mandatory Human Editorial Injection:* Every paragraph generated with AI assistance must undergo substantive human editorial restructuring: injecting proprietary client metrics, real-world case experiences, and localized phrasing.

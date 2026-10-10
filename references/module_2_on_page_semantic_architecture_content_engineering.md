@@ -607,7 +607,7 @@ Pure 100% NLP-optimized text reads mechanically to human visitors. Enforce the *
 While §7.2 strictly prohibits "lazy rolling programmatic bulk" (e.g., publishing hundreds of thin, auto-spun city-swapped articles daily), database-driven programmatic SEO remains extraordinarily viable in 2026 when engineered around **functional user utility, verified contributor entities, and staged risk validation**. Google’s core ranking algorithms do not demote pages simply because they are generated from a structured database; they demote pages that fail to generate behavioral utility echoes (immediate pogo-sticking, zero dwell time, lack of interaction).
 
 #### A. The "Start-with-10" Staged Validation Protocol
-Deploying 1,000–10,000 programmatic pages without prior algorithmic validation introduces catastrophic site-wide risk to the domain's `site_quality_score` (§1.11). Programmatic architectures must be launched via a phased, gated progression:
+Deploying 1,000–10,000 programmatic pages without prior algorithmic validation introduces catastrophic site-wide risk to the domain's `site_quality_score` (§1.11.1). Programmatic architectures must be launched via a phased, gated progression:
 
 ```
 ┌────────────────────────────────────────────────────────┐
@@ -699,7 +699,7 @@ While large language models (LLMs) collapsed the production cost of content from
 
 #### A. The "Invisible Zone" ($\le 25/100$) & Sitewide Quality Contagion
 * **The Invisible Cutoff:** In empirical single-variable testing, pages scoring $\le 25/100$ in mathematical signal density are functionally invisible to Google's ranking engine and cannot enter the Top 100 SERP results.
-* **Sitewide Quality Poisoning:** Accumulating hundreds of AI-generated articles in the Invisible Zone does not merely waste crawl budget—it actively depresses the domain's subdomain-level `site_quality_score` below the 0.4 feature threshold (§1.11), stripping existing rankings, Featured Snippets, and AI Overviews across the entire site.
+* **Sitewide Quality Poisoning:** Accumulating hundreds of AI-generated articles in the Invisible Zone does not merely waste crawl budget—it actively depresses the domain's subdomain-level `site_quality_score` below the 0.4 feature threshold (§1.11.1), stripping existing rankings, Featured Snippets, and AI Overviews across the entire site.
 * **The 80/100 Movement Threshold:** Upward ranking movement consistently activates when a page’s on-page optimization score crosses **$\ge 80/100$**.
 
 #### B. The 7 Mathematical Deficits of Raw AI Content
@@ -837,7 +837,7 @@ In stigmatized or privacy-sensitive niches (gambling, adult, specialized medical
   1. **The Static Footprint:** Fabricated personas are inherently static. They possess a bio box but zero active digital engagement, zero peer citation in industry publications, and zero verifiable presence in the Google Knowledge Graph.
   2. **Image Anomaly Detection:** Standard AI face generators produce subtle ocular, dental, and edge-blending anomalies that automated visual classifiers flag as synthetic.
   3. **The Penalty:** Google's core updates and manual webspam actions systematically demote domains relying on synthetic authorship.
-* **The Mandatory Standard:** Banning all synthetic author personas. When writers require privacy, content must be attributed to an **Accredited Editorial Board** or **Corporate Entity** backed by organization schema, verified executive leadership, and published editorial review standards (§4.5).
+* **The Mandatory Standard:** Banning all synthetic author personas. When writers require privacy, content must be attributed to an **Accredited Editorial Board** or **Corporate Entity** backed by organization schema, verified executive leadership, and published editorial review standards (§4.21).
 
 #### B. The "Experiential E" Separation: Commodity AI vs. Human Moat
 Google’s Helpful Content classifiers aggressively devalue commodity informational text that any frontier LLM can synthesize:
@@ -849,7 +849,7 @@ Google’s Helpful Content classifiers aggressively devalue commodity informatio
 
 #### C. The Post-AI Editorial Resourcing Inversion
 The industry hypothesis that generative AI would eliminate human writing staff has inverted in enterprise media:
-* **The Hallucination Debt:** Unchecked generative AI introduces systemic factual hallucinations, repetitive sentence structures, and generic filler that depresses sitewide quality scores (§1.11).
+* **The Hallucination Debt:** Unchecked generative AI introduces systemic factual hallucinations, repetitive sentence structures, and generic filler that depresses sitewide quality scores (§1.11.1).
 * **The Enterprise Shift:** High-performing publishing houses are allocating expanding capital to **senior human editors**. The workflow shifts from raw generation to:
   1. Engineering precise domain prompts containing strict negative constraints.
   2. Fact-checking technical claims and regulatory statements.
@@ -1073,7 +1073,7 @@ Before generating or drafting any new page, spend 5–10 minutes writing out the
 1. **Who is searching this primary keyword?** (Isolate the specific persona, role, or distressed state).
 2. **What do they want?** (Identify the raw information, tool, price, or service capability required).
 3. **What specific outcome are they looking to achieve?** (Define the successful resolution that prevents them from bouncing back to search results).
-* **Rationale**: Generative models tend to default to generic, polite boilerplate. Human pre-flight reflection grounds the page in real user intent, directly informing the opening BLUF answer and the 4 mandatory keyword spots before content generation begins. (Seams to Module 10 §10.11D and `kirby-seo-deployment` §7.11 / §7.13).
+* **Rationale**: Generative models tend to default to generic, polite boilerplate. Human pre-flight reflection grounds the page in real user intent, directly informing the opening BLUF answer and the 4 mandatory keyword spots before content generation begins. (Seams to Module 10 §10.11D and `kirby-seo-deployment` §7.14 / §7.16).
 
 ---
 
@@ -1117,7 +1117,7 @@ Google's March 2024 Scaled Content Abuse policy explicitly penalizes automated a
 | 5 | **Competitor Alternative Pages** | Spinning dedicated URLs for every named rival in the industry with generic feature-bullet grids. | Compact BOFU `/uses` hub pages (§2.14) addressing genuine user workflow migration friction. |
 | 6 | **Programmatic Location / Language Pages** | Multiplying service templates across 100+ cities in a 50-mile radius where the business holds no physical address or completed jobs. | Core 30 Local Architecture (§3.6) strictly bounded to the physical Google Business Profile city. |
 | 7 | **FAQ Farms** | Spinning individual URLs per question extracted from People Also Ask (PAA), formatted with robotic intro paragraphs, bullets, and schema. | Localized on-page FAQ blocks (§2.14 / §3.9 guardrails); eliminate thin standalone question URLs. |
-| 8 | **Off-Topic Scaled Content** | B2B enterprise software sites mass-publishing consumer trivia, baby names, or jokes purely to harvest raw search volume. | Strict topical radius discipline (§2.25); prune all off-topic legacy assets via HTTP 410 (§7.9). |
+| 8 | **Off-Topic Scaled Content** | B2B enterprise software sites mass-publishing consumer trivia, baby names, or jokes purely to harvest raw search volume. | Strict topical radius discipline (§2.25); prune all off-topic legacy assets via HTTP 410 (§7.12). |
 
 > [!IMPORTANT]
 > **The Collective Footprint Paradox:** Every single one of these eight templates initially ranks and receives AI citations. That initial efficacy is the trap: because they work, thousands of webmasters adopt the identical template and prompt structure. Once cross-web saturation occurs, Google flags the collective template footprint as a scaled manipulation signature.

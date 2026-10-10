@@ -116,7 +116,7 @@
 
 > **TL;DR:** Do not guess internal link opportunities or start new pages from zero authority. Query Google with `site:yourdomain.com "target keyword"` to discover pre-indexed pages Google already associates with that topical entity. If the #1 result satisfies intent, link donor pages to it. If only a mid-page section satisfies intent, use an interim `#anchor` bridge while planning a dedicated URL (Google ranks pages, not sections). For new pages, run the 3-question manual intent pre-flight, optimize the 4 anchor spots, and seed links from pre-indexed pages. Enforce natural anchor text variation and funnel-tier link budgets (zero link clutter on BOFU conversion pages).
 
-*Source: Edward Sturm podcast Episode 1,173 ("The Internal Linking Trick That Uses Topical Authority You Already Have"). September 2026. (Integration: Module 2 §2.31, §2.35, §2.37 & kirby-seo-deployment §7.13)*
+*Source: Edward Sturm podcast Episode 1,173 ("The Internal Linking Trick That Uses Topical Authority You Already Have"). September 2026. (Integration: Module 2 §2.31, §2.35, §2.37 & kirby-seo-deployment §7.16)*
 
 #### A. The Operator Discovery Protocol
 1. **The Discovery Query**: Execute `site:yourdomain.com "target keyword"` (or `yourdomain.com "target keyword"`) in Google.
