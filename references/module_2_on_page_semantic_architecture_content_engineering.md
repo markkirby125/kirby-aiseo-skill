@@ -1441,6 +1441,33 @@ Three gates decide this same architectural question. Apply them in order; a quer
 * **What You Do:** Specific products/services explicitly coupled with the brand as semantic triples (`<Brand> — provides — <Service>`), never vague category labels.
 * **Why You're Brilliant:** Third-party corroboration — awards, client case studies, verifiable reviews. First-party claims in this slot are discounted.
 * **Day-1 Standardization:** Create an identical 1–2 sentence entity definition and propagate it across every property (website, X, LinkedIn, Yelp, Google Maps) before any campaign work begins.
-* **Caution:** KG ID / Knowledge Panel acquisition is slow and outside direct control (Wikipedia notability bar). Plan entity work on a quarterly horizon, not a sprint horizon.
+* **Caution:** KG ID / Knowledge Panel acquisition speed is path-dependent: the Wikipedia route is slow and outside direct control (notability bar — plan a quarterly horizon); the Google Books book-funnel route is deterministic and fast (reported 3–4 weeks). Plan entity work by route, not by one horizon.
+
+---
+
+### **2.43 The Personal Knowledge Panel Book-Funnel SOP (James Dooley / Charles Floate, V6 — Entity SEO for AI Search, 2026)**
+
+* **Founder Entity First:** It is significantly easier to trigger a Knowledge Panel for a human (CEO/founder) than for a commercial business; the founder's KG MID injects direct entity authority into the connected company entity.
+* **The 4-Step Funnel:**
+  1. Author a focused niche book under the founder's exact name.
+  2. Build Amazon Author Central + Goodreads profiles (identity, achievements, business ownership).
+  3. Submit the publication to Google Books.
+  4. Google Books directly triggers a KG MID — reported **3–4 weeks** (single-source, V6; treat as directional).
+* **Source-Weighting Hierarchy (for KG MID issuance speed — a different axis from LLM citation ground truth, where Wikipedia ranks first per `kirby-off-page-seo` §4.20):** Google Books **#1** (proprietary literature database), YouTube **#2** (Google-owned video + timestamped transcripts), Wikipedia **#3** (powerful but editorially gatekept).
+* **KG MID ≠ Public Knowledge Panel:** obtaining a MID is distinct from triggering the *visible* panel — the public panel requires crossing a popularity/branded-search-volume threshold, and accordion sections (Books, Podcasts) populate as branded query volume scales (threshold doctrine: §4.10 in `kirby-off-page-seo`; volume plays in `kirby-seo-deployment` §11.5).
+* **Caution:** self-publishing carries ongoing Amazon/Google Books maintenance; exact-name collisions with existing entities require disambiguation (middle initial, suffix) before filing; the funnel is executed off-page in practice but is documented here self-contained per the duplication policy.
+
+### **2.44 The Entity Home: Slug Invariant, Third-Person Triples & sameAs Wrapping (V6-B)**
+
+* **Slug Invariant:** the canonical entity home uses `/about-[first-last-name]` (e.g., `/about-charles-floate`) — split-testing shows it significantly outperforms generic `/about` for algorithmic entity disambiguation. Legacy `/about` URLs 301 to the new slug.
+* **Third-Person Rule:** write the entity home strictly as third-person assertions (*"Charles Floate is a UK entrepreneur born on [Date]"*). First person (*"I am…"*) forces LLMs to resolve coreference across the document, spiking retrieval cost and weakening entity extraction. Note: consumer-facing founder-brand sites may soften tone below the fold; the triples block stays third-person.
+* **Sentence-Level Triples:** structure critical biographical/identity claims as subject-predicate-object or entity-attribute-value triples so knowledge-graph nodes/edges extract directly.
+* **sameAs Wrapping:** wrap Google Books URL, Google Play Store URL, Goodreads URL, Amazon URL, and the KG MID (once issued, §2.43) inside the entity home's `sameAs` Schema.org array. Extends §2.38 credibility hardening; the entity home is the anchor page for §2.42 Day-1 standardization.
+
+### **2.45 The KD 2–3 Fan-Out Long-Tail Exception (Scoped Carve-Out from §2.16A) (V6-H)**
+
+* **Scope — read first:** §2.16A rules chasing individual fan-out queries a fool's errand for *head and mid-tail* terms. This section is the **narrow exception** for fan-out variants that audit as KD 2–3 long-tail: it does not reopen general fan-out chasing.
+* **The SOP:** (1) harvest fan-out variants (§2.28 clusters); (2) confirm low difficulty *by audit* — tool KD 2–3 is a **confirmatory signal only**, never the trigger (§2.29 KD-fallacy doctrine governs); (3) publish a short landing page (§2.35) with the exact fan-out phrase in the title tag; (4) force-index via GSC (24–48h per Module 9 checklists); (5) link back to the core hub.
+* **Bloat Ceiling:** this play is capped by the §2.32 standalone-question-URL limit (≤15 sitewide) — high publishing velocity of long-tail assets risks index bloat when the quality floor drops; if the variant does not clear §2.29F authority capability, it gets an `<h2>` on the hub (§2.37), not a URL.
 
 ---

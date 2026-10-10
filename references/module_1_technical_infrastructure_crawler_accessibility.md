@@ -657,3 +657,12 @@ If the URL was **never meant to be indexed** (tracking parameters, HTTP/HTTPS du
 * Launch sequencing against this window is handled in `kirby-zero-to-100-seo`; do not delay indexation waiting for it here.
 
 ---
+
+### **1.21 The Query Fan-Out Reasoning Filter: Candidate Selection Arithmetic (James Dooley / Charles Floate, V6, 2026)**
+
+* **The Funnel Arithmetic (single-source, V6 — directional):** a single user prompt triggers **10–15 internal query fan-outs**, retrieving ~**15 candidate entities**; the engine's reasoning phase then filters to the **4–5 strongest entities** pulled into the AI Overview or synthesized response.
+* **Retrieval-Cost Mechanism (extends §1.12 Cost of Retrieval Law):** entities with verified, unambiguous graph nodes carry a drastically lower retrieval and verification cost — giving them mathematical priority during the reasoning filter. This is why §2.42's verified-entity doctrine (KG MID, consistent identifiers) is not brand polish but a retrieval-cost play.
+* **Hard Prerequisite Framing (V6 claim, directional):** without a verified KG MID for the founder and core domain, long-term generative visibility is functionally capped — the entity never survives the 15→4–5 cut against verified competitors.
+* **Doctrine consequence:** on-page entity work (§2.42–§2.44) is the mechanism that lowers retrieval cost; consensus dominance across the 10–15 fan-out surfaces is ORM at scale (`kirby-off-page-seo` Module 16) — do not attempt it with on-page content alone.
+
+---

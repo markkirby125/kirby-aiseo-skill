@@ -27,6 +27,7 @@
   - [1.18 CCBot Plain-Text Accessibility Standards (Common Crawl Ingestion)](module_1_technical_infrastructure_crawler_accessibility.md#118-ccbot-plain-text-accessibility-standards-common-crawl-ingestion)
   - [1.19 The 35% WAF/CDN AI-Crawler Block Audit](module_1_technical_infrastructure_crawler_accessibility.md#119-the-35-wafcdn-ai-crawler-block-audit-cloudflare--aws-waf--edge-cdn-checklist)
   - [1.20 Fresh-Domain AI Overview Quarantine (24–72h Holding Period)](module_1_technical_infrastructure_crawler_accessibility.md#120-fresh-domain-ai-overview-quarantine-2472h-holding-period)
+  - [1.21 The Query Fan-Out Reasoning Filter: Candidate Selection Arithmetic](module_1_technical_infrastructure_crawler_accessibility.md#121-the-query-fan-out-reasoning-filter-candidate-selection-arithmetic-james-dooley--charles-floate-v6-2026)
 - **[Module 2: On-Page Semantic Architecture & Content Engineering](module_2_on_page_semantic_architecture_content_engineering.md)**
   - [2.1 The 30% Front-Loading Law & BLUF](module_2_on_page_semantic_architecture_content_engineering.md#21-the-30-front-loading-law--bluf)
   - [2.2 Empirical GEO Retrieval Multipliers](module_2_on_page_semantic_architecture_content_engineering.md#22-empirical-geo-retrieval-multipliers)
@@ -70,8 +71,12 @@
   - [2.40 Comparison Pages over Listicles: The 99%/1% Consensus Rule](module_2_on_page_semantic_architecture_content_engineering.md#240-comparison-pages-over-listicles-the-991-consensus-rule-charles-floate)
   - [2.41 BM25 Lexical Optimization Workflow](module_2_on_page_semantic_architecture_content_engineering.md#241-bm25-lexical-optimization-workflow)
   - [2.42 The Entity Definition Trinity: Who / What / Why](module_2_on_page_semantic_architecture_content_engineering.md#242-the-entity-definition-trinity-who--what--why-llm-mastery)
+  - [2.43 The Personal Knowledge Panel Book-Funnel SOP](module_2_on_page_semantic_architecture_content_engineering.md#243-the-personal-knowledge-panel-book-funnel-sop-james-dooley--charles-floate-v6--entity-seo-for-ai-search-2026)
+  - [2.44 The Entity Home: Slug Invariant, Third-Person Triples & sameAs Wrapping](module_2_on_page_semantic_architecture_content_engineering.md#244-the-entity-home-slug-invariant-third-person-triples--sameas-wrapping-v6-b)
+  - [2.45 The KD 2–3 Fan-Out Long-Tail Exception](module_2_on_page_semantic_architecture_content_engineering.md#245-the-kd-23-fan-out-long-tail-exception-scoped-carve-out-from-216a-v6-h)
 - **[Module 6: Google Discover & Algorithmic Feed Optimization](module_6_google_discover_algorithmic_feed_optimization.md)**
 - **[Module 8: Quick Reference: Vulnerable Footprints vs. Resilient Asset Architecture](module_8_quick_reference_vulnerable_footprints_vs_resilient_asset_architecture.md)**
+  - [The Digital Moat Architecture (V6-F)](module_8_quick_reference_vulnerable_footprints_vs_resilient_asset_architecture.md#the-digital-moat-architecture-v6f--james-dooley--charles-floate-2026-single-source-directional)
 - **[Module 9: Site-Specific Implementation Checklists](module_9_site_specific_implementation_checklists.md)**
 - **[Module 10: Gap-Analysis Supplementary Protocols (September 2026 Research Update)](module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md)**
   - [10.2 The "Position 17" GSC Harvesting Rule & Page 2 Stagnation Protocol](module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md#102-the-position-17-gsc-harvesting-rule--page-2-stagnation-protocol)
