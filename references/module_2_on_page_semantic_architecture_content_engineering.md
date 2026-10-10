@@ -164,6 +164,7 @@ When a user submits a conversational prompt to an LLM (ChatGPT, Perplexity, Gemi
 > **Do not chase fan-out queries. Instead, build content so comprehensively that it satisfies whatever fan-out query an LLM generates for your topic domain.**
 
 This requires embedding genuine product nuance, scenario-specific use cases, workflow edge cases, and customer-qualifying content (who the product is *not* for) at the depth of a "demo call in text form." Thin blog posts and generic category pages generate zero fan-out retrieval surface.
+* **Narrow exception:** recurring fan-out variants that persist across sessions and audit as KD 2–3 long-tail are the sanctioned carve-out — see §2.45. The blanket ban covers everything else.
 
 #### B. The 4-Bucket BOFU Keyword Taxonomy (Grow & Convert + Edward Sturm Ep. 1169)
 
@@ -1459,14 +1460,14 @@ Three gates decide this same architectural question. Apply them in order; a quer
 
 ### **2.44 The Entity Home: Slug Invariant, Third-Person Triples & sameAs Wrapping (V6-B)**
 
-* **Slug Invariant:** the canonical entity home uses `/about-[first-last-name]` (e.g., `/about-charles-floate`) — split-testing shows it significantly outperforms generic `/about` for algorithmic entity disambiguation. Legacy `/about` URLs 301 to the new slug.
+* **Slug Invariant:** the canonical entity home uses `/about-[first-last-name]` (e.g., `/about-charles-floate`) — split-testing shows it significantly outperforms generic `/about` for algorithmic entity disambiguation (single-source, V6; directional). Legacy `/about` URLs 301 to the new slug.
 * **Third-Person Rule:** write the entity home strictly as third-person assertions (*"Charles Floate is a UK entrepreneur born on [Date]"*). First person (*"I am…"*) forces LLMs to resolve coreference across the document, spiking retrieval cost and weakening entity extraction. Note: consumer-facing founder-brand sites may soften tone below the fold; the triples block stays third-person.
 * **Sentence-Level Triples:** structure critical biographical/identity claims as subject-predicate-object or entity-attribute-value triples so knowledge-graph nodes/edges extract directly.
 * **sameAs Wrapping:** wrap Google Books URL, Google Play Store URL, Goodreads URL, Amazon URL, and the KG MID (once issued, §2.43) inside the entity home's `sameAs` Schema.org array. Extends §2.38 credibility hardening; the entity home is the anchor page for §2.42 Day-1 standardization.
 
 ### **2.45 The KD 2–3 Fan-Out Long-Tail Exception (Scoped Carve-Out from §2.16A) (V6-H)**
 
-* **Scope — read first:** §2.16A rules chasing individual fan-out queries a fool's errand for *head and mid-tail* terms. This section is the **narrow exception** for fan-out variants that audit as KD 2–3 long-tail: it does not reopen general fan-out chasing.
+* **Scope — read first:** §2.16A bans chasing fan-out queries because they are session-ephemeral (1-of-1, dynamic, infinite). This section is the **narrow exception** for a different population — *recurring* fan-out variants that persist across sessions and audit as KD 2–3 long-tail. It does not reopen general fan-out chasing.
 * **The SOP:** (1) harvest fan-out variants (§2.28 clusters); (2) confirm low difficulty *by audit* — tool KD 2–3 is a **confirmatory signal only**, never the trigger (§2.29 KD-fallacy doctrine governs); (3) publish a short landing page (§2.35) with the exact fan-out phrase in the title tag; (4) force-index via GSC (24–48h per Module 9 checklists); (5) link back to the core hub.
 * **Bloat Ceiling:** this play is capped by the §2.32 standalone-question-URL limit (≤15 sitewide) — high publishing velocity of long-tail assets risks index bloat when the quality floor drops; if the variant does not clear §2.29F authority capability, it gets an `<h2>` on the hub (§2.37), not a URL.
 
