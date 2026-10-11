@@ -19,6 +19,7 @@ When asked to perform AI SEO tasks, **do not guess**. Instead, review the module
 - **Module 10**: Gap-Analysis Supplementary Protocols (Remaining September 2026 Research Updates) -> Read `./module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md`
 - **Module 14**: Defensive GEO & AI Reputation Management (ORM) (Mitigating negative AI Overviews, crisis management pre-planning) -> Read `./module_14_defensive_geo_ai_orm_ann_smarty_ep_1186.md`
 - **Module 15**: October 2026 Metadata Fact-Check Mandate & SRA Compliance Boundaries (per-surface metadata verification, Site Reputation Abuse boundary test, autonomous-agent publishing gate) -> Read `./module_15_october_2026_metadata_fact_check_sra_boundaries.md`
+- **Module 16**: Post-Update Indexing Latency & Propagation Expectations (Illyes Oct 2026 benchmarks; 1-Hour SEO Update verdict windows, per-change-class propagation table) -> Read `./module_16_post_update_indexing_latency.md`
 
 ## When to Use
 - You need to optimize content for AI search engines (ChatGPT, Perplexity, Gemini).
@@ -46,6 +47,7 @@ When asked to perform AI SEO tasks, **do not guess**. Instead, review the module
 - Editorial essay / thought-leadership architecture: use `kirby-great-essay`.
 - GitHub / Docker Hub / Dev.to entity graphs: use `kirby-technical-aeo`.
 - The user mentions AI SEO, AEO, GEO, or asks to apply the SOP.
+- You are setting post-update propagation expectations after executing the 1-Hour SEO Update (§2.19), snippet re-optimization (§2.22B), or schema/canonical changes — 1–2 day SERP refresh typical behind the ~30-day recrawl gate, verdicts booked at week 4–6, no re-edits on top of in-flight propagation (Module 16; benchmark Matrix is `../../kirby-seo-timing-benchmarks/SKILL.md`).
 
 ## How It Works
 1. Identify the specific domain or optimization requested by the user.

@@ -67,6 +67,7 @@ The dispatcher handles the following specialised modules:
 - **Module 10**: Gap-Analysis Supplementary Protocols (2026 Update)
 - **Module 14**: Defensive GEO & AI Reputation Management (ORM)
 - **Module 15**: October 2026 Metadata Fact-Check Mandate & SRA Compliance Boundaries
+- **Module 16**: Post-Update Indexing Latency & Propagation Expectations (Illyes Oct 2026 benchmarks) — 1-Hour SEO Update verdict windows (week 4–6 behind the ~30-day recrawl gate), per-change-class propagation table, no-re-edit-while-in-flight rule
 
 ## 🆕 October 2026 — LLM Mastery & 9,249-Study Doctrine
 

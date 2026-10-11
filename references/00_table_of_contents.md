@@ -99,6 +99,11 @@
   - [15.3 SRA (Site Reputation Abuse) Compliance Boundaries](module_15_october_2026_metadata_fact_check_sra_boundaries.md#153-sra-site-reputation-abuse-compliance-boundaries)
   - [15.4 Autonomous Agent Parasite Operations — Architectural Lessons](module_15_october_2026_metadata_fact_check_sra_boundaries.md#154-autonomous-agent-parasite-operations--architectural-lessons)
   - [15.5 Routing Map](module_15_october_2026_metadata_fact_check_sra_boundaries.md#155-routing-map)
+- **[Module 16: Post-Update Indexing Latency & Propagation Expectations](module_16_post_update_indexing_latency.md)**
+  - [16.1 The Latency Alignment Problem](module_16_post_update_indexing_latency.md#161-the-latency-alignment-problem)
+  - [16.2 The Propagation Timeline (per change class)](module_16_post_update_indexing_latency.md#162-the-propagation-timeline-per-change-class)
+  - [16.3 Protocol Touch-Points (alignment, not duplication)](module_16_post_update_indexing_latency.md#163-protocol-touch-points-alignment-not-duplication)
+  - [16.4 Routing Map](module_16_post_update_indexing_latency.md#164-routing-map)
 
 ## Decoupled Specialist Skills
 
