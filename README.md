@@ -66,6 +66,7 @@ The dispatcher handles the following specialised modules:
 - **Module 9**: Site-Specific Implementation Checklists
 - **Module 10**: Gap-Analysis Supplementary Protocols (2026 Update)
 - **Module 14**: Defensive GEO & AI Reputation Management (ORM)
+- **Module 15**: October 2026 Metadata Fact-Check Mandate & SRA Compliance Boundaries
 
 ## 🆕 October 2026 — LLM Mastery & 9,249-Study Doctrine
 
@@ -74,6 +75,7 @@ New sections from the LLM Mastery masterclasses and the 9,249-case-study meta-an
 - **M1 §1.18–§1.20** CCBot plain-text accessibility standards, the 35% WAF/CDN AI-crawler unblocking audit, and the fresh-domain AI Overview quarantine
 - **M2 §2.2** Empirical benchmark bundle: direct-answer-first (+280%), discrete factual statements (5x), staff bylines (+113%), GEO package rewrites (+83.2%), the targeted-vs-mass AI publishing split, and the `llms.txt` debunk
 - **M2 §2.38–§2.42** Credibility document hardening, dual topical maps, comparison pages with the 99%/1% consensus rule, BM25 lexical optimization, and the entity definition trinity (Who/What/Why)
+- **M15** Oct 1, 2026 metadata fact-check mandate (titles, meta descriptions, JSON-LD, alt text), SRA compliance boundary test for third-party syndication, and the autonomous-agent publishing gate (Sept 24 spam-update doctrine cross-train)
 
 ## External Resources & Authority Links
 - [Google Search Central: Spam Policies & Scaled Content Abuse](https://developers.google.com/search/docs/essentials/spam-policies)
