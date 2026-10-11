@@ -18,11 +18,13 @@ When asked to perform AI SEO tasks, **do not guess**. Instead, review the module
 - **Module 9**: Site-Specific Implementation Checklists -> Read `./module_9_site_specific_implementation_checklists.md`
 - **Module 10**: Gap-Analysis Supplementary Protocols (Remaining September 2026 Research Updates) -> Read `./module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md`
 - **Module 14**: Defensive GEO & AI Reputation Management (ORM) (Mitigating negative AI Overviews, crisis management pre-planning) -> Read `./module_14_defensive_geo_ai_orm_ann_smarty_ep_1186.md`
+- **Module 15**: October 2026 Metadata Fact-Check Mandate & SRA Compliance Boundaries (per-surface metadata verification, Site Reputation Abuse boundary test, autonomous-agent publishing gate) -> Read `./module_15_october_2026_metadata_fact_check_sra_boundaries.md`
 
 ## When to Use
 - You need to optimize content for AI search engines (ChatGPT, Perplexity, Gemini).
 - You are developing defensive GEO strategies or mitigating negative AI Overviews (Module 14).
 - You are auditing a site for "Scaled Content Abuse", "Mount AI" demotions, or general SEO drops.
+- You are fact-checking AI-assisted metadata (titles, meta descriptions, JSON-LD, alt text) under the Oct 1, 2026 mandate, judging SRA compliance boundaries for third-party syndication, or gating autonomous-agent publishing (Module 15).
 - You are conducting keyword research, auditing SERP undertargeting across the 4 anchor spots, prioritizing keywords with the 4-question framework, or diagnosing content type nuances (Module 2 §2.29). Telemetry extraction filter is `kirby-seo-telemetry` §5.15.
 - You are executing the 1-Hour SEO Update to elevate GSC queries in positions 5–20 and 20–50 into `<title>`, `<h1>`, and opening hooks (Module 2 §2.19).
 - You are architecting high-converting short SEO landing pages (200–600 words) instead of bloated 3,000-word blog posts (Module 2 §2.35).

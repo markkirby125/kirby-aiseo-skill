@@ -93,6 +93,12 @@
   - [14.1 The AI Overview Negative Sentiment Threat](module_14_defensive_geo_ai_orm_ann_smarty_ep_1186.md#141-the-ai-overview-negative-sentiment-threat)
   - [14.2 Human-Led Customer Support to Starve AI Models](module_14_defensive_geo_ai_orm_ann_smarty_ep_1186.md#142-human-led-customer-support-to-starve-ai-models)
   - [14.3 Crisis Management Pre-Planning](module_14_defensive_geo_ai_orm_ann_smarty_ep_1186.md#143-crisis-management-pre-planning)
+- **[Module 15: October 2026 Metadata Fact-Check Mandate & SRA Compliance Boundaries](module_15_october_2026_metadata_fact_check_sra_boundaries.md)**
+  - [15.1 The October 1, 2026 Metadata Fact-Check Mandate](module_15_october_2026_metadata_fact_check_sra_boundaries.md#151-the-october-1-2026-metadata-fact-check-mandate)
+  - [15.2 Metadata Verification Pass SOP](module_15_october_2026_metadata_fact_check_sra_boundaries.md#152-metadata-verification-pass-sop)
+  - [15.3 SRA (Site Reputation Abuse) Compliance Boundaries](module_15_october_2026_metadata_fact_check_sra_boundaries.md#153-sra-site-reputation-abuse-compliance-boundaries)
+  - [15.4 Autonomous Agent Parasite Operations — Architectural Lessons](module_15_october_2026_metadata_fact_check_sra_boundaries.md#154-autonomous-agent-parasite-operations--architectural-lessons)
+  - [15.5 Routing Map](module_15_october_2026_metadata_fact_check_sra_boundaries.md#155-routing-map)
 
 ## Decoupled Specialist Skills
 
