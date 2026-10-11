@@ -4,7 +4,7 @@ description: "Use when executing AI SEO, GEO, AEO optimizations, preventing scal
 category: technique
 triggers: [seo, aiseo, geo, aeo, generative-search, optimization, rank, content-abuse, crawl-depth, content-pruning, crawled-not-indexed, discovered-not-indexed, undertargeted-serp, keyword-research, 4-question-framework, 1-hour-seo-update, site-harvest, internal-linking]
 risk: unverified
-author: william-fitzpatrick
+author: paul-kirby
 tags: [kirby, ai-agent, workflow]
 ---
 
