@@ -20,6 +20,7 @@ When asked to perform AI SEO tasks, **do not guess**. Instead, review the module
 - **Module 14**: Defensive GEO & AI Reputation Management (ORM) (Mitigating negative AI Overviews, crisis management pre-planning) -> Read `./module_14_defensive_geo_ai_orm_ann_smarty_ep_1186.md`
 - **Module 15**: October 2026 Metadata Fact-Check Mandate & SRA Compliance Boundaries (per-surface metadata verification, Site Reputation Abuse boundary test, autonomous-agent publishing gate) -> Read `./module_15_october_2026_metadata_fact_check_sra_boundaries.md`
 - **Module 16**: Post-Update Indexing Latency & Propagation Expectations (Illyes Oct 2026 benchmarks; 1-Hour SEO Update verdict windows, per-change-class propagation table) -> Read `./module_16_post_update_indexing_latency.md`
+- **Module 17**: Scaled AI Content Collapse Autopsy & Quarantine Protocols (Grokipedia Case Study - Ep. 1197) -> Read `./module_17_scaled_ai_collapse_autopsy_and_quarantine_protocols.md`
 
 ## When to Use
 - You need to optimize content for AI search engines (ChatGPT, Perplexity, Gemini).
@@ -57,3 +58,5 @@ When asked to perform AI SEO tasks, **do not guess**. Instead, review the module
 ## ✅ Pre-Deploy Checklist
 - Always explicitly mention which Module you are reading and applying.
 - Validate that your output adheres strictly to the constraints in the chosen Module.
+
+- You are scaling programmatic AI content or evaluating the risk of automated publishing: review the Grokipedia 97% collapse autopsy (Edward Sturm Ep. 1197), Google Scaled Content Abuse and Scraping policy boundaries, the rule that AI-checking-AI violates human review guidelines, the GSC air-gap rule, and the `noindex` staging quarantine protocol (Module 17).
