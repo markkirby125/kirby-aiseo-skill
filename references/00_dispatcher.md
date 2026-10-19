@@ -49,6 +49,7 @@ When asked to perform AI SEO tasks, **do not guess**. Instead, review the module
 - GitHub / Docker Hub / Dev.to entity graphs: use `kirby-technical-aeo`.
 - The user mentions AI SEO, AEO, GEO, or asks to apply the SOP.
 - You are setting post-update propagation expectations after executing the 1-Hour SEO Update (§2.19), snippet re-optimization (§2.22B), or schema/canonical changes — 1–2 day SERP refresh typical behind the ~30-day recrawl gate, verdicts booked at week 4–6, no re-edits on top of in-flight propagation (Module 16; benchmark Matrix is `../../kirby-seo-timing-benchmarks/SKILL.md`).
+- You are scaling programmatic AI content or evaluating the risk of automated publishing: review the Grokipedia 97% collapse autopsy (Edward Sturm Ep. 1197), Google Scaled Content Abuse and Scraping policy boundaries, the rule that AI-checking-AI violates human review guidelines, the GSC air-gap rule, and the `noindex` staging quarantine protocol (Module 17).
 
 ## How It Works
 1. Identify the specific domain or optimization requested by the user.
@@ -58,5 +59,3 @@ When asked to perform AI SEO tasks, **do not guess**. Instead, review the module
 ## ✅ Pre-Deploy Checklist
 - Always explicitly mention which Module you are reading and applying.
 - Validate that your output adheres strictly to the constraints in the chosen Module.
-
-- You are scaling programmatic AI content or evaluating the risk of automated publishing: review the Grokipedia 97% collapse autopsy (Edward Sturm Ep. 1197), Google Scaled Content Abuse and Scraping policy boundaries, the rule that AI-checking-AI violates human review guidelines, the GSC air-gap rule, and the `noindex` staging quarantine protocol (Module 17).
