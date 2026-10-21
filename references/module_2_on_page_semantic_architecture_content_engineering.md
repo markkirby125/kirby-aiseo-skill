@@ -1215,7 +1215,7 @@ Bottom-of-funnel commercial keywords must be targeted with concise, conversion-o
 
 #### C. The Minimalist On-Page Proof & Local 5-Page Site Seam
 * **The Empirical Proof:** Commercial search dominance does not require sprawling content farms or expensive link-building campaigns. Precision on-page keyword targeting (matching the 4 anchor spots and user intent) consistently outperforms bloated competitors.
-* **Local Service 5-Page Architecture:** For local trade and field service businesses, the operational deployment blueprint for this model is codified in [`kirby-local-seo`](../../kirby-local-seo/references/module_4_90_day_100k_local_seo_sprint_edward_sturm_ep_845.md) Section 4.2 (The Five-Page Lean Site Architecture / Kylie Murphy Blueprint: 5 pages, on-page only, zero link building, ~10,000 organic clicks and 200+ Google reviews within 12 months).
+* **Local Service 5-Page Architecture:** For local trade and field service businesses, the operational deployment blueprint for this model is codified in [`kirby-local-seo`](../../kirby-local-seo/SKILL.md) Module 4, Section 4.2 (The Five-Page Lean Site Architecture / Kylie Murphy Blueprint: 5 pages, on-page only, zero link building, ~10,000 organic clicks and 200+ Google reviews within 12 months).
 
 **Short Landing Page Execution Checklist**
 - [ ] Ban 3,000-word blog post formats for Bucket 4 commercial keywords.

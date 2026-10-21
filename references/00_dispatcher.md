@@ -21,6 +21,7 @@ When asked to perform AI SEO tasks, **do not guess**. Instead, review the module
 - **Module 15**: October 2026 Metadata Fact-Check Mandate & SRA Compliance Boundaries (per-surface metadata verification, Site Reputation Abuse boundary test, autonomous-agent publishing gate) -> Read `./module_15_october_2026_metadata_fact_check_sra_boundaries.md`
 - **Module 16**: Post-Update Indexing Latency & Propagation Expectations (Illyes Oct 2026 benchmarks; 1-Hour SEO Update verdict windows, per-change-class propagation table) -> Read `./module_16_post_update_indexing_latency.md`
 - **Module 17**: Scaled AI Content Collapse Autopsy & Quarantine Protocols (Grokipedia Case Study - Ep. 1197) -> Read `./module_17_scaled_ai_collapse_autopsy_and_quarantine_protocols.md`
+- **Module 18**: The Anti-Slop Detection Boundary & Quality Raters Page Audit (Whitespark E48 & E50) -> Read `./module_18_ai_slop_detection_boundary_and_quality_raters_audit.md`
 
 ## When to Use
 - You need to optimize content for AI search engines (ChatGPT, Perplexity, Gemini).
@@ -50,6 +51,7 @@ When asked to perform AI SEO tasks, **do not guess**. Instead, review the module
 - The user mentions AI SEO, AEO, GEO, or asks to apply the SOP.
 - You are setting post-update propagation expectations after executing the 1-Hour SEO Update (§2.19), snippet re-optimization (§2.22B), or schema/canonical changes — 1–2 day SERP refresh typical behind the ~30-day recrawl gate, verdicts booked at week 4–6, no re-edits on top of in-flight propagation (Module 16; benchmark Matrix is `../../kirby-seo-timing-benchmarks/SKILL.md`).
 - You are scaling programmatic AI content or evaluating the risk of automated publishing: review the Grokipedia 97% collapse autopsy (Edward Sturm Ep. 1197), Google Scaled Content Abuse and Scraping policy boundaries, the rule that AI-checking-AI violates human review guidelines, the GSC air-gap rule, and the `noindex` staging quarantine protocol (Module 17).
+- You are grading individual commercial or editorial pages against Google's Search Quality Raters Guidelines (Effort, Experiential E-E-A-T, Entity Accountability, Intent Speed) to eliminate "AI Slop" footprints before publishing (Module 18; 1:1 GBP entity mirroring lives in `../../kirby-local-seo/SKILL.md` Module 8).
 
 ## How It Works
 1. Identify the specific domain or optimization requested by the user.
