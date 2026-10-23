@@ -18,3 +18,12 @@ To survive this conversational shift, brands must deploy active, defensive AI Re
 
 ### **14.3 Crisis Management Pre-Planning**
 *   **Proactive Strategy:** Large companies must have a pre-planned crisis response strategy. Reactive, emotional, or poorly framed responses during a PR incident provide concentrated, high-virality text data that LLMs ingest and immortalize in their weights. Controlled, pre-planned crisis communication minimizes the extraction of negative entity associations.
+
+### **14.4 The On-Domain Reddit Rebuttal Architecture (David Quaid & Gagan Ghotra Ep. 1206)**
+*   **The Forum Engagement Trap:** Brand managers frequently attempt to resolve negative Reddit threads by sending company accounts into comment sections to argue or explain. Due to heightened 2026 administrative anti-spam filters and community moderator hostility, brand defensive comments are routinely flagged, shadowbanned, or deleted, leaving only the negative critique visible.
+*   **The Solution (On-Domain Sentiment Balancing):**
+    1. Audit brand-name + review queries across ChatGPT Search, Perplexity, and Google AI Overviews to identify which specific Reddit threads or complaints the models extract.
+    2. **Host the resolution on your own domain:** Author dedicated, highly authoritative clarification or FAQ pages (e.g., `brand.com/learn/product-durability-clarified` or `brand.com/faq/reddit-review-updates`).
+    3. Provide substantive technical data, warranty terms, or third-party test certifications directly resolving the complaint.
+*   **LLM Synthesis Effect:** When answer engines crawl for balanced viewpoint synthesis, they retrieve the high-authority on-domain technical response alongside the Reddit thread, neutralizing negative sentiment in the final generated summary without triggering Reddit moderator penalties.
+

@@ -666,3 +666,33 @@ If the URL was **never meant to be indexed** (tracking parameters, HTTP/HTTPS du
 * **Doctrine consequence:** on-page entity work (§2.42–§2.44) is the mechanism that lowers retrieval cost; consensus dominance across the 10–15 fan-out surfaces is ORM at scale (`kirby-off-page-seo` Module 16) — do not attempt it with on-page content alone.
 
 ---
+
+### **1.22 AI Search-Grounding Bot Governance vs. Training Scrapers (Robots.txt & WAF Protocol — Edward Sturm Ep. 1206)**
+
+* **The Architectural Split:** Search-engine AEO and real-time LLM retrieval depend on a strict operational separation between **search-grounding crawlers** and **model-training scrapers**. Conflating them in `robots.txt` or WAF rules destroys Answer Engine visibility.
+* **Crawler Taxonomy (2026 Grounding Standards):**
+  * **Search-Grounding Crawlers (Must Allow on Commercial & Deals Paths):** `OAI-SearchBot` (OpenAI real-time web search), `PerplexityBot` (Perplexity search indexer), `ChatGPT-User` (on-demand web browsing triggers via ChatGPT user prompts), `Google-Extended` (if opting into Gemini grounding while managing Vertex training).
+  * **Model-Training Bots (Optional Disallow):** `GPTBot`, `ClaudeBot`, `Bytespider` (offline model training and bulk corpus ingestion).
+* **Robots.txt Baseline Configuration:**
+  ```txt
+  # Allow Real-Time AI Search Grounding
+  User-agent: OAI-SearchBot
+  Allow: /
+  Allow: /black-friday/
+  Allow: /products/
+  Allow: /deals/
+
+  User-agent: PerplexityBot
+  Allow: /
+  Allow: /products/
+
+  User-agent: ChatGPT-User
+  Allow: /
+
+  # Restrict Training Scrapers from Staging & Internal Assets
+  User-agent: GPTBot
+  Disallow: /internal/
+  Disallow: /staging/
+  ```
+* **Edge CDN & WAF Rate Limiting:** AI crawler traffic grew over 250% YoY. Configure Cloudflare / AWS WAF rate-limiting exceptions strictly scoped to reverse-DNS-verified AI search crawler IP ranges. Never block user-agents containing "SearchBot" at the edge, or your commercial landing pages become invisible to answer engines during peak buying cycles.
+

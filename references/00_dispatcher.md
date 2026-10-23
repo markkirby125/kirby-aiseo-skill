@@ -7,17 +7,17 @@ When asked to perform AI SEO tasks, **do not guess**. Instead, review the module
 
 **Executive & Core Strategy**
 - **Executive Threat Profile**: Scaled Content Abuse & Demotion Signals -> Read `./00_executive_summary.md`
-- **Module 1**: Technical Infrastructure & Crawler Accessibility (Cloudflare, robots.txt, edge delivery, URL slug resets, Crawled vs Discovered router, harmonic centrality, CCBot plain-text standards, WAF/CDN AI-crawler audit, fresh-domain AI Overview quarantine, fan-out reasoning filter) -> Read `./module_1_technical_infrastructure_crawler_accessibility.md`
+- **Module 1**: Technical Infrastructure & Crawler Accessibility (Cloudflare, robots.txt, edge delivery, URL slug resets, Crawled vs Discovered router, harmonic centrality, CCBot plain-text standards, WAF/CDN AI-crawler audit, fresh-domain AI Overview quarantine, fan-out reasoning filter, search-grounding bot governance §1.22) -> Read `./module_1_technical_infrastructure_crawler_accessibility.md`
 
 **Content & On-Page Engineering**
-- **Module 2**: On-Page Semantic Architecture & Content Engineering (GEO retrieval multipliers incl. 9,249-study benchmarks, content structures, RAG chunking, SEO Rater Guidelines, SERP undertargeting, 4-question framework, 1-Hour SEO Update, short landing pages, credibility documents, dual topical maps, comparison 99%/1% rule, BM25 optimization, entity definition trinity, personal KG book-funnel, entity home invariant, KD 2–3 fan-out exception) -> Read `./module_2_on_page_semantic_architecture_content_engineering.md`
+- **Module 2**: On-Page Semantic Architecture & Content Engineering (GEO retrieval multipliers incl. 9,249-study benchmarks, content structures, RAG chunking, SEO Rater Guidelines, SERP undertargeting, 4-question framework, 1-Hour SEO Update, short landing pages, credibility documents, dual topical maps, comparison 99%/1% rule, BM25 optimization, entity definition trinity, personal KG book-funnel, entity home invariant, KD 2–3 fan-out exception, Compact Keywords framework §2.46, deep technical product attributes §2.47, middle-of-funnel educational citation guides §2.48, Discount Transparency Block canonical specification §2.49) -> Read `./module_2_on_page_semantic_architecture_content_engineering.md`
 
 **Other Modules**
 - **Module 6**: Google Discover & Algorithmic Feed Optimization (including Discover Natural Language Feed Customization) -> Read `./module_6_google_discover_algorithmic_feed_optimization.md`
 - **Module 8**: Vulnerable Footprints vs. Resilient Asset Architecture (Quick Reference) -> Read `./module_8_quick_reference_vulnerable_footprints_vs_resilient_asset_architecture.md`
 - **Module 9**: Site-Specific Implementation Checklists -> Read `./module_9_site_specific_implementation_checklists.md`
 - **Module 10**: Gap-Analysis Supplementary Protocols (Remaining September 2026 Research Updates) -> Read `./module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md`
-- **Module 14**: Defensive GEO & AI Reputation Management (ORM) (Mitigating negative AI Overviews, crisis management pre-planning) -> Read `./module_14_defensive_geo_ai_orm_ann_smarty_ep_1186.md`
+- **Module 14**: Defensive GEO & AI Reputation Management (ORM) (Mitigating negative AI Overviews, crisis management pre-planning, on-domain Reddit rebuttal architecture §14.4) -> Read `./module_14_defensive_geo_ai_orm_ann_smarty_ep_1186.md`
 - **Module 15**: October 2026 Metadata Fact-Check Mandate & SRA Compliance Boundaries (per-surface metadata verification, Site Reputation Abuse boundary test, autonomous-agent publishing gate) -> Read `./module_15_october_2026_metadata_fact_check_sra_boundaries.md`
 - **Module 16**: Post-Update Indexing Latency & Propagation Expectations (Illyes Oct 2026 benchmarks; 1-Hour SEO Update verdict windows, per-change-class propagation table) -> Read `./module_16_post_update_indexing_latency.md`
 - **Module 17**: Scaled AI Content Collapse Autopsy & Quarantine Protocols (Grokipedia Case Study - Ep. 1197) -> Read `./module_17_scaled_ai_collapse_autopsy_and_quarantine_protocols.md`
@@ -52,6 +52,10 @@ When asked to perform AI SEO tasks, **do not guess**. Instead, review the module
 - You are setting post-update propagation expectations after executing the 1-Hour SEO Update (§2.19), snippet re-optimization (§2.22B), or schema/canonical changes — 1–2 day SERP refresh typical behind the ~30-day recrawl gate, verdicts booked at week 4–6, no re-edits on top of in-flight propagation (Module 16; benchmark Matrix is `../../kirby-seo-timing-benchmarks/SKILL.md`).
 - You are scaling programmatic AI content or evaluating the risk of automated publishing: review the Grokipedia 97% collapse autopsy (Edward Sturm Ep. 1197), Google Scaled Content Abuse and Scraping policy boundaries, the rule that AI-checking-AI violates human review guidelines, the GSC air-gap rule, and the `noindex` staging quarantine protocol (Module 17).
 - You are grading individual commercial or editorial pages against Google's Search Quality Raters Guidelines (Effort, Experiential E-E-A-T, Entity Accountability, Intent Speed) to eliminate "AI Slop" footprints before publishing (Module 18; 1:1 GBP entity mirroring lives in `../../kirby-local-seo/SKILL.md` Module 8).
+- You are architecting Compact Keyword landing pages (≤450 words) targeting bottom-of-funnel commercial searches (Module 2 §2.46).
+- You are configuring granular product attributes for AEO comparison queries (Module 2 §2.47), deploying middle-of-funnel educational comparison guides as LLM citation bait (§2.48), or formatting machine-readable Discount Transparency Blocks with `AggregateOffer` schema (§2.49; visual CRO hero layout lives in `../../kirby-text-first-cro/SKILL.md` Section 1).
+- You are auditing `robots.txt` and WAF/CDN rate limits to ensure real-time search-grounding crawlers (`OAI-SearchBot`, `PerplexityBot`, `ChatGPT-User`) are allowed access (Module 1 §1.22).
+- You are mitigating negative brand sentiment extracted by AI Overviews from Reddit by deploying on-domain counter-rebuttal FAQ pages (Module 14 §14.4).
 
 ## How It Works
 1. Identify the specific domain or optimization requested by the user.

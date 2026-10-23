@@ -1472,3 +1472,63 @@ Three gates decide this same architectural question. Apply them in order; a quer
 * **Bloat Ceiling:** this play is capped by the §2.32 standalone-question-URL limit (≤15 sitewide) — high publishing velocity of long-tail assets risks index bloat when the quality floor drops; if the variant does not clear §2.29F authority capability, it gets an `<h2>` on the hub (§2.37), not a URL.
 
 ---
+
+### **2.46 The Compact Keywords Framework: 400-Word BOFU Transactional Landers (Edward Sturm Ep. 1206)**
+
+* **The Concept:** Traditional SEO over-indexes on 2,500-word informational guides answering top-of-funnel questions. The Compact Keywords methodology deploys streamlined, ~400-word landing pages engineered specifically for searchers in active purchase mode.
+* **Target Query Formula:**
+  $$\text{[Event / Modifier]} + \text{[Audience Target]} + \text{[Product Category]} + \text{Deals}$$
+  *Example:* `Black Friday activewear deals for women` or `Best flat-screen TVs for apartments`.
+* **Post-HCU Advantage:** Following Google's Helpful Content Updates, search algorithms systematically deprioritized generic publisher listicles in commercial queries in favor of direct merchant pages offering verified stock and direct pricing.
+* **Structural Architecture (≤ 450 words):**
+  1. **Above-the-Fold H1 & Hook (50 words):** Explicit statement of inventory, availability, and active discount tiers.
+  2. **Discount Transparency Block (75 words):** Plain-text numerical discount tiers and valid promo criteria (see §2.49).
+  3. **Curated Product Grid / Table (150 words):** Direct product cards highlighting SKU attributes, specs, and checkout buttons.
+  4. **Compact PAA FAQ (125 words):** 3–4 answers resolving transactional objections (shipping cutoff, return window, warranty).
+
+### **2.47 Deep Technical Product Attribute Mapping for AEO (Harpreet Singh / Gagan Ghotra Ep. 1206)**
+
+* **The LLM Attribute-Extraction Mechanism:** Answer engines (ChatGPT Search, Perplexity, Google AI Overviews) synthesize product recommendations by extracting granular physical, technical, and dimensional attributes rather than promotional copywriting.
+* **The Manufacturer Fluff Trap:** E-commerce merchants and resellers who copy generic wholesaler descriptions are invisible to LLM comparison engines because the document lacks checkable technical parameters.
+* **Mandatory Technical Attribute Schema:**
+  * **Materials & Construction:** Exact fabric weight (`280 GSM`), composition (`100% organic cotton`), hardware grading (`YKK zippers`).
+  * **Environmental & Performance Ratings:** Ingress Protection (`IPX8 waterproof to 3 meters`), acoustic limits (`<38 dB noise output`), thermal ratings.
+  * **Contextual & Climatic Suitability:** Explicitly answer situational queries directly in copy (*"Anti-slip lugged rubber outsole optimized for wet asphalt and rainy conditions"*).
+* **Climatic Calibration:** Align featured product attributes with primary buyer geographic cohorts. If analytics show 70% of purchasers reside in wet coastal regions, elevate water-resistance and grip attributes above the fold.
+
+### **2.48 Middle-of-Funnel Educational Guides as LLM Citation Bait (Ep. 1206)**
+
+* **The Educational Gateway to AEO:** Consumers frequently query LLMs to demystify complex technical terminology prior to checkout (e.g., *"What is the difference between OLED, QLED, and Neo QLED for a bright apartment?"* or *"MERV 8 vs MERV 13 furnace filters"*).
+* **Citation Mechanism:** When an LLM executes web retrieval to answer these comparative technical questions, it bypasses promotional product pages and cites neutral, authoritative educational comparison guides.
+* **Implementation Protocol:**
+  * Author definitive, neutral technical guides comparing underlying technologies (not Brand A vs Brand B, but Technology X vs Technology Y).
+  * Structure differences in clean markdown comparison tables.
+  * Embed contextual internal links from the educational guide directly into the corresponding commercial Compact Keyword landing pages (§2.46).
+
+### **2.49 The Discount Transparency Block: Plain-Text Numerical Tiers & AggregateOffer Schema (Canonical Specification)**
+
+> **Canonical Specification Block.** This section canonically owns the schema and semantic specifications for discount clarity; visual hero layout and conversion rate optimization are owned by `../../kirby-text-first-cro/SKILL.md` Section 1.
+
+* **The LLM Retrieval Fallacy:** Stacking multiple dummy promo codes (`BF10`, `BF20`, `BF30`, `BF40`) does **not** induce semantic matching in retrieval engines. Hybrid search engines (BM25 lexical + dense neural embeddings) match explicit natural language phrases (e.g., *"40% off running shoes"*). Furthermore, stacking codes degrades checkout UX and fuels coupon-scraping parasites.
+* **On-Page Semantic Standard:**
+  Every promotional lander must feature an explicit, machine-readable Discount Transparency Block:
+  ```markdown
+  ### Official 2026 Tiered Discounts
+  * **40% Off:** All Footwear & Running Shoes (Applied automatically or use code **RUN40**)
+  * **30% Off:** Outerwear, Jackets & Winter Apparel
+  * **20% Off:** Accessories, Water Bottles & Training Equipment
+  * *Terms: Valid through Dec 2, 2026. Free 2-day delivery on orders over $50.*
+  ```
+* **Structured Data Pairing:** Pair the block with valid `AggregateOffer` or `Offer` JSON-LD schema:
+  ```json
+  {
+    "@context": "https://schema.org",
+    "@type": "AggregateOffer",
+    "priceCurrency": "USD",
+    "lowPrice": "45.00",
+    "highPrice": "120.00",
+    "offerCount": "12",
+    "priceValidUntil": "2026-12-02"
+  }
+  ```
+

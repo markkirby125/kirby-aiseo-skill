@@ -28,6 +28,7 @@
   - [1.19 The 35% WAF/CDN AI-Crawler Block Audit](module_1_technical_infrastructure_crawler_accessibility.md#119-the-35-wafcdn-ai-crawler-block-audit-cloudflare--aws-waf--edge-cdn-checklist)
   - [1.20 Fresh-Domain AI Overview Quarantine (24–72h Holding Period)](module_1_technical_infrastructure_crawler_accessibility.md#120-fresh-domain-ai-overview-quarantine-2472h-holding-period)
   - [1.21 The Query Fan-Out Reasoning Filter: Candidate Selection Arithmetic](module_1_technical_infrastructure_crawler_accessibility.md#121-the-query-fan-out-reasoning-filter-candidate-selection-arithmetic-james-dooley--charles-floate-v6-2026)
+  - [1.22 AI Search-Grounding Bot Governance vs. Training Scrapers (Robots.txt & WAF Protocol)](module_1_technical_infrastructure_crawler_accessibility.md#122-ai-search-grounding-bot-governance-vs-training-scrapers-robotstxt--waf-protocol--edward-sturm-ep-1206)
 - **[Module 2: On-Page Semantic Architecture & Content Engineering](module_2_on_page_semantic_architecture_content_engineering.md)**
   - [2.1 The 30% Front-Loading Law & BLUF](module_2_on_page_semantic_architecture_content_engineering.md#21-the-30-front-loading-law--bluf)
   - [2.2 Empirical GEO Retrieval Multipliers](module_2_on_page_semantic_architecture_content_engineering.md#22-empirical-geo-retrieval-multipliers)
@@ -74,6 +75,10 @@
   - [2.43 The Personal Knowledge Panel Book-Funnel SOP](module_2_on_page_semantic_architecture_content_engineering.md#243-the-personal-knowledge-panel-book-funnel-sop-james-dooley--charles-floate-v6--entity-seo-for-ai-search-2026)
   - [2.44 The Entity Home: Slug Invariant, Third-Person Triples & sameAs Wrapping](module_2_on_page_semantic_architecture_content_engineering.md#244-the-entity-home-slug-invariant-third-person-triples--sameas-wrapping-v6-b)
   - [2.45 The KD 2–3 Fan-Out Long-Tail Exception](module_2_on_page_semantic_architecture_content_engineering.md#245-the-kd-23-fan-out-long-tail-exception-scoped-carve-out-from-216a-v6-h)
+  - [2.46 The Compact Keywords Framework: 400-Word BOFU Transactional Landers](module_2_on_page_semantic_architecture_content_engineering.md#246-the-compact-keywords-framework-400-word-bofu-transactional-landers-edward-sturm-ep-1206)
+  - [2.47 Deep Technical Product Attribute Mapping for AEO](module_2_on_page_semantic_architecture_content_engineering.md#247-deep-technical-product-attribute-mapping-for-aeo-harpreet-singh--gagan-goraya-ep-1206)
+  - [2.48 Middle-of-Funnel Educational Guides as LLM Citation Bait](module_2_on_page_semantic_architecture_content_engineering.md#248-middle-of-funnel-educational-guides-as-llm-citation-bait-ep-1206)
+  - [2.49 The Discount Transparency Block: Plain-Text Numerical Tiers & AggregateOffer Schema](module_2_on_page_semantic_architecture_content_engineering.md#249-the-discount-transparency-block-plain-text-numerical-tiers--aggregateoffer-schema-canonical-specification)
 - **[Module 6: Google Discover & Algorithmic Feed Optimization](module_6_google_discover_algorithmic_feed_optimization.md)**
 - **[Module 8: Quick Reference: Vulnerable Footprints vs. Resilient Asset Architecture](module_8_quick_reference_vulnerable_footprints_vs_resilient_asset_architecture.md)**
   - [The Digital Moat Architecture (V6-F)](module_8_quick_reference_vulnerable_footprints_vs_resilient_asset_architecture.md#the-digital-moat-architecture-v6f--james-dooley--charles-floate-2026-single-source-directional)
@@ -93,6 +98,7 @@
   - [14.1 The AI Overview Negative Sentiment Threat](module_14_defensive_geo_ai_orm_ann_smarty_ep_1186.md#141-the-ai-overview-negative-sentiment-threat)
   - [14.2 Human-Led Customer Support to Starve AI Models](module_14_defensive_geo_ai_orm_ann_smarty_ep_1186.md#142-human-led-customer-support-to-starve-ai-models)
   - [14.3 Crisis Management Pre-Planning](module_14_defensive_geo_ai_orm_ann_smarty_ep_1186.md#143-crisis-management-pre-planning)
+  - [14.4 The On-Domain Reddit Rebuttal Architecture](module_14_defensive_geo_ai_orm_ann_smarty_ep_1186.md#144-the-on-domain-reddit-rebuttal-architecture-david-quaid--gagan-goraya-ep-1206)
 - **[Module 15: October 2026 Metadata Fact-Check Mandate & SRA Compliance Boundaries](module_15_october_2026_metadata_fact_check_sra_boundaries.md)**
   - [15.1 The October 1, 2026 Metadata Fact-Check Mandate](module_15_october_2026_metadata_fact_check_sra_boundaries.md#151-the-october-1-2026-metadata-fact-check-mandate)
   - [15.2 Metadata Verification Pass SOP](module_15_october_2026_metadata_fact_check_sra_boundaries.md#152-metadata-verification-pass-sop)
