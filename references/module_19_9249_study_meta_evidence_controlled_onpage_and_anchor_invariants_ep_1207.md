@@ -2,7 +2,7 @@
 
 *Source: The SEO Meta Study (Krešimir Ćorluka, CEO & co-founder @ Ovisy; September 2026; Zenodo DOI: 10.5281/zenodo.22768160) & The Edward Show Ep. 1191 (Audio release) / Ep. 1207 (YouTube interview: "He Dug Through 9,249 SEO Case Studies. Here's What Actually Works" — Edward Sturm).*
 
-> **Scope Partition:** Scaled content collapse protocols live in **Module 17**. Quality Rater page audits live in **Module 18**. Single-variable isolation and confounder controls live in [`kirby-seo-telemetry`](../../kirby-seo-telemetry/SKILL.md) Module 9 §9.3. This module establishes the **empirical evidence hierarchy, controlled title tag rules, internal linking standards, and footer architecture guidelines** extracted from the 9,249-study systematic review.
+> **Scope Partition:** Scaled content collapse protocols live in **Module 17**. Quality Rater page audits live in **Module 18**. Single-variable isolation and confounder controls live in [`kirby-seo-telemetry`](../../kirby-seo-telemetry/SKILL.md) Module 9 §9.3. This module establishes the **empirical evidence hierarchy, controlled title tag rules, internal linking standards, and footer architecture guidelines** extracted from the 9,249-document systematic review.
 
 ---
 
