@@ -68,15 +68,19 @@ The dispatcher handles the following specialised modules:
 - **Module 14**: Defensive GEO & AI Reputation Management (ORM)
 - **Module 15**: October 2026 Metadata Fact-Check Mandate & SRA Compliance Boundaries
 - **Module 16**: Post-Update Indexing Latency & Propagation Expectations (Illyes Oct 2026 benchmarks) — 1-Hour SEO Update verdict windows (week 4–6 behind the ~30-day recrawl gate), per-change-class propagation table, no-re-edit-while-in-flight rule
+- **Module 17**: Scaled AI Content Collapse Autopsy & Quarantine Protocols (Grokipedia Case Study - Ep. 1197)
+- **Module 18**: The Anti-Slop Detection Boundary & Quality Raters Page Audit (Whitespark E48 & E50)
+- **Module 19**: 9,249-Study Meta-Evidence, Controlled On-Page & Anchor Invariants (SearchPilot controlled title experiments, orphan inlinking standards, footer link gain mechanisms & PPC risk, AEO empirical grounding — Ep. 1191 audio / Ep. 1207 YouTube interview; Zenodo DOI: 10.5281/zenodo.22768160)
 
 ## 🆕 October 2026 — LLM Mastery & 9,249-Study Doctrine
 
-New sections from the LLM Mastery masterclasses and the 9,249-case-study meta-analysis (Ep. 1191):
+New sections from the LLM Mastery masterclasses and the 9,249-case-study meta-analysis (The Edward Show Ep. 1191 audio / Ep. 1207 YouTube interview):
 - **M1 §1.17** Harmonic Centrality over PageRank (seed-graph distance doctrine + audit tooling; canonical twin in `kirby-off-page-seo`)
 - **M1 §1.18–§1.20** CCBot plain-text accessibility standards, the 35% WAF/CDN AI-crawler unblocking audit, and the fresh-domain AI Overview quarantine
 - **M2 §2.2** Empirical benchmark bundle: direct-answer-first (+280%), discrete factual statements (5x), staff bylines (+113%), GEO package rewrites (+83.2%), the targeted-vs-mass AI publishing split, and the `llms.txt` debunk
 - **M2 §2.38–§2.42** Credibility document hardening, dual topical maps, comparison pages with the 99%/1% consensus rule, BM25 lexical optimization, and the entity definition trinity (Who/What/Why)
 - **M15** Oct 1, 2026 metadata fact-check mandate (titles, meta descriptions, JSON-LD, alt text), SRA compliance boundary test for third-party syndication, and the autonomous-agent publishing gate (Sept 24 spam-update doctrine cross-train)
+- **M19** 9,249-study empirical evidence hierarchy (SearchPilot controlled title experiments, orphan inlinking measured findings, footer link gain mechanisms & PPC risk, AEO citation benchmarks — Zenodo DOI: 10.5281/zenodo.22768160)
 
 ## External Resources & Authority Links
 - [Google Search Central: Spam Policies & Scaled Content Abuse](https://developers.google.com/search/docs/essentials/spam-policies)

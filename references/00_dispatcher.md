@@ -22,6 +22,7 @@ When asked to perform AI SEO tasks, **do not guess**. Instead, review the module
 - **Module 16**: Post-Update Indexing Latency & Propagation Expectations (Illyes Oct 2026 benchmarks; 1-Hour SEO Update verdict windows, per-change-class propagation table) -> Read `./module_16_post_update_indexing_latency.md`
 - **Module 17**: Scaled AI Content Collapse Autopsy & Quarantine Protocols (Grokipedia Case Study - Ep. 1197) -> Read `./module_17_scaled_ai_collapse_autopsy_and_quarantine_protocols.md`
 - **Module 18**: The Anti-Slop Detection Boundary & Quality Raters Page Audit (Whitespark E48 & E50) -> Read `./module_18_ai_slop_detection_boundary_and_quality_raters_audit.md`
+- **Module 19**: 9,249-Study Meta-Evidence, Controlled On-Page & Anchor Invariants (SearchPilot controlled title experiments, orphan inlinking measured findings, footer link gain mechanisms & PPC risk, AEO empirical grounding — Ep. 1191 audio / Ep. 1207 YouTube; Zenodo DOI: 10.5281/zenodo.22768160) -> Read `./module_19_9249_study_meta_evidence_controlled_onpage_and_anchor_invariants_ep_1207.md`
 
 ## When to Use
 - You need to optimize content for AI search engines (ChatGPT, Perplexity, Gemini).
@@ -56,6 +57,7 @@ When asked to perform AI SEO tasks, **do not guess**. Instead, review the module
 - You are configuring granular product attributes for AEO comparison queries (Module 2 §2.47), deploying middle-of-funnel educational comparison guides as LLM citation bait (§2.48), or formatting machine-readable Discount Transparency Blocks with `AggregateOffer` schema (§2.49; visual CRO hero layout lives in `../../kirby-text-first-cro/SKILL.md` Section 1).
 - You are auditing `robots.txt` and WAF/CDN rate limits to ensure real-time search-grounding crawlers (`OAI-SearchBot`, `PerplexityBot`, `ChatGPT-User`) are allowed access (Module 1 §1.22).
 - You are mitigating negative brand sentiment extracted by AI Overviews from Reddit by deploying on-domain counter-rebuttal FAQ pages (Module 14 §14.4).
+- You are optimizing `<title>` tags for controlled CTR lift (`Updated Daily` recency hooks, ALL CAPS noun emphasis, dynamic pricing), recovering orphan pages with internal links, auditing footer links, or evaluating AEO claims against empirical meta-study data (Module 19; single-variable isolation and confounder controls live in `../../kirby-seo-telemetry/SKILL.md` Module 9 §9.3).
 
 ## How It Works
 1. Identify the specific domain or optimization requested by the user.

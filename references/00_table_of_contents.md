@@ -110,6 +110,21 @@
   - [16.2 The Propagation Timeline (per change class)](module_16_post_update_indexing_latency.md#162-the-propagation-timeline-per-change-class)
   - [16.3 Protocol Touch-Points (alignment, not duplication)](module_16_post_update_indexing_latency.md#163-protocol-touch-points-alignment-not-duplication)
   - [16.4 Routing Map](module_16_post_update_indexing_latency.md#164-routing-map)
+- **[Module 17: Scaled AI Content Collapse Autopsy & Quarantine Protocols](module_17_scaled_ai_collapse_autopsy_and_quarantine_protocols.md)**
+  - [17.1 The Grokipedia Autopsy: 6.5M ➔ 200K Clicks](module_17_scaled_ai_collapse_autopsy_and_quarantine_protocols.md#171-the-grokipedia-autopsy-65m--200k-clicks)
+  - [17.2 The 2.5 Policy Violations](module_17_scaled_ai_collapse_autopsy_and_quarantine_protocols.md#172-the-25-policy-violations)
+  - [17.3 Algorithmic Trust Drain & User Signals](module_17_scaled_ai_collapse_autopsy_and_quarantine_protocols.md#173-algorithmic-trust-drain--user-signals)
+  - [17.4 Backlink Architecture Asymmetry (Root vs. Deep Links)](module_17_scaled_ai_collapse_autopsy_and_quarantine_protocols.md#174-backlink-architecture-asymmetry-root-vs-deep-links)
+  - [17.5 The Scaled AI Operational Quarantine SOP](module_17_scaled_ai_collapse_autopsy_and_quarantine_protocols.md#175-the-scaled-ai-operational-quarantine-sop)
+- **[Module 18: The Anti-Slop Detection Boundary & Quality Raters Page Audit](module_18_ai_slop_detection_boundary_and_quality_raters_audit.md)**
+  - [18.1 Why Unedited LLM Copy Triggers Algorithmic Demotion](module_18_ai_slop_detection_boundary_and_quality_raters_audit.md#181-why-unedited-llm-copy-triggers-algorithmic-demotion)
+  - [18.2 The 4-Point Search Quality Raters Page Audit](module_18_ai_slop_detection_boundary_and_quality_raters_audit.md#182-the-4-point-search-quality-raters-page-audit-whitespark-e50)
+- **[Module 19: 9,249-Study Meta-Evidence, Controlled On-Page & Anchor Invariants](module_19_9249_study_meta_evidence_controlled_onpage_and_anchor_invariants_ep_1207.md)**
+  - [19.1 The 9,249-Study Evidence Calibration & Publication Bias](module_19_9249_study_meta_evidence_controlled_onpage_and_anchor_invariants_ep_1207.md#191-the-9249-study-evidence-calibration--publication-bias)
+  - [19.2 Controlled Title Tag Engineering (SearchPilot Invariants)](module_19_9249_study_meta_evidence_controlled_onpage_and_anchor_invariants_ep_1207.md#192-controlled-title-tag-engineering-searchpilot-invariants)
+  - [19.3 Internal Linking: Orphan Recovery (Measured) vs Anchor Invariant (Operational)](module_19_9249_study_meta_evidence_controlled_onpage_and_anchor_invariants_ep_1207.md#193-internal-linking-orphan-recovery-measured-vs-anchor-invariant-operational)
+  - [19.4 Footer Category Links: Gain Mechanism & Risk Governance](module_19_9249_study_meta_evidence_controlled_onpage_and_anchor_invariants_ep_1207.md#194-footer-category-links-gain-mechanism--risk-governance)
+  - [19.5 AEO / GEO Empirical Grounding](module_19_9249_study_meta_evidence_controlled_onpage_and_anchor_invariants_ep_1207.md#195-aeo--geo-empirical-grounding)
 
 ## Decoupled Specialist Skills
 
