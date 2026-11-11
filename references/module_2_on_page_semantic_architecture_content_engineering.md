@@ -711,7 +711,7 @@ While large language models (LLMs) collapsed the production cost of content from
    * *The Mathematical Requirement:* In a 1,000-word article, Google expects **250 to 350 specific contextual and LSI entity terms** to establish unambiguous topical meaning for BERT and MUM.
    * *The LLM Flaw:* Out-of-the-box LLMs generate only **50 to 60 contextual terms** (~20% of the mathematical requirement).
    * *Google’s Zero-Cost Spam Filter:* Google does not need complex, compute-heavy "AI detectors." It simply counts contextual term density. If density is deficient, the page is automatically classified as low-signal noise.
-3. **Severe Schema Markup Deficits:** 99% of pages lacked at least one required schema property, and 35% contained zero schema markup. Because schema is invisible in the visual viewport, content teams neglect it, forfeiting rich snippets and knowledge graph entity resolution.
+3. **Severe Schema Markup Deficits:** 99% of pages lacked at least one required schema property, and 35% contained zero schema markup. Because schema is invisible in the visual viewport, content teams neglect it. Treat it as identifier hygiene (it helps engines resolve who and what a page is), not as a ranking lever (directional, single-source, unverified); rich-result eligibility follows Google's own feature rules and is never guaranteed.
 4. **The Operational Inversion (Weakest Landing Pages):** Commercial landing pages (the primary revenue drivers) scored significantly lower than informational blog posts. Conversion and design teams strip explanatory copy to create minimalist aesthetics, inadvertently rendering the business’s most valuable pages invisible to search engines.
 5. **LLM Signal Degradation Over Time:** In longitudinal testing over 18 months, newer LLM models improved at following total word counts and structural formatting, but their native mathematical SEO scores and contextual term densities **steadily declined**.
 6. **The Inventory vs. Asset Fallacy:** A library of 300–450 AI blog posts where half sit in the Invisible Zone is not a business asset; it is toxic inventory dragging down domain authority.
@@ -730,7 +730,7 @@ $$\mathbf{\text{2026 Standard: } 60\%–70\% \text{ Mathematical Optimization} \
 - [ ] Verify exact target keyword placement in the `<title>` tag and primary `<h1>` on 100% of URLs.
 - [ ] Inject 250–350 contextual and LSI entity tokens per 1,000 words to satisfy Google's mathematical density filters.
 - [ ] Audit commercial landing pages to ensure conversion-focused designs do not strip required semantic signal layers.
-- [ ] Implement complete JSON-LD schema markup on every published URL.
+- [ ] Keep JSON-LD complete and accurate for each page type that has a valid schema type, matching visible content (identifier hygiene, not a ranking lever). Omit types the page cannot honestly support. As a conservative default, strip `AggregateRating` or `AggregateOffer` from non-ecommerce or unverified local pages when a page is suppressed or shows structured-data warnings (directional, single-source, unverified; `../../kirby-technical-aeo/SKILL.md` Phase 4, and §2.49 for offers). Keep review markup only on types that support it, with the reviews visible on the page.
 - [ ] Transition content operations to the 70/30 model: allocate 70% of resources to mathematical re-optimization over net-new production.
 
 ---
@@ -1519,12 +1519,12 @@ Three gates decide this same architectural question. Apply them in order; a quer
   Every promotional lander must feature an explicit, machine-readable Discount Transparency Block:
   ```markdown
   ### Official 2026 Tiered Discounts
-  * **40% Off:** All Footwear & Running Shoes (Applied automatically or use code **RUN40**)
+  * **40% Off:** All Footwear & Running Shoes, 12 products, sale prices $45 to $120 (Applied automatically or use code **RUN40**)
   * **30% Off:** Outerwear, Jackets & Winter Apparel
   * **20% Off:** Accessories, Water Bottles & Training Equipment
   * *Terms: Valid through Dec 2, 2026. Free 2-day delivery on orders over $50.*
   ```
-* **Structured Data Pairing:** Pair the block with valid `AggregateOffer` or `Offer` JSON-LD schema:
+* **Structured Data Pairing (genuine ecommerce offers only):** Only where the page sells real products at visible prices, pair the block with `AggregateOffer` or `Offer` JSON-LD that matches the visible price range. It describes real offers; it is not written to win rich results, and it is treated as an identifier, not a ranking lever (directional, single-source, unverified). Do not add `AggregateOffer` or `Offer` markup to service, lead-gen or local pages (a conservative default, directional and unverified); their `Service` and `LocalBusiness` JSON-LD is unaffected (`../../kirby-local-seo/SKILL.md` Module 7). Every value in the markup (prices, offer count, validity date) must be visible on the page without a click. If a page is suppressed or shows structured-data warnings, strip review and offer schema first (`../../kirby-technical-aeo/SKILL.md` Phase 4, Schema Risk De-escalation Protocol):
   ```json
   {
     "@context": "https://schema.org",
