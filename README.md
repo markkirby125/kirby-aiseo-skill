@@ -61,7 +61,7 @@ The dispatcher handles the following specialised modules:
 - **Module 4**: Off-Page Consensus & Video Transcription
 - **Module 5**: Attribution Tracking & Conversational Ad Architectures
 - **Module 6**: Google Discover & Algorithmic Feed Optimisation
-- **Module 7**: Deployment Staging, Publishing Velocity & Network Isolation
+- **Module 7**: Deployment Staging, Publishing Velocity & Network-Risk Review
 - **Module 8**: Vulnerable Footprints vs. Resilient Asset Architecture
 - **Module 9**: Site-Specific Implementation Checklists
 - **Module 10**: Gap-Analysis Supplementary Protocols (2026 Update)

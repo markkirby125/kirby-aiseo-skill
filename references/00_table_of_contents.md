@@ -133,7 +133,7 @@ The following domains were extracted into dedicated single-responsibility Kirby 
 - **Module 3: Local AI Search & Review Engineering** ➔ [`kirby-local-seo`](../../kirby-local-seo/SKILL.md)
 - **Module 4: Off-Page Consensus & Video Transcription** ➔ [`kirby-off-page-seo`](../../kirby-off-page-seo/SKILL.md)
 - **Module 5: Attribution Tracking & Conversational Ad Architectures** ➔ [`kirby-seo-telemetry`](../../kirby-seo-telemetry/SKILL.md)
-- **Module 7: Deployment Staging, Publishing Velocity & Network Isolation** ➔ [`kirby-seo-deployment`](../../kirby-seo-deployment/SKILL.md)
+- **Module 7: Deployment Staging, Publishing Velocity & Network-Risk Review** ➔ [`kirby-seo-deployment`](../../kirby-seo-deployment/SKILL.md)
 - **Module 11: David Quaid Tactical Addendum** ➔ [`kirby-seo-deployment`](../../kirby-seo-deployment/SKILL.md)
 - **Module 12: AEO Press Release Manipulation** ➔ [`kirby-off-page-seo`](../../kirby-off-page-seo/SKILL.md)
 - **Direct-Response & SEO Copywriting (Inversion / TOFU-BOFU)** ➔ [`kirby-direct-response-copywriting`](../../kirby-direct-response-copywriting/SKILL.md)
