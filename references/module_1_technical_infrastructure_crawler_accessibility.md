@@ -191,7 +191,7 @@ Execute a slug reset only when all four criteria are met:
    * *Example (Local Trade):* `swindonplasterer.com/plastering-services/` $\rightarrow$ `swindonplasterer.com/professional-plastering-services/`
    * *Example (MSP):* `berkshireitservices.co.uk/m365-backup/` $\rightarrow$ `berkshireitservices.co.uk/microsoft-365-cloud-backup/`
 2. **Permanent 301 Redirect:** Map the old URL to the new slug via server-level 301 redirect. This consolidates historical signals and prevents orphaned links.
-3. **Content Invariance (Zero Edits):** Keep the on-page copy, headings, images, and schema markup **100% identical**. Do not rewrite the content; changing text introduces confounding variables. The operational objective is to force Google to re-evaluate the identical content through a fresh canonical token.
+3. **Content Invariance (Zero Edits):** Keep the on-page copy, headings, images, and schema markup **100% identical**. Do not rewrite the content; changing text introduces confounding variables. The operational objective is to force Google to re-evaluate the identical content through a fresh canonical token. This sprint applies to legacy zombie URLs; a new EMD or single-page tool page under a `FREEZE` entry is out of scope (directional, single-source; `kirby-seo-telemetry` Module 15 §15.2).
 4. **Forced Re-Ingestion:** Submit the new URL directly into Google Search Console's URL Inspection tool and click "Request Indexing."
 
 #### D. Algorithmic Yield & Empirical Benchmark

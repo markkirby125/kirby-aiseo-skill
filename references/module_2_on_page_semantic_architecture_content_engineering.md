@@ -336,6 +336,8 @@ In competitive commercial queries, incorporating explicit low-friction commercia
 
 Publishing net-new pages requires navigating the crawl queue, topical authority thresholds, and potential sandboxing. In contrast, existing top-performing pages already possess active crawler attention, verified entity trust, and live user telemetry. This 1-hour maintenance sprint extracts latent search demand from existing assets and channels accumulated PageRank to secondary target pages.
 
+**Freeze carve-out (directional, single-source; not a Google rule):** this sprint targets established pages. A new EMD page, single-page tool page, or page that has just started getting impressions under a `FREEZE` entry is excluded, except for defect fixes (broken pages, factual or legal errors, security) or changes already filed in `seo_changelog.json`. Canonical home: `kirby-seo-telemetry` Module 15 §15.2.
+
 #### A. The Latent Query Opportunity & Position 5–50 Harvesting
 In Google Search Console, high-performing URLs routinely register thousands of impressions for search queries in two high-leverage tiers:
 1. **Tier 1: Striking Distance (Positions 5.0 to 20.0):** The page is ranking on page 1–2, but sitting below the primary click threshold because it fails to target the specific query explicitly in high-weight tags.
