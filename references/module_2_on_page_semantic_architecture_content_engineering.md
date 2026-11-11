@@ -1194,7 +1194,10 @@ Before attempting to build entity consensus or launch external campaigns, you mu
 - [ ] Ensure the resulting footprint consists exclusively of high-quality, dense entity pages.
 - [ ] For off-page Wikidata/social corroboration of surviving claims, use `kirby-off-page-seo` Module 16.
 
+
+Recovery after a broad link-based demotion is a different job and removes nothing: see kirby-off-page-seo Module 18 §18.23 (Residual Credibility Triage; directional, single-source).
 ---
+
 
 ### **2.35 Short SEO Landing Pages vs. Bloated Blog Posts (The High-Conversion BOFU Standard)**
 
