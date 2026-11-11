@@ -933,7 +933,7 @@ Across service, trade, and technical verticals, LLMs decompose user prompts acro
 #### C. The Content Capsule Structuring Protocol
 To ensure content is ingested and cited by LLM search agents exploring these fan-out clusters, structure 60%–70% of long-form and service guide content using the **Content Capsule Technique**:
 * **Heading Alignment:** Formulate each `<h2>` or `<h3>` as an exact natural-language question matching an identified fan-out cluster.
-* **The BLUF Capsule (20–45 Words):** Position an immediate, self-contained, direct answer in the very first paragraph directly beneath the heading.
+* **The BLUF Capsule (20–45 Words):** Position an immediate, self-contained, direct answer in the very first paragraph directly beneath the heading. Aim for 20–25 words on yes/no answers (directional, single-source).
   * *Negative Example (AI Slop):* "In today’s rapidly evolving green energy landscape, many homeowners wonder about the complexities surrounding municipal permits..."
   * *Compliant Content Capsule:* "Yes, municipal building permits are required for all residential Level 2 EV charger installations in Dallas, Texas. Work must be executed by a licensed master electrician and pass city electrical safety inspection prior to energisation."
 * **Primary Standard Anchoring:** Immediately following the capsule, link directly to authoritative primary documentation (city municipal code, government rebate portals, NCSC guidance, or RFC technical specs).
@@ -941,7 +941,7 @@ To ensure content is ingested and cited by LLM search agents exploring these fan
 **Fan-Out Query & Content Capsule Checklist**
 - [ ] Map the 5 core thematic fan-out clusters (permits, infrastructure, hardware, incentives, boundaries) during initial keyword research.
 - [ ] Structure 60%–70% of body subsections as dedicated question-and-answer modules.
-- [ ] Write each answer as a self-contained 20–45 word Content Capsule positioned directly under the heading.
+- [ ] Write each answer as a self-contained 20–45 word Content Capsule positioned directly under the heading (20–25 words on yes/no answers; directional, single-source).
 - [ ] Anchor every factual assertion in the capsule with a contextual hyperlink to an authoritative external standard (.gov, official trade regulator, or technical standard).
 
 ---
