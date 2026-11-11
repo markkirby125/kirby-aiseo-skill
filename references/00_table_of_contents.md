@@ -78,7 +78,7 @@
   - [2.46 The Compact Keywords Framework: 400-Word BOFU Transactional Landers](module_2_on_page_semantic_architecture_content_engineering.md#246-the-compact-keywords-framework-400-word-bofu-transactional-landers-edward-sturm-ep-1206)
   - [2.47 Deep Technical Product Attribute Mapping for AEO](module_2_on_page_semantic_architecture_content_engineering.md#247-deep-technical-product-attribute-mapping-for-aeo-harpreet-singh--gagan-goraya-ep-1206)
   - [2.48 Middle-of-Funnel Educational Guides as LLM Citation Bait](module_2_on_page_semantic_architecture_content_engineering.md#248-middle-of-funnel-educational-guides-as-llm-citation-bait-ep-1206)
-  - [2.49 The Discount Transparency Block: Plain-Text Numerical Tiers & AggregateOffer Schema](module_2_on_page_semantic_architecture_content_engineering.md#249-the-discount-transparency-block-plain-text-numerical-tiers--aggregateoffer-schema-canonical-specification)
+  - [2.49 The Discount Transparency Block: Plain-Text Numerical Tiers & AggregateOffer Schema](module_2_on_page_semantic_architecture_content_engineering.md#249-the-discount-transparency-block-plain-text-numerical-tiers--aggregateoffer-schema-canonical-specification) (AggregateOffer for genuine ecommerce offers with visible prices only)
 - **[Module 6: Google Discover & Algorithmic Feed Optimization](module_6_google_discover_algorithmic_feed_optimization.md)**
 - **[Module 8: Quick Reference: Vulnerable Footprints vs. Resilient Asset Architecture](module_8_quick_reference_vulnerable_footprints_vs_resilient_asset_architecture.md)**
   - [The Digital Moat Architecture (V6-F)](module_8_quick_reference_vulnerable_footprints_vs_resilient_asset_architecture.md#the-digital-moat-architecture-v6f--james-dooley--charles-floate-2026-single-source-directional)
