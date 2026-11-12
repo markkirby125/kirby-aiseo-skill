@@ -803,6 +803,7 @@ Standard SEO keyword research tools (Ahrefs, SEMrush) frequently report **0 mont
 **Topical Radius & Index Construction Checklist**
 - [ ] Structure all content briefs around Entity-Attribute pairs and established Query Templates.
 - [ ] Calculate Semantic Question-Hop distance: reject topics requiring $>2$ logical questions to connect to core service context.
+- [ ] Before drafting any batch, run the per-candidate drift gate against the existing page inventory (Module 20).
 - [ ] Consolidate fragmented competitor sub-topics into unified 5-to-1 master documents to minimize Google's retrieval cost.
 - [ ] Answer zero-search-volume real-world client questions to capture specialized micro-indices.
 - [ ] Audit and refresh core topical maps every 6 months to realign with shifts in Google's semantic index structures.
@@ -1143,7 +1144,7 @@ Conversely, local service and trade businesses generate proprietary, un-indexed 
 4. **Authentic Photographic & Technician Verification:** Embed unedited photography of branded company vehicles in recognizable local neighborhoods, explicitly naming the licensed technicians who performed the installation.
 
 **Lily Ray Template Audit Checklist**
-- [ ] Screen planned content against the 8 penalized template definitions; reject uncurated comparison farms, glossary spreads, and off-topic volume bait.
+- [ ] Screen planned content against the 8 penalized template definitions; reject uncurated comparison farms, glossary spreads, and off-topic volume bait. Run the Module 20 drift gate first.
 - [ ] Apply Lily Ray's Pre-Publishing Acid Test to every draft before publication.
 - [ ] Inject at least 2 proprietary local information gain anchors (housing vintage, municipal permit checks, local job pricing, or verified technician photos) into every localized service page.
 

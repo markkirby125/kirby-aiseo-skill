@@ -2,7 +2,7 @@
 
 Google's spam crackdowns target uncurated, mass-produced content, synthetic AI manipulation, and lazy programmatic footprints. Violations trigger penalties via two primary mechanisms:
 
-1. **Algorithmic Demotion & The "Mount AI" Cliff:** Automated spam classification systems (including NavBoost, RankEmbed BERT, and DeepRank) assign a *provisional quality score* to newly published batches. As exploratory traffic enters, user behavioral telemetry (dwell time, scroll depth, pogo-sticking) is logged. If UX fails, the algorithm triggers a vertical traffic collapse ("Mount AI" death spiral) wiping out 80%–100% of domain impressions.
+1. **Algorithmic Demotion & The "Mount AI" Cliff:** Automated quality and spam classification systems (NavBoost behavioural signals, RankEmbed BERT, DeepRank) assign a *provisional quality score* to newly published batches. As exploratory traffic enters, user behavioral telemetry (dwell time, scroll depth, pogo-sticking) is logged. If UX fails, the algorithm triggers a vertical traffic collapse ("Mount AI" death spiral) wiping out 80%–100% of domain impressions.
    * **Empirical Benchmark (Lily Ray 220+ AI Website Study):** In a comprehensive study tracking >220 websites featured across the public customer story pages of 12+ leading AI content platforms (cross-validated via Ahrefs and Sistrix):
      * **54%** of sites lost $\ge 30\%$ of their peak organic search traffic.
      * **39%** lost $\ge 50\%$ (half) of their peak traffic.
@@ -15,6 +15,8 @@ Google's spam crackdowns target uncurated, mass-produced content, synthetic AI m
    * **The "Zombie Case Study" Disconnect:** Vendor platforms maintain active, glowing case studies, but underlying client URLs are frequently 404'd, 301-redirected, or deleted by site owners. Brands that drastically reduced their content footprints in 2025 and 2026 observed traffic recovery, proving content footprint bloat was the direct causal mechanism.
    * **Indexation is a floor, not a safety net:** Those 220 sites indexed, ranked, and took traffic for 6–12 months before the cliff. GSC coverage did not catch the later demotion. `Crawled - currently not indexed` only flags thin/redundant pages at the door (§1.16). Indexed URLs still must pass §2.32B.
 2. **Manual Action & De-Indexing:** Google's human webspam team manually reviews the site and completely removes (de-indexes) the domain from the search index for Scaled Content Abuse or Expired Domain Abuse.
+
+> **Core vs. Spam (Nov 2026; single-source, unverified):** a spam update enforces policy violations (binary, SAFE-style); a core update re-scores relevance, user satisfaction (NavBoost), and retrieval/crawl cost. Identify which fired before choosing a fix: spam → `../../kirby-seo-telemetry/SKILL.md` Module 11 §11.2; core → `../../kirby-seo-telemetry/SKILL.md` Module 16 (freeze/forensics) and Module 2 §2.25 / Module 20 / Module 1 §1.6 after rollout settle (Module 16 §16.2 rule 6).
 
 ### **The 6 Critical Detection Signals of Scaled Content Abuse**
 * **Content Sameness & Low Semantic Cohesion:** High semantic similarity, repetitive phrasing, rigid structural templates, or lack of syntactic topic-comment flow across indexed URLs.

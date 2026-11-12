@@ -22,6 +22,7 @@ This skill's flagship protocols are fast by design — the 1-Hour SEO Update (§
 3. **Hot-path exemption:** pages linked from frequently crawled surfaces (homepage, hub donors per §10.11) refresh faster than the ~30d default; the sanctioned compression levers are in `../../kirby-seo-timing-benchmarks/SKILL.md` Reference 05 (internal-link re-pointing, GSC URL Inspection within quota — never bulk resubmission).
 4. **Slow-tail classification:** a title/snippet change not reflected ~60 days post-deploy, with clean crawl capacity, is a crawl-deprioritization or quality signal — route to the triage protocol (`../../kirby-seo-timing-benchmarks/SKILL.md` Reference 03 §3.4), not another edit pass.
 5. **Narrow freeze (directional, single-source; not a Google rule):** a new EMD page, single-page tool page, or page that has just started getting impressions under a `FREEZE` entry takes no §2.19 pass inside the roughly 90-day window beyond defect fixes or changes already filed. Canonical home and hedges: `../../kirby-seo-telemetry/SKILL.md` Module 15 §15.2.
+6. **Active core rollout:** do not run Module 2 §2.19, §2.34 pruning, or the Module 1 §1.8 slug reset while a Google core/spam rollout is active (`status.search.google.com`; source cites Nov 10 to ~Nov 24, 2026, unverified). Snapshot GSC and log volatility; compare baselines after rollout completes plus one week (`~Dec 1`). Canonical gate: `../../kirby-seo-telemetry/SKILL.md` Module 16 §16.1–16.2 (spam: Module 11 §11.2 Phase 7 / Module 15 §15.2).
 
 ## 16.3 Protocol Touch-Points (alignment, not duplication)
 

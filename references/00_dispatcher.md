@@ -23,6 +23,7 @@ When asked to perform AI SEO tasks, **do not guess**. Instead, review the module
 - **Module 17**: Scaled AI Content Collapse Autopsy & Quarantine Protocols (Grokipedia Case Study - Ep. 1197) -> Read `./module_17_scaled_ai_collapse_autopsy_and_quarantine_protocols.md`
 - **Module 18**: The Anti-Slop Detection Boundary & Quality Raters Page Audit (Whitespark E48 & E50) -> Read `./module_18_ai_slop_detection_boundary_and_quality_raters_audit.md`
 - **Module 19**: 9,249-Study Meta-Evidence, Controlled On-Page & Anchor Invariants (SearchPilot controlled title experiments, orphan inlinking measured findings, footer link gain mechanisms & PPC risk, AEO empirical grounding — Ep. 1191 audio / Ep. 1207 YouTube; Zenodo DOI: 10.5281/zenodo.22768160) -> Read `./module_19_9249_study_meta_evidence_controlled_onpage_and_anchor_invariants_ep_1207.md`
+- **Module 20**: Pre-Publication Semantic Drift Gate ("Before You Publish": score candidate keywords against existing site pages before drafting) -> Read `./module_20_pre_publication_semantic_drift_gate.md`
 
 ## When to Use
 - You need to optimize content for AI search engines (ChatGPT, Perplexity, Gemini).
@@ -58,6 +59,7 @@ When asked to perform AI SEO tasks, **do not guess**. Instead, review the module
 - You are auditing `robots.txt` and WAF/CDN rate limits to ensure real-time search-grounding crawlers (`OAI-SearchBot`, `PerplexityBot`, `ChatGPT-User`) are allowed access (Module 1 §1.22).
 - You are mitigating negative brand sentiment extracted by AI Overviews from Reddit by deploying on-domain counter-rebuttal FAQ pages (Module 14 §14.4).
 - You are optimizing `<title>` tags for controlled CTR lift (`Updated Daily` recency hooks, ALL CAPS noun emphasis, dynamic pricing), recovering orphan pages with internal links, auditing footer links, or evaluating AEO claims against empirical meta-study data (Module 19; single-variable isolation and confounder controls live in `../../kirby-seo-telemetry/SKILL.md` Module 9 §9.3).
+- You are about to batch-draft new pages/posts and must screen candidates for off-topic drift against existing inventory (Module 20; builds on §2.25 and §2.32B).
 
 ## How It Works
 1. Identify the specific domain or optimization requested by the user.

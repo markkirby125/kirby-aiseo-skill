@@ -101,6 +101,8 @@ Even when an AI-generated page contains accurate, intent-satisfying text, **if t
      - Transparent starting price floor or diagnostic fee (e.g., *"£0 call-out fee within SL5 / Fixed pricing from £85"*).
      - Geographic service radius and physical headquarters confirmation.
      - Direct high-contrast conversion CTA (direct dial phone number, instant quote form, or emergency dispatch button).
+     - Genuine review proof (rating, count, source; no steered reviews, see `../../kirby-text-first-cro/SKILL.md` §13) in or directly beneath the viewport.
+     - Run the viewport-match test: `../../kirby-text-first-cro/SKILL.md` §1.9.
 
 3. **Single-Intent Architectural Discipline:**
    - Never attempt to satisfy both informational search intent (e.g., *"how does a boiler heat exchanger work"*) and transactional conversion intent (e.g., *"emergency boiler repair Ascot"*) on the same page.
