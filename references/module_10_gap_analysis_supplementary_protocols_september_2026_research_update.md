@@ -155,14 +155,15 @@ When no existing page or section satisfies the keyword's intent:
    * *Target*: "project management software for agencies" → *Natural Anchor*: "keep agency client work organized".
 * **Click-Probability Link**: As demonstrated in the $50,000 internal linking experiment (Edward Sturm Episode 1,163; codified in §10.6), internal links pass authority in proportion to their *click propensity*. Forcing awkward exact-match text depresses clicks, rendering the internal link self-defeating.
 
-#### F. The Funnel-Tier Link Budget (TOFU vs. BOFU Asymmetry)
-To prevent internal link dilution and protect conversion paths, reconcile §10.6 and §10.9 across three strict funnel tiers:
+#### F. The Funnel-Tier Link Budget (TOFU vs. BOFU Asymmetry & Comparison Cluster Carve-Out)
+To prevent internal link dilution and protect conversion paths, reconcile §10.6 and §10.9 across four strict funnel tiers:
 
 | Funnel Tier | Page Type | In-Content Internal Link Budget | Rationale & Guardrail |
 |---|---|---|---|
 | **TOFU** | Informational guides, long-form articles, glossaries | **10–30 links** | Distribute topical equity across entity clusters (§10.6). Maximize contextual routing. |
-| **MOFU** | Mixed commercial guides, category roundups, comparison pages | **≤ 5 links** | Striking-distance acceleration (§10.9). Focus equity into 1–2 target URLs. |
-| **BOFU** | High-intent conversion landing pages (short pages §2.35, booking, lead forms) | **Near-Zero (0–1 contextual)** | **Conversion Protection**: BOFU pages exist to convert (call, book, buy). Internal links are cognitive friction and attention leaks that distract users from the primary CTA. Never borrow BOFU pages to boost other pages' SEO. |
+| **MOFU** | Mixed commercial guides, category roundups | **≤ 5 links** | Striking-distance acceleration (§10.9). Focus equity into 1–2 target URLs. |
+| **Comparison Cluster Carve-Out** | **`[Competitor] Alternatives` Hubs & `1v1 Versus` (`Brand vs Competitor`) Pages (§2.50)** | **Structured cluster links below the fold** (`0` competing links in hero viewport) | **Unbranded-to-Branded Routing:** Alternatives Hubs and 1v1 Versus pages are permitted structured internal links to sibling `1v1 vs` comparison pages (`/comparisons/[competitor]-vs-[brand]`) and sibling Alternatives Hubs inside **competitor evaluation cards (Block 11)** and the **"Which Alternative Is Right for You?" decision matrix (Block 14)** below the fold. Preserves `../../kirby-text-first-cro/SKILL.md` §6.4 / §10 (#11) zero-competing-links hero viewport rule while giving AI crawlers pairwise entity graphs. |
+| **BOFU** | High-intent conversion landing pages (short pages §2.35, booking, lead forms) | **Near-Zero (0–1 contextual)** | **Conversion Protection**: Dedicated service/booking BOFU pages exist to convert (call, book, buy). Internal links are cognitive friction and attention leaks that distract users from the primary CTA. Never borrow BOFU pages to boost other pages' SEO. |
 
 #### G. The Hub-Page Pre-Ranking Staging Sequence
 For multi-page architectures or new BOFU offerings:

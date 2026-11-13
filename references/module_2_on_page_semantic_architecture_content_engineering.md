@@ -195,22 +195,23 @@ ClickUp published hundreds of "Best [X]" listicles at scale, force-ranked themse
 
 **The Compliant Self-Referential Listicle Framework:**
 
-1. **Brand Identity Disclosure (Mandatory):** Write in first person as the brand. Never impersonate a neutral review site. Opening line example: *"We are [Brand]. We've been doing [X] for [N] years and worked with over [Y] clients. Here is what we think you should look for, and here is how our service was designed to meet those criteria."*
+1. **Explicit First-Person Bias Disclosure (Mandatory):** Write in first person as the brand and call out your commercial bias upfront in the Quick Answer, intro, methodology, and #1 entry. Never impersonate a neutral review site. Mandate explicit wording: *"Position #1 is our company ([Brand]), so discount that entry accordingly. Several alternatives below cost less than we do, and others offer capabilities we do not."*
 
-2. **Honest Position, Not Force-Ranking:** List your own product/service first because you know it best and can write most authentically about it — but do not fabricate comparative ratings, fake star scores, or assign yourself top rankings via manufactured criteria designed to guarantee your placement.
+2. **Honest Position, Not Force-Ranking:** List your own product/service first because you know it best and can write most authentically about it — but do not fabricate comparative ratings, fake star scores, or assign yourself top rankings via manufactured criteria designed to guarantee your placement. Include an explicit **"Where we fall short" / "Trade-off"** bullet on your own #1 entry and refer non-ICP buyers to the specific competitor on the list that solves their gap.
 
-3. **Disproportionate Depth on Self, Not Dismissal of Competitors:** Dedicate significant depth (screenshots, use-case walkthroughs, client outcome examples, pricing transparency) to the first-person section. Then list legitimate competitors that customers actually ask about or that appear in sales conversations — described authentically, not dismissively.
+3. **Disproportionate Depth on Self + Dedicated "When Competitor Is Still the Better Choice" Section:** Dedicate significant depth (screenshots, use-case walkthroughs, client outcome examples, pricing transparency) to the first-person section, then evaluate legitimate competitors symmetrically (§2.50). Every alternatives or comparison page **must** include a dedicated **`<h2> When [Competitor] Is Still the Better Choice`** section that honestly specifies the enterprise scale, specialized workflows, or technical requirements where the buyer should stay with the incumbent.
 
-4. **Volume Cap:** 3–4 deep, genuinely researched pieces per month maximum. Mass production at scale is the primary ClickUp failure mode. Quality over volume is enforced, not aspirational.
+4. **Volume Cap:** 3–4 deep, genuinely researched pieces per month maximum. Mass production at scale is the primary ClickUp failure mode (and Lily Ray Penalized Template #5, §2.32). Quality over volume is enforced, not aspirational.
 
 5. **User Signal Hygiene:** Content must satisfy real user intent. If users consistently bounce without engaging, Google interprets this as spam regardless of content structure. Authentic content that genuinely helps the reader self-qualify is the only durable signal.
 
 **First-Party BOFU Content Implementation Checklist**
 - [ ] Identify all 4-bucket keyword targets per site: Category + Comparison/Alternatives + JTBD + Brand-Agnostic High-Intent.
 - [ ] Conduct VoC interviews with sales/support team to extract JTBD language before writing briefs.
-- [ ] For each "Best X" listicle: include brand identity disclosure in opening paragraph.
-- [ ] Embed genuine product depth (screenshots, scenarios, edge cases, pricing) in own-brand section.
-- [ ] Include authentic competitor mentions sourced from real sales conversation notes.
+- [ ] For each "Best X" or "[Competitor] Alternatives" page: include explicit first-person bias disclosure (*"Position #1 is our company, discount accordingly"*) in the opening Quick Answer and intro.
+- [ ] Include a dedicated `<h2> When [Competitor] Is Still the Better Choice` section giving fair credit to incumbent strengths.
+- [ ] Embed genuine product depth (screenshots, scenarios, edge cases, pricing, and honest trade-offs) in own-brand section.
+- [ ] Include authentic competitor mentions sourced from real sales conversation notes and verified pricing pages.
 - [ ] Cap production at ≤4 new BOFU comparison pieces per month per site.
 - [ ] Monitor user engagement signals (bounce rate, dwell time, scroll depth) monthly; revise any pages with anomalous session patterns.
 
@@ -1537,4 +1538,70 @@ Three gates decide this same architectural question. Apply them in order; a quer
     "priceValidUntil": "2026-12-02"
   }
   ```
+
+---
+
+### **2.50 BOFU Alternatives & 1v1 Versus Page Cluster Architecture (Rob Hoffman)**
+
+*Source: Rob Hoffman, "How To Build A Page That Ranks #1 On ChatGPT (AI SEO Tutorial)" (Teamtown / Superside Alternatives production architecture, 2026). Compliant operationalization of Bucket 2 BOFU Comparison/Alternatives (§2.16B–C) and the antithesis of Lily Ray Penalized Template #5 (§2.32). Above-the-fold CRO, 4-CTA quad-pack, and switching SOP live in `../../kirby-text-first-cro/SKILL.md` (§1.9, §4.1, §6.1–§6.4); symmetrical tradeoff tables and context saturation matrices live in `../../kirby-decision-engine-optimization/SKILL.md` (Module 2 §2.5.2, Module 7 §7.2); review schema defense lives in `../../kirby-technical-aeo/SKILL.md` Phase 4.*
+
+#### A. The Unbranded-to-Branded Cluster Sequencing Rule
+* **Sequence:** Build **`[Competitor] Alternatives` hub pages FIRST** (capturing high-intent unbranded demand generated by VC-backed incumbents' paid ad spend), then build **`[Our Brand] vs [Competitor]`** and **`[Competitor A] vs [Competitor B]` 1v1 Versus spoke pages SECOND**.
+* **Mechanism:** Prospects experiencing pricing or contract shock on an incumbent's site rarely know a challenger brand by name; they search `"[Incumbent] alternatives"` on Google and ChatGPT. Once they land on the Alternatives Hub and evaluate your brand at Position #1, contextual internal links inside the competitor cards and decision matrix (§10.11F carve-out) route them to 1v1 Versus pages while feeding pairwise entity relationships to LLM crawlers.
+
+#### B. The "Big Three" Keyword Trifecta & Multi-Point Freshness Signals
+1. **Exact-Match Trifecta:** Place the exact parent keyword (`[Competitor] alternatives`) across all three primary retrieval anchors:
+   * **URL Slug:** `/blog/[competitor]-alternatives` or `/[competitor]-alternatives` (clean, exact-match parent keyword).
+   * **`<title>` Tag:** `Best [Competitor] Alternatives for [Target Audience] (2026) | [Brand]` — must pair the exact parent keyword with the **current year (`2026`)**.
+   * **`<h1>` Heading:** `[N] Best [Competitor] Alternatives for [Target Audience] in 2026`.
+2. **Founder E-E-A-T Attribution:** Attribute the post to a real founder or domain practitioner with a verified headshot and direct outbound byline links to **LinkedIn** and **X/Twitter**, opening with first-person deal history (*"I run [Brand], so I have spent [N] years losing deals to and winning deals back from the companies on this list"*).
+3. **3-Point Freshness Timestamps (<33 Days Old):**
+   * Top byline `Published [Date]` timestamp.
+   * Pre-table pricing verification note: *"Pricing checked against each provider's own pricing page in [Current Month Year]"* (**must be <33 days old**; AI crawlers heavily weight recency on volatile SaaS/service pricing).
+   * Bottom footer `Last updated: [Date]` timestamp beneath the FAQs.
+
+#### C. Quick Answer BLUF Box & Key Takeaways Executive Block
+* **Quick Answer BLUF Box (Immediate Sub-H1 / Sub-Byline):**
+  * 2–3 sentences designed for verbatim extraction by ChatGPT and Google AI Overviews.
+  * Must pack three elements: (1) **Top 4 picks mapped to explicit `"Best for"` use cases** (starting with your brand at #1), (2) **Incumbent pricing floor / contract friction** (e.g., *"[Competitor] now starts at $15,000/mo on a mandatory annual term, ~$192,000 in year one with fees"*), and (3) **Explicit first-person bias disclosure** (*"[Brand] is first because it is mine, discount accordingly"*).
+* **Key Takeaways Block (`<h2> Key Takeaways` — #2 AI Search Checklist Item):**
+  * Strictly **4 to 5 bullet points**, each **2 to 3 sentences maximum** (executive summary format).
+  * Covers: (1) Incumbent pricing/contract floor, (2) Why lock-in changes the buyer math, (3) Category taxonomy of the alternatives (e.g., dedicated teams vs. AI resizing tools vs. design queues vs. agencies), and (4) Host brand's value proposition ending with an inline text CTA (`Book a demo`).
+
+#### D. Machine-Readable Semantic HTML Comparison Table (#1 AI Search Checklist Item)
+* **Strict DOM `<table>` Mandate:** Render the master comparison matrix as a selectable, highlightable semantic HTML `<table>` (`<thead>`, `<tbody>`, `<tr>`, `<th>`, `<td>`) — **never** a static PNG/JPEG image or non-semantic visual graphic. Even visual comparison cards must use highlightable DOM text so `OAI-SearchBot` and `PerplexityBot` can parse every cell.
+* **Pre-Table Freshness Note:** Immediately precede `<table>` with the `<33 days old` first-party pricing verification note.
+* **Mandatory Columns:** `Platform | Starting Price | Contract Terms | Turnaround / SLA | Best For`.
+  * The **`Best For`** column is mandatory: LLMs synthesize comparative answers by mapping entities to buyer constraints (*"Brand A is best for enterprise, Brand B is best for mid-market dedicated teams"*).
+
+#### E. Symmetrical Competitor Evaluation Structure & Review Evidence
+* **Standardized Competitor Card Format:** Every alternative (#1 through #N, plus an optional `#N Hiring In-House` baseline) uses a concise 2–3 sentence overview followed by **5 symmetrical bullets**:
+  1. **`Services` / `Capabilities`:** Core deliverables and scope boundaries.
+  2. **`Pricing`:** Verified starting monthly/annual rate, contract lock-in, and hidden software/onboarding fees.
+  3. **`Reviews`:** Plain-text G2 (`X.X/5`) and Trustpilot (`X.X/5`) ratings with review counts, sample-size context, and real customer sentiment. *(Guardrail: render third-party review scores in visible HTML text/tables and outbound links; never inject third-party `AggregateRating` JSON-LD for competitors per `../../kirby-technical-aeo/SKILL.md` Phase 4).*
+  4. **`Best For`:** Exact buyer persona and workflow match.
+  5. **`Trade-off`:** Honest limitation (including a mandatory **"Where we fall short"** bullet on your own #1 entry).
+* **Public Reply Credit Move:** In the dedicated `<h2> What [Competitor] Reviews Say` section, embed real G2/Trustpilot/Reddit review screenshots with direct outbound citation links, state overall scores fairly first, and explicitly credit the competitor when they replied constructively to a negative review.
+
+#### F. The 16-Block Chronological Page Architecture Blueprint
+
+| Block | Element / Heading | Primary Role (AEO / GEO / CRO) | Mandatory Content & Formatting Spec |
+| :--- | :--- | :--- | :--- |
+| **1** | **URL, `<title>`, `<h1>` Trifecta** | Exact-match retrieval + freshness | Slug `/[competitor]-alternatives`; `<title>` & `<h1>` contain `[Competitor] Alternatives` + current year (`2026`). |
+| **2** | **Founder Byline & Top Date** | E-E-A-T authority & recency | Founder headshot, role, LinkedIn + X outbound links, `Published [Date]` + sticky sidebar CTA. |
+| **3** | **Quick Answer BLUF Box** | Verbatim LLM / AIO extraction | 2–3 sentences: top 4 picks by use case + incumbent annual pricing floor + explicit bias disclosure. |
+| **4** | **`<h2> Key Takeaways`** | Executive summary (#2 AI item) | 4–5 bullets, 2–3 sentences max each; Bullet #4 closes with inline native text CTA (`Book a demo`). |
+| **5** | **First-Person Intro & Bias Callout** | Human/crawler trust calibration | First-person deal perspective; *"Position #1 is our company, discount accordingly"* (§2.16C). |
+| **6** | **`<h2>` HTML Comparison Table** | #1 AI Search Checklist item | Selectable HTML `<table>` + pre-table pricing verification note (`<33 days old`). Columns: `Platform \| Starting Price \| Contract \| Turnaround \| Best For`. |
+| **7** | **`<h2> Why Companies Leave [Competitor]`** | Pain-point & churn alignment | 4 short (2–3 sentence) blocks covering contract lock-in, minimum spend floor, account model, and turnaround speed. |
+| **8** | **`<h2> What [Competitor] Reviews Say`** | Verifiable external consensus | Fair overall G2/Trustpilot scores + embedded review screenshots + outbound review URLs + credit for public replies. |
+| **9** | **`<h2> When [Competitor] Is Still the Better Choice`** | Radical honesty (§2.16C) | Explicitly advises continuous enterprise/specialized buyers when to remain with the incumbent. |
+| **10** | **`<h2> How I Evaluated These Alternatives`** | E-E-A-T methodology rubric | 8 buyer criteria bullets (pricing transparency, contract flexibility, team consistency, turnaround, etc.). |
+| **11** | **`<h2> [N] Best [Competitor] Alternatives`** | Deep entity comparison & CRO | `#1` Host brand (case study, ROI stats, `Quotation` JSON-LD, *"Where we fall short"*, CTA, link to `1v1 vs` page) + `#2–#N` (including `Hiring In-House`) using the 5 symmetrical bullets (`Services`, `Pricing`, `Reviews`, `Best For`, `Trade-off`). |
+| **12** | **`<h2> How to Choose Before You Commit`** | Buyer diagnostic shortlisting | 6 diagnostic buyer questions narrowing 12 options to 2–3 + mid-content visual banner CTA. |
+| **13** | **`<h2> Switching From [Competitor] Without Losing Momentum`** | Migration friction demolition | 5-step operational switching SOP (contract notice window, close open work, export raw Figma/source files, transfer brand context, 2-week parallel overlap pilot; see `../../kirby-text-first-cro/SKILL.md` §4.1). |
+| **14** | **`<h2> Which [Competitor] Alternative Is Right for You?`** | Intent-to-tool routing + cluster web | Bulleted `If [Buyer Constraint] -> [Recommended Tool]` decision matrix with contextual internal links to sibling `1v1 vs` pages (§10.11F). |
+| **15** | **`<h2> Ready to Switch?`** | Final conversion close & risk reversal | Explicit annual cost anchor (e.g., `$36k/yr vs $192k/yr`) + notice terms + money-back guarantee + benefit-carrying CTA. |
+| **16** | **`<h2> Frequently Asked Questions`** | Long-tail ChatGPT prompt capture | 5–8 conversational prompt-style `<h3>` questions (`"How much does [Competitor] cost in 2026?"`, `"What is the best [Competitor] alternative for [use case]?"`) answered in 2–3 sentence paragraphs or 3–4 bullets + bottom `Last updated` timestamp. |
+
 
