@@ -404,9 +404,12 @@ Google evaluates search eligibility through sequential filtration stages ("heat 
   * Direct citation inclusion in Google AI Overviews and AI Mode.
 * **The Operational Consequence:** On-page content optimization, heading structure, and schema markup cannot overcome a sub-0.4 score. A site must establish sufficient brand search telemetry to clear the 0.4 gate before Google admits it into the second-stage content evaluation race.
 
-#### C. The Helpful Content Update (HCU) Demotion Mechanism
-* **The Toxic SEO Signature:** Tom Capper’s Moz correlation study revealed that domains devastated by Google's Helpful Content Updates shared a distinct profile: **high backlink volume and inflated third-party DA scores, but near-zero brand search demand**. Google’s quality classifiers isolated these as synthetic, programmatic SEO operations.
-* **The 15× Backlink Inversion Proof:** Mark Williams-Cook demonstrated that a focused niche website with **15× fewer backlinks** consistently outranked massive national legacy authorities (including the UK NHS on sensitive YMYL medical terms) because its branded navigational queries and click-inversion rates were mathematically superior.
+#### C. The Helpful Content Update (HCU) Demotion Mechanism & Navneet Panda Reference Queries
+* **The Toxic SEO Signature & Reference-Query Ratio (Navneet Panda Patent / Kasra Dash 172-Site Core-Update Audit, Nov 2026):** Tom Capper’s Moz correlation study and Kasra Dash’s 172-site post-core-update forensic audit revealed that domains devastated by Google's Helpful Content and Core Updates shared a distinct structural signature: **high backlink volume and inflated third-party DR/DA scores paired with near-zero branded search demand**. Under Navneet Panda’s "reference query" patent mechanics, Google cross-checks a domain's inbound link growth against the volume of users actively searching for the brand by name (`[Brand Name]` and `[Brand Name] + [Service]`). When backlink velocity outpaces branded reference queries, quality classifiers flag the link profile as synthetic or manipulative.
+* **The 15× Backlink Inversion Case Study (Single-Source Directional Example):** Mark Williams-Cook reported a focused niche site with **15× fewer backlinks** outranking larger legacy authorities when branded navigational queries and click-inversion rates strongly favored the niche site (illustrative case study, not an unconditional guarantee; see branded-ratio Tier 3 caveat in `../../kirby-seo-telemetry/SKILL.md` Module 10 §10.5).
+* **Bare `[Brand Name]` Page-1 SERP Slot Ownership & Homonym Disambiguation Audit:**
+  * Run an incognito Google search for the exact bare `[Brand Name]` (without category or location modifiers) and audit how many of the 10 Page-1 organic slots the business owns or directly controls (root domain, GBP, official social profiles, verified review profiles).
+  * **Critical Diagnostic Distinction (SERP Disambiguation vs. GSC Demand):** Failing to own Page-1 slots for bare `[Brand Name]` diagnoses **entity homonym collision** (sharing a generic or ambiguous name with other businesses, dictionary words, or locations) or **abandoned/outdated citation profiles** — it does **not** by itself prove zero branded search volume. Conversely, true branded demand must be verified directly inside **Google Search Console (GSC)** Performance queries (`[Brand]`, `[Brand] + [Service]`, `[Brand] reviews`). Remediate SERP slot loss via entity disambiguation and Branded Social Fortress claiming (§2.17B / §2.42); remediate low GSC branded query ratio via offline/referral brand-search conditioning (below).
 
 #### D. Operationalizing Brand Signals for Local & SaaS Domains
 1. **Brand-First Query Conditioning:** In offline print, vehicle livery, email signatures, and client onboarding, instruct customers: *"Search '[Brand Name] + [Service]' on Google"* rather than providing direct URLs. This directly feeds Google's branded query logging.
@@ -414,7 +417,8 @@ Google evaluates search eligibility through sequential filtration stages ("heat 
 3. **Friction-Killer SERP Title Tags:** Implement friction-killing modifiers in Title Tag Part 2 (`£0 Call-Out`, `Same-Day SLA`, `Free Tier`, §2.18) to maximize click-selection inversion against entrenched competitors in positions 1–2.
 
 **Site Quality Score Checklist**
-- [ ] Audit inbound backlink profile: verify exact-brand anchor text represents $\ge 60\%$ of total links.
+- [ ] Audit inbound backlink profile: verify exact-brand anchor text represents $\ge 60\%$ of total links and compare backlink velocity against GSC branded reference-query volume.
+- [ ] Run the bare `[Brand Name]` Page-1 SERP Slot Ownership audit: separate homonym/disambiguation collisions from actual GSC branded search demand.
 - [ ] Stimulate branded navigational searches (`[Brand Name] + [Service]`) across client touchpoints.
 - [ ] Deploy friction-killer title tags to engineer click-selection inversion from positions 2–5.
 - [ ] Monitor Featured Snippet and PAA win rates as primary operational proxies for clearing the 0.4 quality gate.
@@ -451,9 +455,9 @@ In official antitrust exhibits and internal research (Tristan Upstill & Paul Haa
 #### B. Dynamic Markdown (`.md`) Rendering for LLM Crawlers
 While human visitors and Googlebot require visual HTML/CSS rendering, LLM search agents (GPTBot, ClaudeBot, PerplexityBot) consume raw token streams.
 * **The Agentic Dynamic Rendering Protocol:**
-  * Configure server-side User-Agent middleware (e.g., on Cloudflare Workers or Nginx) to detect incoming LLM search bots (`GPTBot`, `Claude-Web`, `PerplexityBot`).
-  * Serve a clean, pre-compiled Markdown (`.md`) document containing structured Markdown headings (`#`, `##`), bulleted entity lists, and plain text data tables, while serving standard HTML to human visitors.
-  * *The Algorithmic Yield:* Eliminates DOM layout bloat and tracking scripts, slashing token consumption costs for the LLM and yielding vector embeddings with substantially higher cosine similarity for direct citation. (Safe from cloaking penalties because Googlebot is not served the markdown file and does not index `.md` endpoints).
+  * Configure server-side reverse-DNS / published ASN IP verification (e.g., on Cloudflare Workers or Nginx; never rely on spoofable raw `User-Agent` strings alone or serve materially different facts than HTML) for verified AI crawler ranges (`GPTBot`, `OAI-SearchBot`, `PerplexityBot`).
+  * Serve a clean, pre-compiled Markdown (`.md`) parity representation containing structured Markdown headings (`#`, `##`), bulleted entity lists, and plain-text data tables carrying the exact same canonical facts shown to human visitors in HTML.
+  * *The Algorithmic Yield & Anti-Cloaking Invariant:* Eliminates DOM layout bloat and tracking scripts while maintaining factual parity (never diverge `.md` claims from HTML, and keep Googlebot serving canonical HTML).
 
 #### C. Empirical LLM Retrieval Biases (The *Veni Vidi Vici* Research)
 Different frontier LLMs demonstrate distinct retrieval heuristics during automated search sessions:
@@ -675,26 +679,33 @@ If the URL was **never meant to be indexed** (tracking parameters, HTTP/HTTPS du
 * **Crawler Taxonomy (2026 Grounding Standards):**
   * **Search-Grounding Crawlers (Must Allow on Commercial & Deals Paths):** `OAI-SearchBot` (OpenAI real-time web search), `PerplexityBot` (Perplexity search indexer), `ChatGPT-User` (on-demand web browsing triggers via ChatGPT user prompts), `Google-Extended` (if opting into Gemini grounding while managing Vertex training).
   * **Model-Training Bots (Optional Disallow):** `GPTBot`, `ClaudeBot`, `Bytespider` (offline model training and bulk corpus ingestion).
-* **Robots.txt Baseline Configuration:**
+* **Robots.txt Baseline Configuration (Unblocking On-Domain `/trust` & SSOT `"My Business Facts"` Hubs):**
   ```txt
-  # Allow Real-Time AI Search Grounding
+  # Allow Real-Time AI Search Grounding (Mandatory for Commercial, /trust & SSOT /facts Paths)
   User-agent: OAI-SearchBot
   Allow: /
+  Allow: /trust/
+  Allow: /facts/
+  Allow: /about/
   Allow: /black-friday/
   Allow: /products/
   Allow: /deals/
 
   User-agent: PerplexityBot
   Allow: /
+  Allow: /trust/
+  Allow: /facts/
+  Allow: /about/
   Allow: /products/
 
   User-agent: ChatGPT-User
   Allow: /
 
-  # Restrict Training Scrapers from Staging & Internal Assets
+  # Illustrative example only — restrict training scrapers from private prefixes
+  # without leaking sensitive internal admin paths in public robots.txt
   User-agent: GPTBot
-  Disallow: /internal/
-  Disallow: /staging/
+  Disallow: /private-drafts/
   ```
-* **Edge CDN & WAF Rate Limiting:** AI crawler traffic grew over 250% YoY. Configure Cloudflare / AWS WAF rate-limiting exceptions strictly scoped to reverse-DNS-verified AI search crawler IP ranges. Never block user-agents containing "SearchBot" at the edge, or your commercial landing pages become invisible to answer engines during peak buying cycles.
+* **SSOT `"My Business Facts"` & `/trust` Grounding Verification:** Whenever deploying a Single Source of Truth (SSOT) `"My Business Facts"` page or an on-domain `/trust` Self-Corroboration Hub (Module 2 §2.38, §2.51), explicitly verify that `OAI-SearchBot`, `PerplexityBot`, and `ChatGPT-User` return HTTP `200 OK` with zero WAF challenge or `robots.txt` disallow rules. Blocking search-grounding bots from `/facts/` or `/trust/` forces answer engines to guess or fall back to stale third-party directories during fan-out verification.
+* **Edge CDN & WAF Rate Limiting:** AI crawler traffic grew over 250% YoY. Configure Cloudflare / AWS WAF rate-limiting exceptions strictly anchored to reverse-DNS / published ASN IP verification (never trust spoofable raw `User-Agent` strings alone for privileged bypasses). Ensure benign AI search crawlers are not blanket-blocked by default "SearchBot" WAF signatures, or your commercial landing pages become invisible to answer engines during peak buying cycles.
 

@@ -67,7 +67,7 @@
   - [2.35 Short SEO Landing Pages vs. Bloated Blog Posts (The High-Conversion BOFU Standard)](module_2_on_page_semantic_architecture_content_engineering.md#235-short-seo-landing-pages-vs-bloated-blog-posts-the-high-conversion-bofu-standard)
   - [2.36 Query Augmentation, Dictionary vs. Query Semantics, & The Authority Elasticity Doctrine](module_2_on_page_semantic_architecture_content_engineering.md#236-query-augmentation-dictionary-vs-query-semantics--the-authority-elasticity-doctrine)
   - [2.37 The Page Split vs. H2 Decision Rule (Cannibalization Guard)](module_2_on_page_semantic_architecture_content_engineering.md#237-the-page-split-vs-h2-decision-rule-cannibalization-guard)
-  - [2.38 Credibility Document Hardening: About / Privacy / Returns](module_2_on_page_semantic_architecture_content_engineering.md#238-credibility-document-hardening-about--privacy--returns-llm-trust-documents)
+  - [2.38 Credibility Document Hardening: About / Privacy / Returns & The `/trust` Self-Corroboration Hub](module_2_on_page_semantic_architecture_content_engineering.md#238-credibility-document-hardening-about--privacy--returns--the-trust-self-corroboration-hub-llm-trust-documents)
   - [2.39 The Dual Topical Maps Protocol](module_2_on_page_semantic_architecture_content_engineering.md#239-the-dual-topical-maps-protocol-on-page-vs-off-page-separation)
   - [2.40 Comparison Pages over Listicles: The 99%/1% Consensus Rule](module_2_on_page_semantic_architecture_content_engineering.md#240-comparison-pages-over-listicles-the-991-consensus-rule-charles-floate)
   - [2.41 BM25 Lexical Optimization Workflow](module_2_on_page_semantic_architecture_content_engineering.md#241-bm25-lexical-optimization-workflow)
@@ -80,6 +80,7 @@
   - [2.48 Middle-of-Funnel Educational Guides as LLM Citation Bait](module_2_on_page_semantic_architecture_content_engineering.md#248-middle-of-funnel-educational-guides-as-llm-citation-bait-ep-1206)
   - [2.49 The Discount Transparency Block: Plain-Text Numerical Tiers & AggregateOffer Schema](module_2_on_page_semantic_architecture_content_engineering.md#249-the-discount-transparency-block-plain-text-numerical-tiers--aggregateoffer-schema-canonical-specification) (only for genuine ecommerce offers with prices visible on the page without a click; excluding service, lead-gen and local pages as a conservative default)
   - [2.50 BOFU Alternatives & 1v1 Versus Page Cluster Architecture](module_2_on_page_semantic_architecture_content_engineering.md#250-bofu-alternatives--1v1-versus-page-cluster-architecture-rob-hoffman)
+  - [2.51 SSOT `"My Business Facts"` Page, The 6 LLM Extraction Rules & The 4-Slot Brand Proof Passage](module_2_on_page_semantic_architecture_content_engineering.md#251-ssot-my-business-facts-page-the-6-llm-extraction-rules--the-4-slot-brand-proof-passage-kasra-dash-v4--v5-nov-2026)
 - **[Module 6: Google Discover & Algorithmic Feed Optimization](module_6_google_discover_algorithmic_feed_optimization.md)**
 - **[Module 8: Quick Reference: Vulnerable Footprints vs. Resilient Asset Architecture](module_8_quick_reference_vulnerable_footprints_vs_resilient_asset_architecture.md)**
   - [The Digital Moat Architecture (V6-F)](module_8_quick_reference_vulnerable_footprints_vs_resilient_asset_architecture.md#the-digital-moat-architecture-v6f--james-dooley--charles-floate-2026-single-source-directional)
@@ -126,6 +127,11 @@
   - [19.3 Internal Linking: Orphan Recovery (Measured) vs Anchor Invariant (Operational)](module_19_9249_study_meta_evidence_controlled_onpage_and_anchor_invariants_ep_1207.md#193-internal-linking-orphan-recovery-measured-vs-anchor-invariant-operational)
   - [19.4 Footer Category Links: Gain Mechanism & Risk Governance](module_19_9249_study_meta_evidence_controlled_onpage_and_anchor_invariants_ep_1207.md#194-footer-category-links-gain-mechanism--risk-governance)
   - [19.5 AEO / GEO Empirical Grounding](module_19_9249_study_meta_evidence_controlled_onpage_and_anchor_invariants_ep_1207.md#195-aeo--geo-empirical-grounding)
+- **[Module 20: Pre-Publication Semantic Drift Gate ("Before You Publish")](module_20_pre_publication_semantic_drift_gate.md)**
+  - [20.1 Inputs](module_20_pre_publication_semantic_drift_gate.md#201-inputs-no-tool--pending-connection)
+  - [20.2 Per-candidate tests](module_20_pre_publication_semantic_drift_gate.md#202-per-candidate-tests-all-discrete)
+  - [20.3 Output](module_20_pre_publication_semantic_drift_gate.md#203-output)
+  - [20.4 Boundaries](module_20_pre_publication_semantic_drift_gate.md#204-boundaries)
 
 ## Decoupled Specialist Skills
 
