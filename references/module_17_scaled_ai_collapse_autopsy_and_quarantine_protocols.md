@@ -74,6 +74,6 @@ To scale AI-assisted content safely without risking domain-wide wipeouts:
    - **Never** connect experimental AI domains to the same Google Search Console (GSC) account as client or money sites. Penalties and algorithmic trust drains cross-contaminate shared GSC profiles.
 3. **Shift from TOFU Slop to BOFU Conversion**:
    - Abandon top-of-funnel informational blog posts that AI Overviews easily swallow.
-   - Build Bottom-of-Funnel (BOFU) purchase-intent pages where searchers seek specific local pricing, service comparisons, or operational booking (Compact Keywords methodology).
+   - Read TOFU pages by conversion beside sessions; low conversion alone is not a loss (the HubSpot TOFU loss is a directional, single-source case). Build Bottom-of-Funnel (BOFU) purchase-intent pages where searchers seek specific local pricing, service comparisons, or operational booking (Compact Keywords methodology).
 4. **Algorithmic Recovery Timeline**:
    - If a domain is hit by a scaled content penalty, purging the unvetted pages begins a recovery cycle benchmarked in Episode 1192 (*"How Long Does SEO Take?"*). Algorithmic reassessment requires 3 to 9 months post-purge.
