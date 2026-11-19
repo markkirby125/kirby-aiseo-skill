@@ -10,6 +10,8 @@
 
 Modern search engines and LLM retrievers do not penalize AI-assisted drafting per se; they penalize **Zero-Effort Synthetic Output ("AI Slop")**—pages exhibiting high token predictability (low perplexity/burstiness), generic structural symmetry, and zero verifiable first-party experience.
 
+**Originality clause (directional, single-source dossier claim):** a page with no unique data or perspective compared with the URLs it competes against is likely devalued. Never fill that gap with a synthetic persona (Module 2 §2.26A) or an undisclosed self-referential ranking (Module 2 §2.16C; paid placements: `kirby-off-page-seo` Module 18).
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
 │             AI SLOP vs. QUALITY-RATER VERIFIED CONTENT                  │
@@ -40,6 +42,7 @@ Before publishing or refreshing any commercial landing page or guide, grade the 
 1. **Dimension 1: Effort & Originality (The "Could Anyone Generate This in 10 Seconds?" Test)**:
    - If a competitor could produce an functionally identical page with a single zero-shot ChatGPT prompt, the page scores **Lowest** on Effort.
    - **Remediation**: Inject proprietary first-party data—internal ticket resolution benchmarks, actual pricing tables, custom architecture diagrams, or real local project post-mortems.
+   - **Effort proxy (unverified; leaked `contentEffort` attribute, directional, single-source):** show visible human labour such as non-stock photos, live demos, screenshots and datasets. Word count is not a reliable proxy. On Reddit and other forums, depth of real discussion counts, not post volume (`ugcDiscussionEffortScore`, same caveat).
 2. **Dimension 2: Experiential E-E-A-T Proof**:
    - Replace abstract advice with concrete practitioner specifics: cite exact tool names, regulatory codes, failure modes encountered in the field, and quantitative outcomes.
    - Include authentic, un-watermarked photographs of the team performing the work (`../../kirby-local-seo/SKILL.md` Module 6 §6.4).

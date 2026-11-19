@@ -6,6 +6,7 @@
 
 * **Bottom-Line-Up-Front (BLUF):** Position the core factual answer, operational SLA, pricing metric, or technical string within the first two sentences of each page and subsection.  
 * **Front-Loading Window:** Place essential data within the top 30% of the page copy, as 44.2% of all generative citations are extracted from this zone (compared to 31.1% in the middle and 24.7% at the end).
+* **Entity Window (heuristic; directional, single-source):** name the primary entity and the search intent within the first 50-70 words.
 
 ### **2.2 Empirical GEO Retrieval Multipliers**
 
@@ -1486,6 +1487,7 @@ Three gates decide this same architectural question. Apply them in order; a quer
 * **Third-Person Rule:** write the entity home strictly as third-person assertions (*"Charles Floate is a UK entrepreneur born on [Date]"*). First person (*"I am…"*) forces LLMs to resolve coreference across the document, spiking retrieval cost and weakening entity extraction. Note: consumer-facing founder-brand sites may soften tone below the fold; the triples block stays third-person.
 * **Sentence-Level Triples:** structure critical biographical/identity claims as subject-predicate-object or entity-attribute-value triples so knowledge-graph nodes/edges extract directly.
 * **sameAs Wrapping:** wrap Google Books URL, Google Play Store URL, Goodreads URL, Amazon URL, and the KG MID (once issued, §2.43) inside the entity home's `sameAs` Schema.org array. Extends §2.38 credibility hardening; the entity home is the anchor page for §2.42 Day-1 standardization.
+* **Organisation sameAs (directional, single-source):** for a business entity, list in `sameAs` its Google Maps CID URL and otherwise only live, indexed profile URLs the organisation owns and can verify, inside one unified `@graph` (`../../kirby-local-seo/SKILL.md` Module 6 §6.10). It is a disambiguation anchor, not a rank boost (this skill's Module 15 §15.2).
 
 ### **2.45 The KD 2–3 Fan-Out Long-Tail Exception (Scoped Carve-Out from §2.16A) (V6-H)**
 
