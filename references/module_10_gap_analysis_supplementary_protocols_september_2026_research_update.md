@@ -60,7 +60,7 @@
 *Source: David Quaid podcast interview. September 2026.*
 
 *   **The Contrasting FAQ Ideology (Zero Clicks vs. Traction):**
-    *   *Zero Clicks (Newbies):* When a domain has no traffic, consolidate FAQs into on-page FAQ blocks per Module 2 §2.14 / [`kirby-local-seo`](../../kirby-local-seo/SKILL.md) §3.9, reserving at most 15 standalone URLs (cap per Module 2 §2.29F / §3.9E). Build those **priority answers as standalone URLs** using the exact question as the URL slug (tactic reported, single-source, unverified; the 15 sitewide cap is hard). Thin or scaled low-value pages are penalised regardless of affiliate links; standalone FAQ URLs stay capped at 15 sitewide (Module 2).
+    *   *Zero Clicks (Newbies):* When a domain has no traffic, consolidate FAQs into on-page FAQ blocks per Module 2 §2.32 / §2.36 / [`kirby-local-seo`](../../kirby-local-seo/SKILL.md) §3.9, reserving at most 15 standalone URLs (cap per Module 2 §2.29F / §3.9E). Build those **priority answers as standalone URLs** using the exact question as the URL slug (tactic reported, single-source, unverified; the 15 sitewide cap is hard). Thin or scaled low-value pages are penalised regardless of affiliate links; standalone FAQ URLs stay capped at 15 sitewide (Module 2).
     *   *Traction (Corner-stoning):* If a page is already receiving some clicks but struggles to rank for competitive head terms, identify long-tail "what is" queries ranking on Page 2 in GSC and add them as exact-match `<h2>` headings on the *same* existing page.
 *   **The Glossary Discovery Engine:**
     *   Developing extensive glossaries (e.g., explaining emerging tech roles or niche terminologies) serves as a massive topical authority multiplier.
