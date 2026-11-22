@@ -16,7 +16,7 @@
 
 ### **10.3 The Programmatic SEO (pSEO) Staged Batch Rule**
 
-> **TL;DR:** To prevent Scaled Content Abuse penalties, follow the Module 2 §2.23 "Start-with-10" staged rollout (Pilot 10, then 50, 200, 1,000+ URLs, each stage gated).
+> **TL;DR:** To prevent Scaled Content Abuse penalties, follow the Module 2 §2.23 "Start-with-10" staged rollout (Pilot 10 → 50 → 200 → 1,000+ URLs, gated at the Pilot 10→50 step per §2.23).
 
 * Programmatic SEO rollouts should be staged in small batches to avoid Scaled Content Abuse penalties.
 * Batch size follows Module 2 §2.23 only; this section sets no second batch rule.
@@ -47,20 +47,20 @@
 > **TL;DR:** Reportedly (single-source, unverified; see below), Google assigns internal link weight based on click probability and actual user behavior (via Chrome/NavBoost telemetry). To maximize indexing and RPMs, add 10-30 topically relevant internal links per page; higher placements relative to other links carry more weight.
 
 * **The $50,000 Reported Blueprint (single-source, unverified):** A 15-site test reportedly established that scaling internal links to 10–30+ per page drove up to 150% ad RPM increases without any ranking penalties or "PageRank dilution" ceilings.
-* **The "Index Minimum" Rule:** A minimum of 5 links *towards* and *from* a post acts as a hard floor against **`Discovered - currently not indexed`** (crawl demand). It does **not** reverse a **`Crawled - currently not indexed`** keep-verdict. For that status, route via §1.16.
-* **Click-Based Link Equity (The Google Patent):** Google's patents on "ranking documents based on user behavior" describe a model in which internal link value is not evenly diluted. Instead, weights are assigned based on the *probability of the link being clicked* (tracked via Chrome and Google Analytics).
-* **Relative Placement Authority:** Links placed higher *relative to other links* (e.g., link #1 vs link #10) pass significantly more ranking value, regardless of whether they appear in the top introduction or middle body.
+* **The "Index Minimum" Rule (reported, single-source, unverified):** A minimum of 5 links *towards* and *from* a post reportedly acts as a floor against **`Discovered - currently not indexed`** (crawl demand). It does **not** reverse a **`Crawled - currently not indexed`** keep-verdict. For that status, route via §1.16.
+* **Click-Based Link Equity (The Google Patent):** Google's patents on "ranking documents based on user behavior" describe a model in which internal link value is not evenly diluted. Instead, weights are assigned based on the *probability of the link being clicked* (reportedly tracked via Chrome and Google Analytics).
+* **Relative Placement Authority:** Links placed higher *relative to other links* (e.g., link #1 vs link #10) reportedly pass more ranking value, regardless of whether they appear in the top introduction or middle body.
 * **Semantic Independence Over Taxonomy:** Internal links must be injected based purely on semantic similarity and user-journey intent, outright ignoring restrictive category or tag-level boundaries.
 * **Funnel-Tier Application:** The 10–30 link volume applies specifically to **Top-of-Funnel (TOFU) informational assets** and content hubs. For mixed commercial pages (capped at ≤ 5 per §10.9) and Bottom-of-Funnel (BOFU) conversion landing pages (near-zero per §10.11F / §2.35), link density is strictly constrained to prevent CTA attention leakage and click dilution.
 
 ### **10.7 The "Contrasting FAQ" Authority Loop & Glossary Discovery Engine (David Quaid Updates)**
 
-> **TL;DR:** For new sites with zero clicks, build standalone question URLs (slug = exact question; tactic reported, single-source, unverified) under a hard cap of 15 sitewide (Module 2 §2.29F; `kirby-local-seo` §3.9E) and route the rest to on-page `<h2>` blocks. For sites with traction, corner-stone queries from GSC Page 2 as `<h2>` elements on existing pages. Implement comprehensive glossaries to capture emerging long-tail discovery traffic.
+> **TL;DR:** For new sites with zero clicks, build standalone question URLs (slug = exact question; tactic reported, single-source, unverified) under a hard cap of 15 sitewide (Module 2 §2.29F; [`kirby-local-seo`](../../kirby-local-seo/SKILL.md) §3.9E) and route the rest to on-page `<h2>` blocks. For sites with traction, corner-stone queries from GSC Page 2 as `<h2>` elements on existing pages. Implement comprehensive glossaries to capture emerging long-tail discovery traffic.
 
 *Source: David Quaid podcast interview. September 2026.*
 
 *   **The Contrasting FAQ Ideology (Zero Clicks vs. Traction):**
-    *   *Zero Clicks (Newbies):* When a domain has no traffic, consolidate FAQs into on-page FAQ blocks per Module 2 §2.32 / §2.29F, reserving at most 15 standalone URLs. Build those **priority answers as standalone URLs** using the exact question as the URL slug (tactic reported, single-source, unverified; the 15 sitewide cap is hard). Thin or scaled low-value pages are penalised regardless of affiliate links; standalone FAQ URLs stay capped at 15 sitewide (Module 2).
+    *   *Zero Clicks (Newbies):* When a domain has no traffic, consolidate FAQs into on-page FAQ blocks per Module 2 §2.14 / [`kirby-local-seo`](../../kirby-local-seo/SKILL.md) §3.9, reserving at most 15 standalone URLs (cap per Module 2 §2.29F / §3.9E). Build those **priority answers as standalone URLs** using the exact question as the URL slug (tactic reported, single-source, unverified; the 15 sitewide cap is hard). Thin or scaled low-value pages are penalised regardless of affiliate links; standalone FAQ URLs stay capped at 15 sitewide (Module 2).
     *   *Traction (Corner-stoning):* If a page is already receiving some clicks but struggles to rank for competitive head terms, identify long-tail "what is" queries ranking on Page 2 in GSC and add them as exact-match `<h2>` headings on the *same* existing page.
 *   **The Glossary Discovery Engine:**
     *   Developing extensive glossaries (e.g., explaining emerging tech roles or niche terminologies) serves as a massive topical authority multiplier.

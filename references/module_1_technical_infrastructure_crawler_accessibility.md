@@ -5,17 +5,22 @@
 
 * **Disable Automated AI Bot Blocking:** Verify that Cloudflare’s default setting *"Block AI bot traffic with robots.txt"* is deactivated across all domains.  
 * **Permit Search Agent User-Agents:** Ensure edge Web Application Firewall (WAF) challenge rules (such as Turnstile or interactive JS challenges) do not drop requests or strip semantic HTML headers from verified AI crawler bots.  
-* **Robots.txt Standardisation:** Deploy the following standardized allowlist block to robots.txt on all primary domains:
+* **Robots.txt Standardisation:** Deploy the following standardized groups to robots.txt on all primary domains (taxonomy per §1.22):
 
 ```text
-User-agent: GPTBot
+# Search-grounding crawlers (allow; §1.22)
 User-agent: OAI-SearchBot
-User-agent: ClaudeBot
 User-agent: PerplexityBot
+User-agent: ChatGPT-User
+Allow: /
+
+# Optional: model-training bots (allow or disallow per training policy; §1.22)
+User-agent: GPTBot
+User-agent: ClaudeBot
 Allow: /
 ```
 
-Add `User-agent: CCBot` to this group only to opt into Common Crawl presence (optional; §1.18, §1.22).
+Add `User-agent: CCBot` to the optional training-bot group only to opt into Common Crawl presence (optional; §1.18, §1.22).
 
 
 ### **1.2 LLM-Optimised Edge Delivery & /llms.txt**
@@ -150,7 +155,7 @@ A pervasive failure mode on developing domains is the "zombie page" trap: high-q
 The source claims Google treats every canonical URL string as an immutable entity token ("The Canon"). 
 
 1. **Initial Timestamp Evaluation:** When a **never-indexed** URL is first published, Google reportedly evaluates the page against the site's **topical authority at that exact timestamp**. If the domain is young, lacks inbound links, or has not yet established topical relevance in that cluster, the first crawl may leave the URL in `Crawled - currently not indexed` as an authority-budget lock. Keep-verdicts on previously indexed same-spec pages are §1.16, not this protocol.
-2. **The Stale Verdict Trap:** Official Google documentation claims this status indicates that "content quality does not meet our threshold." The source reads it as: *the domain's topical authority at time of crawl did not justify the indexation budget for this query,* OR the page failed to add distinct value to the index.
+2. **The Stale Verdict Trap:** The source paraphrases Google documentation as saying this status means content quality does not meet Google's threshold (paraphrase, not a verbatim quote). The source reads it as: *the domain's topical authority at time of crawl did not justify the indexation budget for this query,* OR the page failed to add distinct value to the index.
 3. **The Generic Title Trap:** A highly common trigger for `Crawled - currently not indexed` is deploying a page title that is merely the exact-match target keyword (e.g., `<title>Home Renovation Ideas</title>`). When the title is too similar to existing content in the SERPs, Google reportedly assumes the page does not add distinct value. 
 4. **The Legacy State Lock:** Even after the domain matures—publishing 50+ related articles, ranking for high-intent sibling terms, and earning authoritative backlinks over 6–24 months—**the old URL reportedly remains locked in its legacy low-authority state**. The source reports that re-requesting indexing in GSC repeatedly fails and attributes this to the canonical URL string being tagged with a historical low-authority verdict.
 
@@ -193,7 +198,7 @@ Execute a slug reset only when all four criteria are met:
    * *Example (Local Trade):* `swindonplasterer.com/plastering-services/` $\rightarrow$ `swindonplasterer.com/professional-plastering-services/`
    * *Example (MSP):* `berkshireitservices.co.uk/m365-backup/` $\rightarrow$ `berkshireitservices.co.uk/microsoft-365-cloud-backup/`
 2. **Permanent 301 Redirect:** Map the old URL to the new slug via server-level 301 redirect. This consolidates historical signals and prevents orphaned links.
-3. **Content Invariance (Zero Edits):** Keep the on-page copy, headings, images, and schema markup **100% identical**. Do not rewrite the content; changing text introduces confounding variables. The operational objective is to test whether Google re-evaluates the identical content under a new canonical URL (reported, directional; not a way to bypass an existing quality verdict). This sprint applies to legacy zombie URLs; a new EMD or single-page tool page under a `FREEZE` entry is out of scope (directional, single-source; `kirby-seo-telemetry` Module 15 §15.2).
+3. **Content Invariance (Zero Edits):** Keep the on-page copy, headings, images, and schema markup **100% identical**. Do not rewrite the content; changing text introduces confounding variables. The operational objective is to test whether Google re-evaluates the identical content under a new canonical URL (reported, directional; applies only to never-indexed pages that pass §1.8B; never to manual-action or previously-indexed URLs). This sprint applies to legacy zombie URLs; a new EMD or single-page tool page under a `FREEZE` entry is out of scope (directional, single-source; `kirby-seo-telemetry` Module 15 §15.2).
 4. **Request Re-Indexing:** Submit the new URL directly into Google Search Console's URL Inspection tool and click "Request Indexing."
 
 #### D. Algorithmic Yield & Reported Benchmark
@@ -413,7 +418,7 @@ Google evaluates search eligibility through sequential filtration stages ("heat 
 
 #### D. Operationalizing Brand Signals for Local & SaaS Domains
 1. **Brand-First Query Conditioning:** In offline print, vehicle livery, email signatures, and client onboarding, instruct customers: *"Search '[Brand Name] + [Service]' on Google"* rather than providing direct URLs. This directly feeds Google's branded query logging.
-2. **The 60% Branded Anchor Mandate:** Maintain a minimum of **60% exact-brand anchor text** across all inbound link building and PR syndication ([`kirby-off-page-seo`](../../kirby-off-page-seo/SKILL.md)) to maintain organic entity purity.
+2. **The 60% Branded Anchor Mandate:** Maintain a minimum of **60% exact-brand anchor text** across all inbound link building and PR syndication to maintain organic entity purity.
 3. **Friction-Killer SERP Title Tags:** Implement friction-killing modifiers in Title Tag Part 2 (`£0 Call-Out`, `Same-Day SLA`, `Free Tier`, §2.18) to maximize click-selection inversion against entrenched competitors in positions 1–2.
 
 **Site Quality Score Checklist**
@@ -454,7 +459,7 @@ In official antitrust exhibits and internal research (Tristan Upstill & Paul Haa
 * **The 10,000 Impressions/Day Movement Threshold:** Crossing a baseline of **10,000 daily search impressions** serves as the empirical signal where Google recognizes sufficient user demand to deploy full algorithmic crawl depth and test the domain for rich SERP features.
 
 #### B. Dynamic Markdown (`.md`) Rendering for LLM Crawlers
-While human visitors and Googlebot require visual HTML/CSS rendering, LLM search agents (GPTBot, ClaudeBot, PerplexityBot) consume raw token streams.
+While human visitors and Googlebot require visual HTML/CSS rendering, LLM crawlers (GPTBot, ClaudeBot, PerplexityBot) consume raw token streams.
 * **The Agentic Dynamic Rendering Protocol:**
   * Configure server-side reverse-DNS / published ASN IP verification (e.g., on Cloudflare Workers or Nginx; never rely on spoofable raw `User-Agent` strings alone or serve materially different facts than HTML) for verified AI crawler ranges (`GPTBot`, `OAI-SearchBot`, `PerplexityBot`).
   * Serve a clean, pre-compiled Markdown (`.md`) parity representation containing structured Markdown headings (`#`, `##`), bulleted entity lists, and plain-text data tables carrying the exact same canonical facts shown to human visitors in HTML.
@@ -649,7 +654,7 @@ If the URL was **never meant to be indexed** (tracking parameters, HTTP/HTTPS du
 * **The Statistic:** Reportedly over **35% of all websites globally** (single-source, unverified) accidentally block AI crawlers at the Cloudflare/WAF/CDN level without knowing it, including major brands spending heavily on SEO. This section extends §1.1 with the full audit protocol.
 
 **Unblocking Checklist:**
-- [ ] **Cloudflare:** "Block AI bot traffic" OFF (§1.1); AI Crawl Control reviewed **per bot**; Browser Integrity Check and challenge rules verified not to fire for `CCBot`, `GPTBot`, `OAI-SearchBot`, `ClaudeBot`, `PerplexityBot`.
+- [ ] **Cloudflare:** "Block AI bot traffic" OFF (§1.1); AI Crawl Control reviewed **per bot**; Browser Integrity Check and challenge rules verified not to fire for `OAI-SearchBot`, `PerplexityBot`, `ChatGPT-User`, and for `GPTBot`, `ClaudeBot`, `CCBot` where §1.22's optional training group is allowed.
 - [ ] **AWS WAF:** Rate-based rules scoped to exclude verified AI crawlers on the basis of **reverse-DNS/IP-verified bot lists only** — a user-agent string alone never qualifies for exclusion (UA strings are trivially spoofable and UA-based exclusions are a bypass primitive).
 - [ ] **Edge CDN:** Cache rules not serving empty shells to cookie-less user-agents; SSR verified per §1.2.
 - [ ] **Verification:** Fetch key page URLs with each AI user-agent string (e.g., `curl -A "Mozilla/5.0 (compatible; CCBot/2.1; +https://commoncrawl.org/faq/)"`) from a clean IP — the response body must contain the full semantic DOM, not a challenge page. Run this only against properties you own or are explicitly authorized to test; never against third-party sites.
@@ -678,7 +683,7 @@ If the URL was **never meant to be indexed** (tracking parameters, HTTP/HTTPS du
 * **The Architectural Split:** Search-engine AEO and real-time LLM retrieval depend on a strict operational separation between **search-grounding crawlers** and **model-training scrapers**. Conflating them in `robots.txt` or WAF rules destroys Answer Engine visibility.
 * **Crawler Taxonomy (2026 Grounding Standards):**
   * **Search-Grounding Crawlers (Must Allow on Commercial & Deals Paths):** `OAI-SearchBot` (OpenAI real-time web search), `PerplexityBot` (Perplexity search indexer), `ChatGPT-User` (on-demand web browsing triggers via ChatGPT user prompts), `Google-Extended` (if opting into Gemini grounding while managing Vertex training).
-  * **Model-Training Bots (Optional Disallow):** `GPTBot`, `ClaudeBot`, `Bytespider`, `CCBot` (offline model training and bulk corpus ingestion; §1.1 lists `CCBot` only as an optional opt-in for Common Crawl presence per §1.18).
+  * **Model-Training Bots (Optional Disallow):** `GPTBot`, `ClaudeBot`, `Bytespider`, `CCBot` (offline model training and bulk corpus ingestion; §1.1 puts `GPTBot` and `ClaudeBot` in its optional training-bot group and adds `CCBot` there only to opt into Common Crawl presence per §1.18).
 * **Robots.txt Baseline Configuration (Unblocking On-Domain `/trust` & SSOT `"My Business Facts"` Hubs):**
   ```txt
   # Allow Real-Time AI Search Grounding (Mandatory for Commercial, /trust & SSOT /facts Paths)

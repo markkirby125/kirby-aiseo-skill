@@ -281,7 +281,7 @@ To transform local lead-gen and niche sites into unassailable entities within Go
      - 60-second video walkthrough of the award/project.
      - Branded visual assets using authentic on-site photography with descriptive filenames, alt text, and visible captions (**Strict Guardrail:** never inject synthetic or spoofed GPS EXIF coordinates into images; platforms strip EXIF metadata on upload and synthetic EXIF spoofing is a zero-lift spam footprint — see `../../kirby-local-seo/SKILL.md` §3.20 / §6.4).
      - Human-approved press release submitted to relevant local or industry press (Google News inclusion not guaranteed).
-     - Multi-channel social posts syndicated across the **Branded Social Fortress** (Twitter/X, Facebook, LinkedIn, Flickr, Web 2.0 properties).
+     - Multi-channel social posts syndicated across the **Branded Social Fortress** (Twitter/X, Facebook, LinkedIn, Flickr), published natively per channel.
    * **Human Approval Gate:** A named human reviews the copy and claims, and approves each press release and social post before it is published.
    * **Outcome:** A single real-world operational milestone yields one release and its social posts, each differentiated per channel.
 
@@ -295,7 +295,7 @@ For rapid local cashflow generation in trade niches (plastering, roofing, plumbi
 - [ ] Audit aged domain candidates for existing GBP profiles and verified Knowledge Graph Machine IDs (`kgmid`).
 - [ ] Enforce composite multi-engine health check (Majestic TF:CF $\ge$ 0.6; Moz/Semrush clean; branded anchors in top 3).
 - [ ] Verify core money pages answer the 4 transactional points (price, SLA, scope, credentials) with zero "hide-and-seek" fluff.
-- [ ] Establish Branded Social Fortress across 20+ primary Web 2.0 and citation platforms.
+- [ ] Establish Branded Social Fortress across 20+ primary owned social and citation platforms.
 - [ ] Apply for regional and trade awards annually; publish one release per real milestone (e.g. an award win), only after a human approves each press release and social post before publication.
 
 ---
@@ -884,7 +884,7 @@ Enterprise operators mitigate algorithm volatility by maintaining diversified, m
 Commercial conversion rates, user dwell time, and LLM gatekeeping retrieval depend decisively on the above-the-fold experience. When visitors land on a transactional money or service page, cognitive processing must resolve within two seconds. Failing this test triggers immediate pogo-sticking (bouncing back to SERPs), passing a negative behavioral signal to Google's NavBoost algorithm and disqualifying the page from AI search synthesis.
 
 #### A. The 2-Second Above-the-Fold Law
-Within 2 seconds of entering a transactional service URL, both a human user and an automated AI retrieval crawler (GPTBot, ClaudeBot, PerplexityBot) must unambiguously extract three core elements above the fold:
+Within 2 seconds of entering a transactional service URL, both a human user and an automated AI crawler (GPTBot, ClaudeBot, PerplexityBot) must unambiguously extract three core elements above the fold:
 1. **What You Do:** Exact, literal service entity identification.
 2. **Where You Do It:** Exact target city, district, or operational coverage radius.
 3. **What to Do Next:** A single, high-contrast, frictionless Primary Call-to-Action (CTA) (e.g., *"Get an Instant Quote"*, *"Call an Engineer"*, *"Book a Diagnostic"*).

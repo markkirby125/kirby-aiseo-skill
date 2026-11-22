@@ -5,7 +5,7 @@
 ================================================================================
 
 [ ] 1. BERKSHIREITSERVICES.CO.UK (Residential & Home-Office IT Support)  
-    [ ] Cloudflare: Disable AI bot blocking; allow GPTBot, ClaudeBot, PerplexityBot.  
+    [ ] Cloudflare: Disable AI bot blocking; allow OAI-SearchBot, PerplexityBot, ChatGPT-User; GPTBot/ClaudeBot per training policy (Module 1 §1.1, §1.22).  
     [ ] On-Page: Front-load SLA data table in top 300 words (£0 call-out, 24-48h turnaround).  
     [ ] Writing Architecture: Enforce Skim Test (Index–Discussion) and Topic–Comment linking on all repair guides.  
     [ ] Mount AI Defense: Embed interactive instant repair cost estimator in top 400px to force secondary interaction.  
