@@ -20,7 +20,7 @@
   - [1.11.1 Google's Internal "Site Quality Score" (0.0–1.0), The 0.4 Feature Gate & Branded Query Inversion (Reported, Unconfirmed)](module_1_technical_infrastructure_crawler_accessibility.md#1111-googles-internal-site-quality-score-0010-the-04-feature-gate--branded-query-inversion-reported-unconfirmed)
   - [1.12 The Cost of Retrieval Law, The Algorithmic Trinity & Dynamic Markdown Rendering for LLMs (Koray Tuğberk GÜBÜR & Jason Barnard)](module_1_technical_infrastructure_crawler_accessibility.md#112-the-cost-of-retrieval-law-the-algorithmic-trinity--dynamic-markdown-rendering-for-llms-koray-tuberk-gbr--jason-barnard)
   - [1.13 Autonomous Agent-to-Agent (A2A) Protocols, Agent-Ready Scheduling & The Business Knowledge Catalog](module_1_technical_infrastructure_crawler_accessibility.md#113-autonomous-agent-to-agent-a2a-protocols-agent-ready-scheduling--the-business-knowledge-catalog)
-  - [1.14 Anthropic Output Watermarking & The Synthetic Footprint Quarantine Protocol](module_1_technical_infrastructure_crawler_accessibility.md#114-anthropic-output-watermarking--the-synthetic-footprint-quarantine-protocol)
+  - [1.14 Original Primary Data & Human Editorial Review (Content-Quality Requirement)](module_1_technical_infrastructure_crawler_accessibility.md#114-original-primary-data--human-editorial-review-content-quality-requirement)
   - [1.15 Crawl Depth & The Category Node Trap (Indexation Privilege)](module_1_technical_infrastructure_crawler_accessibility.md#115-crawl-depth--the-category-node-trap-indexation-privilege)
   - [1.16 Crawled vs Discovered Indexation Router](module_1_technical_infrastructure_crawler_accessibility.md#116-crawled-vs-discovered-indexation-router)
   - [1.17 Harmonic Centrality over PageRank: The Seed-Graph Distance Doctrine](module_1_technical_infrastructure_crawler_accessibility.md#117-harmonic-centrality-over-pagerank-the-seed-graph-distance-doctrine-stephen-burns--james-dooley-llm-mastery)
@@ -78,14 +78,14 @@
   - [2.44 The Entity Home: Slug Invariant, Third-Person Triples & sameAs Wrapping](module_2_on_page_semantic_architecture_content_engineering.md#244-the-entity-home-slug-invariant-third-person-triples--sameas-wrapping-v6-b)
   - [2.45 The KD 2–3 Fan-Out Long-Tail Exception](module_2_on_page_semantic_architecture_content_engineering.md#245-the-kd-23-fan-out-long-tail-exception-scoped-carve-out-from-216a-v6-h)
   - [2.46 The Compact Keywords Framework: 400-Word BOFU Transactional Landers](module_2_on_page_semantic_architecture_content_engineering.md#246-the-compact-keywords-framework-400-word-bofu-transactional-landers-edward-sturm-ep-1206)
-  - [2.47 Deep Technical Product Attribute Mapping for AEO](module_2_on_page_semantic_architecture_content_engineering.md#247-deep-technical-product-attribute-mapping-for-aeo-harpreet-singh--gagan-goraya-ep-1206)
+  - [2.47 Deep Technical Product Attribute Mapping for AEO](module_2_on_page_semantic_architecture_content_engineering.md#247-deep-technical-product-attribute-mapping-for-aeo-harpreet-singh--gagan-ghotra-ep-1206)
   - [2.48 Middle-of-Funnel Educational Guides as LLM Citation Bait](module_2_on_page_semantic_architecture_content_engineering.md#248-middle-of-funnel-educational-guides-as-llm-citation-bait-ep-1206)
   - [2.49 The Discount Transparency Block: Plain-Text Numerical Tiers & AggregateOffer Schema](module_2_on_page_semantic_architecture_content_engineering.md#249-the-discount-transparency-block-plain-text-numerical-tiers--aggregateoffer-schema-canonical-specification) (only for genuine ecommerce offers with prices visible on the page without a click; excluding service, lead-gen and local pages as a conservative default)
   - [2.50 BOFU Alternatives & 1v1 Versus Page Cluster Architecture](module_2_on_page_semantic_architecture_content_engineering.md#250-bofu-alternatives--1v1-versus-page-cluster-architecture-rob-hoffman)
   - [2.51 SSOT `"My Business Facts"` Page, The 6 LLM Extraction Rules & The 4-Slot Brand Proof Passage](module_2_on_page_semantic_architecture_content_engineering.md#251-ssot-my-business-facts-page-the-6-llm-extraction-rules--the-4-slot-brand-proof-passage-kasra-dash-v4--v5-nov-2026)
 - **[Module 6: Google Discover & Algorithmic Feed Optimization](module_6_google_discover_algorithmic_feed_optimization.md)**
 - **[Module 8: Quick Reference: Vulnerable Footprints vs. Resilient Asset Architecture](module_8_quick_reference_vulnerable_footprints_vs_resilient_asset_architecture.md)**
-  - [The Digital Moat Architecture (V6-F)](module_8_quick_reference_vulnerable_footprints_vs_resilient_asset_architecture.md#the-digital-moat-architecture-v6f--james-dooley--charles-floate-2026-single-source-directional)
+  - [The Digital Moat Architecture (V6-F)](module_8_quick_reference_vulnerable_footprints_vs_resilient_asset_architecture.md#the-digital-moat-architecture-v6-f--james-dooley--charles-floate-2026-single-source-directional)
 - **[Module 9: Site-Specific Implementation Checklists](module_9_site_specific_implementation_checklists.md)**
 - **[Module 10: Gap-Analysis Supplementary Protocols (September 2026 Research Update)](module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md)**
   - [10.2 The "Position 17" GSC Harvesting Rule & Page 2 Stagnation Protocol](module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md#102-the-position-17-gsc-harvesting-rule--page-2-stagnation-protocol)
@@ -102,7 +102,7 @@
   - [14.1 The AI Overview Negative Sentiment Threat](module_14_defensive_geo_ai_orm_ann_smarty_ep_1186.md#141-the-ai-overview-negative-sentiment-threat)
   - [14.2 Human-Led Customer Support to Starve AI Models](module_14_defensive_geo_ai_orm_ann_smarty_ep_1186.md#142-human-led-customer-support-to-starve-ai-models)
   - [14.3 Crisis Management Pre-Planning](module_14_defensive_geo_ai_orm_ann_smarty_ep_1186.md#143-crisis-management-pre-planning)
-  - [14.4 The On-Domain Reddit Rebuttal Architecture](module_14_defensive_geo_ai_orm_ann_smarty_ep_1186.md#144-the-on-domain-reddit-rebuttal-architecture-david-quaid--gagan-goraya-ep-1206)
+  - [14.4 The On-Domain Reddit Rebuttal Architecture](module_14_defensive_geo_ai_orm_ann_smarty_ep_1186.md#144-the-on-domain-reddit-rebuttal-architecture-david-quaid--gagan-ghotra-ep-1206)
 - **[Module 15: October 2026 Metadata Fact-Check Mandate & SRA Compliance Boundaries](module_15_october_2026_metadata_fact_check_sra_boundaries.md)**
   - [15.1 The October 1, 2026 Metadata Fact-Check Mandate](module_15_october_2026_metadata_fact_check_sra_boundaries.md#151-the-october-1-2026-metadata-fact-check-mandate)
   - [15.2 Metadata Verification Pass SOP](module_15_october_2026_metadata_fact_check_sra_boundaries.md#152-metadata-verification-pass-sop)

@@ -4,7 +4,7 @@
 ### **2.1 The 30% Front-Loading Law & BLUF**
 
 * **Bottom-Line-Up-Front (BLUF):** Position the core factual answer, operational SLA, pricing metric, or technical string within the first two sentences of each page and subsection.  
-* **Front-Loading Window:** Place essential data within the top 30% of the page copy, as 44.2% of all generative citations are extracted from this zone (compared to 31.1% in the middle and 24.7% at the end).
+* **Front-Loading Window:** Place essential data within the top 30% of the page copy, as 44.2% of all generative citations are reportedly extracted from this zone (31.1% in the middle, 24.7% at the end; reported, single-source, unverified).
 * **Entity Window (heuristic; directional, single-source):** name the primary entity and the search intent within the first 50-70 words.
 
 ### **2.2 Empirical GEO Retrieval Multipliers**
@@ -20,7 +20,7 @@ Structure all informational and commercial copy according to empirical Generativ
 | **Technical Precision** | **\+18% Domain Scoring**  | Use industry-standard terminology rather than oversimplifying. |
 | **Keyword Stuffing Avoidance** | **\~10% Visibility Drop (Penalty)**  | Maintain natural token distributions; avoid repeated unnatural exact-match stuffing. |
 
-**2026 Meta-Study Additions (9,249 case studies screened, 769 scored, 552 cited sources):**
+**2026 Meta-Study Additions (9,249 case studies screened, 769 scored, 552 cited sources; reported, single-source, unverified):**
 
 | Optimisation Lever | Retrieval Benchmark Lift | Implementation Protocol |
 | :---- | :---- | :---- |
@@ -28,7 +28,7 @@ Structure all informational and commercial copy according to empirical Generativ
 | **Direct Answer in Opening Paragraph** | **\+280% AI Citations**  | Answer the query in the first paragraph before introducing supporting evidence (aligns with §2.1 front-loading law). |
 | **Staff Author Bylines** | **\+113% AI Citations**  | Add bylines for real, named staff with verifiable presence and consent (role-attribution caution in §2.38), even with low public-profile recognition (guards §2.26A synthetic-persona and §2.33B identity traps). |
 | **Full GEO Package Rewrites** | **\+83.2% AI Citations**  | Bundle the levers above into comprehensive rewrites (12 test samples, 6 publishers). |
-| **Targeted AI Enrichment (Product Pages)** | **\+73% AI Citations**  | Add AI-drafted, human-edited explanatory modules to specific product pages only (per §1.14 synthetic-footprint quarantine). |
+| **Targeted AI Enrichment (Product Pages)** | **\+73% AI Citations**  | Add AI-drafted, human-edited explanatory modules to specific product pages only (per §1.14 editorial review). |
 | **Human Editing of AI Drafts** | **\+67% AI Citations**  | Apply light human refinement to raw AI text before publishing. |
 | **Inline Parenthetical Citations** | **\+40% AI Citations**  | Place source citations in parentheses directly beside claims, not as bottom footnotes. |
 | **Untargeted Site-Wide AI Publishing** | **\-35% Organic Sessions (Penalty)**  | Contrast lever: unedited, untargeted mass publishing penalizes (§2.23 / §2.8 anti-template rules apply); enrichment must stay targeted. |
@@ -276,10 +276,11 @@ To transform local lead-gen and niche sites into unassailable entities within Go
 3. **Autonomous Agent Multi-Channel Syndication Loop:**
    * **Input:** Authentic photos of the business owner/team holding the award, attending the event, or completing a verified project.
    * **Agent Pipeline:** Autonomous AI agents generate:
-     - 60-second video walkthrough of the award/project (§4.2.1).
+     - 60-second video walkthrough of the award/project.
      - Branded visual assets using authentic on-site photography with descriptive filenames, alt text, and visible captions (**Strict Guardrail:** never inject synthetic or spoofed GPS EXIF coordinates into images; platforms strip EXIF metadata on upload and synthetic EXIF spoofing is a zero-lift spam footprint — see `../../kirby-local-seo/SKILL.md` §3.20 / §6.4).
-     - Formal press release distributed to Google News via PR Underground (§4.3.1).
+     - Formal press release distributed to Google News via PR Underground.
      - Multi-channel social posts syndicated across the **Branded Social Fortress** (Twitter/X, Facebook, LinkedIn, Flickr, Web 2.0 properties).
+   * **Human Approval Gate:** A named human reviews the copy and claims, and approves each press release and social post before it is published.
    * **Outcome:** A single real-world operational milestone converts into 50+ synchronized, timestamped, entity-corroborating citations across the web, cementing Knowledge Graph recognition and LLM retrieval confidence.
 
 #### C. The 50-Page Local EMD Micro-Site Architecture
@@ -293,7 +294,7 @@ For rapid local cashflow generation in trade niches (plastering, roofing, plumbi
 - [ ] Enforce composite multi-engine health check (Majestic TF:CF $\ge$ 0.6; Moz/Semrush clean; branded anchors in top 3).
 - [ ] Verify core money pages answer the 4 transactional points (price, SLA, scope, credentials) with zero "hide-and-seek" fluff.
 - [ ] Establish Branded Social Fortress across 20+ primary Web 2.0 and citation platforms.
-- [ ] Apply for regional and trade awards annually; deploy autonomous AI syndication across all fortress nodes upon winning.
+- [ ] Apply for regional and trade awards annually; deploy AI syndication across all fortress nodes upon winning, only after a human approves each press release and social post before publication.
 
 ---
 
@@ -507,7 +508,7 @@ For every 1 core evergreen pillar asset identified in GA4 (via **Reports $\right
 4. **Community Value Posts:** Native, non-promotional technical breakdowns for Reddit and LinkedIn.
 5. **Executive X/Twitter Thread:** 5–7 post actionable summary.
 6. **Customer Email Teaser:** Short-form problem/solution narrative linking to the summary page.
-7. **Proprietary Data Release:** Extracted statistics submitted to industry newsletters and local press (§4.3.1).
+7. **Proprietary Data Release:** Extracted statistics submitted to industry newsletters and local press.
 
 #### C. The 4-to-5 Question Unscripted Video Interview Protocol
 Overcome script anxiety and video production friction:
@@ -841,7 +842,7 @@ In stigmatized or privacy-sensitive niches (gambling, adult, specialized medical
   1. **The Static Footprint:** Fabricated personas are inherently static. They possess a bio box but zero active digital engagement, zero peer citation in industry publications, and zero verifiable presence in the Google Knowledge Graph.
   2. **Image Anomaly Detection:** Standard AI face generators produce subtle ocular, dental, and edge-blending anomalies that automated visual classifiers flag as synthetic.
   3. **The Penalty:** Google's core updates and manual webspam actions systematically demote domains relying on synthetic authorship.
-* **The Mandatory Standard:** Banning all synthetic author personas. When writers require privacy, content must be attributed to an **Accredited Editorial Board** or **Corporate Entity** backed by organization schema, verified executive leadership, and published editorial review standards (§4.21).
+* **The Mandatory Standard:** Banning all synthetic author personas. When writers require privacy, content must be attributed to an **Accredited Editorial Board** or **Corporate Entity** backed by organization schema, verified executive leadership, and published editorial review standards.
 
 #### B. The "Experiential E" Separation: Commodity AI vs. Human Moat
 Google’s Helpful Content classifiers aggressively devalue commodity informational text that any frontier LLM can synthesize:
@@ -1125,8 +1126,8 @@ Google's March 2024 Scaled Content Abuse policy explicitly penalizes automated a
 |---|---|---|---|
 | 1 | **Comparison Pages at Scale** | Automated "Product A vs. Product B" generation across every pairwise matchup in a market category without hands-on verification. | High-Intent Curated Comparisons (§2.10) with verified primary performance benchmarks. |
 | 2 | **"What is X" Glossary Farms** | 1 definition per URL, often programmatically translated into a dozen languages to fish for LLM definition citations. | Consolidate glossary definitions into contextual `<h2>` blocks on primary authority hub pages. |
-| 3 | **Best X for Y Affiliate Listicles** | Re-hashed listicles compiled by summarizing existing ranking SERP results with zero proprietary testing. | Empirical Benchmark Reports (§4.8) featuring original telemetry or verified user testing. |
-| 4 | **Self-Promotional Listicles** | Brands authoring category buyer guides that rank themselves #1 while displaying fabricated or unproven competitor comparisons. | Objective 85% Third-Party Comparison Architecture (§2.6) and digital PR co-citations (§5.3). |
+| 3 | **Best X for Y Affiliate Listicles** | Re-hashed listicles compiled by summarizing existing ranking SERP results with zero proprietary testing. | Empirical Benchmark Reports featuring original telemetry or verified user testing. |
+| 4 | **Self-Promotional Listicles** | Brands authoring category buyer guides that rank themselves #1 while displaying fabricated or unproven competitor comparisons. | Objective 85% Third-Party Comparison Architecture (§2.6) and digital PR co-citations. |
 | 5 | **Competitor Alternative Pages** | Spinning dedicated URLs for every named rival in the industry with generic feature-bullet grids. | Compact BOFU `/uses` hub pages (§2.14) addressing genuine user workflow migration friction. |
 | 6 | **Programmatic Location / Language Pages** | Multiplying service templates across 100+ cities in a 50-mile radius where the business holds no physical address or completed jobs. | Core 30 Local Architecture (§3.6) strictly bounded to the physical Google Business Profile city. |
 | 7 | **FAQ Farms** | Spinning individual URLs per question extracted from People Also Ask (PAA), formatted with robotic intro paragraphs, bullets, and schema. | Localized on-page FAQ blocks (§2.14 / §3.9 guardrails); eliminate thin standalone question URLs. |
@@ -1594,7 +1595,7 @@ Three gates decide this same architectural question. Apply them in order; a quer
 * **Incumbent Bias Counter-Callout (Video 04 `eEQP8D3R7i4` Threat Model; directional, single-source):** When auditing or building competitive `1v1` and fan-out comparisons, explicitly anticipate ChatGPT's unprompted incumbent-brand bias in generic fan-outs (e.g., returning legacy incumbents like `"AirPods"` unprompted on `"best headphone with transparency mode"`), and surface objective comparison specs while auditing and correcting weakly supported claims in your own comparison copy ([`kirby-off-page-seo`](../../kirby-off-page-seo/SKILL.md) Module 18 §18.19 — prohibit executing §18.19 exploits; build durable owned citations instead) rather than echoing legacy incumbent framing.
 * **Quick Answer BLUF Box (Immediate Sub-H1 / Sub-Byline):**
   * 2–3 sentences designed for verbatim extraction by ChatGPT and Google AI Overviews.
-  * Must pack three elements: (1) **Top 4 picks mapped to explicit `"Best for"` use cases** (starting with your brand at #1), (2) **Incumbent pricing floor / contract friction** (e.g., *"[Competitor] now starts at $15,000/mo on a mandatory annual term, ~$192,000 in year one with fees"*), and (3) **Explicit first-person bias disclosure** (*"[Brand] is first because it is mine, discount accordingly"*).
+  * Must pack three elements: (1) **Top 4 picks mapped to explicit `"Best for"` use cases** (your brand may sit at #1 only with the §2.16C disclosure; a `kirby-zero-to-100-seo` Stage 2 flagship hub instead lists it as one option among competitors), (2) **Incumbent pricing floor / contract friction** (e.g., *"[Competitor] now starts at $15,000/mo on a mandatory annual term, ~$192,000 in year one with fees"*), and (3) **Explicit first-person bias disclosure** (*"[Brand] is first because it is mine, discount accordingly"*).
 * **Key Takeaways Block (`<h2> Key Takeaways` — #2 AI Search Checklist Item):**
   * Strictly **4 to 5 bullet points**, each **2 to 3 sentences maximum** (executive summary format).
   * Covers: (1) Incumbent pricing/contract floor, (2) Why lock-in changes the buyer math, (3) Category taxonomy of the alternatives (e.g., dedicated teams vs. AI resizing tools vs. design queues vs. agencies), and (4) Host brand's value proposition ending with an inline text CTA (`Book a demo`).

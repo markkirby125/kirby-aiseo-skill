@@ -75,7 +75,7 @@ Footer links function as structural crawl paths, but carry operational trade-off
 Generative Engine Optimization (AEO/GEO) is heavily distorted by speculative claims:
 
 - **The `LLMs.txt` Reality**: No controlled test of `llms.txt` exists anywhere in the 9,249-document corpus. It remains unproven and should never displace foundational semantic HTML.
-- **The Verified Citation Drivers**: What actually drives AI Overviews, ChatGPT Search, and Perplexity retrieval are standard high-effort SEO structures:
+- **The Reported Citation Drivers (single-source, unverified)**: Reported drivers of AI Overviews, ChatGPT Search, and Perplexity retrieval are standard high-effort SEO structures:
   1. **Direct Declarative Answers in Opening Hook**: Placing direct answers in the opening paragraph drives a **+280% citation increase**.
   2. **Original Statistics**: Publishing first-party quantitative data drives a **+37% citation increase**.
   3. **Structured HTML Tables**: Pre-computed comparison matrices that are retrievable as a single coherent chunk.

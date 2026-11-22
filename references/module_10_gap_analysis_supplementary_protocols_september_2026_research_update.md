@@ -16,11 +16,11 @@
 
 ### **10.3 The Programmatic SEO (pSEO) "Fractional Scaling Law"**
 
-> **TL;DR:** To prevent Scaled Content Abuse penalties, new programmatic pages must not exceed a batch size of 5% of currently indexed, healthy URLs.
+> **TL;DR:** To prevent Scaled Content Abuse penalties, start programmatic batches at about 5% of currently indexed, healthy URLs (heuristic, unsourced), capped at the 25-50 page batch guidance in `kirby-zero-to-100-seo`.
 
-* Programmatic SEO rollouts must adhere to a strict "Fractional Scaling Law" to avoid Scaled Content Abuse penalties.
-* The maximum safe batch size for publishing new programmatic pages is exactly 5% of the currently indexed, healthy URLs on the domain.
-* Exceeding this fractional velocity triggers the "Mount AI" algorithmic demotion.
+* Programmatic SEO rollouts should be staged in small batches to avoid Scaled Content Abuse penalties.
+* A conservative starting heuristic (not a rule, unsourced) for programmatic batch size is about 5% of the currently indexed, healthy URLs, capped at the 25-50 page batch guidance in `kirby-zero-to-100-seo`.
+* Exceeding this fractional velocity reportedly risks the "Mount AI" algorithmic demotion.
 * This demotion occurs due to a sudden imbalance of unverified content.
 
 ### **10.4 The Visual "Projector Room" Render Law & Link Discount Mechanics**
@@ -60,11 +60,11 @@
 *Source: David Quaid podcast interview. September 2026.*
 
 *   **The Contrasting FAQ Ideology (Zero Clicks vs. Traction):**
-    *   *Zero Clicks (Newbies):* When a domain has no traffic, do not consolidate FAQs onto a single page with Schema. Instead, **build every single answer on its own dedicated page** using the exact question as the URL slug. The slug dictates the specific index/relevancy, bypassing the need for high domain authority. Thin content is only penalized if it contains affiliate links—10 to 100-word standalone FAQ pages are perfectly acceptable for establishing initial topical authority.
+    *   *Zero Clicks (Newbies):* When a domain has no traffic, do not consolidate FAQs onto a single page with Schema. Instead, **build each priority answer on its own dedicated page** using the exact question as the URL slug. The slug dictates the specific index/relevancy, bypassing the need for high domain authority. Thin or scaled low-value pages are penalised regardless of affiliate links; standalone FAQ URLs stay capped at 15 sitewide (Module 2).
     *   *Traction (Corner-stoning):* If a page is already receiving some clicks but struggles to rank for competitive head terms, identify long-tail "what is" queries ranking on Page 2 in GSC and add them as exact-match `<h2>` headings on the *same* existing page.
 *   **The Glossary Discovery Engine:**
     *   Developing extensive glossaries (e.g., explaining emerging tech roles or niche terminologies) serves as a massive topical authority multiplier.
-    *   Glossary pages act as a discovery path for audiences researching terms for internal presentations, driving up to 25% of total site traffic and acting as a primary lead generation vector.
+    *   Glossary pages act as a discovery path for audiences researching terms for internal presentations, reportedly driving up to 25% of total site traffic (single-source) and acting as a primary lead generation vector.
 
 ### **10.8 The "Traffic Triage" Indexing Protocol (David Quaid Updates)**
 

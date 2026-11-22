@@ -7,12 +7,13 @@
 * **Permit Search Agent User-Agents:** Ensure edge Web Application Firewall (WAF) challenge rules (such as Turnstile or interactive JS challenges) do not drop requests or strip semantic HTML headers from verified AI crawler bots.  
 * **Robots.txt Standardisation:** Deploy the following standardized allowlist block to robots.txt on all primary domains:
 
-Plaintext  
-User-agent: GPTBot  
-User-agent: OAI-SearchBot  
-User-agent: ClaudeBot  
-User-agent: PerplexityBot  
+```text
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ClaudeBot
+User-agent: PerplexityBot
 Allow: /
+```
 
 
 ### **1.2 LLM-Optimised Edge Delivery & /llms.txt**
@@ -190,7 +191,7 @@ Execute a slug reset only when all four criteria are met:
    * *Example (Local Trade):* `swindonplasterer.com/plastering-services/` $\rightarrow$ `swindonplasterer.com/professional-plastering-services/`
    * *Example (MSP):* `berkshireitservices.co.uk/m365-backup/` $\rightarrow$ `berkshireitservices.co.uk/microsoft-365-cloud-backup/`
 2. **Permanent 301 Redirect:** Map the old URL to the new slug via server-level 301 redirect. This consolidates historical signals and prevents orphaned links.
-3. **Content Invariance (Zero Edits):** Keep the on-page copy, headings, images, and schema markup **100% identical**. Do not rewrite the content; changing text introduces confounding variables. The operational objective is to force Google to re-evaluate the identical content through a fresh canonical token. This sprint applies to legacy zombie URLs; a new EMD or single-page tool page under a `FREEZE` entry is out of scope (directional, single-source; `kirby-seo-telemetry` Module 15 §15.2).
+3. **Content Invariance (Zero Edits):** Keep the on-page copy, headings, images, and schema markup **100% identical**. Do not rewrite the content; changing text introduces confounding variables. The operational objective is to test whether Google re-evaluates the identical content under a new canonical URL (reported, directional; not a way to bypass an existing quality verdict). This sprint applies to legacy zombie URLs; a new EMD or single-page tool page under a `FREEZE` entry is out of scope (directional, single-source; `kirby-seo-telemetry` Module 15 §15.2).
 4. **Forced Re-Ingestion:** Submit the new URL directly into Google Search Console's URL Inspection tool and click "Request Indexing."
 
 #### D. Algorithmic Yield & Empirical Benchmark
@@ -529,22 +530,21 @@ Search engines and generative agents are shifting toward verified knowledge feed
 
 ---
 
-### **1.14 Anthropic Output Watermarking & The Synthetic Footprint Quarantine Protocol**
+### **1.14 Original Primary Data & Human Editorial Review (Content-Quality Requirement)**
 
-*Source: Anthropic AI Safety & LLM Watermarking Directive / Caleb Ulku ("They Lied About AI Content"). September 2026.*
+*Source: Caleb Ulku ("They Lied About AI Content"). September 2026. Single-source, directional.*
 
-In mid-August, Anthropic announced the deployment of native output watermarking for Claude-generated text, joining Google DeepMind (SynthID) in embedding statistical token-frequency biases into model responses:
-* **The Cryptographic Footprint Reality:** Statistical watermarking embeds mathematical token distributions directly into generated text that are imperceptible to human readers but trivially detectable by web crawlers and automated spam classifiers with >99% confidence.
-* **The "Zero Raw Generation" Mandate:** Publishing raw, unedited AI output directly to web pages represents an immediate platform liability. As search engines integrate automated watermark decoders into their spam classification pipelines, watermarked pages face rapid batch identification and sitewide quality score depreciation (§1.11.1 / §Executive Threat Profile).
-* **Quarantine & Editorial Processing Rules:**
-  1. *AI as Scaffolding Only:* Restrict LLM usage strictly to outlining, keyword intent mapping, and syntactic formatting (§3.6.2).
+Raw, unedited AI output is thin and undifferentiated. Original primary data and human editorial review make a page more useful, which is the quality bar this section sets:
+* **The "Zero Raw Generation" Mandate:** Do not publish raw, unedited AI output directly to web pages; unreviewed bulk output is low-value content and risks sitewide quality depreciation (§1.11.1 / §Executive Threat Profile).
+* **Editorial Processing Rules:**
+  1. *AI as Scaffolding Only:* Restrict LLM usage strictly to outlining, keyword intent mapping, and syntactic formatting.
   2. *Mandatory Human Editorial Injection:* Every paragraph generated with AI assistance must undergo substantive human editorial restructuring: injecting proprietary client metrics, real-world case experiences, and localized phrasing.
-  3. *Zero Direct Pasting:* Ban the direct pipeline from LLM API to CMS publication. Content must pass through an editorial review gate where token patterns are broken through original commentary and empirical verification.
+  3. *Zero Direct Pasting:* Ban the direct pipeline from LLM API to CMS publication. Content must pass through an editorial review gate with original commentary and empirical verification.
 
-**Watermark Defense Checklist**
+**Editorial Quality Checklist**
 - [ ] Ban direct automated publishing of raw LLM outputs to live domains.
 - [ ] Enforce human editorial restructuring on all AI-scaffolded text drafts.
-- [ ] Verify that every published URL carries proprietary primary data (case numbers, pricing, local landmarks) to break statistical token watermarks.
+- [ ] Verify that every published URL carries original primary data (case numbers, pricing, local landmarks) that makes it more useful to readers.
 
 ---
 
@@ -644,7 +644,7 @@ If the URL was **never meant to be indexed** (tracking parameters, HTTP/HTTPS du
 
 ### **1.19 The 35% WAF/CDN AI-Crawler Block Audit (Cloudflare / AWS WAF / Edge CDN Checklist)**
 
-* **The Statistic:** Over **35% of all websites globally** accidentally block AI crawlers at the Cloudflare/WAF/CDN level without knowing it — including major brands spending heavily on SEO. This section extends §1.1 with the full audit protocol.
+* **The Statistic:** Reportedly over **35% of all websites globally** (single-source, unverified) accidentally block AI crawlers at the Cloudflare/WAF/CDN level without knowing it, including major brands spending heavily on SEO. This section extends §1.1 with the full audit protocol.
 
 **Unblocking Checklist:**
 - [ ] **Cloudflare:** "Block AI bot traffic" OFF (§1.1); AI Crawl Control reviewed **per bot**; Browser Integrity Check and challenge rules verified not to fire for `CCBot`, `GPTBot`, `OAI-SearchBot`, `ClaudeBot`, `PerplexityBot`.
