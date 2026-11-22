@@ -42,11 +42,11 @@
 * To achieve this, optimize varied asset types simultaneously (e.g., a blog post, a YouTube video, and a press release or LinkedIn article).
 * This multi-placement strategy completely dominates the model's synthesized response.
 
-### **10.6 The Internal Linking "Click-Weight" Theory & The $50k Empirical Minimums**
+### **10.6 The Internal Linking "Click-Weight" Theory & The $50k Reported Minimums**
 
 > **TL;DR:** Google assigns internal link weight based on click probability and actual user behavior (via Chrome/NavBoost telemetry). To maximize indexing and RPMs, add 10-30 topically relevant internal links per page; higher placements relative to other links carry more weight.
 
-* **The $50,000 Empirical Blueprint:** A comprehensive 15-site empirical test established that scaling internal links to 10–30+ per page drove up to 150% ad RPM increases without any ranking penalties or "PageRank dilution" ceilings.
+* **The $50,000 Reported Blueprint (single-source, unverified):** A 15-site test reportedly established that scaling internal links to 10–30+ per page drove up to 150% ad RPM increases without any ranking penalties or "PageRank dilution" ceilings.
 * **The "Index Minimum" Rule:** A minimum of 5 links *towards* and *from* a post acts as a hard floor against **`Discovered - currently not indexed`** (crawl demand). It does **not** reverse a **`Crawled - currently not indexed`** keep-verdict. For that status, route via §1.16.
 * **Click-Based Link Equity (The Google Patent):** Google's patents on "ranking documents based on user behavior" confirm that internal link value is not evenly diluted. Instead, weights are assigned based on the *probability of the link being clicked* (tracked via Chrome and Google Analytics).
 * **Relative Placement Authority:** Links placed higher *relative to other links* (e.g., link #1 vs link #10) pass significantly more ranking value, regardless of whether they appear in the top introduction or middle body.
@@ -55,12 +55,12 @@
 
 ### **10.7 The "Contrasting FAQ" Authority Loop & Glossary Discovery Engine (David Quaid Updates)**
 
-> **TL;DR:** For new sites with zero clicks, build each FAQ answer on its own dedicated URL (slug = exact question) to bypass authority requirements. For sites with traction, corner-stone queries from GSC Page 2 as `<h2>` elements on existing pages. Implement comprehensive glossaries to capture emerging long-tail discovery traffic.
+> **TL;DR:** For new sites with zero clicks, build up to 15 standalone question URLs sitewide (slug = exact question; reported, single-source, unverified) and route the rest to on-page `<h2>` blocks. For sites with traction, corner-stone queries from GSC Page 2 as `<h2>` elements on existing pages. Implement comprehensive glossaries to capture emerging long-tail discovery traffic.
 
 *Source: David Quaid podcast interview. September 2026.*
 
 *   **The Contrasting FAQ Ideology (Zero Clicks vs. Traction):**
-    *   *Zero Clicks (Newbies):* When a domain has no traffic, do not consolidate FAQs onto a single page with Schema. Instead, **build each priority answer on its own dedicated page** using the exact question as the URL slug. The slug dictates the specific index/relevancy, bypassing the need for high domain authority. Thin or scaled low-value pages are penalised regardless of affiliate links; standalone FAQ URLs stay capped at 15 sitewide (Module 2).
+    *   *Zero Clicks (Newbies):* When a domain has no traffic, do not consolidate FAQs onto a single page with Schema. Instead, **build at most 15 priority answers as standalone URLs** using the exact question as the URL slug (reported, single-source, unverified); place the rest on-page per Module 2 §2.32. Thin or scaled low-value pages are penalised regardless of affiliate links; standalone FAQ URLs stay capped at 15 sitewide (Module 2).
     *   *Traction (Corner-stoning):* If a page is already receiving some clicks but struggles to rank for competitive head terms, identify long-tail "what is" queries ranking on Page 2 in GSC and add them as exact-match `<h2>` headings on the *same* existing page.
 *   **The Glossary Discovery Engine:**
     *   Developing extensive glossaries (e.g., explaining emerging tech roles or niche terminologies) serves as a massive topical authority multiplier.

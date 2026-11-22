@@ -15,7 +15,7 @@
     [ ] Reviews: Solicit reviews using the attribute prompt for hardware/OS tokens across Trustpilot UK and Yell in addition to GBP.  
     [ ] Authority: Anchor security copy to NCSC SME guidelines and Cyber Essentials.  
     [ ] Discover: Publish emotion-driven guide ("How Ascot Homeowners are Losing £1,000s to Fake M365 Scams") with 1200x800 human-face imagery using Status Quo Inversion.  
-    [ ] 250 Protocol & Force-Indexing: Answer local Reddit/Quora questions on Berkshire PC repair & scam recovery as a disclosed, genuinely helpful participant with no promotional links (see `kirby-off-page-seo` Module 26); request indexing via Google Search Console for new pages within 48h.  
+    [ ] 250 Protocol & Discovery: Answer local Reddit/Quora questions on Berkshire PC repair & scam recovery as a disclosed, genuinely helpful participant with no promotional links (see `kirby-off-page-seo` Module 26); request indexing via Google Search Console for new pages within 48h.  
     [ ] YouTube: Publish standalone value community carousels on common Windows/Mac fixes.  
     [ ] Tracking: Embed discovery attribution field in lead forms.
 
@@ -29,7 +29,7 @@
     [ ] High-Reasoning: Embed primary standard schemas for ChatGPT Thinking Mode.  
     [ ] Conversational Ads: Scaffold campaign assets (logo, headline, specs) for ChatGPT Ad Manager beta.  
     [ ] Annual Benchmark Asset: Publish "State of DMARC & Telemetry 2026" for compounding DR80+ links.  
-    [ ] Off-Page & Force-Indexing: Build brand and tool mentions on r/sysadmin, r/msp, and GitHub using rising thread filters; force-index within 24h.  
+    [ ] Off-Page & Discovery: Build brand and tool mentions on r/sysadmin, r/msp, and GitHub using rising thread filters; request indexing in Search Console for owned URLs within 24h and let normal discovery pick up third-party mentions.  
     [ ] YouTube: Produce video walkthroughs covering Microsoft 365 SPF/DMARC resolution.
 
 [ ] 3. TCP123.UK (Ascot & East Berkshire B2B MSP)  

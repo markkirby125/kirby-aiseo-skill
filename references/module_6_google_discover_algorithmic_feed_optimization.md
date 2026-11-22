@@ -4,7 +4,7 @@ Google Discover drives 5M+ daily click feeds via mobile OS integration, evaluate
 
 * **"One Emotion, One Promise" Headline Formula:**
   * Structure headlines around explicit human desires or frustration (70–95 characters max).
-  * Empirical benchmark: Emotion-driven Discover headlines achieve **14% CTR vs. 2% for standard SEO titles (+600% lift; reported, single-source, unverified)**.
+  * Reported benchmark: Emotion-driven Discover headlines achieve **14% CTR vs. 2% for standard SEO titles (+600% lift; reported, single-source, unverified)**.
 * **Visual Attention Trigger:**
   * Custom emotional imagery featuring human faces achieves **+30% to +50% CTR lift** (reported, single-source, unverified) over generic stock photography.
   * Image dimensions: Minimum 1200×800px; verified high-resolution OpenGraph markup.

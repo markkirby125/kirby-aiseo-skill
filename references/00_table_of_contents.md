@@ -31,7 +31,7 @@
   - [1.22 AI Search-Grounding Bot Governance vs. Training Scrapers (Robots.txt & WAF Protocol)](module_1_technical_infrastructure_crawler_accessibility.md#122-ai-search-grounding-bot-governance-vs-training-scrapers-robotstxt--waf-protocol--edward-sturm-ep-1206)
 - **[Module 2: On-Page Semantic Architecture & Content Engineering](module_2_on_page_semantic_architecture_content_engineering.md)**
   - [2.1 The 30% Front-Loading Law & BLUF](module_2_on_page_semantic_architecture_content_engineering.md#21-the-30-front-loading-law--bluf)
-  - [2.2 Empirical GEO Retrieval Multipliers](module_2_on_page_semantic_architecture_content_engineering.md#22-empirical-geo-retrieval-multipliers)
+  - [2.2 Reported GEO Retrieval Multipliers](module_2_on_page_semantic_architecture_content_engineering.md#22-reported-geo-retrieval-multipliers)
   - [2.3 Formatting & Structural Hierarchy](module_2_on_page_semantic_architecture_content_engineering.md#23-formatting--structural-hierarchy)
   - [2.4 ChatGPT Reasoning Mode Divergence (SEMrush Benchmark)](module_2_on_page_semantic_architecture_content_engineering.md#24-chatgpt-reasoning-mode-divergence-semrush-benchmark)
   - [2.5 ChatGPT Gatekeeping Layer & Sub-Query Architecture (Ahrefs 1.4M Study)](module_2_on_page_semantic_architecture_content_engineering.md#25-chatgpt-gatekeeping-layer--sub-query-architecture-ahrefs-14m-study)
@@ -92,7 +92,7 @@
   - [10.3 The Programmatic SEO (pSEO) "Fractional Scaling Law"](module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md#103-the-programmatic-seo-pseo-fractional-scaling-law)
   - [10.4 The Visual "Projector Room" Render Law & Link Discount Mechanics](module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md#104-the-visual-projector-room-render-law--link-discount-mechanics)
   - [10.5 The AEO Multi-Placement Law: Owning 1st, 2nd, and 3rd Place](module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md#105-the-aeo-multi-placement-law-owning-1st-2nd-and-3rd-place)
-  - [10.6 The Internal Linking "Click-Weight" Theory & The $50k Empirical Minimums](module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md#106-the-internal-linking-click-weight-theory--the-50k-empirical-minimums)
+  - [10.6 The Internal Linking "Click-Weight" Theory & The $50k Reported Minimums](module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md#106-the-internal-linking-click-weight-theory--the-50k-reported-minimums)
   - [10.7 The "Contrasting FAQ" Authority Loop & Glossary Discovery Engine (David Quaid Updates)](module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md#107-the-contrasting-faq-authority-loop--glossary-discovery-engine-david-quaid-updates)
   - [10.8 The "Traffic Triage" Indexing Protocol (David Quaid Updates)](module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md#108-the-traffic-triage-indexing-protocol-david-quaid-updates)
   - [10.9 The Striking Distance Internal Link Rotation Protocol](module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md#109-the-striking-distance-internal-link-rotation-protocol)
@@ -130,7 +130,7 @@
   - [19.2 Controlled Title Tag Engineering (SearchPilot Invariants)](module_19_9249_study_meta_evidence_controlled_onpage_and_anchor_invariants_ep_1207.md#192-controlled-title-tag-engineering-searchpilot-invariants)
   - [19.3 Internal Linking: Orphan Recovery (Measured) vs Anchor Invariant (Operational)](module_19_9249_study_meta_evidence_controlled_onpage_and_anchor_invariants_ep_1207.md#193-internal-linking-orphan-recovery-measured-vs-anchor-invariant-operational)
   - [19.4 Footer Category Links: Gain Mechanism & Risk Governance](module_19_9249_study_meta_evidence_controlled_onpage_and_anchor_invariants_ep_1207.md#194-footer-category-links-gain-mechanism--risk-governance)
-  - [19.5 AEO / GEO Empirical Grounding](module_19_9249_study_meta_evidence_controlled_onpage_and_anchor_invariants_ep_1207.md#195-aeo--geo-empirical-grounding)
+  - [19.5 AEO / GEO Reported Evidence](module_19_9249_study_meta_evidence_controlled_onpage_and_anchor_invariants_ep_1207.md#195-aeo--geo-reported-evidence)
 - **[Module 20: Pre-Publication Semantic Drift Gate ("Before You Publish")](module_20_pre_publication_semantic_drift_gate.md)**
   - [20.1 Inputs](module_20_pre_publication_semantic_drift_gate.md#201-inputs-no-tool--pending-connection)
   - [20.2 Per-candidate tests](module_20_pre_publication_semantic_drift_gate.md#202-per-candidate-tests-all-discrete)

@@ -7,9 +7,9 @@
 * **Front-Loading Window:** Place essential data within the top 30% of the page copy, as 44.2% of all generative citations are reportedly extracted from this zone (31.1% in the middle, 24.7% at the end; reported, single-source, unverified).
 * **Entity Window (heuristic; directional, single-source):** name the primary entity and the search intent within the first 50-70 words.
 
-### **2.2 Empirical GEO Retrieval Multipliers**
+### **2.2 Reported GEO Retrieval Multipliers**
 
-Structure all informational and commercial copy according to empirical Generative Engine Optimisation benchmarks:
+Structure all informational and commercial copy according to Generative Engine Optimisation benchmarks (reported, single-source, unverified):
 
 | Optimisation Lever | Retrieval Benchmark Lift | Implementation Protocol |
 | :---- | :---- | :---- |
@@ -28,8 +28,8 @@ Structure all informational and commercial copy according to empirical Generativ
 | **Direct Answer in Opening Paragraph** | **\+280% AI Citations**  | Answer the query in the first paragraph before introducing supporting evidence (aligns with §2.1 front-loading law). |
 | **Staff Author Bylines** | **\+113% AI Citations**  | Add bylines for real, named staff with verifiable presence and consent (role-attribution caution in §2.38), even with low public-profile recognition (guards §2.26A synthetic-persona and §2.33B identity traps). |
 | **Full GEO Package Rewrites** | **\+83.2% AI Citations**  | Bundle the levers above into comprehensive rewrites (12 test samples, 6 publishers). |
-| **Targeted AI Enrichment (Product Pages)** | **\+73% AI Citations**  | Add AI-drafted, human-edited explanatory modules to specific product pages only (per §1.14 editorial review). |
-| **Human Editing of AI Drafts** | **\+67% AI Citations**  | Apply light human refinement to raw AI text before publishing. |
+| **Targeted AI Enrichment (Product Pages)** | **\+73% AI Citations**  | Add human-written explanatory modules (AI for outlining only, per §1.14) to specific product pages only. |
+| **Human Editing of AI Drafts** | **\+67% AI Citations**  | Substantively restructure any AI-assisted text per §1.14; never publish raw AI text. |
 | **Inline Parenthetical Citations** | **\+40% AI Citations**  | Place source citations in parentheses directly beside claims, not as bottom footnotes. |
 | **Untargeted Site-Wide AI Publishing** | **\-35% Organic Sessions (Penalty)**  | Contrast lever: unedited, untargeted mass publishing penalizes (§2.23 / §2.8 anti-template rules apply); enrichment must stay targeted. |
 
@@ -222,10 +222,10 @@ ClickUp published hundreds of "Best [X]" listicles at scale, force-ranked themse
 #### A. The "Invisible Prompts" Law & The Incognito Test Fallacy
 * **Multi-Turn Contextual Memory:** Conversational LLM citations cannot be evaluated through isolated incognito queries. In documented enterprise client acquisitions (e.g., the *Nicole / Grow & Convert case benchmark*), clients discover and retain service providers through ChatGPT conversations where the model synthesizes recommendations based on extensive preceding conversational context (business size, tech stack, past failures, pain points).
 * **The Incognito Replication Failure:** Typing the identical prompt verbatim into an incognito window fails to retrieve the brand, because the isolated prompt lacks the user's multi-turn conversational state.
-* **The Vendor Clickstream Delusion:** AI visibility tracking suites (Profound, etc.) rely on small, opted-in clickstream panels. They cannot capture the private conversational memory that drives actual purchase recommendations. Measure topic-cluster authority trends (§5.10), not isolated prompt snapshots.
+* **The Vendor Clickstream Delusion:** AI visibility tracking suites (Profound, etc.) rely on small, opted-in clickstream panels. They cannot capture the private conversational memory that drives actual purchase recommendations. Measure topic-cluster authority trends, not isolated prompt snapshots.
 
 #### B. The 3-Tier AI Engine Visibility, Synthesis Recommendation Share & Lag Hierarchy
-Across empirical audits spanning 20 client brands and hundreds of prompts, AI citation rates follow an engine-specific latency hierarchy:
+Across audits (reported, single-source, unverified) spanning 20 client brands and hundreds of prompts, AI citation rates follow an engine-specific latency hierarchy:
 1. **Tier 1 (Highest Velocity / Immediate Ingestion — `2–4 Weeks`):** Google AI Overviews (AIO) and Google AI Mode. Because they directly query Google's live web index, well-optimized first-party BOFU content achieves citation and recommendation lift here within **2–4 weeks**.
 2. **Tier 2 (Intermediate Velocity):** Perplexity and Google Gemini.
 3. **Tier 3 (Extended Latency / Lagging — `60–120 Days`):** ChatGPT Search. Citing brand pages in ChatGPT lags Google AIO significantly (**60–120 days**) due to higher reliance on third-party comparison consensus, slower crawler refresh, and strict reasoning filters.
@@ -281,7 +281,7 @@ To transform local lead-gen and niche sites into unassailable entities within Go
      - Formal press release distributed to Google News via PR Underground.
      - Multi-channel social posts syndicated across the **Branded Social Fortress** (Twitter/X, Facebook, LinkedIn, Flickr, Web 2.0 properties).
    * **Human Approval Gate:** A named human reviews the copy and claims, and approves each press release and social post before it is published.
-   * **Outcome:** A single real-world operational milestone converts into 50+ synchronized, timestamped, entity-corroborating citations across the web, cementing Knowledge Graph recognition and LLM retrieval confidence.
+   * **Outcome:** A single real-world operational milestone yields one release and its social posts, each differentiated per channel (reported, single-source, unverified).
 
 #### C. The 50-Page Local EMD Micro-Site Architecture
 For rapid local cashflow generation in trade niches (plastering, roofing, plumbing, electrical):
@@ -294,7 +294,7 @@ For rapid local cashflow generation in trade niches (plastering, roofing, plumbi
 - [ ] Enforce composite multi-engine health check (Majestic TF:CF $\ge$ 0.6; Moz/Semrush clean; branded anchors in top 3).
 - [ ] Verify core money pages answer the 4 transactional points (price, SLA, scope, credentials) with zero "hide-and-seek" fluff.
 - [ ] Establish Branded Social Fortress across 20+ primary Web 2.0 and citation platforms.
-- [ ] Apply for regional and trade awards annually; deploy AI syndication across all fortress nodes upon winning, only after a human approves each press release and social post before publication.
+- [ ] Apply for regional and trade awards annually; publish one release per real milestone (e.g. an award win), only after a human approves each press release and social post before publication.
 
 ---
 
@@ -1506,7 +1506,7 @@ Three gates decide this same architectural question. Apply them in order; a quer
 ### **2.45 The KD 2–3 Fan-Out Long-Tail Exception (Scoped Carve-Out from §2.16A) (V6-H)**
 
 * **Scope — read first:** §2.16A bans chasing single-run fan-out queries because 1-of-1 trace outputs are session-ephemeral (`1 vs 9` non-determinism across runs). This section is the **narrow exception** for a different population — *recurring* fan-out variants that surface across **3–5× multi-run + multi-turn follow-up clustering** (§2.28B) and audit as KD 2–3 long-tail. It does not reopen general fan-out chasing.
-* **The SOP:** (1) run target prompts **3–5×** with multi-turn follow-ups across target engines and cluster recurring fan-out variants (§2.28B); (2) confirm low difficulty *by visual SERP audit* — tool KD 2–3 is a **confirmatory signal only**, never the trigger (§2.29 KD-fallacy doctrine governs); (3) publish a short landing page (§2.35) with the exact recurring fan-out phrase in the title tag (or embed as an exact-phrased `<h2>`/`<h3>` on the core hub / SSOT page per §2.37 & §2.51); (4) force-index via GSC (24–48h per Module 9 checklists) and verify `OAI-SearchBot`/`PerplexityBot` access (§1.22); (5) link back to the core hub.
+* **The SOP:** (1) run target prompts **3–5×** with multi-turn follow-ups across target engines and cluster recurring fan-out variants (§2.28B); (2) confirm low difficulty *by visual SERP audit* — tool KD 2–3 is a **confirmatory signal only**, never the trigger (§2.29 KD-fallacy doctrine governs); (3) publish a short landing page (§2.35) with the exact recurring fan-out phrase in the title tag (or embed as an exact-phrased `<h2>`/`<h3>` on the core hub / SSOT page per §2.37 & §2.51); (4) request indexing in Search Console for owned URLs (24–48h per Module 9 checklists) and verify `OAI-SearchBot`/`PerplexityBot` access (§1.22); (5) link back to the core hub.
 * **Bloat Ceiling:** this play is capped by the §2.32 standalone-question-URL limit (≤15 sitewide) — high publishing velocity of long-tail assets risks index bloat when the quality floor drops; if the variant does not clear §2.29F authority capability, it gets an `<h2>` on the hub (§2.37), not a URL.
 
 ---
@@ -1595,7 +1595,7 @@ Three gates decide this same architectural question. Apply them in order; a quer
 * **Incumbent Bias Counter-Callout (Video 04 `eEQP8D3R7i4` Threat Model; directional, single-source):** When auditing or building competitive `1v1` and fan-out comparisons, explicitly anticipate ChatGPT's unprompted incumbent-brand bias in generic fan-outs (e.g., returning legacy incumbents like `"AirPods"` unprompted on `"best headphone with transparency mode"`), and surface objective comparison specs while auditing and correcting weakly supported claims in your own comparison copy ([`kirby-off-page-seo`](../../kirby-off-page-seo/SKILL.md) Module 18 §18.19 — prohibit executing §18.19 exploits; build durable owned citations instead) rather than echoing legacy incumbent framing.
 * **Quick Answer BLUF Box (Immediate Sub-H1 / Sub-Byline):**
   * 2–3 sentences designed for verbatim extraction by ChatGPT and Google AI Overviews.
-  * Must pack three elements: (1) **Top 4 picks mapped to explicit `"Best for"` use cases** (your brand may sit at #1 only with the §2.16C disclosure; a `kirby-zero-to-100-seo` Stage 2 flagship hub instead lists it as one option among competitors), (2) **Incumbent pricing floor / contract friction** (e.g., *"[Competitor] now starts at $15,000/mo on a mandatory annual term, ~$192,000 in year one with fees"*), and (3) **Explicit first-person bias disclosure** (*"[Brand] is first because it is mine, discount accordingly"*).
+  * Must pack three elements: (1) **Top 4 picks mapped to explicit `"Best for"` use cases** (your brand may sit at #1 only with the §2.16C disclosure; a [`kirby-zero-to-100-seo`](../../kirby-zero-to-100-seo/SKILL.md) Stage 2 flagship hub instead lists it as one option among competitors), (2) **Incumbent pricing floor / contract friction** (e.g., *"[Competitor] now starts at $15,000/mo on a mandatory annual term, ~$192,000 in year one with fees"*), and (3) **Explicit first-person bias disclosure** (*"[Brand] is [first / listed] because it is mine, discount accordingly"*).
 * **Key Takeaways Block (`<h2> Key Takeaways` — #2 AI Search Checklist Item):**
   * Strictly **4 to 5 bullet points**, each **2 to 3 sentences maximum** (executive summary format).
   * Covers: (1) Incumbent pricing/contract floor, (2) Why lock-in changes the buyer math, (3) Category taxonomy of the alternatives (e.g., dedicated teams vs. AI resizing tools vs. design queues vs. agencies), and (4) Host brand's value proposition ending with an inline text CTA (`Book a demo`).

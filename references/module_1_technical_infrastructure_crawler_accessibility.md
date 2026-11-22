@@ -12,6 +12,7 @@ User-agent: GPTBot
 User-agent: OAI-SearchBot
 User-agent: ClaudeBot
 User-agent: PerplexityBot
+User-agent: CCBot
 Allow: /
 ```
 
@@ -194,10 +195,10 @@ Execute a slug reset only when all four criteria are met:
 3. **Content Invariance (Zero Edits):** Keep the on-page copy, headings, images, and schema markup **100% identical**. Do not rewrite the content; changing text introduces confounding variables. The operational objective is to test whether Google re-evaluates the identical content under a new canonical URL (reported, directional; not a way to bypass an existing quality verdict). This sprint applies to legacy zombie URLs; a new EMD or single-page tool page under a `FREEZE` entry is out of scope (directional, single-source; `kirby-seo-telemetry` Module 15 §15.2).
 4. **Forced Re-Ingestion:** Submit the new URL directly into Google Search Console's URL Inspection tool and click "Request Indexing."
 
-#### D. Algorithmic Yield & Empirical Benchmark
-* To Google's crawling infrastructure, the modified slug represents an uninitialized canonical token.
-* Google crawls the page and evaluates it against the domain's **current, mature topical authority graph** rather than the stale snapshot from years prior.
-* **Empirical Agency Benchmark (Edward Sturm):** A commercial guide page published in March 2023 remained deindexed/dead for 2 years despite no competitor competition. A slug reset with a 301 redirect executed in March 2025 achieved **Rank #1 within 30 days with zero content revisions**, maintaining top-tier visibility continuously thereafter.
+#### D. Algorithmic Yield & Reported Benchmark
+* Reported mechanism (single-source, unverified): the modified slug represents an uninitialized canonical token.
+* Google reportedly crawls the page and evaluates it against the domain's **current, mature topical authority graph** rather than the stale snapshot from years prior.
+* **Reported Agency Benchmark (Edward Sturm; single case, unverified):** A commercial guide page published in March 2023 remained deindexed/dead for 2 years despite no competitor competition. A slug reset with a 301 redirect executed in March 2025 achieved **Rank #1 within 30 days with zero content revisions**, maintaining top-tier visibility continuously thereafter.
 
 **Slug Reset Operational Checklist**
 - [ ] Previously indexed with live same-spec siblings → **stop**. Do not slug-reset. Route via §1.16.
@@ -411,7 +412,7 @@ Google evaluates search eligibility through sequential filtration stages ("heat 
 
 #### D. Operationalizing Brand Signals for Local & SaaS Domains
 1. **Brand-First Query Conditioning:** In offline print, vehicle livery, email signatures, and client onboarding, instruct customers: *"Search '[Brand Name] + [Service]' on Google"* rather than providing direct URLs. This directly feeds Google's branded query logging.
-2. **The 60% Branded Anchor Mandate:** Maintain a minimum of **60% exact-brand anchor text** across all inbound link building and PR syndication (§4.3, §4.18) to maintain organic entity purity.
+2. **The 60% Branded Anchor Mandate:** Maintain a minimum of **60% exact-brand anchor text** across all inbound link building and PR syndication ([`kirby-off-page-seo`](../../kirby-off-page-seo/SKILL.md)) to maintain organic entity purity.
 3. **Friction-Killer SERP Title Tags:** Implement friction-killing modifiers in Title Tag Part 2 (`£0 Call-Out`, `Same-Day SLA`, `Free Tier`, §2.18) to maximize click-selection inversion against entrenched competitors in positions 1–2.
 
 **Site Quality Score Checklist**

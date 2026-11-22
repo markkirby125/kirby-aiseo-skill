@@ -2,7 +2,7 @@
 
 *Source: The SEO Meta Study (Krešimir Ćorluka, CEO & co-founder @ Ovisy; September 2026; Zenodo DOI: 10.5281/zenodo.22768160) & The Edward Show Ep. 1191 (Audio release) / Ep. 1207 (YouTube interview: "He Dug Through 9,249 SEO Case Studies. Here's What Actually Works" — Edward Sturm).*
 
-> **Scope Partition:** Scaled content collapse protocols live in **Module 17**. Quality Rater page audits live in **Module 18**. Single-variable isolation and confounder controls live in [`kirby-seo-telemetry`](../../kirby-seo-telemetry/SKILL.md) Module 9 §9.3. This module establishes the **empirical evidence hierarchy, controlled title tag rules, internal linking standards, and footer architecture guidelines** extracted from the 9,249-document systematic review.
+> **Scope Partition:** Scaled content collapse protocols live in **Module 17**. Quality Rater page audits live in **Module 18**. Single-variable isolation and confounder controls live in [`kirby-seo-telemetry`](../../kirby-seo-telemetry/SKILL.md) Module 9 §9.3. This module establishes the **evidence hierarchy (reported, single-source, unverified), controlled title tag rules, internal linking standards, and footer architecture guidelines** extracted from the 9,249-document systematic review.
 
 ---
 
@@ -70,13 +70,13 @@ Footer links function as structural crawl paths, but carry operational trade-off
 
 ---
 
-### **19.5 AEO / GEO Empirical Grounding**
+### **19.5 AEO / GEO Reported Evidence**
 
 Generative Engine Optimization (AEO/GEO) is heavily distorted by speculative claims:
 
 - **The `LLMs.txt` Reality**: No controlled test of `llms.txt` exists anywhere in the 9,249-document corpus. It remains unproven and should never displace foundational semantic HTML.
 - **The Reported Citation Drivers (single-source, unverified)**: Reported drivers of AI Overviews, ChatGPT Search, and Perplexity retrieval are standard high-effort SEO structures:
-  1. **Direct Declarative Answers in Opening Hook**: Placing direct answers in the opening paragraph drives a **+280% citation increase**.
-  2. **Original Statistics**: Publishing first-party quantitative data drives a **+37% citation increase**.
+  1. **Direct Declarative Answers in Opening Hook**: Placing direct answers in the opening paragraph reportedly drives a **+280% citation increase**.
+  2. **Original Statistics**: Publishing first-party quantitative data reportedly drives a **+37% citation increase**.
   3. **Structured HTML Tables**: Pre-computed comparison matrices that are retrievable as a single coherent chunk.
-  4. **Named Expert Attribution**: Quoting recognized domain authorities drives a **+22% to +41% citation lift**.
+  4. **Named Expert Attribution**: Quoting recognized domain authorities reportedly drives a **+22% to +41% citation lift**.
