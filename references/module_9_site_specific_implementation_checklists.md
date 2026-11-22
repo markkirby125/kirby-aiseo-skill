@@ -15,12 +15,12 @@
     [ ] Reviews: Solicit reviews using the attribute prompt for hardware/OS tokens across Trustpilot UK and Yell in addition to GBP.  
     [ ] Authority: Anchor security copy to NCSC SME guidelines and Cyber Essentials.  
     [ ] Discover: Publish emotion-driven guide ("How Ascot Homeowners are Losing £1,000s to Fake M365 Scams") with 1200x800 human-face imagery using Status Quo Inversion.  
-    [ ] 250 Protocol & Force-Indexing: Seed 30 local Reddit/Quora threads on Berkshire PC repair & scam recovery; force-index via Google Search Console within 48h.  
+    [ ] 250 Protocol & Force-Indexing: Answer local Reddit/Quora questions on Berkshire PC repair & scam recovery as a disclosed, genuinely helpful participant with no promotional links (see `kirby-off-page-seo` Module 26); request indexing via Google Search Console for new pages within 48h.  
     [ ] YouTube: Publish standalone value community carousels on common Windows/Mac fixes.  
     [ ] Tracking: Embed discovery attribution field in lead forms.
 
 [ ] 2. TCP123.COM (Global SaaS Telemetry & Domain Shield)  
-    [ ] Edge: Configure Cloudflare Workers to bypass bot challenges for AI crawlers.  
+    [ ] Edge: Configure Cloudflare Workers to let verified AI crawlers (reverse-DNS or published IP ranges) through bot challenges, per Module 1.  
     [ ] Routing: Serve /llms.txt detailing Domain Shield diagnostic checks.  
     [ ] Compact BOFU: Deploy dedicated `/uses` hub (e.g. `/uses/dmarc-reporting`, `/uses/spf-flattening`) under 500 words with live terminal validator.  
     [ ] Gatekeeping & RAG: Hardcode RFC specifications (RFC 7208, RFC 6376, RFC 7489) matching `ref_type: search` queries.  
