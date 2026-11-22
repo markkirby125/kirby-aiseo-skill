@@ -28,12 +28,12 @@ Structure all informational and commercial copy according to Generative Engine O
 | **Direct Answer in Opening Paragraph** | **\+280% AI Citations**  | Answer the query in the first paragraph before introducing supporting evidence (aligns with §2.1 front-loading law). |
 | **Staff Author Bylines** | **\+113% AI Citations**  | Add bylines for real, named staff with verifiable presence and consent (role-attribution caution in §2.38), even with low public-profile recognition (guards §2.26A synthetic-persona and §2.33B identity traps). |
 | **Full GEO Package Rewrites** | **\+83.2% AI Citations**  | Bundle the levers above into comprehensive rewrites (12 test samples, 6 publishers). |
-| **Targeted AI Enrichment (Product Pages)** | **\+73% AI Citations**  | Measured: AI-drafted, human-edited explanatory modules (§1.14) added to specific product pages only. |
-| **Human Editing of AI Drafts** | **\+67% AI Citations**  | Measured: human editing of AI drafts before publishing; policy requires substantive restructuring (§1.14). |
+| **Targeted AI Enrichment (Product Pages)** | **\+73% AI Citations**  | Reported: AI-drafted, human-edited explanatory modules (§1.14) added to specific product pages only. |
+| **Human Editing of AI Drafts** | **\+67% AI Citations**  | Reported: human editing of AI drafts before publishing; policy requires substantive restructuring (§1.14). |
 | **Inline Parenthetical Citations** | **\+40% AI Citations**  | Place source citations in parentheses directly beside claims, not as bottom footnotes. |
 | **Untargeted Site-Wide AI Publishing** | **\-35% Organic Sessions (Penalty)**  | Contrast lever: unedited, untargeted mass publishing penalizes (§2.23 / §2.8 anti-template rules apply); enrichment must stay targeted. |
 
-**Policy (separate from the measured lifts above):** humans write or substantively restructure any AI-assisted text per §1.14; never publish raw AI text.
+**Policy (separate from the reported lifts above):** humans write or substantively restructure any AI-assisted text per §1.14; never publish raw AI text.
 
 *`llms.txt` footnote: zero controlled-test evidence across all 9,249 documents (chaotic variance \-9.7% to \+81%, median \+25% over 3 uncontrolled tests). It functions as a plain crawlable index page only — full doctrine in Module 1 §1.2.*
 *Provenance caveat for the additions table: sample size varies per test; do not cargo-cult individual lift figures without niche context.*
