@@ -1,6 +1,5 @@
 # Module 1: Technical Infrastructure & Crawler Accessibility
 
-### 
 
 ### **1.1 Edge Crawler Configuration (Cloudflare / WAF)**
 
@@ -15,7 +14,6 @@ User-agent: ClaudeBot
 User-agent: PerplexityBot  
 Allow: /
 
-### 
 
 ### **1.2 LLM-Optimised Edge Delivery & /llms.txt**
 
@@ -38,7 +36,6 @@ Allow: /
   * Hijacking the back button history state to redirect users to unvisited commercial landing pages or promotional offers.
   * Triggering unsolicited modal takeovers or interstitial traps on back-navigation intent.
 
-##
 
 ### **1.5 Google Preferred Sources Integration (Global AI Ranking Signal)**
 
@@ -186,7 +183,7 @@ Execute a slug reset only when all four criteria are met:
 [New Canonical Token] Evaluated against domain's CURRENT mature authority
          │
          ▼
-[Immediate Top 1–3 Ranking Yield]
+[Directional Top 1–3 Ranking Yield]
 ```
 
 1. **Slug Modification:** Create a new URL slug by adding 1–2 descriptive keyword modifiers to the existing slug:
@@ -483,7 +480,7 @@ Unless a domain is an untouchable "prestige brand" (e.g., Forbes, CNN) with mass
 **Cost of Retrieval & LLM Rendering Checklist**
 - [ ] Minimize computational retrieval costs: strip bloated JS rendering on core entity pages.
 - [ ] Aim for the 10,000 daily impression threshold to trigger Google's neural ranking pipelines (RankBrain).
-- [ ] Deploy dynamic Markdown rendering via User-Agent detection for GPTBot, ClaudeBot, and PerplexityBot.
+- [ ] Deploy dynamic Markdown rendering only for crawlers verified by reverse-DNS / published ASN IP ranges (`GPTBot`, `ClaudeBot`, `PerplexityBot`), serving the same facts as the HTML; never on a raw `User-Agent` match alone.
 - [ ] Front-load target entity tokens and explicit publication dates in the first 100 words to satisfy ChatGPT retrieval thresholds.
 - [ ] Segregate divergent commercial services onto chunked subdomains to prevent sitewide HCU topical dilution.
 

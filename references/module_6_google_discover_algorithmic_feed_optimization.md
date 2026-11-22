@@ -11,4 +11,3 @@ Google Discover drives 5M+ daily click feeds via mobile OS integration, evaluate
 * **The "Sniper Approach" (Anti-Volume Rule):**
   * Publishing >10 low-engagement articles/day dilutes site-wide user interaction scores and suppresses Discover distribution. High-intent, hyper-focused curation beats volume.
 
-##

@@ -1,6 +1,5 @@
 # Module 2: On-Page Semantic Architecture & Content Engineering
 
-### 
 
 ### **2.1 The 30% Front-Loading Law & BLUF**
 
@@ -16,12 +15,12 @@ Structure all informational and commercial copy according to empirical Generativ
 | :---- | :---- | :---- |
 | **External Primary Standards** | **\+115% Visibility**  | Cite official standards, legislation, and RFCs (e.g., NCSC, Cyber Essentials, RFC 7208, UK Building Regs). |
 | **Hard Numerical Statistics** | **\+37% to \+41% Visibility**  | Use exact numbers, turnaround times, and percentages instead of generic qualifiers. |
-| **Attributed Expert Quotes** | **\+28% to \+41% Visibility**  | Embed structured blockquotes attributed by name, title, and organization. |
+| **Attributed Expert Quotes** | **\+22% to \+41% Visibility**  | Embed structured blockquotes attributed by name, title, and organization. |
 | **Declarative Prose** | **\+25% Retrieval Confidence**  | Use active Subject-Verb-Object phrasing; remove hedging words (*"we might"*, *"it seems"*). |
 | **Technical Precision** | **\+18% Domain Scoring**  | Use industry-standard terminology rather than oversimplifying. |
 | **Keyword Stuffing Avoidance** | **\~10% Visibility Drop (Penalty)**  | Maintain natural token distributions; avoid repeated unnatural exact-match stuffing. |
 
-**2026 Meta-Study Additions (9,249 validated case studies; 30,000+ documents screened, 552 cited sources):**
+**2026 Meta-Study Additions (9,249 case studies screened, 769 scored, 552 cited sources):**
 
 | Optimisation Lever | Retrieval Benchmark Lift | Implementation Protocol |
 | :---- | :---- | :---- |
@@ -108,7 +107,6 @@ Ensure all generated copy adheres to clause-level Topic–Comment syntactic rule
   4. **Theme Preview:** The Index Comment previews key points ($a, b, c$), and the Discussion dedicates sequential clauses to develop each previewed term in exact order.
 
 
-##
 
 ### **2.14 Compact BOFU `/uses` Hub Architecture & Fluff Elimination**
 
@@ -121,7 +119,6 @@ Ensure all generated copy adheres to clause-level Topic–Comment syntactic rule
 * **Prohibition of Trailing "AI Text Blobs" (Glenn Gabe August 2026 Spam Update Benchmark):** Never append generic paragraphs or synthetic AI summary text blocks to the bottom of programmatic listings, affiliate tables, or directory cards. Google's spam classifiers detect appended AI text blobs with >95% accuracy and classify them as thin-content camouflage, triggering immediate manual actions or algorithmic demotions. All content on the page must serve immediate interactive utility.
 
 
-##
 
 ### **2.15 The 4+1 Local Content Classification Engine & AI Agent Trust Content**
 
@@ -1313,7 +1310,7 @@ Google spends retrieval compute in proportion to expected return. On a thin, low
 * **The Algorithmic Cost Split:** Google concentrates cheap BM25 retrieval in local, low-volume, and low-trust niches — which is why an exact-match term in `<title>` and `<h1>` remains decisive for trades and service-area businesses. It grants broad semantic elasticity only where the cost of expansion is amortised against established engagement telemetry (NavBoost) and entity trust.
 * **Strategic Implication:** Elasticity is *earned and revocable*, never a design assumption. Build every page to pass rung 1; let rungs 2–3 arrive as authority accrues. A content plan that presumes broad match will fail on a new or thin domain.
 * **Cited Cases:**
-  * **`audiototext.com`** — approximately 120 words of body content generating on the order of 126,000 daily clicks, ranking on broad match without the terms `tool` or `free` anywhere in the copy. The page satisfies the intent; the query graph supplies the vocabulary.
+  * **`audiototext.com`** — approximately 120 words of body content, reported growing from `~50` to `~8,000` clicks/day (single-source, directional), ranking on broad match without the terms `tool` or `free` anywhere in the copy. The page satisfies the intent; the query graph supplies the vocabulary.
   * **`Get Your Tips Out`** — ranks across a wide radius of term variants it never explicitly targets, on entity trust rather than lexical coverage.
   * **`linkgap.io`** — the same elasticity at a much smaller scale, confirming the doctrine is not exclusive to legacy high-DR domains.
 

@@ -26,4 +26,3 @@ Google's spam crackdowns target uncurated, mass-produced content, synthetic AI m
 * **Trailing "AI Text Blob" Camouflage:** Appending blocks of 100% AI-generated text beneath scraped or programmatic product/directory tables (a common attempt to bypass thin-content filters). Google's August 2026 spam update specifically flagged this hybrid footprint with >95% accuracy as Thin Affiliation and Scaled Content Abuse.
 * **Divergent Page-to-Traffic Yield & The 85/15 Sitewide Contagion Rule:** Rapidly expanding index count on Search Console alongside stagnant or plummeting click yields (the *Guru99 footprint*). In the August 2026 Spam Update (Glenn Gabe benchmark), domains where $>80\%$ of indexed URLs were thin programmatic pages suffered **sitewide algorithmic demotions**—wiping out traffic across all sections, including legitimate human UGC and genuine brand pages. Quality indexing evaluates the aggregate domain footprint.
 
-##
