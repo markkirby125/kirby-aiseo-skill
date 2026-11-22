@@ -15,7 +15,7 @@
 | **Expired domain 301 redirect abuse** (mismatched redirects returning 404s). | **1-to-1 Intent Parity Mapping ($\ge 90\%$)** with complete legacy content architecture staging. |
 | **Interlinked PBN footprints** sharing identical networks and structures. | **Standalone, unlinked domain assets** operating as discrete business entities. |
 | **Synthetic LLM manipulation & cloaking** (user-agent splits, mass listicle spam). | **Editorial Digital PR & standards-based authority** (NCSC/ISO/RFC citations, genuine press). |
-| **Clustered Search Console / Analytics account ownership** across portfolios. | **Strict administrative isolation** (isolated burner accounts or GSC omission on test nodes). |
+| **Clustered Search Console / Analytics account ownership** across portfolios. | **Honest ownership separation** (each property verified under its real owner or operator account; separate GSC accounts for experimental and money sites are fine as risk containment per Module 17, but never to conceal common ownership, e.g. with burner accounts or by omitting properties). |
 | **Exclusive reliance on 3rd-party SERP scrapers** (vulnerable to Black Box SERP). | **First-party edge & server log telemetry** and private sensor network data. |
 | **"Rule of Three" AI feature card stacks** (identical 3-card layout, generic icons, 3-word slogans). | **Asymmetric, utility-driven layouts** (interactive tools, pricing matrices, real project galleries). |
 | **Syntactic AI marketing clichés** (*"Not just X, but Y"* false dichotomy, formulaic levity/joke machinery). | **Declarative, factual domain terminology** (concrete SVO statements, specific operational metrics). |
