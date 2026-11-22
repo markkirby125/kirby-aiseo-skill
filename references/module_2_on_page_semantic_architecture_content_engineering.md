@@ -610,7 +610,7 @@ Pure 100% NLP-optimized text reads mechanically to human visitors. Enforce the *
 While §7.2 strictly prohibits "lazy rolling programmatic bulk" (e.g., publishing hundreds of thin, auto-spun city-swapped articles daily), database-driven programmatic SEO remains extraordinarily viable in 2026 when engineered around **functional user utility, verified contributor entities, and staged risk validation**. Google’s core ranking algorithms do not demote pages simply because they are generated from a structured database; they demote pages that fail to generate behavioral utility echoes (immediate pogo-sticking, zero dwell time, lack of interaction).
 
 #### A. The "Start-with-10" Staged Validation Protocol
-Deploying 1,000–10,000 programmatic pages without prior algorithmic validation introduces catastrophic site-wide risk to the domain's `site_quality_score` (§1.11.1). Programmatic architectures must be launched via a phased, gated progression:
+Deploying 1,000–10,000 programmatic pages without prior algorithmic validation introduces catastrophic site-wide risk, including to the domain's reported `site_quality_score` (the unconfirmed §1.11.1 analysis). Programmatic architectures must be launched via a phased, gated progression:
 
 ```
 ┌────────────────────────────────────────────────────────┐
@@ -702,7 +702,7 @@ While large language models (LLMs) collapsed the production cost of content from
 
 #### A. The "Invisible Zone" ($\le 25/100$) & Sitewide Quality Contagion
 * **The Invisible Cutoff:** In empirical single-variable testing, pages scoring $\le 25/100$ in mathematical signal density are functionally invisible to Google's ranking engine and cannot enter the Top 100 SERP results.
-* **Sitewide Quality Poisoning:** Accumulating hundreds of AI-generated articles in the Invisible Zone does not merely waste crawl budget—it actively depresses the domain's subdomain-level `site_quality_score` below the 0.4 feature threshold (§1.11.1), stripping existing rankings, Featured Snippets, and AI Overviews across the entire site.
+* **Sitewide Quality Poisoning:** Accumulating hundreds of AI-generated articles in the Invisible Zone does not merely waste crawl budget—it reportedly depresses the domain's subdomain-level `site_quality_score` below the 0.4 feature threshold (per the unconfirmed §1.11.1 analysis), stripping existing rankings, Featured Snippets, and AI Overviews across the entire site.
 * **The 80/100 Movement Threshold:** Upward ranking movement consistently activates when a page’s on-page optimization score crosses **$\ge 80/100$**.
 
 #### B. The 7 Mathematical Deficits of Raw AI Content

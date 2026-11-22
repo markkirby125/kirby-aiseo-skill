@@ -366,14 +366,14 @@ Frontier LLMs and Google AI Overviews do not assume business capabilities from h
 
 ---
 
-### **1.11.1 Google's Internal "Site Quality Score" (0.0–1.0), The 0.4 Feature Gate & Branded Query Inversion**
+### **1.11.1 Google's Internal "Site Quality Score" (0.0–1.0), The 0.4 Feature Gate & Branded Query Inversion (Reported, Unconfirmed)**
 
 *Source: Mark Williams-Cook Google internal API security vulnerability disclosure (2TB leaked data / 90 million queries / 800,000 domains analyzed) & Tom Capper (Moz) HCU penalty study. September 2026.*
 
-Google does not utilize third-party vanity metrics (Moz Domain Authority, Ahrefs DR, or raw backlink counts) to assess site trust. Leaked Google API response data proves that Google’s core ranking infrastructure assigns every subdomain an internal, un-fudgeable **`site_quality_score`** evaluated on a continuous scale from `0.0` to `1.0`.
+Google does not utilize third-party vanity metrics (Moz Domain Authority, Ahrefs DR, or raw backlink counts) to assess site trust. Analysis of leaked Google API documentation indicates (single-source, unconfirmed by Google) that Google’s core ranking infrastructure assigns every subdomain an internal **`site_quality_score`** evaluated on a continuous scale from `0.0` to `1.0`.
 
 #### A. The 3 Algorithmic Inputs to `site_quality_score`
-Google’s algorithms filter candidate websites before evaluating individual page content. The leaked API data reveals that `site_quality_score` is computed from three primary brand-level behavioral signals:
+Google’s algorithms filter candidate websites before evaluating individual page content. The same analysis suggests that `site_quality_score` is computed from three primary brand-level behavioral signals:
 
 ```
                           ┌─────────────────────────────────────┐
@@ -393,13 +393,13 @@ Google’s algorithms filter candidate websites before evaluating individual pag
 2. **Click-Selection Inversion (Beating SERP Rank Bias):** The statistical rate at which searchers deliberately scroll past Position 1 or Position 2 to select your website in Positions 3–5. This behavioral anomaly signals to NavBoost that your site possesses pre-existing user preference.
 3. **Branded External Anchor Text Proportion:** The percentage of external backlinks that cite the business by its exact trading name (e.g., `Berkshire IT Services` or `Swindon Plasterer`) rather than keyword-stuffed commercial anchors (`best IT support UK` or `plastering near me`).
 
-#### B. The "0.4 Quality Score Gate" (Hard SERP Disqualification)
+#### B. The "0.4 Quality Score Gate" (Reported, Single-Source, Unconfirmed)
 Google evaluates search eligibility through sequential filtration stages ("heat races"):
-* **The 0.4 Feature Threshold:** Domains registering an internal **`site_quality_score < 0.4` are categorically barred from rich SERP features**, including:
+* **The 0.4 Feature Threshold:** Domains registering an internal **`site_quality_score < 0.4` are reportedly barred from rich SERP features** (single-source, unconfirmed by Google), including:
   * Featured Snippets (Position 0).
   * People Also Ask (PAA) answer accordions.
   * Direct citation inclusion in Google AI Overviews and AI Mode.
-* **The Operational Consequence:** On-page content optimization, heading structure, and schema markup cannot overcome a sub-0.4 score. A site must establish sufficient brand search telemetry to clear the 0.4 gate before Google admits it into the second-stage content evaluation race.
+* **The Operational Consequence:** On-page content optimization, heading structure, and schema markup would reportedly not overcome a sub-0.4 score. On this unconfirmed model, a site must establish sufficient brand search telemetry to clear the 0.4 gate before Google admits it into the second-stage content evaluation race.
 
 #### C. The Helpful Content Update (HCU) Demotion Mechanism & Navneet Panda Reference Queries
 * **The Toxic SEO Signature & Reference-Query Ratio (Navneet Panda Patent / Kasra Dash 172-Site Core-Update Audit, Nov 2026):** Tom Capper’s Moz correlation study and Kasra Dash’s 172-site post-core-update forensic audit revealed that domains devastated by Google's Helpful Content and Core Updates shared a distinct structural signature: **high backlink volume and inflated third-party DR/DA scores paired with near-zero branded search demand**. Under Navneet Panda’s "reference query" patent mechanics, Google cross-checks a domain's inbound link growth against the volume of users actively searching for the brand by name (`[Brand Name]` and `[Brand Name] + [Service]`). When backlink velocity outpaces branded reference queries, quality classifiers flag the link profile as synthetic or manipulative.
@@ -418,7 +418,7 @@ Google evaluates search eligibility through sequential filtration stages ("heat 
 - [ ] Run the bare `[Brand Name]` Page-1 SERP Slot Ownership audit: separate homonym/disambiguation collisions from actual GSC branded search demand.
 - [ ] Stimulate branded navigational searches (`[Brand Name] + [Service]`) across client touchpoints.
 - [ ] Deploy friction-killer title tags to engineer click-selection inversion from positions 2–5.
-- [ ] Monitor Featured Snippet and PAA win rates as primary operational proxies for clearing the 0.4 quality gate.
+- [ ] Monitor Featured Snippet and PAA win rates as a directional proxy (not a proven gate) for the reported 0.4 quality threshold.
 - [ ] Purge generic commercial anchor text to protect against HCU synthetic-SEO demotion penalties.
 
 ---
