@@ -116,7 +116,7 @@ Ensure all generated copy adheres to clause-level Topic–Comment syntactic rule
   * Immediate above-the-fold value proposition and target persona definition.
   * Direct technical compatibility / feature matrix.
   * Frictionless action channel (pricing calculator, booking calendar, or instant scan terminal).
-* **Prohibition of Trailing "AI Text Blobs" (Glenn Gabe August 2026 Spam Update Benchmark):** Never append generic paragraphs or synthetic AI summary text blocks to the bottom of programmatic listings, affiliate tables, or directory cards. Google's spam classifiers detect appended AI text blobs with >95% accuracy and classify them as thin-content camouflage, triggering immediate manual actions or algorithmic demotions. All content on the page must serve immediate interactive utility.
+* **Prohibition of Trailing "AI Text Blobs" (Glenn Gabe August 2026 Spam Update Benchmark):** Never append generic paragraphs or synthetic AI summary text blocks to the bottom of programmatic listings, affiliate tables, or directory cards. Google's spam classifiers are reported to detect appended AI text blobs with >95% accuracy (directional, single-source) and classify them as thin-content camouflage, triggering manual actions or algorithmic demotions. All content on the page must serve immediate interactive utility.
 
 
 
