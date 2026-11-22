@@ -14,13 +14,13 @@
 * These keywords have already passed the initial algorithm filters but hit a "Page 2 authority ceiling".
 * Instead of creating net-new content, expanding internal linking and injecting targeted semantic variations into these specific stagnant pages yields the highest ROI for breaking onto Page 1.
 
-### **10.3 The Programmatic SEO (pSEO) "Fractional Scaling Law"**
+### **10.3 The Programmatic SEO (pSEO) Staged Batch Rule**
 
-> **TL;DR:** To prevent Scaled Content Abuse penalties, start programmatic batches at about 5% of currently indexed, healthy URLs (heuristic, unsourced), capped at the 25-50 page batch guidance in `kirby-zero-to-100-seo`.
+> **TL;DR:** To prevent Scaled Content Abuse penalties, follow the Module 2 §2.23 "Start-with-10" staged rollout (Pilot 10, then 50, 200, 1,000+ URLs, each stage gated).
 
 * Programmatic SEO rollouts should be staged in small batches to avoid Scaled Content Abuse penalties.
-* A conservative starting heuristic (not a rule, unsourced) for programmatic batch size is about 5% of the currently indexed, healthy URLs, capped at the 25-50 page batch guidance in `kirby-zero-to-100-seo`.
-* Exceeding this fractional velocity reportedly risks the "Mount AI" algorithmic demotion.
+* Batch size follows Module 2 §2.23 only; this section sets no second batch rule.
+* Skipping the §2.23 gates reportedly risks the "Mount AI" algorithmic demotion.
 * This demotion occurs due to a sudden imbalance of unverified content.
 
 ### **10.4 The Visual "Projector Room" Render Law & Link Discount Mechanics**
@@ -55,12 +55,12 @@
 
 ### **10.7 The "Contrasting FAQ" Authority Loop & Glossary Discovery Engine (David Quaid Updates)**
 
-> **TL;DR:** For new sites with zero clicks, build up to 15 standalone question URLs sitewide (slug = exact question; reported, single-source, unverified) and route the rest to on-page `<h2>` blocks. For sites with traction, corner-stone queries from GSC Page 2 as `<h2>` elements on existing pages. Implement comprehensive glossaries to capture emerging long-tail discovery traffic.
+> **TL;DR:** For new sites with zero clicks, build standalone question URLs (slug = exact question; tactic reported, single-source, unverified) under a hard cap of 15 sitewide (Module 2 §2.29F; `kirby-local-seo` §3.9E) and route the rest to on-page `<h2>` blocks. For sites with traction, corner-stone queries from GSC Page 2 as `<h2>` elements on existing pages. Implement comprehensive glossaries to capture emerging long-tail discovery traffic.
 
 *Source: David Quaid podcast interview. September 2026.*
 
 *   **The Contrasting FAQ Ideology (Zero Clicks vs. Traction):**
-    *   *Zero Clicks (Newbies):* When a domain has no traffic, do not consolidate FAQs onto a single page with Schema. Instead, **build at most 15 priority answers as standalone URLs** using the exact question as the URL slug (reported, single-source, unverified); place the rest on-page per Module 2 §2.32. Thin or scaled low-value pages are penalised regardless of affiliate links; standalone FAQ URLs stay capped at 15 sitewide (Module 2).
+    *   *Zero Clicks (Newbies):* When a domain has no traffic, consolidate FAQs into on-page FAQ blocks per Module 2 §2.32 / §2.29F, reserving at most 15 standalone URLs. Build those **priority answers as standalone URLs** using the exact question as the URL slug (tactic reported, single-source, unverified; the 15 sitewide cap is hard). Thin or scaled low-value pages are penalised regardless of affiliate links; standalone FAQ URLs stay capped at 15 sitewide (Module 2).
     *   *Traction (Corner-stoning):* If a page is already receiving some clicks but struggles to rank for competitive head terms, identify long-tail "what is" queries ranking on Page 2 in GSC and add them as exact-match `<h2>` headings on the *same* existing page.
 *   **The Glossary Discovery Engine:**
     *   Developing extensive glossaries (e.g., explaining emerging tech roles or niche terminologies) serves as a massive topical authority multiplier.

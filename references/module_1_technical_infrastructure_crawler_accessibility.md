@@ -643,7 +643,7 @@ If the URL was **never meant to be indexed** (tracking parameters, HTTP/HTTPS du
   * CSS/JS-injected text does not count as delivered content; the raw response body must contain it.
 * **Progressive-Enhancement Framing:** Plain-text-first must not strip JS-rich user experiences. Serve the identical semantic DOM to CCBot, headless retrieval agents, and human visitors — the §1.3 content-parity rules apply to CCBot as well.
 
-### **1.19 The 35% WAF/CDN AI-Crawler Block Audit (Cloudflare / AWS WAF / Edge CDN Checklist)**
+### **1.19 The Reported 35% WAF/CDN AI-Crawler Block Audit (Cloudflare / AWS WAF / Edge CDN Checklist)**
 
 * **The Statistic:** Reportedly over **35% of all websites globally** (single-source, unverified) accidentally block AI crawlers at the Cloudflare/WAF/CDN level without knowing it, including major brands spending heavily on SEO. This section extends §1.1 with the full audit protocol.
 
@@ -677,7 +677,7 @@ If the URL was **never meant to be indexed** (tracking parameters, HTTP/HTTPS du
 * **The Architectural Split:** Search-engine AEO and real-time LLM retrieval depend on a strict operational separation between **search-grounding crawlers** and **model-training scrapers**. Conflating them in `robots.txt` or WAF rules destroys Answer Engine visibility.
 * **Crawler Taxonomy (2026 Grounding Standards):**
   * **Search-Grounding Crawlers (Must Allow on Commercial & Deals Paths):** `OAI-SearchBot` (OpenAI real-time web search), `PerplexityBot` (Perplexity search indexer), `ChatGPT-User` (on-demand web browsing triggers via ChatGPT user prompts), `Google-Extended` (if opting into Gemini grounding while managing Vertex training).
-  * **Model-Training Bots (Optional Disallow):** `GPTBot`, `ClaudeBot`, `Bytespider` (offline model training and bulk corpus ingestion).
+  * **Model-Training Bots (Optional Disallow):** `GPTBot`, `ClaudeBot`, `Bytespider`, `CCBot` (offline model training and bulk corpus ingestion; §1.1 allows `CCBot` only to opt into Common Crawl presence per §1.18).
 * **Robots.txt Baseline Configuration (Unblocking On-Domain `/trust` & SSOT `"My Business Facts"` Hubs):**
   ```txt
   # Allow Real-Time AI Search Grounding (Mandatory for Commercial, /trust & SSOT /facts Paths)

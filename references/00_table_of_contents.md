@@ -25,7 +25,7 @@
   - [1.16 Crawled vs Discovered Indexation Router](module_1_technical_infrastructure_crawler_accessibility.md#116-crawled-vs-discovered-indexation-router)
   - [1.17 Harmonic Centrality over PageRank: The Seed-Graph Distance Doctrine](module_1_technical_infrastructure_crawler_accessibility.md#117-harmonic-centrality-over-pagerank-the-seed-graph-distance-doctrine-stephen-burns--james-dooley-llm-mastery)
   - [1.18 CCBot Plain-Text Accessibility Standards (Common Crawl Ingestion)](module_1_technical_infrastructure_crawler_accessibility.md#118-ccbot-plain-text-accessibility-standards-common-crawl-ingestion)
-  - [1.19 The 35% WAF/CDN AI-Crawler Block Audit](module_1_technical_infrastructure_crawler_accessibility.md#119-the-35-wafcdn-ai-crawler-block-audit-cloudflare--aws-waf--edge-cdn-checklist)
+  - [1.19 The Reported 35% WAF/CDN AI-Crawler Block Audit](module_1_technical_infrastructure_crawler_accessibility.md#119-the-reported-35-wafcdn-ai-crawler-block-audit-cloudflare--aws-waf--edge-cdn-checklist)
   - [1.20 Fresh-Domain AI Overview Quarantine (24–72h Holding Period)](module_1_technical_infrastructure_crawler_accessibility.md#120-fresh-domain-ai-overview-quarantine-2472h-holding-period)
   - [1.21 The Query Fan-Out Reasoning Filter: Candidate Selection Arithmetic](module_1_technical_infrastructure_crawler_accessibility.md#121-the-query-fan-out-reasoning-filter-candidate-selection-arithmetic-james-dooley--charles-floate-v6-2026)
   - [1.22 AI Search-Grounding Bot Governance vs. Training Scrapers (Robots.txt & WAF Protocol)](module_1_technical_infrastructure_crawler_accessibility.md#122-ai-search-grounding-bot-governance-vs-training-scrapers-robotstxt--waf-protocol--edward-sturm-ep-1206)
@@ -89,7 +89,7 @@
 - **[Module 9: Site-Specific Implementation Checklists](module_9_site_specific_implementation_checklists.md)**
 - **[Module 10: Gap-Analysis Supplementary Protocols (September 2026 Research Update)](module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md)**
   - [10.2 The "Position 17" GSC Harvesting Rule & Page 2 Stagnation Protocol](module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md#102-the-position-17-gsc-harvesting-rule--page-2-stagnation-protocol)
-  - [10.3 The Programmatic SEO (pSEO) "Fractional Scaling Law"](module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md#103-the-programmatic-seo-pseo-fractional-scaling-law)
+  - [10.3 The Programmatic SEO (pSEO) Staged Batch Rule](module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md#103-the-programmatic-seo-pseo-staged-batch-rule)
   - [10.4 The Visual "Projector Room" Render Law & Link Discount Mechanics](module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md#104-the-visual-projector-room-render-law--link-discount-mechanics)
   - [10.5 The AEO Multi-Placement Law: Owning 1st, 2nd, and 3rd Place](module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md#105-the-aeo-multi-placement-law-owning-1st-2nd-and-3rd-place)
   - [10.6 The Internal Linking "Click-Weight" Theory & The $50k Reported Minimums](module_10_gap_analysis_supplementary_protocols_september_2026_research_update.md#106-the-internal-linking-click-weight-theory--the-50k-reported-minimums)

@@ -29,7 +29,7 @@
     [ ] High-Reasoning: Embed primary standard schemas for ChatGPT Thinking Mode.  
     [ ] Conversational Ads: Scaffold campaign assets (logo, headline, specs) for ChatGPT Ad Manager beta.  
     [ ] Annual Benchmark Asset: Publish "State of DMARC & Telemetry 2026" for compounding DR80+ links.  
-    [ ] Off-Page & Discovery: Build brand and tool mentions on r/sysadmin, r/msp, and GitHub using rising thread filters; request indexing in Search Console for owned URLs within 24h and let normal discovery pick up third-party mentions.  
+    [ ] Off-Page & Discovery: Build brand and tool mentions on r/sysadmin, r/msp, and GitHub using rising thread filters, as a disclosed, genuinely helpful participant with no promotional links (as in the Reddit/Quora item above); request indexing in Search Console for owned URLs within 24h and let normal discovery pick up third-party mentions.  
     [ ] YouTube: Produce video walkthroughs covering Microsoft 365 SPF/DMARC resolution.
 
 [ ] 3. TCP123.UK (Ascot & East Berkshire B2B MSP)  

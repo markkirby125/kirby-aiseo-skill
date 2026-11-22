@@ -28,10 +28,12 @@ Structure all informational and commercial copy according to Generative Engine O
 | **Direct Answer in Opening Paragraph** | **\+280% AI Citations**  | Answer the query in the first paragraph before introducing supporting evidence (aligns with §2.1 front-loading law). |
 | **Staff Author Bylines** | **\+113% AI Citations**  | Add bylines for real, named staff with verifiable presence and consent (role-attribution caution in §2.38), even with low public-profile recognition (guards §2.26A synthetic-persona and §2.33B identity traps). |
 | **Full GEO Package Rewrites** | **\+83.2% AI Citations**  | Bundle the levers above into comprehensive rewrites (12 test samples, 6 publishers). |
-| **Targeted AI Enrichment (Product Pages)** | **\+73% AI Citations**  | Add human-written explanatory modules (AI for outlining only, per §1.14) to specific product pages only. |
-| **Human Editing of AI Drafts** | **\+67% AI Citations**  | Substantively restructure any AI-assisted text per §1.14; never publish raw AI text. |
+| **Targeted AI Enrichment (Product Pages)** | **\+73% AI Citations**  | Measured: AI-generated explanatory modules added to specific product pages only. |
+| **Human Editing of AI Drafts** | **\+67% AI Citations**  | Measured: light human refinement of raw AI drafts before publishing. |
 | **Inline Parenthetical Citations** | **\+40% AI Citations**  | Place source citations in parentheses directly beside claims, not as bottom footnotes. |
 | **Untargeted Site-Wide AI Publishing** | **\-35% Organic Sessions (Penalty)**  | Contrast lever: unedited, untargeted mass publishing penalizes (§2.23 / §2.8 anti-template rules apply); enrichment must stay targeted. |
+
+**Policy (separate from the measured lifts above):** humans write or substantively restructure any AI-assisted text per §1.14; never publish raw AI text.
 
 *`llms.txt` footnote: zero controlled-test evidence across all 9,249 documents (chaotic variance \-9.7% to \+81%, median \+25% over 3 uncontrolled tests). It functions as a plain crawlable index page only — full doctrine in Module 1 §1.2.*
 *Provenance caveat for the additions table: sample size varies per test; do not cargo-cult individual lift figures without niche context.*
@@ -273,15 +275,15 @@ To transform local lead-gen and niche sites into unassailable entities within Go
 2. **Industry & Regional Award Exploitation:**
    * Proactively identify and apply for regional chamber of commerce awards, local trade honors, and industry recognition programs.
    * Winning or being shortlisted provides an immutable, third-party verified E-E-A-T entity badge that competitors cannot easily duplicate.
-3. **Autonomous Agent Multi-Channel Syndication Loop:**
+3. **Human-Approved Multi-Channel Syndication Loop:**
    * **Input:** Authentic photos of the business owner/team holding the award, attending the event, or completing a verified project.
-   * **Agent Pipeline:** Autonomous AI agents generate:
+   * **Agent Pipeline:** AI agents draft, for human approval:
      - 60-second video walkthrough of the award/project.
      - Branded visual assets using authentic on-site photography with descriptive filenames, alt text, and visible captions (**Strict Guardrail:** never inject synthetic or spoofed GPS EXIF coordinates into images; platforms strip EXIF metadata on upload and synthetic EXIF spoofing is a zero-lift spam footprint — see `../../kirby-local-seo/SKILL.md` §3.20 / §6.4).
-     - Formal press release distributed to Google News via PR Underground.
+     - Human-approved press release submitted to relevant local or industry press (Google News inclusion not guaranteed).
      - Multi-channel social posts syndicated across the **Branded Social Fortress** (Twitter/X, Facebook, LinkedIn, Flickr, Web 2.0 properties).
    * **Human Approval Gate:** A named human reviews the copy and claims, and approves each press release and social post before it is published.
-   * **Outcome:** A single real-world operational milestone yields one release and its social posts, each differentiated per channel (reported, single-source, unverified).
+   * **Outcome:** A single real-world operational milestone yields one release and its social posts, each differentiated per channel.
 
 #### C. The 50-Page Local EMD Micro-Site Architecture
 For rapid local cashflow generation in trade niches (plastering, roofing, plumbing, electrical):
