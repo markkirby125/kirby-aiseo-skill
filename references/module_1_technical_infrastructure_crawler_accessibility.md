@@ -493,7 +493,7 @@ Unless a domain is an untouchable "prestige brand" (e.g., Forbes, CNN) with mass
 
 *Source: Tim The SEO Guru ("Your Website Won't Matter in 2 Years") / Google 2027 AI Agent Architecture Roadmap.*
 
-With 58% of Google searches ending in zero clicks and Google's executive roadmap identifying 2027 as the era of autonomous personal agents, the role of the corporate website is transitioning from a visual consumer destination to an underlying machine-readable data layer.
+With SparkToro reporting US zero-click searches rising from ~60% (2024) to ~68% (2026) alongside Ahrefs findings of a ~58% relative `#1`-result CTR drop when AI Overviews appear (directional, single-source; see Module 2 §2.28B), and Google's executive roadmap identifying 2027 as the era of autonomous personal agents, the role of the corporate website is transitioning from a visual consumer destination to an underlying machine-readable data layer.
 
 #### A. The Agent-to-Agent (A2A) Protocol & Agent-Ready Scheduling
 * **Autonomous Multi-Agent Handshakes:** Personal AI agents (Google Gemini Spark, ChatGPT/Claude mobile operators) will increasingly execute tasks by communicating directly with vendor agents via Agent-to-Agent (A2A) protocols (e.g., User Assistant $\leftrightarrow$ Merchant Booking Agent $\leftrightarrow$ Logistics Agent) without requiring the human user to browse a website or manually fill out forms.

@@ -62,6 +62,8 @@
   - [2.30 The "Cheap" Intent Modifier Arbitrage & Link-Broker Slug Mining Protocol](module_2_on_page_semantic_architecture_content_engineering.md#230-the-cheap-intent-modifier-arbitrage--link-broker-slug-mining-protocol)
   - [2.31 The "Pareto SEO" Rebuttal & The 4-Point Mandatory Keyword Placement Law](module_2_on_page_semantic_architecture_content_engineering.md#231-the-pareto-seo-rebuttal--the-4-point-mandatory-keyword-placement-law)
   - [2.32 Lily Ray's 8 Penalized AI Content Templates & The Pre-Publishing Acid Test](module_2_on_page_semantic_architecture_content_engineering.md#232-lily-rays-8-penalized-ai-content-templates--the-pre-publishing-acid-test)
+  - [2.32D Experience-Layered-On-Top & First-Person SME Proof](module_2_on_page_semantic_architecture_content_engineering.md#232d-experience-layered-on-top--first-person-sme-proof-brian-dean-case-benchmarks--directional)
+  - [2.32E Page-Job Separation ("10-Point Service Page" vs. "10-Point Blog Post")](module_2_on_page_semantic_architecture_content_engineering.md#232e-page-job-separation-10-point-service-page-vs-10-point-blog-post)
   - [2.33 The Duplicate Content Penalty Myth & SERP Hijacking Defense](module_2_on_page_semantic_architecture_content_engineering.md#233-the-duplicate-content-penalty-myth--serp-hijacking-defense)
   - [2.34 The 30-Day Pruning Protocol (Entity Clarification)](module_2_on_page_semantic_architecture_content_engineering.md#234-the-30-day-pruning-protocol-entity-clarification)
   - [2.35 Short SEO Landing Pages vs. Bloated Blog Posts (The High-Conversion BOFU Standard)](module_2_on_page_semantic_architecture_content_engineering.md#235-short-seo-landing-pages-vs-bloated-blog-posts-the-high-conversion-bofu-standard)
@@ -118,9 +120,11 @@
   - [17.3 Algorithmic Trust Drain & User Signals](module_17_scaled_ai_collapse_autopsy_and_quarantine_protocols.md#173-algorithmic-trust-drain--user-signals)
   - [17.4 Backlink Architecture Asymmetry (Root vs. Deep Links)](module_17_scaled_ai_collapse_autopsy_and_quarantine_protocols.md#174-backlink-architecture-asymmetry-root-vs-deep-links)
   - [17.5 The Scaled AI Operational Quarantine SOP](module_17_scaled_ai_collapse_autopsy_and_quarantine_protocols.md#175-the-scaled-ai-operational-quarantine-sop)
+  - [17.6 Scaled Velocity Collapse Case Data & LLM Platform Caveats](module_17_scaled_ai_collapse_autopsy_and_quarantine_protocols.md#176-scaled-velocity-collapse-case-data--llm-platform-caveats-directional-single-source)
 - **[Module 18: The Anti-Slop Detection Boundary & Quality Raters Page Audit](module_18_ai_slop_detection_boundary_and_quality_raters_audit.md)**
   - [18.1 Why Unedited LLM Copy Triggers Algorithmic Demotion](module_18_ai_slop_detection_boundary_and_quality_raters_audit.md#181-why-unedited-llm-copy-triggers-algorithmic-demotion)
   - [18.2 The 4-Point Search Quality Raters Page Audit](module_18_ai_slop_detection_boundary_and_quality_raters_audit.md#182-the-4-point-search-quality-raters-page-audit-whitespark-e50)
+  - [18.3 Minimal-DOM Editorial Substance & Quality Thresholds](module_18_ai_slop_detection_boundary_and_quality_raters_audit.md#183-generatepress-style-minimal-dom-editorial-substance--quality-thresholds)
 - **[Module 19: 9,249-Study Meta-Evidence, Controlled On-Page & Anchor Invariants](module_19_9249_study_meta_evidence_controlled_onpage_and_anchor_invariants_ep_1207.md)**
   - [19.1 The 9,249-Study Evidence Calibration & Publication Bias](module_19_9249_study_meta_evidence_controlled_onpage_and_anchor_invariants_ep_1207.md#191-the-9249-study-evidence-calibration--publication-bias)
   - [19.2 Controlled Title Tag Engineering (SearchPilot Invariants)](module_19_9249_study_meta_evidence_controlled_onpage_and_anchor_invariants_ep_1207.md#192-controlled-title-tag-engineering-searchpilot-invariants)
@@ -132,6 +136,7 @@
   - [20.2 Per-candidate tests](module_20_pre_publication_semantic_drift_gate.md#202-per-candidate-tests-all-discrete)
   - [20.3 Output](module_20_pre_publication_semantic_drift_gate.md#203-output)
   - [20.4 Boundaries](module_20_pre_publication_semantic_drift_gate.md#204-boundaries)
+  - [20.5 Concrete Page-Focus Audit & Negative Drift Examples (Videos 05–07)](module_20_pre_publication_semantic_drift_gate.md#205-concrete-page-focus-audit--negative-drift-examples-videos-0507)
 
 ## Decoupled Specialist Skills
 
