@@ -77,7 +77,7 @@ New sections from the LLM Mastery masterclasses and the 9,249-case-study meta-an
 - **M2 §2.2** Reported benchmark bundle (single-source, unverified): direct-answer-first (+280%), discrete factual statements (5x), staff bylines (+113%), GEO package rewrites (+83.2%), the targeted-vs-mass AI publishing split, and the `llms.txt` debunk
 - **M2 §2.38–§2.42** Credibility document hardening, dual topical maps, comparison pages with the 99%/1% consensus rule, BM25 lexical optimization, and the entity definition trinity (Who/What/Why)
 - **M15** Oct 1, 2026 metadata fact-check mandate (titles, meta descriptions, JSON-LD, alt text), SRA compliance boundary test for third-party syndication, and the autonomous-agent publishing gate (Sept 24 spam-update doctrine cross-train)
-- **M19** 9,249-document evidence hierarchy (measured/controlled vs. reported/unverified; SearchPilot controlled title experiments, orphan inlinking measured findings, footer link gain mechanisms & PPC risk, AEO citation benchmarks — Zenodo DOI: 10.5281/zenodo.22768160)
+- **M19** 9,249-document evidence hierarchy (measured/controlled vs. reported/unverified; SearchPilot controlled title experiments, orphan inlinking measured findings, footer link gain mechanisms & PPC risk, reported AEO citation claims (unverified) — Zenodo DOI: 10.5281/zenodo.22768160)
 
 ## External Resources & Authority Links
 - [Google Search Central: Spam Policies & Scaled Content Abuse](https://developers.google.com/search/docs/essentials/spam-policies)

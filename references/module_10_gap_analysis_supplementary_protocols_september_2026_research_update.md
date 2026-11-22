@@ -21,7 +21,7 @@
 * Programmatic SEO rollouts should be staged in small batches to avoid Scaled Content Abuse penalties.
 * Batch size follows Module 2 §2.23 only; this section sets no second batch rule.
 * Skipping the §2.23 gates reportedly risks the "Mount AI" algorithmic demotion.
-* This demotion occurs due to a sudden imbalance of unverified content.
+* The source attributes this demotion to a sudden imbalance of unverified content.
 
 ### **10.4 The Visual "Projector Room" Render Law & Link Discount Mechanics**
 
@@ -44,11 +44,11 @@
 
 ### **10.6 The Internal Linking "Click-Weight" Theory & The $50k Reported Minimums**
 
-> **TL;DR:** Google assigns internal link weight based on click probability and actual user behavior (via Chrome/NavBoost telemetry). To maximize indexing and RPMs, add 10-30 topically relevant internal links per page; higher placements relative to other links carry more weight.
+> **TL;DR:** Reportedly (single-source, unverified; see below), Google assigns internal link weight based on click probability and actual user behavior (via Chrome/NavBoost telemetry). To maximize indexing and RPMs, add 10-30 topically relevant internal links per page; higher placements relative to other links carry more weight.
 
 * **The $50,000 Reported Blueprint (single-source, unverified):** A 15-site test reportedly established that scaling internal links to 10–30+ per page drove up to 150% ad RPM increases without any ranking penalties or "PageRank dilution" ceilings.
 * **The "Index Minimum" Rule:** A minimum of 5 links *towards* and *from* a post acts as a hard floor against **`Discovered - currently not indexed`** (crawl demand). It does **not** reverse a **`Crawled - currently not indexed`** keep-verdict. For that status, route via §1.16.
-* **Click-Based Link Equity (The Google Patent):** Google's patents on "ranking documents based on user behavior" confirm that internal link value is not evenly diluted. Instead, weights are assigned based on the *probability of the link being clicked* (tracked via Chrome and Google Analytics).
+* **Click-Based Link Equity (The Google Patent):** Google's patents on "ranking documents based on user behavior" describe a model in which internal link value is not evenly diluted. Instead, weights are assigned based on the *probability of the link being clicked* (tracked via Chrome and Google Analytics).
 * **Relative Placement Authority:** Links placed higher *relative to other links* (e.g., link #1 vs link #10) pass significantly more ranking value, regardless of whether they appear in the top introduction or middle body.
 * **Semantic Independence Over Taxonomy:** Internal links must be injected based purely on semantic similarity and user-journey intent, outright ignoring restrictive category or tag-level boundaries.
 * **Funnel-Tier Application:** The 10–30 link volume applies specifically to **Top-of-Funnel (TOFU) informational assets** and content hubs. For mixed commercial pages (capped at ≤ 5 per §10.9) and Bottom-of-Funnel (BOFU) conversion landing pages (near-zero per §10.11F / §2.35), link density is strictly constrained to prevent CTA attention leakage and click dilution.
@@ -153,7 +153,7 @@ When no existing page or section satisfies the keyword's intent:
 * **The Mandate**: Use natural contextual variations that fit seamlessly into reader prose:
    * *Target*: "emergency plumber austin" → *Natural Anchor*: "24/7 plumbing help in Austin" or "call our emergency Austin dispatchers".
    * *Target*: "project management software for agencies" → *Natural Anchor*: "keep agency client work organized".
-* **Click-Probability Link**: As demonstrated in the $50,000 internal linking experiment (Edward Sturm Episode 1,163; codified in §10.6), internal links pass authority in proportion to their *click propensity*. Forcing awkward exact-match text depresses clicks, rendering the internal link self-defeating.
+* **Click-Probability Link**: As reportedly demonstrated in the $50,000 internal linking experiment (Edward Sturm Episode 1,163; single-source, unverified per §10.6), internal links pass authority in proportion to their *click propensity*. Forcing awkward exact-match text depresses clicks, rendering the internal link self-defeating.
 
 #### F. The Funnel-Tier Link Budget (TOFU vs. BOFU Asymmetry & Comparison Cluster Carve-Out)
 To prevent internal link dilution and protect conversion paths, reconcile §10.6 and §10.9 across four strict funnel tiers:

@@ -28,8 +28,8 @@ Structure all informational and commercial copy according to Generative Engine O
 | **Direct Answer in Opening Paragraph** | **\+280% AI Citations**  | Answer the query in the first paragraph before introducing supporting evidence (aligns with §2.1 front-loading law). |
 | **Staff Author Bylines** | **\+113% AI Citations**  | Add bylines for real, named staff with verifiable presence and consent (role-attribution caution in §2.38), even with low public-profile recognition (guards §2.26A synthetic-persona and §2.33B identity traps). |
 | **Full GEO Package Rewrites** | **\+83.2% AI Citations**  | Bundle the levers above into comprehensive rewrites (12 test samples, 6 publishers). |
-| **Targeted AI Enrichment (Product Pages)** | **\+73% AI Citations**  | Measured: AI-generated explanatory modules added to specific product pages only. |
-| **Human Editing of AI Drafts** | **\+67% AI Citations**  | Measured: light human refinement of raw AI drafts before publishing. |
+| **Targeted AI Enrichment (Product Pages)** | **\+73% AI Citations**  | Measured: AI-drafted, human-edited explanatory modules (§1.14) added to specific product pages only. |
+| **Human Editing of AI Drafts** | **\+67% AI Citations**  | Measured: human editing of AI drafts before publishing; policy requires substantive restructuring (§1.14). |
 | **Inline Parenthetical Citations** | **\+40% AI Citations**  | Place source citations in parentheses directly beside claims, not as bottom footnotes. |
 | **Untargeted Site-Wide AI Publishing** | **\-35% Organic Sessions (Penalty)**  | Contrast lever: unedited, untargeted mass publishing penalizes (§2.23 / §2.8 anti-template rules apply); enrichment must stay targeted. |
 
@@ -268,7 +268,7 @@ Legacy SEO practices encouraged publishing 5,000–7,000-word articles that buri
   4. **Entity Credentials:** Insurance backing, guarantees, trade certifications, and registration numbers.
 * **Micro-Intent Precision:** In tight long-tail queries, 2–3 precise, intent-satiating sentences positioned directly beneath the `<h1>` can outrank 5,000 words of generic prose without triggering thin-content penalties because task completion is 100%.
 
-#### B. The Branded Social Fortress & Autonomous Award Syndication Machine
+#### B. The Branded Social Fortress & Human-Approved Award Syndication Machine
 To transform local lead-gen and niche sites into unassailable entities within Google's Knowledge Vault and LLM citation indices:
 
 1. **The Core Citation & Review Fortress:** Build and maintain 20–50 authoritative business listings and third-party review repositories (Google Business Profile, Trustpilot, Yelp, Yell, Bark, Checkatrade). Actively harvest verified customer reviews to establish multi-source consensus.
