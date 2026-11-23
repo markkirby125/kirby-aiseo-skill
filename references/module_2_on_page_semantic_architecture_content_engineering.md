@@ -28,12 +28,12 @@ Structure all informational and commercial copy according to Generative Engine O
 | **Direct Answer in Opening Paragraph** | **\+280% AI Citations**  | Answer the query in the first paragraph before introducing supporting evidence (aligns with §2.1 front-loading law). |
 | **Staff Author Bylines** | **\+113% AI Citations**  | Add bylines for real, named staff with verifiable presence and consent (role-attribution caution in §2.38), even with low public-profile recognition (guards §2.26A synthetic-persona and §2.33B identity traps). |
 | **Full GEO Package Rewrites** | **\+83.2% AI Citations**  | Bundle the levers above into comprehensive rewrites (12 test samples, 6 publishers). |
-| **Targeted AI Enrichment (Product Pages)** | **\+73% AI Citations**  | Reported: AI-drafted, human-edited explanatory modules (§1.14) added to specific product pages only. |
-| **Human Editing of AI Drafts** | **\+67% AI Citations**  | Reported: human editing of AI drafts before publishing; policy requires substantive restructuring (§1.14). |
+| **Targeted AI Enrichment (Product Pages)** | **\+73% AI Citations**  | Reported: AI-drafted, human-edited explanatory modules (Module 1 §1.14) added to specific product pages only. |
+| **Human Editing of AI Drafts** | **\+67% AI Citations**  | Reported: human editing of AI drafts before publishing; policy requires substantive restructuring (Module 1 §1.14). |
 | **Inline Parenthetical Citations** | **\+40% AI Citations**  | Place source citations in parentheses directly beside claims, not as bottom footnotes. |
 | **Untargeted Site-Wide AI Publishing** | **\-35% Organic Sessions (Penalty)**  | Contrast lever: unedited, untargeted mass publishing penalizes (§2.23 / §2.8 anti-template rules apply); enrichment must stay targeted. |
 
-**Policy (separate from the reported lifts above):** humans write or substantively restructure any AI-assisted text per §1.14; never publish raw AI text.
+**Policy (separate from the reported lifts above):** humans write or substantively restructure any AI-assisted text per Module 1 §1.14; never publish raw AI text.
 
 *`llms.txt` footnote: zero controlled-test evidence across all 9,249 documents (chaotic variance \-9.7% to \+81%, median \+25% over 3 uncontrolled tests). It functions as a plain crawlable index page only — full doctrine in Module 1 §1.2.*
 *Provenance caveat for the additions table: sample size varies per test; do not cargo-cult individual lift figures without niche context.*
@@ -580,7 +580,7 @@ Query: "What is the emergency response SLA for IT support in Ascot?"
 * **The Parser Yield:** This deterministic syntax allows BERT's extractive question-answering heads to isolate and slice the exact answer span without requiring multi-hop inferential processing.
 
 #### C. Single-Variable Empirical Test Proof
-Controlled single-variable tests across zero-competition and competitive test SERPs confirmed that converting passive, inverted, or ambiguous prose into strict SVO syntax produced immediate double-digit ranking gains (e.g., Position 48 → Position 35, and Position 46 → Position 22) with zero changes in backlink profile, domain authority, or page word count.
+Controlled single-variable tests across zero-competition and competitive test SERPs reportedly showed (single-source; directional) that converting passive, inverted, or ambiguous prose into strict SVO syntax produced double-digit ranking gains (e.g., Position 48 → Position 35, and Position 46 → Position 22) with zero changes in backlink profile, domain authority, or page word count.
 
 #### D. The 60/40 Algorithmic-Human Balance & Prompt Constraints
 Pure 100% NLP-optimized text reads mechanically to human visitors. Enforce the **60/40 Rule** in content generation workflows:
@@ -1007,7 +1007,7 @@ A critical error made by keyword tools and junior SEOs is misinterpreting search
 Governs whether an undertargeted keyword becomes a dedicated URL or an internal heading:
 * **High-Authority / Aged Domains:** Can rank for secondary queries by embedding them as `<h2>` or `<h3>` section blocks on an existing authority pillar page.
 * **Low-Authority / New Domains:** Cannot compete on broad pillar pages. Low-authority domains **must elevate every distinct undertargeted commercial query into its own dedicated standalone URL** (`<title>`, URL slug, `<h1>`, opening hook).
-* **FAQ Farm Boundary:** Standalone question URLs must remain capped at ≤ 15 sitewide (§2.32 / §3.9E) to avoid Google's Template #7 spam classifier.
+* **FAQ Farm Boundary:** Standalone question URLs must remain capped at ≤ 15 sitewide (§2.32 / `kirby-local-seo` §3.9E) to avoid Google's Template #7 spam classifier.
 
 **Undertargeting & Keyword Prioritization Checklist**
 - [ ] Run the 4-Question Discovery Sequence before writing any new content.
@@ -1402,7 +1402,7 @@ Three gates decide this same architectural question. Apply them in order; a quer
 
 * **The Division of Labour:** SERP-overlap is the semantic intent test — *"is this one intent or two?"* Volume/competition gating is the local efficiency filter — *"is a separate URL worth deploying here, or does it dilute the domain?"*
 * **Precedence on Conflict:** Semantic intent wins the architecture decision. The efficiency filter may only *downgrade* a split decision (do not build the URL yet) and may never *upgrade* one (never merge two divergent intents into one page merely because local volume is thin). Where overlap is < 30% but the local volume gate fails, the correct outcome is an on-page `<h2>` recorded as a deliberate compromise — not a manufactured URL that dilutes the footprint.
-* **Cap Invariance:** The ≤ 15 sitewide question-URL cap from §3.9E (§2.32 Template #7 guardrail) is unaffected by this section. §2.37 never authorises additional thin question URLs.
+* **Cap Invariance:** The ≤ 15 sitewide question-URL cap from `kirby-local-seo` §3.9E (§2.32 Template #7 guardrail) is unaffected by this section. §2.37 never authorises additional thin question URLs.
 
 **Page Split vs. H2 Decision Checklist**
 - [ ] Never deploy or merge a URL before running the SERP-Overlap Test on both queries.

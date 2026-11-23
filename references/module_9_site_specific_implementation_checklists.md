@@ -9,7 +9,7 @@
     - [ ] Mount AI Defense: Embed interactive instant repair cost estimator in top 400px to force secondary interaction.  
     - [ ] Gatekeeping: Align title tags with ChatGPT sub-queries ("Same-Day Home IT Repair Ascot").  
     - [ ] Local Friction Defense: Optimize GBP hero visuals and direct messaging to earn the "second click".  
-    - [ ] GBP & Reviews: Set primary category "Computer Repair Service"; pre-seed Ascot Q&As.  
+    - [ ] GBP & Reviews: Set primary category "Computer Repair Service"; seed Ascot Q&As only from real customer questions.  
     - [ ] Reviews: Solicit reviews using the attribute prompt for hardware/OS tokens across Trustpilot UK and Yell in addition to GBP.  
     - [ ] Authority: Anchor security copy to NCSC SME guidelines and Cyber Essentials.  
     - [ ] Discover: Publish emotion-driven guide ("How Ascot Homeowners are Losing £1,000s to Fake M365 Scams") with 1200x800 human-face imagery using Status Quo Inversion.  
@@ -22,7 +22,7 @@
     - [ ] Routing: Serve /llms.txt detailing Domain Shield diagnostic checks.  
     - [ ] Compact BOFU: Deploy dedicated `/uses` hub (e.g. `/uses/dmarc-reporting`, `/uses/spf-flattening`) under 500 words with live terminal validator.  
     - [ ] Gatekeeping & RAG: Hardcode RFC specifications (RFC 7208, RFC 6376, RFC 7489) matching `ref_type: search` queries.  
-    - [ ] Third-Party Citation Seeding (§2.6): Build 3rd-party citations and comparisons across GitHub, Spiceworks, and tech publications.  
+    - [ ] Third-Party Citation Seeding (Module 2 §2.6): Build 3rd-party citations and comparisons across GitHub, Spiceworks, and tech publications.  
     - [ ] Competitor Hub: Publish objective comparison matrix ("TCP123 vs DMARCian / EasyDMARC") to enable LLM category inclusion.  
     - [ ] High-Reasoning: Embed primary standard schemas for ChatGPT Thinking Mode.  
     - [ ] Conversational Ads: Scaffold campaign assets (logo, headline, specs) for ChatGPT Ad Manager beta.  

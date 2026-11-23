@@ -22,6 +22,8 @@ Allow: /
 
 Add `User-agent: CCBot` to the optional training-bot group only to opt into Common Crawl presence (optional; §1.18, §1.22).
 
+Two notes on this block. `ChatGPT-User` is a user-triggered fetcher, and OpenAI's crawler documentation says robots.txt rules may not apply to it, so its entry states intent only; the WAF and Cloudflare rules above are what let it through. `Google-Extended` is a robots.txt control token, not a crawler with its own user agent, and it is allowed by default, so the block omits it. Add a `User-agent: Google-Extended` group only to disallow Gemini training and grounding use; Google states the token does not affect Search inclusion or ranking.
+
 
 ### **1.2 LLM-Optimised Edge Delivery & /llms.txt**
 
@@ -145,7 +147,7 @@ Never evaluate an aged asset through a single tool. Run the full composite audit
 
 ---
 
-### **1.8 The "Canon Law" Slug Reset Protocol: Reviving Deindexed & Zombie Pages via Fresh URL Evaluation**
+### **1.8 The "Canon Law" Slug Reset Protocol: Reviving Never-Indexed Zombie Pages via Fresh URL Evaluation**
 
 *Source: David Quaid & Edward Sturm podcast Episode 1,125. September 2026.*
 
@@ -451,7 +453,7 @@ Google is fundamentally an advertising enterprise with an attached search engine
 ```
 
 #### A. The Cost of Retrieval Law & The Paul Haahr DOJ Leak
-In official antitrust exhibits and internal research (Tristan Upstill & Paul Haahr), Google confirms a foundational economic reality: **Google does NOT run expensive neural ranking algorithms (such as RankBrain) for every website**.
+The source reads antitrust trial exhibits and internal research (Tristan Upstill & Paul Haahr) as showing a foundational economic reality (single-source interpretation, not a Google statement): **Google does NOT run expensive neural ranking algorithms (such as RankBrain) for every website**.
 * **The Compute Gate (reported, unverified):** If a domain has zero or low click volume, Google reportedly skips RankBrain because the computational expense cannot be economically justified.
 * **The "Cost Over Quality" Principle:** An exquisitely written article with heavy client-side JavaScript, un-minified CSS, or ambiguous layout will be bypassed in favor of a simpler document that conveys identical semantic entities at a fraction of the crawling and rendering compute.
 * **Semantic HTML5 (house guardrail):** wrap primary content in `<main>` and `<article>` under real headings, and strip page-builder boilerplate and nested wrapper divs (`../../kirby-ai-builder-hygiene/SKILL.md` Module 2). Treat it as a cleanliness aid, not a proven ranking factor.
@@ -487,7 +489,7 @@ Unless a domain is an untouchable "prestige brand" (e.g., Forbes, CNN) with mass
 
 **Cost of Retrieval & LLM Rendering Checklist**
 - [ ] Minimize computational retrieval costs: strip bloated JS rendering on core entity pages.
-- [ ] Track daily impressions against the reported 10,000/day threshold (single-source, unverified): a directional milestone, as in `../../kirby-zero-to-100-seo/SKILL.md` Module 2 §2.4, not a proven RankBrain trigger.
+- [ ] Track daily impressions against the reported 10,000/day threshold (single-source, unverified): a directional milestone, not a proven RankBrain trigger.
 - [ ] Deploy dynamic Markdown rendering only for crawlers verified by reverse-DNS / published ASN IP ranges (`GPTBot`, `ClaudeBot`, `PerplexityBot`), serving the same facts as the HTML; never on a raw `User-Agent` match alone.
 - [ ] Front-load target entity tokens and explicit publication dates in the first 100 words to satisfy ChatGPT retrieval thresholds.
 - [ ] Segregate divergent commercial services onto chunked subdomains to prevent sitewide HCU topical dilution.
@@ -545,13 +547,13 @@ In the reported cases, raw, unedited AI output was thin and undifferentiated. Or
 * **The "Zero Raw Generation" Mandate:** Do not publish raw, unedited AI output directly to web pages; unreviewed bulk output is low-value content and risks sitewide quality depreciation (§1.11.1 / §Executive Threat Profile).
 * **Editorial Processing Rules:**
   1. *AI as Scaffolding:* Use LLMs for outlining, keyword intent mapping, syntactic formatting, and drafts that then pass rule 2.
-  2. *Mandatory Human Editorial Injection:* Every paragraph generated with AI assistance must undergo substantive human editorial restructuring: injecting proprietary client metrics, real-world case experiences, and localized phrasing.
+  2. *Mandatory Human Editorial Injection:* Every paragraph generated with AI assistance must undergo substantive human editorial restructuring. Where the client can supply them, add real proprietary metrics, real case experiences and localized phrasing; never invent them to satisfy this rule.
   3. *Zero Direct Pasting:* Ban the direct pipeline from LLM API to CMS publication. Content must pass through an editorial review gate with original commentary and empirical verification.
 
 **Editorial Quality Checklist**
 - [ ] Ban direct automated publishing of raw LLM outputs to live domains.
 - [ ] Enforce human editorial restructuring on all AI-scaffolded text drafts.
-- [ ] Verify that every published URL carries original primary data (case numbers, pricing, local landmarks) that makes it more useful to readers.
+- [ ] Verify that each published URL carries original primary data (case numbers, pricing, local landmarks) where the client can supply it; if none exists, flag the page to the owner instead of inventing data.
 
 ---
 
@@ -654,7 +656,7 @@ If the URL was **never meant to be indexed** (tracking parameters, HTTP/HTTPS du
 * **The Statistic:** Reportedly over **35% of all websites globally** (single-source, unverified) accidentally block AI crawlers at the Cloudflare/WAF/CDN level without knowing it, including major brands spending heavily on SEO. This section extends §1.1 with the full audit protocol.
 
 **Unblocking Checklist:**
-- [ ] **Cloudflare:** "Block AI bot traffic" OFF (§1.1); AI Crawl Control reviewed **per bot**; Browser Integrity Check and challenge rules verified not to fire for `OAI-SearchBot`, `PerplexityBot`, `ChatGPT-User`, and for `GPTBot`, `ClaudeBot`, `CCBot` where §1.22's optional training group is allowed.
+- [ ] **Cloudflare:** "Block AI bot traffic" OFF (§1.1); AI Crawl Control reviewed **per bot**; Browser Integrity Check and challenge rules verified not to fire for `OAI-SearchBot`, `PerplexityBot`, `ChatGPT-User`, and for `GPTBot`, `ClaudeBot`, `CCBot` where the optional training group defined in §1.1 is allowed.
 - [ ] **AWS WAF:** Rate-based rules scoped to exclude verified AI crawlers on the basis of **reverse-DNS/IP-verified bot lists only** — a user-agent string alone never qualifies for exclusion (UA strings are trivially spoofable and UA-based exclusions are a bypass primitive).
 - [ ] **Edge CDN:** Cache rules not serving empty shells to cookie-less user-agents; SSR verified per §1.2.
 - [ ] **Verification:** Fetch key page URLs with each AI user-agent string (e.g., `curl -A "Mozilla/5.0 (compatible; CCBot/2.1; +https://commoncrawl.org/faq/)"`) from a clean IP — the response body must contain the full semantic DOM, not a challenge page. Run this only against properties you own or are explicitly authorized to test; never against third-party sites.
@@ -662,7 +664,7 @@ If the URL was **never meant to be indexed** (tracking parameters, HTTP/HTTPS du
 
 ### **1.20 Fresh-Domain AI Overview Quarantine (24–72h Holding Period)**
 
-* Freshly registered exact-match domains experience a **24–72 hour anti-spam holding period** preventing immediate appearance in Google AI Overviews (designed to block hijacking of breaking-news events). The two clocks reconcile as follows: the quarantine suppresses AI Overview eligibility for days 0–3; standard indexation then proceeds.
+* Freshly registered exact-match domains reportedly experience a **24–72 hour anti-spam holding period** preventing immediate appearance in Google AI Overviews (the source attributes it to blocking hijacking of breaking-news events; single-source, directional). The two clocks reconcile as follows: the quarantine suppresses AI Overview eligibility for days 0–3; standard indexation then proceeds.
 * **Measurement blackout:** AIO results normalise over about 2-4 weeks; do not judge before the end of week 2, and treat weeks 3-4 as the settling window. Earlier readings measure the quarantine, not the content.
 * **Directional, single-source doctrine (Charles Floate):** treat the window as a timing note for measurement planning, not a contractual SLA — it can shift silently.
 * Launch sequencing against this window is handled in `kirby-zero-to-100-seo`; do not delay indexation waiting for it here.
@@ -682,8 +684,8 @@ If the URL was **never meant to be indexed** (tracking parameters, HTTP/HTTPS du
 
 * **The Architectural Split:** Search-engine AEO and real-time LLM retrieval depend on a strict operational separation between **search-grounding crawlers** and **model-training scrapers**. Conflating them in `robots.txt` or WAF rules destroys Answer Engine visibility.
 * **Crawler Taxonomy (2026 Grounding Standards):**
-  * **Search-Grounding Crawlers (Must Allow on Commercial & Deals Paths):** `OAI-SearchBot` (OpenAI real-time web search), `PerplexityBot` (Perplexity search indexer), `ChatGPT-User` (on-demand web browsing triggers via ChatGPT user prompts), `Google-Extended` (if opting into Gemini grounding while managing Vertex training).
-  * **Model-Training Bots (Optional Disallow):** `GPTBot`, `ClaudeBot`, `Bytespider`, `CCBot` (offline model training and bulk corpus ingestion; §1.1 puts `GPTBot` and `ClaudeBot` in its optional training-bot group and adds `CCBot` there only to opt into Common Crawl presence per §1.18).
+  * **Search-Grounding Crawlers (Must Allow on Commercial & Deals Paths):** `OAI-SearchBot` (OpenAI real-time web search), `PerplexityBot` (Perplexity search indexer), `ChatGPT-User` (on-demand web browsing triggers via ChatGPT user prompts; robots.txt rules may not apply to it, see §1.1). `Google-Extended` is a robots.txt control token rather than a crawler: leave it unblocked to stay eligible for Gemini grounding (§1.1).
+  * **Model-Training Bots (Optional Disallow):** `GPTBot`, `ClaudeBot`, `Bytespider`, `CCBot` (offline model training and bulk corpus ingestion; §1.1 puts `GPTBot` and `ClaudeBot` in its optional training-bot group and instructs readers to add `CCBot` there only to opt into Common Crawl presence per §1.18).
 * **Robots.txt Baseline Configuration (Unblocking On-Domain `/trust` & SSOT `"My Business Facts"` Hubs):**
   ```txt
   # Allow Real-Time AI Search Grounding (Mandatory for Commercial, /trust & SSOT /facts Paths)
