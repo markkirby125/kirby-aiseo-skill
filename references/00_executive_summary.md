@@ -4,9 +4,9 @@ Google's spam crackdowns target uncurated, mass-produced content, synthetic AI m
 
 1. **Algorithmic Demotion & The "Mount AI" Cliff:** Automated quality and spam classification systems (NavBoost behavioural signals, RankEmbed BERT, DeepRank) assign a *provisional quality score* to newly published batches. As exploratory traffic enters, user behavioral telemetry (dwell time, scroll depth, pogo-sticking) is logged. If UX fails, the algorithm triggers a vertical traffic collapse ("Mount AI" death spiral) wiping out 80%–100% of domain impressions.
    * **Empirical Benchmark (Lily Ray 220+ AI Website Study):** In a comprehensive study tracking >220 websites featured across the public customer story pages of 12+ leading AI content platforms (cross-validated via Ahrefs and Sistrix):
-     * **54%** of sites lost $\ge 30\%$ of their peak organic search traffic.
-     * **39%** lost $\ge 50\%$ (half) of their peak traffic.
-     * **22%** lost $\ge 75\%$ (three quarters) of all traffic, with many ending below their pre-AI publication baseline.
+     * **54%** of sites lost ≥ 30% of their peak organic search traffic.
+     * **39%** lost ≥ 50% (half) of their peak traffic.
+     * **22%** lost ≥ 75% (three quarters) of all traffic, with many ending below their pre-AI publication baseline.
    * **The "Mount AI" Lifecycle Timeline:**
      * *Months 0–12 (The Surge):* Rapid index expansion; organic impressions and keyword rankings climb consistently.
      * *Peak (+3 to +6 Months):* Traffic peaks 3 to 6 months *after* content publication velocity peaks.
@@ -24,5 +24,5 @@ Google's spam crackdowns target uncurated, mass-produced content, synthetic AI m
 * **Unnatural Site & Velocity Patterns:** Overnight mass publication dumps OR *rolling programmatic bulk* (e.g., publishing 500–1,000 automated/stitched pages per day over months, reaching 100k+ URLs while organic traffic stagnates), lack of verified author profiles, and generic layout templates.
 * **Zero Authentic Experience & Stitched Data:** Scraping and stitching feeds or database fragments without adding proprietary primary benchmarks, verified local landmarks, original tooling photography, or functional phone/contact channels.
 * **Trailing "AI Text Blob" Camouflage:** Appending blocks of 100% AI-generated text beneath scraped or programmatic product/directory tables (a common attempt to bypass thin-content filters). Google's August 2026 spam update specifically flagged this hybrid footprint reportedly with >95% accuracy (directional, single-source) as Thin Affiliation and Scaled Content Abuse.
-* **Divergent Page-to-Traffic Yield & The 85/15 Sitewide Contagion Rule:** Rapidly expanding index count on Search Console alongside stagnant or plummeting click yields (the *Guru99 footprint*). In the August 2026 Spam Update (Glenn Gabe benchmark; directional, single-source), domains where $>80\%$ of indexed URLs were thin programmatic pages suffered **sitewide algorithmic demotions**—wiping out traffic across all sections, including legitimate human UGC and genuine brand pages. Quality indexing evaluates the aggregate domain footprint.
+* **Divergent Page-to-Traffic Yield & The 85/15 Sitewide Contagion Rule:** Rapidly expanding index count on Search Console alongside stagnant or plummeting click yields (the *Guru99 footprint*). In the August 2026 Spam Update (Glenn Gabe benchmark; directional, single-source), domains where >80% of indexed URLs were thin programmatic pages suffered **sitewide algorithmic demotions**—wiping out traffic across all sections, including legitimate human UGC and genuine brand pages. Quality indexing evaluates the aggregate domain footprint.
 

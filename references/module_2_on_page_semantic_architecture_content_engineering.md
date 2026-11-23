@@ -40,10 +40,10 @@ Structure all informational and commercial copy according to Generative Engine O
 
 ### **2.3 Formatting & Structural Hierarchy**
 
-* **Strict Heading Order:** Enforce an uninterrupted \<h1\> $\\rightarrow$ \<h2\> $\\rightarrow$ \<h3\> nesting structure without skipping levels or embedding layout wrappers (practised by 68.7% of cited pages).  
-* **Structured Data Blocks:** Format technical data, pricing, and comparative options into Markdown/HTML tables and bullet points (structured lists/tables drive 43.8% of ChatGPT citations).  
+* **Strict Heading Order:** Enforce an uninterrupted \<h1\> → \<h2\> → \<h3\> nesting structure without skipping levels or embedding layout wrappers (practised by 68.7% of cited pages; reported, single-source, unverified).  
+* **Structured Data Blocks:** Format technical data, pricing, and comparative options into Markdown/HTML tables and bullet points (structured lists/tables drive 43.8% of ChatGPT citations; reported, single-source, unverified).  
 * **Atomic Semantic Independence:** Write each \<h2\>/\<h3\> block as an independent, self-contained passage that retains full semantic meaning when extracted as an isolated chunk.  
-* **30-Day Freshness Updates:** Maintain an active 30-day update schedule for high-priority landing pages; 76% of ChatGPT citations originate from pages modified within the trailing 30 days.
+* **30-Day Freshness Updates:** Maintain an active 30-day update schedule for high-priority landing pages; 76% of ChatGPT citations originate from pages modified within the trailing 30 days (reported, single-source, unverified).
 
 ### **2.4 ChatGPT Reasoning Mode Divergence (SEMrush Benchmark)**
 
@@ -90,7 +90,7 @@ ChatGPT exhibits divergent retrieval behavior based on active reasoning depth:
 
 ### **2.11 Fractal Discourse Architecture & The Skim Test (Writing Levels 1–5)**
 
-* **The Fractal Hierarchy:** A webpage is an essay; a section is a small essay; a paragraph is an atomic discourse unit. Every unit must mirror the same anatomy: **Index $\rightarrow$ Discussion $\rightarrow$ Point**.
+* **The Fractal Hierarchy:** A webpage is an essay; a section is a small essay; a paragraph is an atomic discourse unit. Every unit must mirror the same anatomy: **Index → Discussion → Point**.
 * **The Index Opening (1–3 Sentences):** Every section and paragraph must open with an Index establishing the unit's interpretive frame. Use 1 sentence for simple units, and 2–3 sentences when opening with an opposition (*"X. However, Y..."*) or posing a diagnostic question (*"X. Why X? As we will see, Y..."*).
 * **The Skim Test:** High-retention pages must pass the Skim Test: reading *only* the Index (the first 1–2 sentences) of each section and paragraph must provide a complete, unbroken executive summary of the entire document.
 * **Point Once, Not Twice:** State the central takeaway of a section either in the Index (Point-First, for immediate clarity) or at the terminal end of the Discussion (Point-Last, for narrative tension)—**never both**. Repetitive summary wrapping triggers AI slop detection.
@@ -99,14 +99,14 @@ ChatGPT exhibits divergent retrieval behavior based on active reasoning depth:
 
 Ensure all generated copy adheres to clause-level Topic–Comment syntactic rules to maximize vector semantic coherence and human dwell time:
 * **Thematic Strings & Lexical Threading:** Announce Key Terms in the Index and systematically thread them across every sentence in the Discussion via noun repetitions, technical synonyms, and referring pronouns across three categories:
-  * *Entity Strings:* (e.g., `M365 Tenant` $\rightarrow$ `Admin Portal` $\rightarrow$ `Global Security Group`).
-  * *Mechanism Strings:* (e.g., `misconfigured SPF` $\rightarrow$ `DNS syntax failure` $\rightarrow$ `hard-fail SPF validation`).
-  * *Outcome Strings:* (e.g., `delivery rejection` $\rightarrow$ `phishing vulnerability` $\rightarrow$ `domain quarantine`).
+  * *Entity Strings:* (e.g., `M365 Tenant` → `Admin Portal` → `Global Security Group`).
+  * *Mechanism Strings:* (e.g., `misconfigured SPF` → `DNS syntax failure` → `hard-fail SPF validation`).
+  * *Outcome Strings:* (e.g., `delivery rejection` → `phishing vulnerability` → `domain quarantine`).
 * **The 4 Syntactic Paragraph Patterns:**
   1. **Constant Theme (Topic Anchoring):** The same core Subject/Topic is anchored in successive clauses, while each clause introduces new data in the Comment position.
-  2. **Linking Pattern (Old $\rightarrow$ New Information Flow):** The Comment (new data) of Clause 1 is picked up as the Topic (old/grounded context) of Clause 2, which then introduces new information in Comment 2, forming an unbroken semantic chain.
-  3. **Super Theme (Hyponym $\rightarrow$ Hypernyms):** The Index Comment introduces an umbrella category (hyponym), and the following Discussion clauses unpack its specific constituent parts (hypernyms).
-  4. **Theme Preview:** The Index Comment previews key points ($a, b, c$), and the Discussion dedicates sequential clauses to develop each previewed term in exact order.
+  2. **Linking Pattern (Old → New Information Flow):** The Comment (new data) of Clause 1 is picked up as the Topic (old/grounded context) of Clause 2, which then introduces new information in Comment 2, forming an unbroken semantic chain.
+  3. **Super Theme (Hyponym → Hypernyms):** The Index Comment introduces an umbrella category (hyponym), and the following Discussion clauses unpack its specific constituent parts (hypernyms).
+  4. **Theme Preview:** The Index Comment previews key points (a, b, c), and the Discussion dedicates sequential clauses to develop each previewed term in exact order.
 
 
 
@@ -286,14 +286,13 @@ To transform local lead-gen and niche sites into unassailable entities within Go
    * **Outcome:** A single real-world operational milestone yields one release and its social posts, each differentiated per channel.
 
 #### C. The 50-Page Local EMD Micro-Site Architecture
-For rapid local cashflow generation in trade niches (plastering, roofing, plumbing, electrical):
+A reported, single-source, unverified tactic for local lead generation in trade niches (plastering, roofing, plumbing, electrical):
 * Deploy lean 50-page exact-match (EMD) or partial-match domains: 1 core transactional service mapped across 50 regional micro-locations (towns, suburbs, postal districts).
-* If built cleanly with genuine landmark data (§3.7) and linked to a verified GBP, micro-sites routinely achieve top-3 map pack and organic visibility within 1–2 weeks.
-* Generates £300–£500/month recurring lead-gen revenue per asset, providing self-funding capital to invest into broader topical authority compounding on primary enterprise domains.
+* **Risk:** 50 same-spec location pages is the scaled low-value pattern §2.8 warns against (30+ same-spec URLs lose most of their indexation) and that the penalised templates in §2.32 target. Each page needs genuine landmark data (§3.7) and a verified GBP; standalone question URLs stay within the ≤ 15 sitewide cap (§2.32 / §3.9E). No ranking timeline or revenue is assured.
 
 **Aged Asset & Social Fortress Checklist**
 - [ ] Audit aged domain candidates for existing GBP profiles and verified Knowledge Graph Machine IDs (`kgmid`).
-- [ ] Enforce composite multi-engine health check (Majestic TF:CF $\ge$ 0.6; Moz/Semrush clean; branded anchors in top 3).
+- [ ] Enforce composite multi-engine health check (Majestic TF:CF ≥ 0.6; Moz/Semrush clean; branded anchors in top 3).
 - [ ] Verify core money pages answer the 4 transactional points (price, SLA, scope, credentials) with zero "hide-and-seek" fluff.
 - [ ] Establish Branded Social Fortress across 20+ primary owned social and citation platforms.
 - [ ] Apply for regional and trade awards annually; publish one release per real milestone (e.g. an award win), only after a human approves each press release and social post before publication.
@@ -312,8 +311,7 @@ Google tests contending pages head-to-head through user behavioral telemetry (SE
 #### B. The 3-Part Title Tag Architecture
 Every commercial and transactional page title must follow the strict tripartite format:
 
-$$\text{Title Tag} = \text{[Target Keyword]} \ \mathbf{\vert} \ \text{[Primary Benefit / Searcher Goal]} \ \mathbf{\vert} \ \text{[Brand Name]}$$
-
+`Title Tag = [Target Keyword] | [Primary Benefit / Searcher Goal] | [Brand Name]`
 * **Part 1: Target Keyword (Left-Weighted):** Position the exact transactional keyword at the far left of the tag (e.g., `Plasterer Swindon`, `Managed IT Support Ascot`). Left-weighting maximizes algorithmic relevance and aligns with Western reading scan patterns (F-shaped eye tracking).
 * **Part 2: Primary Benefit / Searcher Goal (The Conversion Hook):** The specific operational outcome, speed guarantee, or pain relief the user is shopping for.
 * **Part 3: Brand Name (Right-Weighted):** The business or domain identity, anchoring entity recognition.
@@ -368,11 +366,11 @@ Phase 4: Update dateModified Schema → GSC URL Inspection Request
 ```
 
 #### Phase 1: GSC Impression Extraction & Telemetry Filtering
-1. In Google Search Console, navigate to **Performance $\rightarrow$ Search Results $\rightarrow$ Pages**.
+1. In Google Search Console, navigate to **Performance → Search Results → Pages**.
 2. Filter by highest clicks or impressions over the trailing 90 days and select the target URL.
 3. Switch to the **Queries** tab and export data (or query via Search Console API):
-   - **Filter A (Striking Distance):** Position 5.0–20.0, Impressions $\ge 100$, CTR $< 3\%$.
-   - **Filter B (Latent Association):** Position 20.1–50.0, Impressions $\ge 50$.
+   - **Filter A (Striking Distance):** Position 5.0–20.0, Impressions ≥ 100, CTR < 3%.
+   - **Filter B (Latent Association):** Position 20.1–50.0, Impressions ≥ 50.
 4. Sort by impressions descending to identify unharvested commercial demand.
 
 #### Phase 2: The On-Page Elevation Protocol (The Top-4 Injection)
@@ -385,7 +383,7 @@ Check whether the page undertargets the primary high-impression queries identifi
    - **Supporting `<h2>` Sub-Sections:** Inject 1–2 concise, hardened `<h2>` sub-sections answering secondary variations or JTBD queries directly under the BLUF rule.
 3. **Execute Strict Tone Hardening:**
    - Purge AI crutch tokens (remove `"actually"` across 90% of occurrences).
-   - Eliminate weak passive hedging (*"this can help"* $\rightarrow$ *"this enforces"*).
+   - Eliminate weak passive hedging (*"this can help"* → *"this enforces"*).
    - Cut verbosity by 50% to maintain the "No Hide-and-Seek" rule (§2.17A).
 
 #### Phase 3: The "Topical Bridge" Internal Link Pass-Through
@@ -461,7 +459,7 @@ Frontier AI systems refuse to recommend or cite brands in commercial comparisons
 * Semantic contradictions between these three URLs depress the AI model's entity confidence score, resulting in exclusion from conversational answer sets.
 
 #### C. Original Data Syndication vs. Brand Begging
-* Standard link outreach asking publishers to *"review our tool"* or *"mention our service"* converts at $<1\%$.
+* Standard link outreach asking publishers to *"review our tool"* or *"mention our service"* converts at <1%.
 * **The Proprietary Data Model:** Publish unique proprietary operational data, local industry surveys, or pricing benchmarks (e.g., *The 2026 Thames Valley SME Server Downtime Cost Report* or *The Swindon Victorian Property Renovation Index*).
 * Pitch the factual data points directly to journalists, niche newsletters, and industry creators. Publishers cite the research as a primary reference, creating dozens of authentic external entity mentions that train frontier LLM knowledge bases.
 
@@ -487,7 +485,7 @@ Before executing content repurposing, eliminate platform guesswork:
 * *Operational Rule:* In many high-ticket service verticals, customers rarely read static blog posts; they consume visual demonstrations or seek consensus on community platforms. Match content format directly to verified audience consumption channels.
 
 #### B. The 10:1 Multi-Channel Repurposing Matrix
-For every 1 core evergreen pillar asset identified in GA4 (via **Reports $\rightarrow$ Engagement $\rightarrow$ Pages and screens $\rightarrow$ 12-month views**), deploy 10 modular distribution assets:
+For every 1 core evergreen pillar asset identified in GA4 (via **Reports → Engagement → Pages and screens → 12-month views**), deploy 10 modular distribution assets:
 
 ```
                                ┌────────────────────────────────┐
@@ -552,17 +550,16 @@ While traditional SEO focuses on keyword density and entity inclusion ("NLP Opti
 Google's neural language models evaluate English sentences from left to right. The entity placed in the grammatical **Subject position** receives the dominant semantic focus weight in the document's topical vector graph.
 
 * **The Entity Focus Shift:**
-  * *Sentence A (Optimized for "Financial Advisors"):* *"Financial advisors help families achieve financial independence."* $\rightarrow$ Primary semantic focus: **Financial Advisors**.
-  * *Sentence B (Optimized for "Families"):* *"Families achieve financial independence with the help of a financial advisor."* $\rightarrow$ Primary semantic focus: **Families**.
+  * *Sentence A (Optimized for "Financial Advisors"):* *"Financial advisors help families achieve financial independence."* → Primary semantic focus: **Financial Advisors**.
+  * *Sentence B (Optimized for "Families"):* *"Families achieve financial independence with the help of a financial advisor."* → Primary semantic focus: **Families**.
 * **The Inverted Clause Penalty:** Inverted sentences that begin with adverbial modifiers, prepositional clauses, or double negatives force the parser into non-standard branch evaluations, lowering retrieval confidence scores:
-  * *Flawed (NLP-Unfriendly):* *"To stop commercial servers from overheating during peak operational loads, use external cooling systems."* (Modifier $\rightarrow$ Verb $\rightarrow$ Subject).
-  * *RAG/NLP-Friendly (Strict SVO):* *"External cooling systems prevent commercial server overheating during peak operational loads."* (Subject $\rightarrow$ Verb $\rightarrow$ Object/Modifier).
+  * *Flawed (NLP-Unfriendly):* *"To stop commercial servers from overheating during peak operational loads, use external cooling systems."* (Modifier → Verb → Subject).
+  * *RAG/NLP-Friendly (Strict SVO):* *"External cooling systems prevent commercial server overheating during peak operational loads."* (Subject → Verb → Object/Modifier).
 
 #### B. The "Echo-Question Resolution" Formula for Snippets & AI Overviews
 To win Featured Snippets (Position 0), People Also Ask accordions, and Google AI Overview citations, formulate direct answers using an exact mathematical sentence syntax:
 
-$$\text{Formula: } [\text{Echo of Target Query}] + [\text{Copula Verb (is / are)}] + [\text{Direct Factual Value}] + [\text{Units / Scope}]$$
-
+`Formula: [Echo of Target Query] + [Copula Verb (is / are)] + [Direct Factual Value] + [Units / Scope]`
 ```
 Query: "What is the emergency response SLA for IT support in Ascot?"
   │
@@ -585,7 +582,7 @@ Query: "What is the emergency response SLA for IT support in Ascot?"
 * **The Parser Yield:** This deterministic syntax allows BERT's extractive question-answering heads to isolate and slice the exact answer span without requiring multi-hop inferential processing.
 
 #### C. Single-Variable Empirical Test Proof
-Controlled single-variable tests across zero-competition and competitive test SERPs confirmed that converting passive, inverted, or ambiguous prose into strict SVO syntax produced immediate double-digit ranking gains (e.g., Position 48 $\rightarrow$ Position 35, and Position 46 $\rightarrow$ Position 22) with zero changes in backlink profile, domain authority, or page word count.
+Controlled single-variable tests across zero-competition and competitive test SERPs confirmed that converting passive, inverted, or ambiguous prose into strict SVO syntax produced immediate double-digit ranking gains (e.g., Position 48 → Position 35, and Position 46 → Position 22) with zero changes in backlink profile, domain authority, or page word count.
 
 #### D. The 60/40 Algorithmic-Human Balance & Prompt Constraints
 Pure 100% NLP-optimized text reads mechanically to human visitors. Enforce the **60/40 Rule** in content generation workflows:
@@ -659,7 +656,7 @@ The Heidi Health case study (`heidihealth.com` — 2,248 medical consultation te
 * **The 10%–20% Indexation Reality:** In large programmatic hubs (2,000–50,000+ long-tail permutations), **only 10%–20% will typically achieve permanent indexation** (e.g., 192 indexed out of 2,248 templates on Heidi Health).
 * **The Non-Toxic Long-Tail:** Low-search-volume or zero-traffic permutations that fail to index do not harm the domain, provided the pages that *are* indexed generate exceptional engagement metrics.
 * **Location-page exclusion:** The 10–20% indexation reality and “non-toxic long-tail” apply **only** to high-utility tool / template hubs (Heidi-class). GBP-tied location, service-area, and Core 30 pages are out of scope. Use §2.8’s intra-domain volume rule and §1.16.
-* **Pruning Protocol (Heidi-class hubs only):** If Google Search Console reports that $>80\%$ of a **high-utility tool / template hub** sits in `Crawled - currently not indexed` for $>120$ days, remove the lowest-tier permutations from the XML sitemap and consolidate thin templates into higher-level category hubs to protect domain crawl budget. Do **not** sitemap-drop GBP-tied location, service-area, or Core 30 URLs; that is cosmetic hiding. Those classes route via §1.16 / §2.8 (rewrite, stop the generator, or 410).
+* **Pruning Protocol (Heidi-class hubs only):** If Google Search Console reports that >80% of a **high-utility tool / template hub** sits in `Crawled - currently not indexed` for >120 days, remove the lowest-tier permutations from the XML sitemap and consolidate thin templates into higher-level category hubs to protect domain crawl budget. Do **not** sitemap-drop GBP-tied location, service-area, or Core 30 URLs; that is cosmetic hiding. Those classes route via §1.16 / §2.8 (rewrite, stop the generator, or 410).
 
 #### D. The Ultra-YMYL Programmatic Execution Cliff (Glenn Gabe August 2026 Benchmark)
 Deploying automated or synthetic programmatic content into Your Money Your Life (YMYL) niches (healthcare, medical devices, emergency financial advice, legal counsel, electrical/structural life safety) carries catastrophic algorithmic risk:
@@ -675,13 +672,13 @@ Deploying automated or synthetic programmatic content into Your Money Your Life 
 - [ ] Strictly enforce the Ultra-YMYL Programmatic Prohibition: ban uncurated AI programmatic scaling in life-safety, health, financial, or legal spaces.
 - [ ] Build and publish the Pilot 10 with 100% un-gated, interactive on-page utility.
 - [ ] Embed verified author/contributor credentials and jurisdiction attributes on every card.
-- [ ] Enforce the 60–90 day observation gate: require $\ge 80\%$ indexation before scaling to 50+ URLs.
+- [ ] Enforce the 60–90 day observation gate: require ≥ 80% indexation before scaling to 50+ URLs.
 - [ ] Do not apply the 10–20% “non-toxic long-tail” indexation benchmark to GBP-tied location, service-area, or Core 30 pages (§2.8 / §1.16).
 - [ ] For Heidi-class tool hubs only: monitor GSC coverage ratios; prune or consolidate zero-demand permutations every 120 days. Location / Core 30: §1.16 / §2.8.
 
 ---
 
-### **2.24 The 10,937-Page AI Content Deficit Study: The "Invisible Zone" ($\le 25/100$), Contextual Term Math & The 70/30 Optimization Pivot**
+### **2.24 The 10,937-Page AI Content Deficit Study: The "Invisible Zone" (≤ 25/100), Contextual Term Math & The 70/30 Optimization Pivot**
 
 *Source: Kyle Roof (SEO Patent Holder & Co-Creator of PageOptimizer Pro, "Why AI Content Stops Ranking: What 10,937 Pages Revealed"). September 2026.*
 
@@ -703,10 +700,10 @@ While large language models (LLMs) collapsed the production cost of content from
 └────────────────────────────┴───────────────────────────┘
 ```
 
-#### A. The "Invisible Zone" ($\le 25/100$) & Sitewide Quality Contagion
-* **The Invisible Cutoff:** In empirical single-variable testing, pages scoring $\le 25/100$ in mathematical signal density are functionally invisible to Google's ranking engine and cannot enter the Top 100 SERP results.
+#### A. The "Invisible Zone" (≤ 25/100) & Sitewide Quality Contagion
+* **The Invisible Cutoff:** In empirical single-variable testing, pages scoring ≤ 25/100 in mathematical signal density are functionally invisible to Google's ranking engine and cannot enter the Top 100 SERP results.
 * **Sitewide Quality Poisoning:** Accumulating hundreds of AI-generated articles in the Invisible Zone does not merely waste crawl budget—it reportedly depresses the domain's subdomain-level `site_quality_score` below the 0.4 feature threshold (per the unconfirmed §1.11.1 analysis), stripping existing rankings, Featured Snippets, and AI Overviews across the entire site.
-* **The 80/100 Movement Threshold:** Upward ranking movement consistently activates when a page’s on-page optimization score crosses **$\ge 80/100$**.
+* **The 80/100 Movement Threshold:** Upward ranking movement consistently activates when a page’s on-page optimization score crosses **≥ 80/100**.
 
 #### B. The 7 Mathematical Deficits of Raw AI Content
 1. **Load-Bearing Tag Omissions (`<title>` & `<h1>`):** 63% of analyzed AI pages omitted the target keyword from the `<title>` tag, and 56% omitted it from the `<h1>`. LLMs default to creative, magazine-style phrasing rather than exact mathematical placement in the two most powerful HTML elements.
@@ -723,13 +720,13 @@ While large language models (LLMs) collapsed the production cost of content from
 #### C. The 70/30 Optimization-to-Production Pivot
 Content marketing operations must reverse the traditional volume-first model:
 
-$$\text{Legacy Workflow: } 90\% \text{ Publishing Velocity} \;/\; 10\% \text{ Optimization}$$
-$$\mathbf{\text{2026 Standard: } 60\%–70\% \text{ Mathematical Optimization} \;/\; 30\%–40\% \text{ Content Production}}$$
+`Legacy Workflow: 90% Publishing Velocity / 10% Optimization`
 
-* **Re-optimizing Existing Inventory:** Rather than publishing net-new un-optimized AI articles, audit existing published URLs. Bringing under-performing pages from a 25 score to an $\ge 80$ score delivers immediate ranking recovery with zero additional domain bloat.
+`2026 Standard: 60%–70% Mathematical Optimization / 30%–40% Content Production`
+* **Re-optimizing Existing Inventory:** Rather than publishing net-new un-optimized AI articles, audit existing published URLs. Bringing under-performing pages from a 25 score to an ≥ 80 score delivers immediate ranking recovery with zero additional domain bloat.
 
 **Kyle Roof Mathematical Optimization Checklist**
-- [ ] Audit target pages to ensure optimization scores exceed the **$\ge 80/100$ threshold**.
+- [ ] Audit target pages to ensure optimization scores exceed the **≥ 80/100 threshold**.
 - [ ] Verify exact target keyword placement in the `<title>` tag and primary `<h1>` on 100% of URLs.
 - [ ] Inject 250–350 contextual and LSI entity tokens per 1,000 words to satisfy Google's mathematical density filters.
 - [ ] Audit commercial landing pages to ensure conversion-focused designs do not strip required semantic signal layers.
@@ -764,8 +761,7 @@ Google does not maintain a single monolithic index. It builds **micro sub-indice
 #### B. The Semantic "Question-Hop" Distance Formula (Topical Radius)
 Expanding content scope into adjacent areas is necessary to prove comprehensive authority, but straying too far triggers Helpful Content Update (HCU) demotion for topical dilution. Calculate the **Semantic Question-Hop Distance**:
 
-$$\text{Semantic Distance} = \text{Count of Intermediate Logical Questions Required to Connect Concepts}$$
-
+`Semantic Distance = Count of Intermediate Logical Questions Required to Connect Concepts`
 ```
 SAFE TOPICAL RADIUS (≤ 2 Logical Questions):
 [Core Entity: Studio Microphone] 
@@ -805,7 +801,7 @@ Standard SEO keyword research tools (Ahrefs, SEMrush) frequently report **0 mont
 
 **Topical Radius & Index Construction Checklist**
 - [ ] Structure all content briefs around Entity-Attribute pairs and established Query Templates.
-- [ ] Calculate Semantic Question-Hop distance: reject topics requiring $>2$ logical questions to connect to core service context.
+- [ ] Calculate Semantic Question-Hop distance: reject topics requiring >2 logical questions to connect to core service context.
 - [ ] Before drafting any batch, run the per-candidate drift gate against the existing page inventory (Module 20).
 - [ ] Consolidate fragmented competitor sub-topics into unified 5-to-1 master documents to minimize Google's retrieval cost.
 - [ ] Answer zero-search-volume real-world client questions to capture specialized micro-indices.
@@ -969,8 +965,7 @@ Commercial Keyword Difficulty (KD) scores generated by third-party SEO platforms
 
 #### A. The Tool KD Fallacy & The Empirical Relevancy Heuristic
 Dooley and Sturm establish that algorithmic difficulty is not backlink weight; it is precision of on-page intent:
-$$\text{True Keyword Difficulty} = (\text{Competitor 4-Spot Relevancy}) \times (\text{Targeted Page Authority})$$
-
+`True Keyword Difficulty = (Competitor 4-Spot Relevancy) × (Targeted Page Authority)`
 * **The Authority Deficit Opportunity:** When high-authority competitors (Forbes, CNET, Yelp, enterprise directories) rank for a commercial query without explicitly targeting the exact search phrase across their on-page tags, their ranking is held up purely by default domain weight.
 * **The Exact-Match Velocity:** A newly launched or low-authority domain can displace high-DR competitors in **1 to 2 weeks** with bare-minimum on-page matching and zero link building, simply by satisfying user search intent and targeting the phrase across the 4 load-bearing spots.
 
@@ -988,7 +983,7 @@ Never rely on a software dashboard to evaluate ranking difficulty. Conduct a dir
 └───────────────────┴────────────────────────────────────┘
 ```
 
-* **Undertargeted SERP (Green Light):** If $\le 2$ of the top 5 ranking results target the keyword across all 4 spots, the SERP is **undertargeted**. This query is an immediate high-priority target; rank velocity is typically 7–14 days upon indexation.
+* **Undertargeted SERP (Green Light):** If ≤ 2 of the top 5 ranking results target the keyword across all 4 spots, the SERP is **undertargeted**. This query is an immediate high-priority target; rank velocity is typically 7–14 days upon indexation.
 * **Contested SERP (Amber Light):** 3 to 4 competitors target the 4 spots, but content is bloated, contains high pogo-sticking bounce rates, or lacks direct pricing/SLA data. Rankable with a high-density BOFU landing page (§2.14 / §2.35).
 * **Defended SERP (Red Light):** All top 5 results are authoritative, load within 2 seconds, and accurately match all 4 spots with high customer review velocity. Defer until foundation is built, or deploy third-party listicle placement (`kirby-off-page-seo` Module 18).
 
@@ -1000,7 +995,7 @@ When sorting through hundreds or thousands of keyword candidates (e.g., from Goo
 4. **Q4: Out of what's left, which SERPs are undertargeted and easiest to rank for?** (Apply the 4-spot inspection rubric).
 
 #### D. The Search Volume Noise Filter vs. Enterprise Exceptions
-* **The Baseline $\ge 50$/Month Filter:** When processing raw keyword exports, discard queries with $<50$ monthly searches to eliminate keyword tool noise and focus initial commercial sprints on verified demand.
+* **The Baseline ≥ 50/Month Filter:** When processing raw keyword exports, discard queries with <50 monthly searches to eliminate keyword tool noise and focus initial commercial sprints on verified demand.
 * **The §2.30 Enterprise/Technical Exception:** Do **not** discard zero-volume queries in specialized B2B, enterprise SaaS comparison strings (`Tool A vs Tool B`), or bespoke trade diagnostic queries where Google Ads auction data is absent but un-auctioned commercial value is immense (§2.30).
 
 #### E. The SERP Content Type Nuance Diagnostic
@@ -1014,14 +1009,14 @@ A critical error made by keyword tools and junior SEOs is misinterpreting search
 Governs whether an undertargeted keyword becomes a dedicated URL or an internal heading:
 * **High-Authority / Aged Domains:** Can rank for secondary queries by embedding them as `<h2>` or `<h3>` section blocks on an existing authority pillar page.
 * **Low-Authority / New Domains:** Cannot compete on broad pillar pages. Low-authority domains **must elevate every distinct undertargeted commercial query into its own dedicated standalone URL** (`<title>`, URL slug, `<h1>`, opening hook).
-* **FAQ Farm Boundary:** Standalone question URLs must remain capped at $\le 15$ sitewide (§2.32 / §3.9E) to avoid Google's Template #7 spam classifier.
+* **FAQ Farm Boundary:** Standalone question URLs must remain capped at ≤ 15 sitewide (§2.32 / §3.9E) to avoid Google's Template #7 spam classifier.
 
 **Undertargeting & Keyword Prioritization Checklist**
 - [ ] Run the 4-Question Discovery Sequence before writing any new content.
 - [ ] Reject tool KD metrics; audit the Top 5 SERP competitors across the 4 spots (`<title>`, slug, `<h1>`, first sentence hook).
-- [ ] Verify SERP Undertargeting: green light queries where $\le 2$ competitors target all 4 spots.
+- [ ] Verify SERP Undertargeting: green light queries where ≤ 2 competitors target all 4 spots.
 - [ ] Prioritize Bucket 4 Brand-Agnostic High-Intent queries (knows need, agnostic on brand).
-- [ ] Apply the $\ge 50$/mo volume noise filter for consumer/SME trades, while preserving §2.30 for niche B2B.
+- [ ] Apply the ≥ 50/mo volume noise filter for consumer/SME trades, while preserving §2.30 for niche B2B.
 - [ ] Run the SERP Content Type Nuance Diagnostic before defaulting to blog post production.
 - [ ] Elevate undertargeted commercial queries to dedicated standalone landing pages on low-authority domains.
 
@@ -1036,13 +1031,13 @@ A pervasive blind spot in modern keyword research is over-reliance on commercial
 #### A. The 95% Google Keyword Planner Data Deficit
 Third-party keyword discovery suites (Ahrefs, Semrush, Google Keyword Planner) only retain and expose historical search volume for queries that are actively part of **Google Ads bidding auctions**. In specialized B2B, enterprise IT, and niche technical trades:
 * **The "Zero-Volume" Illusion:** Queries like complex comparison strings (`XDR vs MDR vs EDR`) or hyper-specific trade troubleshooting frequently register as "0 search volume" simply because no advertiser is actively running PPC campaigns against them.
-* **Empirical Reality:** Publishing high-utility landing pages against these "zero-volume" terms routinely surfaces 50,000–100,000+ un-auctioned monthly impressions. Never discard a bottom-of-funnel keyword based on third-party tool search volume reports.
+* **Empirical Reality:** Publishing high-utility landing pages against these "zero-volume" terms can surface 50,000–100,000+ un-auctioned monthly impressions (reported, single-source, unverified). Never discard a bottom-of-funnel keyword based on third-party tool search volume reports.
 
 #### B. The "Cheap" Intent Modifier Arbitrage
 Enterprise brands and mid-market competitors systematically avoid incorporating terms like *"cheap"*, *"cheapest"*, *"low cost"*, or *"budget"* into their page titles, URLs, and H1 tags due to brand prestige and executive bias:
 * **The Volume Arbitrage:** Massive consumer and commercial search volume searches specifically for *"cheap [service]"* or *"low cost [service]"*.
-* **Zero Real Competition:** Because established market leaders refuse to target these modifiers, competition for them is virtually zero.
-* **The NavBoost Flywheel:** Capturing searchers via *"cheap [service]"* delivers instant clicks, high dwell time, and satisfied goal completions. Google's NavBoost algorithm interprets these positive engagement signals as sitewide quality validation, which progressively elevates the domain's rankings for the highly competitive *"best [service]"* terms without requiring additional backlinks.
+* **Lower Competition (reported, unverified):** Because established market leaders often avoid these modifiers, competition for them is reportedly lower.
+* **The NavBoost Flywheel (theory, unverified):** Capturing searchers via *"cheap [service]"* delivers instant clicks, high dwell time, and satisfied goal completions. Google's NavBoost system is theorised to read these engagement signals as sitewide quality validation that may lift rankings for the competitive *"best [service]"* terms; this is not a substitute for backlinks.
 
 #### C. Reverse-Engineering Link-Broker Pitch Sheets (Competitor Slug Mining)
 Link vendors, PR agencies, and outreach brokers continuously distribute spreadsheets of active guest-post websites, niche edits, and ranking PBN assets:
@@ -1141,8 +1136,7 @@ Google's March 2024 Scaled Content Abuse policy explicitly penalizes automated a
 #### B. Lily Ray's Pre-Publishing Acid Test
 Before approving any page—whether generated via AI, offshore writers, or in-house staff—enforce this non-negotiable evaluative heuristic:
 
-$$\text{Pre-Publishing Gate} = \mathbf{Q:}\; \text{"Could a competitor publish a near-identical version of this page tomorrow using the same prompt and methodology?"}$$
-
+`Pre-Publishing Gate = Q: "Could a competitor publish a near-identical version of this page tomorrow using the same prompt and methodology?"`
 * If the answer is **YES**: The page has zero proprietary Information Gain and must be rejected. Regardless of grammatical elegance or readability, it represents redundant commodity data waiting for algorithmic demotion.
 * If the answer is **NO**: The page carries unique, un-reproducible operational assets and is cleared for publication.
 
@@ -1406,11 +1400,11 @@ Three gates decide this same architectural question. Apply them in order; a quer
 
 1. **§2.37A — SERP overlap (the semantic intent test):** Do these two queries represent one intent or two? This is the *only* test of intent collapse.
 2. **§2.29F — The "Heading vs. Page" Architecture Law (the capability test):** *Can* this domain rank a standalone URL for the query? High-authority / aged domains may absorb secondary queries as `<h2>` blocks; low-authority / new domains must elevate distinct commercial queries into dedicated URLs.
-3. **`kirby-local-seo` §3.9B / §3.9E — Volume and competition gating (the local efficiency filter):** For local footprints, the Zero-Competition Qualification and the strict $\le 15$ question-URL hard cap decide whether a URL is *worth deploying* without triggering the FAQ Farm footprint.
+3. **`kirby-local-seo` §3.9B / §3.9E — Volume and competition gating (the local efficiency filter):** For local footprints, the Zero-Competition Qualification and the strict ≤ 15 question-URL hard cap decide whether a URL is *worth deploying* without triggering the FAQ Farm footprint.
 
 * **The Division of Labour:** SERP-overlap is the semantic intent test — *"is this one intent or two?"* Volume/competition gating is the local efficiency filter — *"is a separate URL worth deploying here, or does it dilute the domain?"*
 * **Precedence on Conflict:** Semantic intent wins the architecture decision. The efficiency filter may only *downgrade* a split decision (do not build the URL yet) and may never *upgrade* one (never merge two divergent intents into one page merely because local volume is thin). Where overlap is < 30% but the local volume gate fails, the correct outcome is an on-page `<h2>` recorded as a deliberate compromise — not a manufactured URL that dilutes the footprint.
-* **Cap Invariance:** The $\le 15$ sitewide question-URL cap from §3.9E (§2.32 Template #7 guardrail) is unaffected by this section. §2.37 never authorises additional thin question URLs.
+* **Cap Invariance:** The ≤ 15 sitewide question-URL cap from §3.9E (§2.32 Template #7 guardrail) is unaffected by this section. §2.37 never authorises additional thin question URLs.
 
 **Page Split vs. H2 Decision Checklist**
 - [ ] Never deploy or merge a URL before running the SERP-Overlap Test on both queries.
@@ -1423,7 +1417,7 @@ Three gates decide this same architectural question. Apply them in order; a quer
 - [ ] On cannibalization, collapse the content and `301`-redirect the test URL to the parent; verify a self-referencing canonical.
 - [ ] Invoke the Searcher-Naivety Exception only with evidence of distinct mental models — never for modifier permutations.
 - [ ] Apply the gates in order: §2.37 SERP overlap → §2.29F authority capability → §3.9B / §3.9E local volume and competition.
-- [ ] Confirm the $\le 15$ sitewide question-URL cap is still satisfied after any split.
+- [ ] Confirm the ≤ 15 sitewide question-URL cap is still satisfied after any split.
 - [ ] Re-run the overlap test on a second date and locale before making the split permanent.
 
 ---
@@ -1517,7 +1511,7 @@ Three gates decide this same architectural question. Apply them in order; a quer
 
 * **The Concept:** Traditional SEO over-indexes on 2,500-word informational guides answering top-of-funnel questions. The Compact Keywords methodology deploys streamlined, ~400-word landing pages engineered specifically for searchers in active purchase mode.
 * **Target Query Formula:**
-  $$\text{[Event / Modifier]} + \text{[Audience Target]} + \text{[Product Category]} + \text{Deals}$$
+  `[Event / Modifier] + [Audience Target] + [Product Category] + Deals`
   *Example:* `Black Friday activewear deals for women` or `Best flat-screen TVs for apartments`.
 * **Post-HCU Advantage:** Following Google's Helpful Content Updates, search algorithms systematically deprioritized generic publisher listicles in commercial queries in favor of direct merchant pages offering verified stock and direct pricing.
 * **Structural Architecture (≤ 450 words):**

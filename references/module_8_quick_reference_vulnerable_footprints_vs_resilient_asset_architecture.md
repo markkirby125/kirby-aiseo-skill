@@ -12,7 +12,7 @@
 | **Back-button hijacking & navigation trapping** (forcing users onto unvisited pages/ads). | **Standard, uninterrupted browser history** and frictionless user navigation. |
 | **Top-of-funnel informational blog churn** (absorbed 80% by AI Overviews). | **Bottom-of-funnel compact `/uses` hubs** (comparison tables, SLA calculators, transactional hubs). |
 | **The "Mount AI" exploratory cliff** (high bounce rate, zero secondary interaction). | **Forced secondary DOM interactions** (above-the-fold calculators, diagnostic checklists). |
-| **Expired domain 301 redirect abuse** (mismatched redirects returning 404s). | **1-to-1 Intent Parity Mapping ($\ge 90\%$)** with complete legacy content architecture staging. |
+| **Expired domain 301 redirect abuse** (mismatched redirects returning 404s). | **1-to-1 Intent Parity Mapping (≥ 90%)** with complete legacy content architecture staging. |
 | **Interlinked PBN footprints** sharing identical networks and structures. | **Standalone, unlinked domain assets** operating as discrete business entities. |
 | **Synthetic LLM manipulation & cloaking** (user-agent splits, mass listicle spam). | **Editorial Digital PR & standards-based authority** (NCSC/ISO/RFC citations, genuine press). |
 | **Clustered Search Console / Analytics account ownership** across portfolios. | **Honest ownership separation** (each property verified under its real owner or operator account; separate GSC accounts for experimental and money sites are fine as risk containment per Module 17, but never to conceal common ownership, e.g. with burner accounts or by omitting properties). |

@@ -89,7 +89,7 @@ Search engine algorithms have tightened around behavioral telemetry (NavBoost in
 
 #### A. The "AI Smell" Rejection Reflex
 Searchers and business decision-makers have developed an active psychological aversion to obvious AI-generated interfaces:
-> *"Your SaaS landing page looks like Claude made it $\rightarrow$ close browser tab. Your app looks vibe-coded $\rightarrow$ assume it's trash. Your email newsletter sounds like AI $\rightarrow$ unsubscribe. Stop publishing slop. Go human or GTFO."* — Darren Shaw
+> *"Your SaaS landing page looks like Claude made it → close browser tab. Your app looks vibe-coded → assume it's trash. Your email newsletter sounds like AI → unsubscribe. Stop publishing slop. Go human or GTFO."* — Darren Shaw
 
 Even when an AI-generated page contains accurate, intent-satisfying text, **if the interface looks vibe-coded, users bounce within 3 seconds** because they assume the content contains generic fluff or hallucinations based on prior negative experiences with AI-built websites.
 
@@ -129,7 +129,7 @@ When accelerating local or niche site launches using aged or expired domains, tr
 
 #### B. Multi-Engine Composite Audit Standard
 Never evaluate an aged asset through a single tool. Run the full composite audit ensemble:
-1. **Majestic:** Trust Flow (TF) vs. Citation Flow (CF). Target a healthy ratio where $\text{TF} : \text{CF} \ge 0.6$. A high CF with single-digit TF indicates link spam.
+1. **Majestic:** Trust Flow (TF) vs. Citation Flow (CF). Target a healthy ratio where TF : CF ≥ 0.6. A high CF with single-digit TF indicates link spam.
 2. **Moz:** Domain Authority (DA), Page Authority (PA), and historical Spam Score.
 3. **Semrush:** Toxicity score, historical organic search footprint, and keyword trajectory (ensure the domain wasn't penalized before dropping).
 4. **Ahrefs:** Anchor text distribution and referring domain historical graph.
@@ -166,7 +166,7 @@ Do NOT apply this protocol indiscriminately across the site.
 
 Execute a slug reset only when all four criteria are met:
 * **Criterion 1 (Low Competition Gap):** The target keyword is not aggressively targeted by competitors (competitors do not have the exact term in their URL slug or `<h1>`).
-* **Criterion 2 (Never-indexed persistence):** The URL has **never been indexed** (no prior indexed state in GSC) and has remained in `Crawled - currently not indexed` or recorded zero impressions/clicks for $\ge$90 days despite high semantic alignment. Previously indexed URLs with live same-spec siblings fail this criterion — §1.16.
+* **Criterion 2 (Never-indexed persistence):** The URL has **never been indexed** (no prior indexed state in GSC) and has remained in `Crawled - currently not indexed` or recorded zero impressions/clicks for ≥90 days despite high semantic alignment. Previously indexed URLs with live same-spec siblings fail this criterion — §1.16.
 * **Criterion 3 (Compounded Cluster Authority):** The broader domain has since accrued organic clicks, rankings, and topical authority within the same parent cluster since the page was originally published.
 * **Criterion 4 (Clean On-Page Architecture):** The content satisfies the "No Hide-and-Seek" 4-point transactional standard (§2.17A) and contains zero technical crawl blockers.
 
@@ -195,8 +195,8 @@ Execute a slug reset only when all four criteria are met:
 ```
 
 1. **Slug Modification:** Create a new URL slug by adding 1–2 descriptive keyword modifiers to the existing slug:
-   * *Example (Local Trade):* `swindonplasterer.com/plastering-services/` $\rightarrow$ `swindonplasterer.com/professional-plastering-services/`
-   * *Example (MSP):* `berkshireitservices.co.uk/m365-backup/` $\rightarrow$ `berkshireitservices.co.uk/microsoft-365-cloud-backup/`
+   * *Example (Local Trade):* `swindonplasterer.com/plastering-services/` → `swindonplasterer.com/professional-plastering-services/`
+   * *Example (MSP):* `berkshireitservices.co.uk/m365-backup/` → `berkshireitservices.co.uk/microsoft-365-cloud-backup/`
 2. **Permanent 301 Redirect:** Map the old URL to the new slug via server-level 301 redirect. This consolidates historical signals and prevents orphaned links.
 3. **Content Invariance (Zero Edits):** Keep the on-page copy, headings, images, and schema markup **100% identical**. Do not rewrite the content; changing text introduces confounding variables. The operational objective is to test whether Google re-evaluates the identical content under a new canonical URL (reported, directional; applies only to never-indexed pages that pass §1.8B; never to manual-action or previously-indexed URLs). This sprint applies to legacy zombie URLs; a new EMD or single-page tool page under a `FREEZE` entry is out of scope (directional, single-source; `kirby-seo-telemetry` Module 15 §15.2).
 4. **Request Re-Indexing:** Submit the new URL directly into Google Search Console's URL Inspection tool and click "Request Indexing."
@@ -208,7 +208,7 @@ Execute a slug reset only when all four criteria are met:
 
 **Slug Reset Operational Checklist**
 - [ ] Previously indexed with live same-spec siblings → **stop**. Do not slug-reset. Route via §1.16.
-- [ ] Confirm the URL was **never indexed** and has sat in `Crawled - currently not indexed` (or zero impressions) for $\ge$90 days on an uncompetitive long-tail term.
+- [ ] Confirm the URL was **never indexed** and has sat in `Crawled - currently not indexed` (or zero impressions) for ≥90 days on an uncompetitive long-tail term.
 - [ ] Confirm the domain has accumulated topical clicks and referring domains in that topic area since initial URL creation.
 - [ ] Append 1–2 descriptive modifier tokens to generate the new URL slug.
 - [ ] Implement permanent 301 redirect from old URL to new slug.
@@ -276,7 +276,7 @@ Executing offensive SEO maneuvers (publishing Core 30 pages, expanding colony mi
 #### A. The Defensive SEO Pre-Flight Gate (Technical Crawl Baseline)
 Prior to writing or publishing new content, execute an exhaustive technical crawl using Screaming Frog (or native sitemap list mode §3.10B). The domain must satisfy five zero-tolerance technical standards:
 
-1. **Zero Redirect Chains ($\ge 2$ Hops):** Internal links must never point to a 301 redirect. Every internal link pointing to a redirected URL must be rewritten to point directly to the final 200 OK destination. Multi-hop chains bleed PageRank and waste Googlebot crawl budget.
+1. **Zero Redirect Chains (≥ 2 Hops):** Internal links must never point to a 301 redirect. Every internal link pointing to a redirected URL must be rewritten to point directly to the final 200 OK destination. Multi-hop chains bleed PageRank and waste Googlebot crawl budget.
 2. **Zero Canonical Conflicts & Loops:** Verify that every indexable page contains exactly one self-referential canonical tag (or an intentional canonical pointing to a primary parent URL). Eliminate canonical chains or canonicals pointing to 404 or 301 URLs. Strict self-referential canonical tags also act as a foundational defense against authority scrapers and SERP hijacking by explicitly anchoring the original source.
 3. **Zero Broken Internal Links (404s):** Identify and resolve all broken inlinks across main navigation, header menus, body copy, and global footers.
 4. **Zero Duplicate Titles & Missing `<h1>` Tags:** Ensure 100% of indexed pages feature a distinct, keyword-targeted `<title>` tag and exactly one semantic `<h1>` tag matching user search intent.
@@ -315,14 +315,14 @@ Prevent link equity from decaying in isolated blog posts by enforcing a continuo
                      │      Case Posts        │
                      └───────────┬────────────┘
                                  │
-              (Keyword-Rich Inbound Links)
+               (Descriptive Inbound Links)
                                  ▼
                      [Core Service Pages] ──(Header Logo)──> [Homepage]
 ```
 
-1. **Homepage $\longrightarrow$ Core Services:** The homepage links directly to core service hubs through primary navigation and featured service modules.
-2. **Core Services $\longrightarrow$ Localized Situational Posts:** Service pages link contextually to real-world local case studies (e.g., *"How we repaired winter flood damp in a Thames Valley home"* or *"Ascot office server migration"*).
-3. **Situational Posts $\longrightarrow$ Core Services:** Every localized post links back to its parent core service page using **exact, keyword-rich anchor text** (e.g., `"lime plaster repairs Swindon"` or `"managed IT support Berkshire"`).
+1. **Homepage → Core Services:** The homepage links directly to core service hubs through primary navigation and featured service modules.
+2. **Core Services → Localized Situational Posts:** Service pages link contextually to real-world local case studies (e.g., *"How we repaired winter flood damp in a Thames Valley home"* or *"Ascot office server migration"*).
+3. **Situational Posts → Core Services:** Every localized post links back to its parent core service page using **descriptive, naturally varied anchor text** per Module 10 §10.11E (e.g., `"our lime plaster repairs in Swindon"` or `"managed IT support across Berkshire"`).
 4. **Terminal Recirculation:** Every page links back to the homepage via the site's header logo, ensuring 100% of accumulated PageRank continuously recirculates across the entity graph.
 
 **Defensive SEO & Scenario Page Checklist**
@@ -353,7 +353,7 @@ Broad informational queries (1-word or generic category searches) have transitio
 1. **Functional Web Utilities / Interactive Tools:**
    * Single-purpose diagnostic tools, calculators, bandwidth/speed testers, and interactive wizards (e.g., broadband dead-zone calculators, Wi-Fi speed testers, repair cost estimators).
    * Because computational utilities require client-side execution, user interaction, or personalized data inputs, AI Overviews cannot replace them directly on the SERP, forcing users to click through.
-2. **Scenario-Based Money Landing Pages ($\ge 2$-Word Queries):**
+2. **Scenario-Based Money Landing Pages (≥ 2-Word Queries):**
    * **The "Unconscious Brand / Conscious Need" Axiom:** High-intent searchers know *precisely what outcome or repair they require*, but have *zero brand awareness* of who provides it.
    * Searchers do not prompt single words (which trigger informational overviews); they prompt concrete situations (e.g., *"emergency server data recovery Ascot"*, *"slow PC laptop tune up Berkshire"*, *"burst pipe repair midnight"*).
    * Dedicated scenario pages (~400 words, §1.10B) matching the exact situational vocabulary capture high-converting transactional clicks that bypass generic informational AI synthesis.
@@ -366,7 +366,7 @@ Frontier LLMs and Google AI Overviews do not assume business capabilities from h
 * **Alternative & Comparison Vectors:** Deploy structured comparison and alternative matrices (e.g., *"Why In-Home PC Health Checks Differ from Remote-Only Scams"*). AIO and LLM reasoning modes heavily ingest comparison entities when synthesizing multi-vendor evaluations.
 
 **Dynamic AIO & Post-AIO Survival Checklist**
-- [ ] Shift content production away from broad 1-word informational definitions toward functional tools and $\ge 2$-word scenario queries.
+- [ ] Shift content production away from broad 1-word informational definitions toward functional tools and ≥ 2-word scenario queries.
 - [ ] Build client-side interactive calculators and diagnostic wizards that require on-site execution.
 - [ ] Publish granular capability documentation specifying exact failure symptoms, error codes, and hardware boundaries.
 - [ ] Incorporate clear negative constraints (what is *not* serviced) to train AI recommendation systems accurately.
@@ -418,11 +418,11 @@ Google evaluates search eligibility through sequential filtration stages ("heat 
 
 #### D. Operationalizing Brand Signals for Local & SaaS Domains
 1. **Brand-First Query Conditioning:** In offline print, vehicle livery, email signatures, and client onboarding, instruct customers: *"Search '[Brand Name] + [Service]' on Google"* rather than providing direct URLs. This directly feeds Google's branded query logging.
-2. **The 60% Branded Anchor Mandate:** Maintain a minimum of **60% exact-brand anchor text** across all inbound link building and PR syndication to maintain organic entity purity.
+2. **The 60% Branded Anchor Target (house heuristic, unsourced):** Aim for roughly **60% exact-brand anchor text** across inbound link building and PR syndication. External links only; internal links follow Module 10 §10.11E.
 3. **Friction-Killer SERP Title Tags:** Implement friction-killing modifiers in Title Tag Part 2 (`£0 Call-Out`, `Same-Day SLA`, `Free Tier`, §2.18) to maximize click-selection inversion against entrenched competitors in positions 1–2.
 
 **Site Quality Score Checklist**
-- [ ] Audit inbound backlink profile: verify exact-brand anchor text represents $\ge 60\%$ of total links and compare backlink velocity against GSC branded reference-query volume.
+- [ ] Audit inbound backlink profile: check exact-brand anchor share against the ~60% house heuristic (§1.11.1.D) and compare backlink velocity against GSC branded reference-query volume.
 - [ ] Run the bare `[Brand Name]` Page-1 SERP Slot Ownership audit: separate homonym/disambiguation collisions from actual GSC branded search demand.
 - [ ] Stimulate branded navigational searches (`[Brand Name] + [Service]`) across client touchpoints.
 - [ ] Deploy friction-killer title tags to engineer click-selection inversion from positions 2–5.
@@ -452,11 +452,11 @@ Google is fundamentally an advertising enterprise with an attached search engine
 
 #### A. The Cost of Retrieval Law & The Paul Haahr DOJ Leak
 In official antitrust exhibits and internal research (Tristan Upstill & Paul Haahr), Google confirms a foundational economic reality: **Google does NOT run expensive neural ranking algorithms (such as RankBrain) for every website**.
-* **The Compute Gate:** If a domain has zero or low click volume, Google refuses to execute RankBrain because the computational expense cannot be economically justified.
+* **The Compute Gate (reported, unverified):** If a domain has zero or low click volume, Google reportedly skips RankBrain because the computational expense cannot be economically justified.
 * **The "Cost Over Quality" Principle:** An exquisitely written article with heavy client-side JavaScript, un-minified CSS, or ambiguous layout will be bypassed in favor of a simpler document that conveys identical semantic entities at a fraction of the crawling and rendering compute.
 * **Semantic HTML5 (house guardrail):** wrap primary content in `<main>` and `<article>` under real headings, and strip page-builder boilerplate and nested wrapper divs (`../../kirby-ai-builder-hygiene/SKILL.md` Module 2). Treat it as a cleanliness aid, not a proven ranking factor.
-* **The Exact Match Domain (EMD) Advantage:** EMDs (e.g., `swindonplasterer.com`) gather early clicks from high query relevance in secondary markets, accelerating the site past Google's initial click gate to unlock RankBrain and deep neural processing.
-* **The 10,000 Impressions/Day Movement Threshold:** Crossing a baseline of **10,000 daily search impressions** serves as the empirical signal where Google recognizes sufficient user demand to deploy full algorithmic crawl depth and test the domain for rich SERP features.
+* **The Exact Match Domain (EMD) Advantage:** EMDs (e.g., `swindonplasterer.com`) gather early clicks from high query relevance in secondary markets, reportedly accelerating the site past Google's initial click gate (unverified).
+* **The 10,000 Impressions/Day Movement Threshold (reported, single-source, unverified):** Crossing a baseline of **10,000 daily search impressions** is reported as the signal where Google recognizes sufficient user demand to deploy full algorithmic crawl depth and test the domain for rich SERP features.
 
 #### B. Dynamic Markdown (`.md`) Rendering for LLM Crawlers
 While human visitors and Googlebot require visual HTML/CSS rendering, LLM crawlers (GPTBot, ClaudeBot, PerplexityBot) consume raw token streams.
@@ -487,7 +487,7 @@ Unless a domain is an untouchable "prestige brand" (e.g., Forbes, CNN) with mass
 
 **Cost of Retrieval & LLM Rendering Checklist**
 - [ ] Minimize computational retrieval costs: strip bloated JS rendering on core entity pages.
-- [ ] Aim for the 10,000 daily impression threshold to trigger Google's neural ranking pipelines (RankBrain).
+- [ ] Track daily impressions against the reported 10,000/day threshold (single-source, unverified): a directional milestone, as in `../../kirby-zero-to-100-seo/SKILL.md` Module 2 §2.4, not a proven RankBrain trigger.
 - [ ] Deploy dynamic Markdown rendering only for crawlers verified by reverse-DNS / published ASN IP ranges (`GPTBot`, `ClaudeBot`, `PerplexityBot`), serving the same facts as the HTML; never on a raw `User-Agent` match alone.
 - [ ] Front-load target entity tokens and explicit publication dates in the first 100 words to satisfy ChatGPT retrieval thresholds.
 - [ ] Segregate divergent commercial services onto chunked subdomains to prevent sitewide HCU topical dilution.
@@ -501,7 +501,7 @@ Unless a domain is an untouchable "prestige brand" (e.g., Forbes, CNN) with mass
 With SparkToro reporting US zero-click searches rising from ~60% (2024) to ~68% (2026) alongside Ahrefs findings of a ~58% relative `#1`-result CTR drop when AI Overviews appear (directional, single-source; see Module 2 §2.28B), and Google's executive roadmap identifying 2027 as the era of autonomous personal agents, the role of the corporate website is transitioning from a visual consumer destination to an underlying machine-readable data layer.
 
 #### A. The Agent-to-Agent (A2A) Protocol & Agent-Ready Scheduling
-* **Autonomous Multi-Agent Handshakes:** Personal AI agents (Google Gemini Spark, ChatGPT/Claude mobile operators) will increasingly execute tasks by communicating directly with vendor agents via Agent-to-Agent (A2A) protocols (e.g., User Assistant $\leftrightarrow$ Merchant Booking Agent $\leftrightarrow$ Logistics Agent) without requiring the human user to browse a website or manually fill out forms.
+* **Autonomous Multi-Agent Handshakes:** Personal AI agents (Google Gemini Spark, ChatGPT/Claude mobile operators) will increasingly execute tasks by communicating directly with vendor agents via Agent-to-Agent (A2A) protocols (e.g., User Assistant ↔ Merchant Booking Agent ↔ Logistics Agent) without requiring the human user to browse a website or manually fill out forms.
 * **The Agent Bypass Threat:** If a service business relies solely on manual web forms, captive lead gates, or delayed email callbacks, consumer AI agents cannot complete transactions and will actively route searchers to competitors whose booking systems are agent-accessible.
 * **Agent-Ready Scheduling Integration:** Audit CRM and appointment scheduling platforms (e.g., ServiceTitan, Housecall Pro, Calendly, Acuity) to ensure booking engines expose headless APIs, structured reservation schema (`ReserveAction` / `ScheduleAction`), and direct conversational booking hooks. *(Ensure strict alignment with Entity Schema validation practices across all deployment environments).*
 
@@ -525,7 +525,7 @@ Search engines and generative agents are shifting toward verified knowledge feed
 * **Non-Commodity Validation:** Ground all published content in proprietary brand data: actual recorded sales call transcripts, field diagnostic logs, real customer scenario teardowns, and authentic job photography.
 
 #### E. Multimodal Conversational Diagnostic Funnels
-* Transition informational pages from rigid keyword targets to diagnostic decision trees (Symptom $\rightarrow$ Root Cause $\rightarrow$ Safety/DIY Verification $\rightarrow$ Professional Service SLA).
+* Transition informational pages from rigid keyword targets to diagnostic decision trees (Symptom → Root Cause → Safety/DIY Verification → Professional Service SLA).
 * Structure content to match multimodal conversational queries (e.g., users querying symptom descriptions alongside uploaded hardware/defect photographs).
 
 **Agent-Ready Knowledge Catalog Implementation Checklist**
