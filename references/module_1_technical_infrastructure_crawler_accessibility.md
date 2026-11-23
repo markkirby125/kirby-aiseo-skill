@@ -206,7 +206,7 @@ Execute a slug reset only when all four criteria are met:
 #### D. Algorithmic Yield & Reported Benchmark
 * Reported mechanism (single-source, unverified): the modified slug represents an uninitialized canonical token.
 * Google reportedly crawls the page and evaluates it against the domain's **current, mature topical authority graph** rather than the stale snapshot from years prior.
-* **Reported Agency Benchmark (Edward Sturm; single case, unverified):** A commercial guide page published in March 2023 remained deindexed/dead for 2 years despite no competitor competition. A slug reset with a 301 redirect executed in March 2025 achieved **Rank #1 within 30 days with zero content revisions**, maintaining top-tier visibility continuously thereafter.
+* **Reported Agency Benchmark (Edward Sturm; single case, unverified):** A commercial guide page published in March 2023 remained unindexed for 2 years despite no competitor competition. A slug reset with a 301 redirect executed in March 2025 achieved **Rank #1 within 30 days with zero content revisions**, maintaining top-tier visibility continuously thereafter.
 
 **Slug Reset Operational Checklist**
 - [ ] Previously indexed with live same-spec siblings → **stop**. Do not slug-reset. Route via §1.16.
