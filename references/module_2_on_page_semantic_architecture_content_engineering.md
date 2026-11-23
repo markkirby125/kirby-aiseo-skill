@@ -579,7 +579,7 @@ Query: "What is the emergency response SLA for IT support in Ascot?"
   * *Extraction Sentence:* *"Hydraulic lime plaster cannot be applied directly over modern gypsum drywall without an intermediate silicate bonding agent and alkaline-resistant mesh."*
 * **The Parser Yield:** This deterministic syntax allows BERT's extractive question-answering heads to isolate and slice the exact answer span without requiring multi-hop inferential processing.
 
-#### C. Single-Variable Empirical Test Proof
+#### C. Reported Single-Variable Test Results
 Controlled single-variable tests across zero-competition and competitive test SERPs reportedly showed (single-source; directional) that converting passive, inverted, or ambiguous prose into strict SVO syntax produced double-digit ranking gains (e.g., Position 48 → Position 35, and Position 46 → Position 22) with zero changes in backlink profile, domain authority, or page word count.
 
 #### D. The 60/40 Algorithmic-Human Balance & Prompt Constraints
@@ -1029,7 +1029,7 @@ A pervasive blind spot in modern keyword research is over-reliance on commercial
 #### A. The 95% Google Keyword Planner Data Deficit
 Third-party keyword discovery suites (Ahrefs, Semrush, Google Keyword Planner) only retain and expose historical search volume for queries that are actively part of **Google Ads bidding auctions**. In specialized B2B, enterprise IT, and niche technical trades:
 * **The "Zero-Volume" Illusion:** Queries like complex comparison strings (`XDR vs MDR vs EDR`) or hyper-specific trade troubleshooting frequently register as "0 search volume" simply because no advertiser is actively running PPC campaigns against them.
-* **Empirical Reality:** Publishing high-utility landing pages against these "zero-volume" terms can surface 50,000–100,000+ un-auctioned monthly impressions (reported, single-source, unverified). Never discard a bottom-of-funnel keyword based on third-party tool search volume reports.
+* **Reported claim:** Publishing high-utility landing pages against these "zero-volume" terms can surface 50,000–100,000+ un-auctioned monthly impressions (reported, single-source, unverified). Never discard a bottom-of-funnel keyword based on third-party tool search volume reports.
 
 #### B. The "Cheap" Intent Modifier Arbitrage
 Enterprise brands and mid-market competitors systematically avoid incorporating terms like *"cheap"*, *"cheapest"*, *"low cost"*, or *"budget"* into their page titles, URLs, and H1 tags due to brand prestige and executive bias:
@@ -1589,7 +1589,7 @@ Three gates decide this same architectural question. Apply them in order; a quer
 * **Incumbent Bias Counter-Callout (Video 04 `eEQP8D3R7i4` Threat Model; directional, single-source):** When auditing or building competitive `1v1` and fan-out comparisons, explicitly anticipate ChatGPT's unprompted incumbent-brand bias in generic fan-outs (e.g., returning legacy incumbents like `"AirPods"` unprompted on `"best headphone with transparency mode"`), and surface objective comparison specs while auditing and correcting weakly supported claims in your own comparison copy ([`kirby-off-page-seo`](../../kirby-off-page-seo/SKILL.md) Module 18 §18.19 — prohibit executing §18.19 exploits; build durable owned citations instead) rather than echoing legacy incumbent framing.
 * **Quick Answer BLUF Box (Immediate Sub-H1 / Sub-Byline):**
   * 2–3 sentences designed for verbatim extraction by ChatGPT and Google AI Overviews.
-  * Must pack three elements: (1) **Top 4 picks mapped to explicit `"Best for"` use cases** (your brand may sit at #1 only with the §2.16C disclosure; a [`kirby-zero-to-100-seo`](../../kirby-zero-to-100-seo/SKILL.md) Stage 2 flagship hub instead lists it as one option among competitors), (2) **Incumbent pricing floor / contract friction** (e.g., *"[Competitor] now starts at $15,000/mo on a mandatory annual term, ~$192,000 in year one with fees"*), and (3) **Explicit first-person bias disclosure** (*"[Brand] is [first / listed] because it is mine, discount accordingly"*).
+  * Must pack three elements: (1) **Top 4 picks mapped to explicit `"Best for"` use cases** (your brand may sit at #1 only under §2.16C (disclosure, no force-ranking, no fabricated criteria); a [`kirby-zero-to-100-seo`](../../kirby-zero-to-100-seo/SKILL.md) Stage 2 flagship hub instead lists it as one option among competitors), (2) **Incumbent pricing floor / contract friction** (e.g., *"[Competitor] now starts at $15,000/mo on a mandatory annual term, ~$192,000 in year one with fees"*), and (3) **Explicit first-person bias disclosure** (*"[Brand] is [first / listed] because it is mine, discount accordingly"*).
 * **Key Takeaways Block (`<h2> Key Takeaways` — #2 AI Search Checklist Item):**
   * Strictly **4 to 5 bullet points**, each **2 to 3 sentences maximum** (executive summary format).
   * Covers: (1) Incumbent pricing/contract floor, (2) Why lock-in changes the buyer math, (3) Category taxonomy of the alternatives (e.g., dedicated teams vs. AI resizing tools vs. design queues vs. agencies), and (4) Host brand's value proposition ending with an inline text CTA (`Book a demo`).

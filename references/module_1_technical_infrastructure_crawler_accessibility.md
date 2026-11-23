@@ -14,13 +14,14 @@ User-agent: PerplexityBot
 User-agent: ChatGPT-User
 Allow: /
 
-# Optional: model-training bots (allow or disallow per training policy; §1.22)
+# Optional: model-training bots. Choose one per training policy (§1.22):
+# Allow: / opts into training use, Disallow: / opts out. Shown as Allow; it is not a default.
 User-agent: GPTBot
 User-agent: ClaudeBot
 Allow: /
 ```
 
-Add `User-agent: CCBot` to the optional training-bot group only to opt into Common Crawl presence (optional; §1.18, §1.22).
+`CCBot` (Common Crawl) is allowed by default, like any crawler with no matching rule, so leaving it out of the block does not opt out. To opt out, add `User-agent: CCBot` with `Disallow: /`. To make the opt-in explicit (§1.18), add `User-agent: CCBot` with `Allow: /` as its own group, so a later switch of the training-bot group to `Disallow` does not block it by accident (§1.22).
 
 Two notes on this block. `ChatGPT-User` is a user-triggered fetcher, and OpenAI's crawler documentation says robots.txt rules may not apply to it, so its entry states intent only; the WAF and Cloudflare rules above are what let it through. `Google-Extended` is a robots.txt control token, not a crawler with its own user agent, and it is allowed by default, so the block omits it. Add a `User-agent: Google-Extended` group only to disallow Gemini training and grounding use; Google states the token does not affect Search inclusion or ranking.
 
@@ -617,7 +618,7 @@ If the URL was **never meant to be indexed** (tracking parameters, HTTP/HTTPS du
 
 **Indexation is a floor, not a safety net.** See Executive Threat Profile (Lily Ray 220). Passing coverage does not pass §2.32B. `Crawled - currently not indexed` only catches thin/redundant pages at the door.
 
-§10.6’s 5-link floor and §10.8 click-triage apply to **`Discovered - currently not indexed`**. They do not reverse a **`Crawled - currently not indexed`** keep-verdict.
+the reported §10.6 5-link heuristic (single-source, untested) and §10.8 click-triage apply to **`Discovered - currently not indexed`**. They do not reverse a **`Crawled - currently not indexed`** keep-verdict.
 
 **Indexation Router Checklist**
 - [ ] Split GSC “not indexed” into Crawled vs Discovered before choosing a fix.
@@ -656,7 +657,7 @@ If the URL was **never meant to be indexed** (tracking parameters, HTTP/HTTPS du
 * **The Statistic:** Reportedly over **35% of all websites globally** (single-source, unverified) accidentally block AI crawlers at the Cloudflare/WAF/CDN level without knowing it, including major brands spending heavily on SEO. This section extends §1.1 with the full audit protocol.
 
 **Unblocking Checklist:**
-- [ ] **Cloudflare:** "Block AI bot traffic" OFF (§1.1); AI Crawl Control reviewed **per bot**; Browser Integrity Check and challenge rules verified not to fire for `OAI-SearchBot`, `PerplexityBot`, `ChatGPT-User`, and for `GPTBot`, `ClaudeBot`, `CCBot` where the optional training group defined in §1.1 is allowed.
+- [ ] **Cloudflare:** "Block AI bot traffic" OFF (§1.1); AI Crawl Control reviewed **per bot**; Browser Integrity Check and challenge rules verified not to fire for `OAI-SearchBot`, `PerplexityBot`, `ChatGPT-User`, for `GPTBot` and `ClaudeBot` where the optional training group defined in §1.1 is allowed, and for `CCBot` unless it is disallowed.
 - [ ] **AWS WAF:** Rate-based rules scoped to exclude verified AI crawlers on the basis of **reverse-DNS/IP-verified bot lists only** — a user-agent string alone never qualifies for exclusion (UA strings are trivially spoofable and UA-based exclusions are a bypass primitive).
 - [ ] **Edge CDN:** Cache rules not serving empty shells to cookie-less user-agents; SSR verified per §1.2.
 - [ ] **Verification:** Fetch key page URLs with each AI user-agent string (e.g., `curl -A "Mozilla/5.0 (compatible; CCBot/2.1; +https://commoncrawl.org/faq/)"`) from a clean IP — the response body must contain the full semantic DOM, not a challenge page. Run this only against properties you own or are explicitly authorized to test; never against third-party sites.
@@ -665,7 +666,7 @@ If the URL was **never meant to be indexed** (tracking parameters, HTTP/HTTPS du
 ### **1.20 Fresh-Domain AI Overview Quarantine (24–72h Holding Period)**
 
 * Freshly registered exact-match domains reportedly experience a **24–72 hour anti-spam holding period** preventing immediate appearance in Google AI Overviews (the source attributes it to blocking hijacking of breaking-news events; single-source, directional). The two clocks reconcile as follows: the quarantine suppresses AI Overview eligibility for days 0–3; standard indexation then proceeds.
-* **Measurement blackout:** AIO results normalise over about 2-4 weeks; do not judge before the end of week 2, and treat weeks 3-4 as the settling window. Earlier readings measure the quarantine, not the content.
+* **Measurement blackout:** AIO results reportedly normalise over about 2-4 weeks (directional, single-source); do not judge before the end of week 2, and treat weeks 3-4 as the settling window. Earlier readings measure the quarantine, not the content.
 * **Directional, single-source doctrine (Charles Floate):** treat the window as a timing note for measurement planning, not a contractual SLA — it can shift silently.
 * Launch sequencing against this window is handled in `kirby-zero-to-100-seo`; do not delay indexation waiting for it here.
 
@@ -685,7 +686,7 @@ If the URL was **never meant to be indexed** (tracking parameters, HTTP/HTTPS du
 * **The Architectural Split:** Search-engine AEO and real-time LLM retrieval depend on a strict operational separation between **search-grounding crawlers** and **model-training scrapers**. Conflating them in `robots.txt` or WAF rules destroys Answer Engine visibility.
 * **Crawler Taxonomy (2026 Grounding Standards):**
   * **Search-Grounding Crawlers (Must Allow on Commercial & Deals Paths):** `OAI-SearchBot` (OpenAI real-time web search), `PerplexityBot` (Perplexity search indexer), `ChatGPT-User` (on-demand web browsing triggers via ChatGPT user prompts; robots.txt rules may not apply to it, see §1.1). `Google-Extended` is a robots.txt control token rather than a crawler: leave it unblocked to stay eligible for Gemini grounding (§1.1).
-  * **Model-Training Bots (Optional Disallow):** `GPTBot`, `ClaudeBot`, `Bytespider`, `CCBot` (offline model training and bulk corpus ingestion; §1.1 puts `GPTBot` and `ClaudeBot` in its optional training-bot group and instructs readers to add `CCBot` there only to opt into Common Crawl presence per §1.18).
+  * **Model-Training Bots (Optional Disallow):** `GPTBot`, `ClaudeBot`, `Bytespider`, `CCBot` (offline model training and bulk corpus ingestion; §1.1 puts `GPTBot` and `ClaudeBot` in its optional training-bot group; `CCBot` is allowed by default and §1.1 gives its explicit allow and disallow rules, with Common Crawl presence covered in §1.18).
 * **Robots.txt Baseline Configuration (Unblocking On-Domain `/trust` & SSOT `"My Business Facts"` Hubs):**
   ```txt
   # Allow Real-Time AI Search Grounding (Mandatory for Commercial, /trust & SSOT /facts Paths)

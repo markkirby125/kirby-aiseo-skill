@@ -22,7 +22,7 @@
     - [ ] Routing: Serve /llms.txt detailing Domain Shield diagnostic checks.  
     - [ ] Compact BOFU: Deploy dedicated `/uses` hub (e.g. `/uses/dmarc-reporting`, `/uses/spf-flattening`) under 500 words with live terminal validator.  
     - [ ] Gatekeeping & RAG: Hardcode RFC specifications (RFC 7208, RFC 6376, RFC 7489) matching `ref_type: search` queries.  
-    - [ ] Third-Party Citation Seeding (Module 2 §2.6): Build 3rd-party citations and comparisons across GitHub, Spiceworks, and tech publications.  
+    - [ ] Third-Party Citation Seeding (Module 2 §2.6): Earn 3rd-party citations and comparisons through disclosed outreach (never plant undisclosed brand mentions) across GitHub, Spiceworks, and tech publications.  
     - [ ] Competitor Hub: Publish objective comparison matrix ("TCP123 vs DMARCian / EasyDMARC") to enable LLM category inclusion.  
     - [ ] High-Reasoning: Embed primary standard schemas for ChatGPT Thinking Mode.  
     - [ ] Conversational Ads: Scaffold campaign assets (logo, headline, specs) for ChatGPT Ad Manager beta.  
@@ -50,7 +50,7 @@
     - [ ] Multi-Platform Verification: Aggregate and display verified ratings from TrustATrader, MyBuilder, and Google Maps.  
     - [ ] Discover: Stage high-CTR district piece ("The Costly Plastering Mistake Swindon Homeowners Make with Artex").  
     - [ ] Technical: Verify server-side rendering (SSR) on all plasterer directory profile pages.  
-    - [ ] 250 Protocol: Deploy 30 hyper-local case studies (specific street/estate substrate jobs).  
+    - [ ] 250 Protocol: Publish up to 30 hyper-local case studies from real completed jobs (specific street/estate substrate jobs); publish only what is real.  
     - [ ] Telemetry: Monitor Search Console Page-to-Traffic Yield ratio weekly; prune non-performing district URLs.  
     - [ ] Review Form: Mandate structured review fields (Trade Task, Substrate, Postcode).  
     - [ ] Freshness: Display visible "Leaderboard Updated: [Date]" timestamps in structured markup.  
