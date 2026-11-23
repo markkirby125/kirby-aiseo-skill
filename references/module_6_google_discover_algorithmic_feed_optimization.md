@@ -1,6 +1,6 @@
 # Module 6: Google Discover & Algorithmic Feed Optimization
 
-Google Discover drives 5M+ daily click feeds via mobile OS integration, evaluated purely on audience engagement signals rather than backlink weight.
+Google Discover is a mobile feed surfaced through OS integration. It reportedly drives click volumes in the millions per day for large publishers and is reported to weight audience engagement signals over backlinks (practitioner-reported, single-source, unverified; treat as directional).
 
 * **"One Emotion, One Promise" Headline Formula:**
   * Structure headlines around explicit human desires or frustration (70–95 characters max).

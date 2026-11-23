@@ -105,7 +105,7 @@
 #### C. The 10-Visit Remarketing Funnel
 * Informational top-of-funnel queries (e.g., "rules of pickleball") can be converted into high-yield revenue without hard-selling.
 * Drop tracking pixels on informational guides to isolate searchers who visit the domain 10+ times.
-* Retargeting this pre-qualified audience with product ads yields conversion rates up to 25% at a fraction of cold paid search acquisition costs.
+* Retargeting this pre-qualified audience with product ads reportedly yields conversion rates up to 25%, at a lower cost than cold paid search (single-source, unverified; treat as directional).
 
 #### D. The Challenger Advantage
 * Enterprise authority is meaningless if it remains unapplied. Bootstrapped and challenger brands with $0 paid budgets can systematically capture entire industry niches by targeting the exact high-intent queries that legacy brand managers refuse to touch.
