@@ -373,7 +373,7 @@ Phase 4: Update dateModified Schema → GSC URL Inspection Request
 
 #### Phase 2: The On-Page Elevation Protocol (The Top-4 Injection)
 Check whether the page undertargets the primary high-impression queries identified in Phase 1:
-1. **Check the 4 Critical Locations:** Inspect if the query appears in the `<title>`, URL slug, `<h1>`, or opening sentence. In 80%+ of cases, the query appears nowhere in these 4 spots.
+1. **Check the 4 Critical Locations:** Inspect if the query appears in the `<title>`, URL slug, `<h1>`, or opening sentence. In 80%+ of cases, the query appears nowhere in these 4 spots (directional, single-source, unverified).
 2. **Elevate to Top 4 Anchor Spots:**
    - **`<title>` Tag:** Incorporate the high-impression query into the 3-part title formula (§2.18).
    - **Primary `<h1>`:** Refresh or append the `<h1>` to reflect the elevated query topic.
@@ -686,7 +686,7 @@ While large language models (LLMs) collapsed the production cost of content from
 ┌────────────────────────────────────────────────────────┐
 │     THE 10,937-PAGE POP OPTIMIZATION BENCHMARK         │
 ├────────────────────────────┬───────────────────────────┤
-│ METRIC                     │ EMPIRICAL RESULT          │
+│ METRIC                     │ REPORTED RESULT           │
 ├────────────────────────────┼───────────────────────────┤
 │ Median Optimization Score  │ 33 / 100                  │
 │ Pages in "Invisible Zone"  │ ~50% score ≤ 25 / 100     │
@@ -699,12 +699,12 @@ While large language models (LLMs) collapsed the production cost of content from
 ```
 
 #### A. The "Invisible Zone" (≤ 25/100) & Sitewide Quality Contagion
-* **The Invisible Cutoff:** In empirical single-variable testing, pages scoring ≤ 25/100 in mathematical signal density are functionally invisible to Google's ranking engine and cannot enter the Top 100 SERP results.
+* **The Invisible Cutoff (directional, single-source, unverified):** In the source's single-variable testing, pages scoring ≤ 25/100 in mathematical signal density were reported as functionally invisible to Google's ranking engine and unable to enter the Top 100 SERP results.
 * **Sitewide Quality Poisoning:** Accumulating hundreds of AI-generated articles in the Invisible Zone does not merely waste crawl budget—it reportedly depresses the domain's subdomain-level `site_quality_score` below the 0.4 feature threshold (per the unconfirmed §1.11.1 analysis), stripping existing rankings, Featured Snippets, and AI Overviews across the entire site.
-* **The 80/100 Movement Threshold:** Upward ranking movement consistently activates when a page’s on-page optimization score crosses **≥ 80/100**.
+* **The 80/100 Movement Threshold (directional, single-source, unverified):** Upward ranking movement is reported to begin when a page’s on-page optimization score crosses **≥ 80/100**.
 
 #### B. The 7 Mathematical Deficits of Raw AI Content
-1. **Load-Bearing Tag Omissions (`<title>` & `<h1>`):** 63% of analyzed AI pages omitted the target keyword from the `<title>` tag, and 56% omitted it from the `<h1>`. LLMs default to creative, magazine-style phrasing rather than exact mathematical placement in the two most powerful HTML elements.
+1. **Load-Bearing Tag Omissions (`<title>` & `<h1>`):** 63% of analyzed AI pages omitted the target keyword from the `<title>` tag, and 56% omitted it from the `<h1>` (directional, single-source, unverified). LLMs default to creative, magazine-style phrasing rather than exact mathematical placement in the two most powerful HTML elements.
 2. **The Contextual Term Deficit (250–350 vs. 50–60 Tokens):**
    * *The Mathematical Requirement:* In a 1,000-word article, Google expects **250 to 350 specific contextual and LSI entity terms** to establish unambiguous topical meaning for BERT and MUM.
    * *The LLM Flaw:* Out-of-the-box LLMs generate only **50 to 60 contextual terms** (~20% of the mathematical requirement).
@@ -721,10 +721,10 @@ Content marketing operations must reverse the traditional volume-first model:
 `Legacy Workflow: 90% Publishing Velocity / 10% Optimization`
 
 `2026 Standard: 60%–70% Mathematical Optimization / 30%–40% Content Production`
-* **Re-optimizing Existing Inventory:** Rather than publishing net-new un-optimized AI articles, audit existing published URLs. Bringing under-performing pages from a 25 score to an ≥ 80 score delivers immediate ranking recovery with zero additional domain bloat.
+* **Re-optimizing Existing Inventory:** Rather than publishing net-new un-optimized AI articles, audit existing published URLs. Bringing under-performing pages from a 25 score to a ≥ 80 score is reported to deliver ranking recovery with zero additional domain bloat (directional, single-source, unverified).
 
 **Kyle Roof Mathematical Optimization Checklist**
-- [ ] Audit target pages to ensure optimization scores exceed the **≥ 80/100 threshold**.
+- [ ] Audit target pages to ensure optimization scores exceed the reported **≥ 80/100 threshold** (directional, single-source, unverified).
 - [ ] Verify exact target keyword placement in the `<title>` tag and primary `<h1>` on 100% of URLs.
 - [ ] Inject 250–350 contextual and LSI entity tokens per 1,000 words to satisfy Google's mathematical density filters.
 - [ ] Audit commercial landing pages to ensure conversion-focused designs do not strip required semantic signal layers.
@@ -1044,8 +1044,8 @@ Link vendors, PR agencies, and outreach brokers continuously distribute spreadsh
 
 **Intent Arbitrage & Slug Mining Checklist**
 - [ ] Disregard "0 search volume" metrics for high-intent B2B and technical comparison queries.
-- [ ] Deploy dedicated "cheap" / "cost-effective" landing pages for core services to capture uncontested search volume.
-- [ ] Use traffic and dwell time from cost-modifier pages to fuel NavBoost re-ranking on primary "best" categories.
+- [ ] Deploy dedicated "cheap" / "cost-effective" landing pages for core services to capture reportedly lower-competition search volume.
+- [ ] If the theorised NavBoost click-weight model holds (theory, unverified), use traffic and dwell time from cost-modifier pages to support re-ranking on primary "best" categories.
 - [ ] Audit inbound link-broker spreadsheets to extract proven low-KD URL slugs and title formulas without purchasing links.
 
 ---
