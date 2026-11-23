@@ -5,7 +5,7 @@
 
 * **Disable Automated AI Bot Blocking:** Verify that Cloudflare’s default setting *"Block AI bot traffic with robots.txt"* is deactivated across all domains.  
 * **Permit Search Agent User-Agents:** Ensure edge Web Application Firewall (WAF) challenge rules (such as Turnstile or interactive JS challenges) do not drop requests or strip semantic HTML headers from verified AI crawler bots.  
-* **Robots.txt Standardisation:** Deploy the following standardized groups to robots.txt on all primary domains (taxonomy per §1.22):
+* **Robots.txt Standardisation:** Deploy the search-grounding group below to robots.txt on all primary domains; the model-training group is optional and ships commented out (taxonomy per §1.22):
 
 ```text
 # Search-grounding crawlers (allow; §1.22)
@@ -15,10 +15,10 @@ User-agent: ChatGPT-User
 Allow: /
 
 # Optional: model-training bots. Choose one per training policy (§1.22):
-# Allow: / opts into training use, Disallow: / opts out. Shown as Allow; it is not a default.
-User-agent: GPTBot
-User-agent: ClaudeBot
-Allow: /
+# Uncomment the group with Allow: / to opt into training use, or with Disallow: / to opt out.
+# User-agent: GPTBot
+# User-agent: ClaudeBot
+# Allow: /
 ```
 
 `CCBot` (Common Crawl) is allowed by default, like any crawler with no matching rule, so leaving it out of the block does not opt out. To opt out, add `User-agent: CCBot` with `Disallow: /`. To make the opt-in explicit (§1.18), add `User-agent: CCBot` with `Allow: /` as its own group, so a later switch of the training-bot group to `Disallow` does not block it by accident (§1.22).
