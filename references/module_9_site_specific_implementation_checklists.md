@@ -9,7 +9,7 @@
     - [ ] Mount AI Defense: Embed interactive instant repair cost estimator in top 400px to force secondary interaction.  
     - [ ] Gatekeeping: Align title tags with ChatGPT sub-queries ("Same-Day Home IT Repair Ascot").  
     - [ ] Local Friction Defense: Optimize GBP hero visuals and direct messaging to earn the "second click".  
-    - [ ] GBP & Reviews: Set primary category "Computer Repair Service"; seed Ascot Q&As only from real customer questions.  
+    - [ ] GBP & Reviews: Set primary category "Computer Repair Service"; seed Ascot Q&As only from real customer questions (confirm profile Q&A is still offered: Google discontinued the Q&A API 2025-11-03, https://developers.google.com/my-business/content/qanda/change-log, checked 2026-11-23).  
     - [ ] Reviews: Solicit reviews using the attribute prompt for hardware/OS tokens across Trustpilot UK and Yell in addition to GBP.  
     - [ ] Authority: Anchor security copy to NCSC SME guidelines and Cyber Essentials.  
     - [ ] Discover: Publish emotion-driven guide ("How Ascot Homeowners are Losing £1,000s to Fake M365 Scams") with 1200x800 human-face imagery using Status Quo Inversion.  
