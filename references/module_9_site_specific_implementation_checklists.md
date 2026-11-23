@@ -22,7 +22,7 @@
     - [ ] Routing: Serve /llms.txt detailing Domain Shield diagnostic checks.  
     - [ ] Compact BOFU: Deploy dedicated `/uses` hub (e.g. `/uses/dmarc-reporting`, `/uses/spf-flattening`) under 500 words with live terminal validator.  
     - [ ] Gatekeeping & RAG: Hardcode RFC specifications (RFC 7208, RFC 6376, RFC 7489) matching `ref_type: search` queries.  
-    - [ ] 85% Rule Seeding: Build 3rd-party citations and comparisons across GitHub, Spiceworks, and tech publications.  
+    - [ ] Third-Party Citation Seeding (§2.6): Build 3rd-party citations and comparisons across GitHub, Spiceworks, and tech publications.  
     - [ ] Competitor Hub: Publish objective comparison matrix ("TCP123 vs DMARCian / EasyDMARC") to enable LLM category inclusion.  
     - [ ] High-Reasoning: Embed primary standard schemas for ChatGPT Thinking Mode.  
     - [ ] Conversational Ads: Scaffold campaign assets (logo, headline, specs) for ChatGPT Ad Manager beta.  

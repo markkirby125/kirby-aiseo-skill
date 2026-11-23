@@ -662,8 +662,8 @@ If the URL was **never meant to be indexed** (tracking parameters, HTTP/HTTPS du
 
 ### **1.20 Fresh-Domain AI Overview Quarantine (24–72h Holding Period)**
 
-* Freshly registered exact-match domains experience a **24–72 hour anti-spam holding period** preventing immediate appearance in Google AI Overviews (designed to block hijacking of breaking-news events). The two clocks reconcile as follows: the quarantine suppresses AI Overview eligibility for days 0–3; standard indexation then proceeds, with normal ranking behavior after 1–2 weeks.
-* **Measurement blackout:** do not judge generative visibility for a fresh domain before the end of week 2 — earlier readings measure the quarantine, not the content.
+* Freshly registered exact-match domains experience a **24–72 hour anti-spam holding period** preventing immediate appearance in Google AI Overviews (designed to block hijacking of breaking-news events). The two clocks reconcile as follows: the quarantine suppresses AI Overview eligibility for days 0–3; standard indexation then proceeds.
+* **Measurement blackout:** AIO results normalise over about 2-4 weeks; do not judge before the end of week 2, and treat weeks 3-4 as the settling window. Earlier readings measure the quarantine, not the content.
 * **Directional, single-source doctrine (Charles Floate):** treat the window as a timing note for measurement planning, not a contractual SLA — it can shift silently.
 * Launch sequencing against this window is handled in `kirby-zero-to-100-seo`; do not delay indexation waiting for it here.
 

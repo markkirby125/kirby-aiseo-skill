@@ -2,7 +2,7 @@
 
 *Source: Whitespark Local Update E48 ("Stop the AI Slop, Claude Research Assistant") & E50 ("SEO & AI Tip: Grade Every Page Like Google's Quality Raters Would" — Darren Shaw). October 2026.*
 
-> **Scope Partition:** Programmatic Scaled Content Abuse, scraping penalties, and the Grokipedia 97% collapse autopsy live in **Module 17**. The 1:1 GBP-to-website entity mirroring doctrine (10.8% visibility lift) lives in [`kirby-local-seo`](../../kirby-local-seo/SKILL.md) Module 8 §8.2. This module governs the **page-level Quality Rater evaluation rubric** that prevents editorial and commercial landing pages from being classified as low-effort "AI Slop" by Google’s Helpful Content and LLM retrieval classifiers.
+> **Scope Partition:** Programmatic Scaled Content Abuse, scraping penalties, and the Grokipedia 97% collapse autopsy live in **Module 17**. The 1:1 GBP-to-website entity mirroring doctrine (reported 10.8% visibility lift; single case study, directional, unverified) lives in [`kirby-local-seo`](../../kirby-local-seo/SKILL.md) Module 8 §8.2. This module governs the **page-level Quality Rater evaluation rubric** that prevents editorial and commercial landing pages from being classified as low-effort "AI Slop" by Google’s Helpful Content and LLM retrieval classifiers.
 
 ---
 

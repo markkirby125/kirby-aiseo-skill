@@ -35,7 +35,7 @@
   - [2.3 Formatting & Structural Hierarchy](module_2_on_page_semantic_architecture_content_engineering.md#23-formatting--structural-hierarchy)
   - [2.4 ChatGPT Reasoning Mode Divergence (SEMrush Benchmark)](module_2_on_page_semantic_architecture_content_engineering.md#24-chatgpt-reasoning-mode-divergence-semrush-benchmark)
   - [2.5 ChatGPT Gatekeeping Layer & Sub-Query Architecture (Ahrefs 1.4M Study)](module_2_on_page_semantic_architecture_content_engineering.md#25-chatgpt-gatekeeping-layer--sub-query-architecture-ahrefs-14m-study)
-  - [2.6 The 85% Third-Party Commercial Rule & Comparison Architecture](module_2_on_page_semantic_architecture_content_engineering.md#26-the-85-third-party-commercial-rule--comparison-architecture)
+  - [2.6 The Reported 85% Third-Party Citation Share & Comparison Architecture](module_2_on_page_semantic_architecture_content_engineering.md#26-the-reported-85-third-party-citation-share--comparison-architecture)
   - [2.7 Dynamic AI Title Link Hardening (Google Gemini Updates)](module_2_on_page_semantic_architecture_content_engineering.md#27-dynamic-ai-title-link-hardening-google-gemini-updates)
   - [2.8 Anti-Template Architecture & Elimination of City-Swapped Location Pages](module_2_on_page_semantic_architecture_content_engineering.md#28-anti-template-architecture--elimination-of-city-swapped-location-pages)
   - [2.9 Top-of-Funnel (TOFU) AI Absorption vs. Bottom-of-Funnel (BOFU) Moat](module_2_on_page_semantic_architecture_content_engineering.md#29-top-of-funnel-tofu-ai-absorption-vs-bottom-of-funnel-bofu-moat)
