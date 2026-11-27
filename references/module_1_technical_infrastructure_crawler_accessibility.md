@@ -477,6 +477,7 @@ Different frontier LLMs demonstrate distinct retrieval heuristics during automat
 * **Claude Retrieval Profile:**
   * Features larger context tolerance; less sensitive to early-position bias; frequently selects **items #3 or #4** in comparative product evaluations.
   * Evaluates overall document depth and holistic topical consistency over rigid token positioning.
+  * **Brave Search Correlation & Direct Fan-Out (`eEQP8D3R7i4`):** Practitioners report strong correlation between **Brave Search** rankings and Claude Search citations, paired with shorter, direct query fan-outs compared to ChatGPT's long-tail incumbent-biased fan-outs (directional, single-source).
 * **Perplexity Retrieval Profile:**
   * Operates as a hybrid between GPT and Claude; exhibits strong sensitivity to real-time freshness tokens embedded directly within URLs and table headers.
 
@@ -716,4 +717,5 @@ the reported §10.6 5-link heuristic (single-source, untested) and §10.8 click-
   ```
 * **SSOT `"My Business Facts"` & `/trust` Grounding Verification:** Whenever deploying a Single Source of Truth (SSOT) `"My Business Facts"` page or an on-domain `/trust` Self-Corroboration Hub (Module 2 §2.38, §2.51), explicitly verify that `OAI-SearchBot`, `PerplexityBot`, and `ChatGPT-User` return HTTP `200 OK` with zero WAF challenge or `robots.txt` disallow rules. Blocking search-grounding bots from `/facts/` or `/trust/` forces answer engines to guess or fall back to stale third-party directories during fan-out verification.
 * **Edge CDN & WAF Rate Limiting:** AI crawler traffic grew over 250% YoY. Configure Cloudflare / AWS WAF rate-limiting exceptions strictly anchored to reverse-DNS / published ASN IP verification (never trust spoofable raw `User-Agent` strings alone for privileged bypasses). Ensure benign AI search crawlers are not blanket-blocked by default "SearchBot" WAF signatures, or your commercial landing pages become invisible to answer engines during peak buying cycles.
+* **E-Commerce Geo-Split `hreflang` & Canonical Guard (`YsusMjf-H2w`):** When creating regional landing pages (e.g., dedicated UK/US pages alongside a primary `.ie` or domestic store targeting identical product head terms), implement verified bidirectional `hreflang` tags, distinct self-referential canonicals, and explicit currency/shipping differentiation before launch so regional URLs do not cannibalize the root homepage.
 
